@@ -1,17 +1,21 @@
-from transformers import AutoTokenizer
-import transformers
-import torch
 import json
+
+import torch
+import transformers
+from transformers import AutoTokenizer
 
 model = "birgermoell/eir"
 json_benchmark_file = "benchmarks/pubmedqa/data/ori_pqal_swe.json"
+
 
 def load_json_file(json_file):
     with open(json_file) as f:
         data = json.load(f)
     return data
 
+
 data = load_json_file(json_benchmark_file)
+
 
 def evaluate_model(data, model, system_prompt):
     tokenizer = AutoTokenizer.from_pretrained(model)
@@ -51,6 +55,7 @@ def evaluate_model(data, model, system_prompt):
         # for context in value['CONTEXTS']:
         #     print(f"- {context}")
         print(f"FINAL DECISION: {value['final_decision']}\n")
+
 
 system_prompt = "Svara på följande medicinska fråga med en av följande svarsalternativ: Ja, Nej, Kanske"
 
