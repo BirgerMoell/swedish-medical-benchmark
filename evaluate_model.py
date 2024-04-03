@@ -45,7 +45,7 @@ def evaluate_model(data, model, system_prompt):
 
         messages = [
             # {"role": "system", "content": system_prompt},
-            {"role": "user", "content": question + " " + system_prompt},
+            {"role": "user", "content": system_prompt + "\n\nFråga:\n" + question},
         ]
 
         print("the message is: ", messages)
@@ -103,9 +103,9 @@ def evaluate_model(data, model, system_prompt):
     # write the results to a csv file
 
       
-system_prompt = "Tänk noggrant steg för steg och ta ett djupt andetag och svara på denna medicinska fråga. Var medveten om att alla svarsalternativ, ja, nej och kanske kan vara möjliga. Svara enbart med följande svarsalternativ: ja, nej, kanske."
+system_prompt = "Tänk noggrant steg för steg och ta ett djupt andetag och svara på medicinska frågan nedan. Var medveten om att alla svarsalternativ, ja, nej och kanske kan vara möjliga. Svara enbart med följande svarsalternativ: ja, nej, kanske."
 
-system_prompt = "Var vänlig och överväg varje aspekt av föregående medicinska fråga noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av de fördefinierade svaren: 'ja', 'nej', eller 'kanske'. Det är viktigt att du begränsar ditt svar till dessa alternativ för att säkerställa tydlighet i kommunikationen."
+system_prompt = "Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av de fördefinierade svaren: 'ja', 'nej', eller 'kanske'. Det är viktigt att du begränsar ditt svar till dessa alternativ för att säkerställa tydlighet i kommunikationen."
 
 
 evaluate_model(data, model, system_prompt)
