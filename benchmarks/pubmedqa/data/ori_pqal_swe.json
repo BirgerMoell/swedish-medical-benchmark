@@ -72,5 +72,240 @@
     "reasoning_free_pred": "ja",
     "final_decision": "ja",
     "LONG_ANSWER": "Ett samband hittades mellan sublinguala varicer och hypertoni. Att undersöka tungans sidogränser är lätt utfört, orsakar ingen skada och kan vara en värdefull metod för tandvårdsyrket att aktivt delta i förebyggande hälsovård."
+}, "19100463": {
+    "QUESTION": "Är affinitetskolumnmedierad immunoassaymetod lämplig som ett alternativ till mikropartikel enzymimmunoassaymetod som ett blodtakrolimusassay?",
+    "CONTEXTS": [
+        "Takrolimus är ett kraftfullt immunsuppressivt läkemedel som används vid organtransplantation. På grund av dess betydande toxiska effekter, smala terapeutiska index och interindividuell farmakokinetisk variabilitet har terapeutisk läkemedelsövervakning av hela blodtakrolimusnivåer rekommenderats. Vi undersökte jämförbarheten av resultaten från 2 immunoassaysystem, affinitetskolumnmedierad immunoassay (ACMIA) och mikropartikel enzymimmunoassay (MEIA), jämförande skillnader i de takrolimusnivåer som mättes av de 2 metoderna i relation till de hematologiska och biokemiska värdena av lever- och njurfunktion.",
+        "Totalt 154 prover från mottagare av njur- eller levertransplantationer utsattes för Dimension RxL HM med ett takrolimus Flex-reagenspatron för ACMIA-metoden och IMx takrolimus II för MEIA-metoden.",
+        "Takrolimusnivåer mätta av ACMIA-metoden (n = 154) korrelerade nära med de som mättes av MEIA-metoden (r = 0.84). Bland-Altman-ploten som använder koncentrationsskillnader mellan de 2 metoderna och medelvärdet av de 2 metoderna visade inga specifika trender. Takrolimusnivåerna bestämda av både MEIA-metoden och ACMIA-metoden påverkades inte av hematokritnivåer, men skillnaden mellan de 2 metoderna (ACMIA - MEIA) tenderade att vara större i prover med låg hematokrit (P<.001)."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Bilirubin",
+        "Kromatografi, Affinitet",
+        "Kreatinin",
+        "Hematokrit",
+        "Människor",
+        "Immunoassay",
+        "Immunenzymtekniker",
+        "Immunsuppressiva medel",
+        "Njurtransplantation",
+        "Reproducerbarhet av resultat",
+        "Känslighet och specificitet",
+        "Serumalbumin",
+        "Takrolimus"
+    ],
+    "YEAR": "2008",
+    "reasoning_required_pred": "kanske",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "ACMIA-metoden som används för takrolimusassay är precis och har fördelar, inklusive bristen på ett nödvändigt förbehandlingsförfarande. Dessutom påverkas den endast marginellt av de hematologiska eller biokemiska statusarna för proverna."
+}, "18537964": {
+    "QUESTION": "Påverkar en läkares specialitet dokumentationen av läkemedelshistorik i patienters journaler?",
+    "CONTEXTS": [
+        "För att bestämma effekten av en läkares specialitet på frekvensen och djupet av dokumenterad läkemedelshistorik i patienternas medicinska journaler.",
+        "En tvärsnittsbedömning av frekvensen och djupet av information om läkemedelshistorik dokumenterad av 123 läkare för 900 slumpmässigt utvalda patienter stratifierade över specialiteterna Kardiologi, Lungmedicin, Dermatologi, Endokrinologi, Gastroenterologi, Hematologi, Neurologi, Psykiatri och Njurmedicin utfördes på ett undervisningssjukhus med 900 sängar beläget i Ibadan, Nigeria.",
+        "Fyrahundra fyrtiotre (49,2 %) av kohorten var män och 457 (50,8 %) var kvinnor; med medelåldrar 43,2 +/- 18,6 och 43,1 +/- 17,9 år respektive. Läkares specialiteter påverkade signifikant djupet av dokumentationen av information om läkemedelshistorik över de nio specialiteterna (P<0,0001). Post hoc-parvis jämförelser med Tukeys HSD-test visade att medelpoängen för biverkningar och efterlevnad av mediciner var högst inom kardiologispecialiteten; medan lungmedicinspecialiteten hade högsta medelpoängen för allergi mot läkemedel, mat, kemikalier och rökning. Medelpoängen för användning av alkohol; olagliga droger; kostrestriktioner var högst för specialiteterna Gastroenterologi, Psykiatri och Endokrinologi respektive. Läkares specialiteter påverkade också signifikant frekvensen av dokumentation av läkemedelshistoriken över de nio specialiteterna (P<0,0001)."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Vuxen",
+        "Hälsopersonalens attityder",
+        "Kliniska protokoll",
+        "Tvärsnittsstudier",
+        "Kvinna",
+        "Människor",
+        "Man",
+        "Medicinsk historiktagning",
+        "Medicinska journaler",
+        "Medicin",
+        "Medelålders",
+        "Nigeria",
+        "Läkare",
+        "Praxis mönster, läkares",
+        "Slumpmässig fördelning",
+        "Specialisering"
+    ],
+    "YEAR": "2008",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Läkare verkar dokumentera läkemedelshistorikinformation oftare och mer djupgående som kan hjälpa till med diagnostiska uppgifter i deras specifika specialitet. Forskare och andra användare av läkemedelshistorikdata dokumenterade i patienters medicinska journaler av läkare kanske vill ge särskild uppmärksamhet åt detta fenomen."
+}, "28196511": {
+    "QUESTION": "Antiretroviral terapi relaterade biverkningar: Kan subsahariska Afrika hantera den nya \"testa och behandla\"-politiken från Världshälsoorganisationen?",
+    "CONTEXTS": [
+        "Nya studier har visat att tidig initiation av antiretroviral terapi (ART) resulterar i en betydande minskning av HIV-överföring. Detta är resonemanget bakom Världshälsoorganisationens (WHO) \"testa och behandla\"-politik. Genomförandet av denna politik kommer att leda till en ökad incidens av ART-relaterade biverkningar, särskilt i subsahariska Afrika (SSA). Är regionen redo att hantera en sådan utmanande fråga?",
+        "Introduktionen och det utbredda användandet av ART har drastiskt förändrat den naturliga historien om HIV/AIDS, men exponering för ART leder till allvarliga medicinrelaterade biverkningar, främst förklarade av mitokondriella toxiciteter, och situationen kommer att förvärras i nära framtid. Faktiskt är ART associerat med en ökad risk för att utveckla kardiovaskulär sjukdom, lipodystrofi, prediabetes och manifest diabetes, insulinresistens och hyperlaktatemi/laktacidos. Förekomsten av dessa störningar är redan hög i SSA, och situationen kommer att förvärras genom genomförandet av de nya WHO-rekommendationerna. De flesta SSA-länder kännetecknas av (extrem) fattigdom, mycket svaga hälso- och sjukvårdssystem, otillräcklig och lågkvalitativ hälso- och sjukvård, otillgänglighet till befintliga hälsoanläggningar, brist på (kvalificerad) sjukvårdspersonal, brist på adekvat utrustning, otillgänglighet och oöverkomlighet av mediciner och tung arbetsbelastning i ett sammanhang av en dubbel sjukdomsbörda. Dessutom finns det brist på data om incidensen och prediktiva faktorer för ART-relaterade biverkningar i SSA, för att förutse strategier som bör sättas på plats för att förebygga uppkomsten av dessa tillstånd eller korrekt uppskatta den kommande bördan och förbereda en adekvat svarsplan. Dessa krävs om vi ska förutse och effektivt förhindra denna kommande börda."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "HOVEDDEL"
+    ],
+    "MESHES": [
+        "Förvärvat immunbristsyndrom",
+        "Afrika söder om Sahara",
+        "Anti-HIV-medel",
+        "Antiretroviral terapi, högaktiv",
+        "HIV-infektioner",
+        "Hälso- och sjukvårdspolitik",
+        "Människor",
+        "Fattigdom",
+        "Prevalens",
+        "Världshälsoorganisationen"
+    ],
+    "YEAR": "2017",
+    "reasoning_required_pred": "nej",
+    "reasoning_free_pred": "nej",
+    "final_decision": "nej",
+    "LONG_ANSWER": "Medan SSA skulle vara den första regionen att uppleva de enorma fördelarna med att implementera WHO:s \"testa och behandla\"-politik, är regionen ännu inte förberedd för att hantera den ökade bördan av ART-relaterade toxiska och metaboliska komplikationer. Brådskande åtgärder bör vidtas för att fylla luckorna om SSA inte ska bli överbelastad av konsekvenserna av \"testa och behandla\"-politiken."
+}, "22251324": {
+    "QUESTION": "Förutspår prestation i urvalsprocesser prestation som tandläkarstudent?",
+    "CONTEXTS": [
+        "Denna studie undersökte samband mellan tandläkarstudenters prestation i var och en av de tre komponenterna i urvalsproceduren [akademiskt genomsnitt, urvalsprov för medicin och hälsovetenskap på grundnivå (UMAT) och strukturerad intervju], socio-demografiska egenskaper och deras akademiska framgång i ett grundutbildningsprogram för tandkirurgi.",
+        "Långtidsöversyn av antagningsdata relaterade till studenter som påbörjade tandläkarutbildningen vid University of Otago, Nya Zeeland, mellan 2004 och 2009 jämfördes med akademisk prestation genom hela tandläkarprogrammet.",
+        "Efter kontroll för variabler förutsade inte förhandsakademiskt genomsnitt, UMAT-poäng och intervjuresultat prestation som tandläkarstudent. Klassplacering under andra året var dock en stark prediktor för klassplacering under det sista året. Multivariat analys visade att de bästa prediktorerna för högre klassplacering under det sista året var etnicitet som Nya Zeeland-europé och inhemsk (snarare än internationell) studentstatus. Andra socio-demografiska egenskaper var inte associerade med prestation. Dessa preliminära resultat ger en sund grund för den pågående studien."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "MATERIAL OCH METODER",
+        "RESULTAT OCH DISKUSSION"
+    ],
+    "MESHES": [
+        "Prestation",
+        "Vuxen",
+        "Chi2-fördelning",
+        "Klinisk kompetens",
+        "Inträdesprov för högskola",
+        "Utbildningsmätning",
+        "Kvinna",
+        "Människor",
+        "Intervjuer som ämne",
+        "Långtidsstudier",
+        "Man",
+        "Nya Zeeland",
+        "Testers prediktiva värde",
+        "Kriterier för skolans antagning",
+        "Tandläkarstudenter"
+    ],
+    "YEAR": "2012",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "nej",
+    "final_decision": "nej",
+    "LONG_ANSWER": "Studien fann viktiga socio-demografiska skillnader i poäng vid förhandsprov, men dessa poäng förutsade inte prestation i tandläkarprogrammet, vare sig mätt under andra året eller under det sista året."
+}, "12769830": {
+    "QUESTION": "Bör tumördjup ingå i prognostiseringen av mjukvävnadssarkom?",
+    "CONTEXTS": [
+        "De flesta stadieindelningssystem för mjukvävnadssarkom baseras på histologisk malignitetsgrad, tumörstorlek och tumördjup. Dessa faktorer är generellt dikotomiserade, storleken vid 5 cm. Vi tror det är osannolikt att tumördjupet i sig skulle påverka en tumörs metastatiska förmåga. Därför hypotetiserade vi att den ogynnsamma prognostiska betydelsen av djup kunde förklaras av det nära sambandet mellan storlek och djup, där djupt liggande tumörer i genomsnitt är större än ytliga. När tumörstorleken är dikotomiserad bör denna effekt vara mest uttalad i gruppen med stora tumörer (>5 cm) där storleksspannet är större.",
+        "Vi analyserade sambanden mellan tumörstorlek och djup och den prognostiska betydelsen av grad, storlek och djup i en populationsbaserad serie av 490 vuxna patienter med mjukvävnadssarkom i extremiteterna eller bålväggen med fullständig, minst 4,5 års, uppföljning.",
+        "Multivariat analys visade ingen större prognostisk effekt av tumördjup när grad och storlek hade tagits i beaktande. Den genomsnittliga storleken på små tumörer var densamma oavsett om de var ytliga eller djupa men den genomsnittliga storleken på stora och djupt liggande tumörer var en tredjedel större än den på stora men ytliga tumörer. Tumördjup påverkade prognosen i undergruppen av höggradiga och stora tumörer. I denna undergrupp hade djupt liggande tumörer sämre överlevnad än ytliga tumörer, vilket kunde förklaras av det större genomsnittliga djupet hos de djupt liggande tumörerna."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Tonåring",
+        "Vuxen",
+        "Äldre",
+        "Äldre, 80 år och äldre",
+        "Kvinna",
+        "Människor",
+        "Man",
+        "Medelålders",
+        "Multivariat analys",
+        "Neoplasmstadiering",
+        "Prognos",
+        "Sarkom"
+    ],
+    "YEAR": "2003",
+    "reasoning_required_pred": "nej",
+    "reasoning_free_pred": "nej",
+    "final_decision": "nej",
+    "LONG_ANSWER": "Större delen av det prognostiska värdet av tumördjup i mjukvävnadssarkom i extremiteter eller bålvägg kan förklaras av sambandet mellan tumörstorlek och djup."
+}, "18284441": {
+    "QUESTION": "Uttrycket av c-kit protoonkogen i hepatit B-virusinducerad kronisk hepatit, cirros och hepatocellulär cancer: har det en diagnostisk roll?",
+    "CONTEXTS": [
+        "Paraffininbäddade vävnader vid Cukurova University Faculty of Medicine Department of Pathology mellan januari 2002 och februari 2006 söktes retrospektivt för att undersöka denna fråga. Vi utförde immunhistokemi på biopsier från 125 patienter med HBV-infektion, grupperade som: mild, måttlig och svår hepatit, cirros och HCC, 25 patienter i var och en av dem, med användning av anti c-kit monoklonal antikropp. Allvaret av parenkymal inflammation och av gränssnittshepatit bedömdes semikvantitativt på en med hämatoxylin och eosin färgad paraffinsnit. Dessutom studerades ytterligare 50 HCC, bildade på HBV-basis, för att bestämma förekomsten av c-kit överuttryck.",
+        "I cirrotisk lever var intensiteten av färgning lägre och c-kit-positivitet var sällsynt. Det största antalet av c-kit-positivitet och högre intensitet av färgning hittades i levern hos patienter med svår hepatit och HCC. Vid kronisk hepatit B-infektion var färgningsintensiteten parallell med graden och stadiet av sjukdomen. I områden där fibros sågs var c-kit-positivitet sällsynt eller frånvarande. I HCC-proverna syntes c-kit-positivitet både inuti och runt de cancerösa nodulerna. C-kit-uttryck observerades i 62 av 75 HCC-vävnadsprover (82%) (p<0.001)."
+    ],
+    "LABELS": [
+        "MATERIAL OCH METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Vuxen",
+        "Äldre",
+        "Biomarkörer, Tumör",
+        "Biopsi",
+        "Karcinom, Hepatocellulär",
+        "Tidig diagnos",
+        "Kvinna",
+        "Hepatit B, Kronisk",
+        "Hepatocyter",
+        "Människor",
+        "Immunhistokemi",
+        "Levercirros",
+        "Leverneoplasmer",
+        "Man",
+        "Medelålders",
+        "Multivariat analys",
+        "Proto-onkogenproteiner c-kit",
+        "Sjukdoms allvarlighetsindex"
+    ],
+    "YEAR": "2008",
+    "reasoning_required_pred": "kanske",
+    "reasoning_free_pred": "ja",
+    "final_decision": "kanske",
+    "LONG_ANSWER": "C-kit-positivitet observerades i de mitotiska, prolifererande och även dysplastiska hepatiska cellerna. Dessa resultat tyder på att c-kit-uttryck kan användas som en tidig diagnostisk indikator för HBV-inducerad HCC."
+}, "18802997": {
+    "QUESTION": "Kan kalprotektin förutsäga återfallsrisk vid inflammatorisk tarmsjukdom?",
+    "CONTEXTS": [
+        "Bedömningen av den kliniska utvecklingen hos patienter med inflammatorisk tarmsjukdom (IBD) består av periodiska kliniska utvärderingar och laboratorietester. Vi syftade till att bedöma rollen av kalprotektintester för att förutsäga kliniskt återfall hos IBD-patienter.",
+        "Nittiosju patienter med ulcerös kolit (UC) och 65 med Crohns sjukdom (CD) i klinisk remission inkluderades prospektivt i studien. Ett 10-g avföringsprov samlades in för kalprotektinanalys. Gränsvärdet sattes till 130 mg/kg avföring. Patienterna följdes upp i 1 år efter testet eller tills återfall. Den kumulativa proportionen av återfall uppskattades genom Kaplan-Meier-analys. Statistik för likhet i överlevnadsfördelning testades med log-rank-testet.",
+        "Kalprotektintestet var positivt hos 44 UC-patienter och 26 av dem fick återfall inom ett år, medan 11 av 53 UC-patienter med ett negativt kalprotektintest fick återfall inom samma tidsram. Trettio CD-patienter hade ett positivt kalprotektintest och 13 av dem fick återfall inom ett år, liksom 7 av de 35 med ett negativt testresultat. En signifikant korrelation framkom mellan ett positivt kalprotektintest och sannolikheten för återfall hos UC-patienter (P= 0.000). Hos CD-patienter visade endast fall av kolonisk CD en signifikant korrelation mellan ett positivt kalprotektintest och sannolikheten för återfall, dvs. 6 koloniska CD-patienter var positiva för kalprotektintestet och 4 fick återfall (P= 0.02)."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Tonåring",
+        "Vuxen",
+        "Äldre",
+        "Äldre, 80 år och äldre",
+        "Kolit, Ulcerös",
+        "Crohns sjukdom",
+        "Sjukdomsfri överlevnad",
+        "Avföring",
+        "Kvinna",
+        "Uppföljningsstudier",
+        "Människor",
+        "Leukocyt L1-antigenkomplex",
+        "Man",
+        "Medelålders",
+        "Testers prediktiva värde",
+        "Prospektiva studier",
+        "ROC-kurva",
+        "Återfall"
+    ],
+    "YEAR": "2008",
+    "reasoning_required_pred": "kanske",
+    "reasoning_free_pred": "ja",
+    "final_decision": "kanske",
+    "LONG_ANSWER": "Mätning av kalprotektin kan hjälpa till att identifiera UC- och koloniska CD-patienter med högre risk för kliniskt återfall."
 }
+
+
+
+
 }
