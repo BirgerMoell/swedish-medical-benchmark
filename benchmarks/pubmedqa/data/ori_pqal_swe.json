@@ -11,7 +11,7 @@
         "RESULTAT"
     ],
     "MESHES": [
-        "Adolescent",
+        "Tonåring",
         "Vuxen",
         "Äldre",
         "Äldre, 80 år och äldre",
@@ -305,3 +305,4 @@
     "LONG_ANSWER": "Mätning av kalprotektin kan hjälpa till att identifiera UC- och koloniska CD-patienter med högre risk för kliniskt återfall."
     }
 }
+

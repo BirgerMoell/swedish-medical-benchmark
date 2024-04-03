@@ -1,5 +1,7 @@
 [project]
 name = "swedish-medical-benchmark"
 version = "0.0"
-dependencies = []
-
+dependencies = [
+  "mypy",
+  "transformers",
+]
