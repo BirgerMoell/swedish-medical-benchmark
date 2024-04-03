@@ -1,0 +1,76 @@
+{ "12377809": {
+    "QUESTION": "Är anorektal endosonografi värdefull vid dyschezi?",
+    "CONTEXTS": [
+        "Dyschezi kan provoceras av olämpliga avföringsrörelser. Syftet med denna prospektiva studie var att påvisa dysfunktion av anala sfinktern och/eller musculus (m.) puborectalis hos patienter med dyschezi genom användning av anorektal endosonografi.",
+        "Tjugo på varandra följande patienter med en medicinsk historia av dyschezi och en kontrollgrupp av 20 friska försökspersoner genomgick linjär anorektal endosonografi (Toshiba-modellerna IUV 5060 och PVL-625 RT). I båda grupperna mättes dimensionerna av den anala sfinktern och m. puborectalis i vila, samt under frivillig sammandragning och pressning. Statistisk analys utfördes inom och mellan de två grupperna.",
+        "Den anala sfinktern blev paradoxalt kortare och/eller tjockare under pressning (jämfört med viloläget) hos 85% av patienterna men endast hos 35% av kontrollpersonerna. Förändringar i sfinkterns längd var statistiskt signifikant olika (p<0.01, chi(2)-test) hos patienter jämfört med kontrollpersoner. M. puborectalis blev paradoxalt kortare och/eller tjockare under pressning hos 80% av patienterna men endast hos 30% av kontrollerna. Både förändringarna i längd och tjocklek av m. puborectalis var signifikant olika (p<0.01, chi(2)-test) hos patienter jämfört med kontrollpersoner."
+    ],
+    "LABELS": [
+        "SYFTEN",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Adolescent",
+        "Vuxen",
+        "Äldre",
+        "Äldre, 80 år och äldre",
+        "Analkanal",
+        "Fall-kontrollstudier",
+        "Chi2-fördelning",
+        "Förstoppning",
+        "Avföring",
+        "Endosonografi",
+        "Kvinna",
+        "Människor",
+        "Man",
+        "Medelålders",
+        "Bäckenbotten",
+        "Rektum"
+    ],
+    "YEAR": "2002",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Linjär anorektal endosonografi visade ofullständig eller till och med frånvarande avslappning av den anala sfinktern och m. puborectalis under en avföringsrörelse hos majoriteten av våra patienter med dyschezi. Denna studie belyser värdet av denna eleganta ultraljudsteknik i diagnosen av \"bäckenbottens dyssynergi\" eller \"anismus\"."
+}, "26163474": {
+    "QUESTION": "Finns det ett samband mellan sublinguala varicer och hypertoni?",
+    "CONTEXTS": [
+        "Sublinguala varicer har tidigare kopplats till åldrande, rökning och hjärt-kärlsjukdom. Syftet med denna studie var att undersöka om sublinguala varicer är relaterade till förekomsten av hypertoni.",
+        "I en observationsstudie bland 431 tandvårdspatienter dokumenterades tungans status och blodtryck. Digitala fotografier av tungans sidogränser för bedömning av sublinguala varicer togs, och blodtryck mättes. De patienter som inte hade en tidigare diagnos av hypertoni och som hade ett uppmätt blodtryck ≥ 140 mmHg och/eller ≥ 90 mmHg på tandkliniken genomförde kompletterande hemmablodtrycksmätningar under en vecka. De med ett genomsnittligt hemmablodtryck ≥ 135 mmHg och/eller ≥ 85 mmHg hänvisades till primärvårdsmottagningen, där tre mätningar av blodtryck genomfördes med en veckas intervall. Två oberoende blinda observatörer studerade fotografierna av tungorna. Varje fotografi graderades som ingen/få (grad 0) eller medium/allvarlig (grad 1) förekomst av sublinguala varicer. Pearsons chi2-test, Student's t-test och multipel regressionsanalys tillämpades. Beräkning av studiepopulationens storlek stipulerade 323 patienter.",
+        "Ett samband mellan sublinguala varicer och hypertoni hittades (OR = 2,25, p<0.002). Medelvärdet för systoliskt blodtryck var 123 och 132 mmHg hos patienter med grad 0 respektive grad 1 sublinguala varicer (p<0.0001, CI 95 %). Medelvärdet för diastoliskt blodtryck var 80 och 83 mmHg hos patienter med grad 0 respektive grad 1 sublinguala varicer (p<0.005, CI 95 %). Sublinguala varicer indikerar hypertoni med ett positivt prediktivt värde på 0,5 och ett negativt prediktivt värde på 0,80."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Vuxen",
+        "Äldre",
+        "Angina Pectoris",
+        "Förmaksflimmer",
+        "Blodtryck",
+        "Kvinna",
+        "Människor",
+        "Hypertoni",
+        "Bildbehandling, datorstödd",
+        "Man",
+        "Medelålders",
+        "Hjärtinfarkt",
+        "Myokardischemi",
+        "Fotografi",
+        "Testers prediktiva värde",
+        "Känslighet och specificitet",
+        "Rökning",
+        "Stroke",
+        "Tunga",
+        "Varicer"
+    ],
+    "YEAR": "2015",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Ett samband hittades mellan sublinguala varicer och hypertoni. Att undersöka tungans sidogränser är lätt utfört, orsakar ingen skada och kan vara en värdefull metod för tandvårdsyrket att aktivt delta i förebyggande hälsovård."
+}
+}

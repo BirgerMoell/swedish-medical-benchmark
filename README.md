@@ -1,4 +1,5 @@
 # 🇸🇪 Swedish Medical Benchmark 🏥💻
+<img src="logo.png">
 Welcome to the official repository for the Swedish Medical Benchmark! This project aims to revolutionize how we assess and develop AI models in the medical domain, specifically tailored for the Swedish language. With your help, we can create a more inclusive, accurate, and impactful AI in healthcare. Let's make AI work for everyone!
 
 ## Goals 🎯
