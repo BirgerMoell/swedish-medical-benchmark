@@ -1,0 +1,39 @@
+{
+    "QUESTION": "Kan kalprotektin f\u00f6ruts\u00e4ga \u00e5terfallsrisk vid inflammatorisk tarmsjukdom?",
+    "CONTEXTS": [
+        "Bed\u00f6mningen av den kliniska utvecklingen hos patienter med inflammatorisk tarmsjukdom (IBD) best\u00e5r av periodiska kliniska utv\u00e4rderingar och laboratorietester. Vi syftade till att bed\u00f6ma rollen av kalprotektintester f\u00f6r att f\u00f6ruts\u00e4ga kliniskt \u00e5terfall hos IBD-patienter.",
+        "Nittiosju patienter med ulcer\u00f6s kolit (UC) och 65 med Crohns sjukdom (CD) i klinisk remission inkluderades prospektivt i studien. Ett 10-g avf\u00f6ringsprov samlades in f\u00f6r kalprotektinanalys. Gr\u00e4nsv\u00e4rdet sattes till 130 mg/kg avf\u00f6ring. Patienterna f\u00f6ljdes upp i 1 \u00e5r efter testet eller tills \u00e5terfall. Den kumulativa proportionen av \u00e5terfall uppskattades genom Kaplan-Meier-analys. Statistik f\u00f6r likhet i \u00f6verlevnadsf\u00f6rdelning testades med log-rank-testet.",
+        "Kalprotektintestet var positivt hos 44 UC-patienter och 26 av dem fick \u00e5terfall inom ett \u00e5r, medan 11 av 53 UC-patienter med ett negativt kalprotektintest fick \u00e5terfall inom samma tidsram. Trettio CD-patienter hade ett positivt kalprotektintest och 13 av dem fick \u00e5terfall inom ett \u00e5r, liksom 7 av de 35 med ett negativt testresultat. En signifikant korrelation framkom mellan ett positivt kalprotektintest och sannolikheten f\u00f6r \u00e5terfall hos UC-patienter (P= 0.000). Hos CD-patienter visade endast fall av kolonisk CD en signifikant korrelation mellan ett positivt kalprotektintest och sannolikheten f\u00f6r \u00e5terfall, dvs. 6 koloniska CD-patienter var positiva f\u00f6r kalprotektintestet och 4 fick \u00e5terfall (P= 0.02)."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Ton\u00e5ring",
+        "Vuxen",
+        "\u00c4ldre",
+        "\u00c4ldre, 80 \u00e5r och \u00e4ldre",
+        "Kolit, Ulcer\u00f6s",
+        "Crohns sjukdom",
+        "Sjukdomsfri \u00f6verlevnad",
+        "Avf\u00f6ring",
+        "Kvinna",
+        "Uppf\u00f6ljningsstudier",
+        "M\u00e4nniskor",
+        "Leukocyt L1-antigenkomplex",
+        "Man",
+        "Medel\u00e5lders",
+        "Testers prediktiva v\u00e4rde",
+        "Prospektiva studier",
+        "ROC-kurva",
+        "\u00c5terfall"
+    ],
+    "YEAR": "2008",
+    "reasoning_required_pred": "kanske",
+    "reasoning_free_pred": "ja",
+    "final_decision": "kanske",
+    "LONG_ANSWER": "M\u00e4tning av kalprotektin kan hj\u00e4lpa till att identifiera UC- och koloniska CD-patienter med h\u00f6gre risk f\u00f6r kliniskt \u00e5terfall.",
+    "answer": "ja"
+}
