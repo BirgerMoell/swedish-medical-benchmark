@@ -13,6 +13,10 @@ Translating these benchmarks into Swedish.
 Ensuring the translations maintain the clinical integrity of the original benchmarks.
 Create New Benchmark for Swedish 🛠️🆕
 
+## Benchmarks
+
+- pubmedqa
+
 ## Develop benchmarks specifically for the Swedish context, incorporating:
 
 Unique medical terminology and practices in Sweden.
@@ -39,3 +43,4 @@ Follow the contribution guidelines in the CONTRIBUTING.md file for detailed inst
 Stay Connected 💬
 Join our community on Discord for discussions, updates, and collaboration opportunities. Together, we can make a difference in healthcare AI!
 https://discord.gg/AgDx34t2
+
