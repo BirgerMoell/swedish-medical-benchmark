@@ -20,12 +20,16 @@ Create New Benchmark for Swedish 🛠️🆕
 Pubmedqa is a large benchmark of medical questions with yes / no / maybe answers that can be benchmarked with the help of LLMs.
 https://github.com/pubmedqa/pubmedqa 
 
+### Pubmedqa-swe-tiny
+We have started by translating a tiny subset of the questions (N=10) for a first benchmark in Swedish.
+
 ## Develop benchmarks specifically for the Swedish context, incorporating:
 
-Unique medical terminology and practices in Sweden.
-Diverse datasets representing Swedish demographics.
-Collaboration with Swedish medical professionals to ensure relevance and accuracy.
-Compare Model Performance on the Benchmark 📊🔍
+- Unique medical terminology and practices in Sweden.
+- Diverse datasets representing Swedish demographics.
+- Collaboration with Swedish medical professionals to ensure relevance and accuracy.
+
+## Compare Model Performance on the Benchmark 📊🔍
 
 ## Evaluating AI models on these benchmarks to understand their effectiveness and areas for improvement:
 
