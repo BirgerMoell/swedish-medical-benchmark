@@ -1,7 +1,0 @@
-services:
-  app: &app
-    build:
-      context: .
-    volumes:
-      - .:/app
-    working_dir: /app
