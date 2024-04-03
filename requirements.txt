@@ -20,6 +20,10 @@ huggingface-hub==0.22.2
     #   transformers
 idna==3.6
     # via requests
+mypy==1.9.0
+    # via swedish-medical-benchmark (pyproject.toml)
+mypy-extensions==1.0.0
+    # via mypy
 numpy==1.26.4
     # via transformers
 packaging==24.0
@@ -40,6 +44,8 @@ safetensors==0.4.2
     # via transformers
 tokenizers==0.15.2
     # via transformers
+tomli==2.0.1
+    # via mypy
 tqdm==4.66.2
     # via
     #   huggingface-hub
@@ -47,6 +53,8 @@ tqdm==4.66.2
 transformers==4.39.3
     # via swedish-medical-benchmark (pyproject.toml)
 typing-extensions==4.10.0
-    # via huggingface-hub
+    # via
+    #   huggingface-hub
+    #   mypy
 urllib3==2.2.1
     # via requests
