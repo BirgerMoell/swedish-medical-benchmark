@@ -139,6 +139,1641 @@
     "reasoning_free_pred": "ja",
     "final_decision": "ja",
     "LONG_ANSWER": "Läkare verkar dokumentera läkemedelshistorikinformation oftare och mer djupgående som kan hjälpa till med diagnostiska uppgifter i deras specifika specialitet. Forskare och andra användare av läkemedelshistorikdata dokumenterade i patienters medicinska journaler av läkare kanske vill ge särskild uppmärksamhet åt detta fenomen."
+}, "12913878": {
+    "QUESTION": "Lokoregional öppning av blod-hjärnbarriären hos gnagare för paklitaxel med Nd:YAG laserinducerad termoterapi: Ett nytt koncept för adjuvant gliomterapi?",
+    "CONTEXTS": [
+        "Nd:YAG laserinducerad termoterapi (LITT) i råtthjärnor är associerad med permeabilitetsförändringar i blod-hjärnbarriären (BBB). Vi adresserar frågan om LITT-inducerad lokoregional störning av BBB möjligtvis kan tillåta en lokoregional passage av kemoterapeutiska medel in i hjärnvävnaden för behandling av maligna gliom. STUDIEDESIGN/",
+        "CD Fischer-råttor utsattes för LITT i vänstra främre hjärnan. Störning av BBB analyserades med hjälp av Evans blått och immunhistokemi (IH). Djuren perfunderades med paklitaxel och högtrycksvätskekromatografi (HPLC) användes för att analysera innehållet av paklitaxel i hjärn- och plasmaprover.",
+        "LITT inducerar en öppning av BBB som demonstreras av lokoregional extravasation av Evans blått, C3C, fibrinogen och IgM. HPLC bevisade passagen av paklitaxel över den störda BBB."
+    ],
+    "LABELS": [
+        "BAKGRUND OCH SYFTE",
+        "MATERIAL OCH METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Administration, Topikal",
+        "Djur",
+        "Antineoplastiska medel, Fytogena",
+        "Blod-hjärnbarriären",
+        "Hjärntumörer",
+        "Kemoterapi, Adjuvant",
+        "Gliom",
+        "Hypertermi, Inducerad",
+        "Laserterapi",
+        "Neurokirurgiska procedurer",
+        "Paklitaxel",
+        "Permeabilitet",
+        "Råttor",
+        "Råttor, Inavlade F344"
+    ],
+    "YEAR": "2003",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "LITT inducerar en lokoregional passage av kemoterapeutiska medel in i hjärnvävnaden. Detta är av potentiellt intresse för behandling av hjärntumörer."
+}, "12765819": {
+    "QUESTION": "Spinal subduralhematom: En följd av ett sprucket intrakraniellt aneurysm?",
+    "CONTEXTS": [
+        "Ett fall av spinalt subduralhematom (SSDH) efter subaraknoidalblödning (SAH) på grund av ett sprucket inre karotisaneurysm beskrivs. Ett sådant fall har aldrig tidigare rapporterats.",
+        "En 52-årig kvinna genomgick en kraniotomi för ett sprucket inre karotisaneurysm. En datortomografiskanning visade att SAH fanns främst i bakre skallgropen och subduralhematom under cerebellartentoriet. Intratekal administration av urokinas, IV-administration av fasudilhydroklorid och kontinuerlig evakuering av cerebrospinalvätska (CSF) via cisternaldränage utfördes som profylaktiska behandlingar för vasospasm. På den sjätte postoperativa dagen klagade patienten över svår smärta i nedre rygg och skinkor. Magnetisk resonanstomografi visade ett subduralhematom i lumbosakralregionen. Även om massverkan var omfattande, visade patienten inga neurologiska symtom förutom ischias. Hon behandlades konservativt. Hematomet löstes gradvis upp och hade minskat helt 15 veckor senare. Hennes smärta avtog gradvis och hon skrevs ut 7 veckor senare utan något neurologiskt underskott."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "FALLBESKRIVNING"
+    ],
+    "MESHES": [
+        "Aneurysm, Sprucket",
+        "Karotisartär, Inre",
+        "Kraniotomi",
+        "Kvinna",
+        "Hematoma, Subdural",
+        "Människor",
+        "Intrakraniellt Aneurysm",
+        "Magnetisk Resonanstomografi",
+        "Medelålders",
+        "Ruptur, Spontan",
+        "Subaraknoidalblödning",
+        "Tomografi, Röntgenberäknad"
+    ],
+    "YEAR": "2003",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Även om den exakta mekanismen för SSDH i detta fall är oklar, spekulerar vi att detta SSDH var ett hematoma som migrerade från det intrakraniella subdurala utrymmet. Lågt CSF-tryck på grund av kontinuerlig dränering och intratekal trombolytisk terapi kan ha spelat en viktig roll i migrationen av hematomet genom spinalkanalen. Det är viktigt att känna igen SSDH som en möjlig komplikation av SAH tillsammans med intrakraniellt subduralhematom."
+}, "25475395": {
+    "QUESTION": "Finns det ett samband mellan androgener och sexuell lust hos kvinnor?",
+    "CONTEXTS": [
+        "För kvinnor är sambandet mellan cirkulerande androgener och sexuell lust oklart. Substitution med androgener på fysiologiska nivåer förbättrar sexuell funktion hos kvinnor som upplever minskad sexuell lust och androgenbrist från kirurgisk menopaus, hypofyssjukdom och åldersrelaterad nedgång i androgenproduktion i äggstockarna. Det är svårt att mäta bioaktivt testosteron och nya metoder har föreslagits, inklusive mätning av det primära androgenmetaboliten androsteronglukuronid (ADT-G). SYFTE: Syftet med denna studie var att undersöka ett eventuellt samband mellan serumnivåer av androgener och sexuell lust hos kvinnor och om nivån av ADT-G är bättre korrelerad än nivån av cirkulerande androgener med sexuell lust.",
+        "Detta var en tvärsnittsstudie inklusive 560 friska kvinnor i åldrarna 19-65 år uppdelade i tre åldersgrupper. Korrelationer ansågs vara statistiskt signifikanta vid P<0.05.",
+        "Sexuell lust bestämdes som det totala poängen för domänen sexuell lust i Female Sexual Function Index. Totalt testosteron (TT), beräknat fritt testosteron (FT), androstendion, dehydroepiandrosteronsulfat (DHEAS) och ADT-G analyserades med masspektrometri.",
+        "Sexuell lust korrelerade övergripande med FT och androstendion i den totala kohorten av kvinnor. I en undergrupp av kvinnor i åldrarna 25-44 år utan användning av systemisk hormonell kontraption korrelerade sexuell lust med TT, FT, androstendion och DHEAS. Hos kvinnor i åldrarna 45-65 år korrelerade androstendion med sexuell lust. Inga korrelationer mellan ADT-G och sexuell lust identifierades."
+    ],
+    "LABELS": [
+        "INLEDNING",
+        "METODER",
+        "HOVEDUTFALLSMÅTT",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Vuxen",
+        "Åldersfaktorer",
+        "Äldre",
+        "Androgener",
+        "Androstendion",
+        "Androstenoler",
+        "Androsteron",
+        "Tvärsnittsstudier",
+        "Dehydroepiandrosteronsulfat",
+        "Kvinna",
+        "Människor",
+        "Libido",
+        "Medelålders",
+        "Molekylära sekvensdata",
+        "Socioekonomiska faktorer",
+        "Testosteron",
+        "Kvinnors hälsa"
+    ],
+    "YEAR": "2015",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "I den här studien korrelerade FT och androstendion statistiskt signifikant med sexuell lust i den totala kohorten av kvinnor. ADT-G korrelerade inte starkare än cirkulerande androgener med sexuell lust och är därför inte överlägsen mätning av cirkulerande androgener med masspektrometri."
+}, "19130332": {
+    "QUESTION": "Är zeolit hemostatiska medlet fördelaktigt för att minska blodförlust vid artärskada?",
+    "CONTEXTS": [
+        "Okontrollerad blödning är den ledande dödsorsaken. Syftet med denna studie var att utvärdera effekten av zeolitmineral (QuikClot - Advanced Clotting Sponge [QC-ACS]) på blodförlust och fysiologiska variabler i en grisextremitetsmodell för artärskada.",
+        "Sexton grisar användes. Sned ljumsksnitt skapades och en 5 mm incision gjordes. Djuren tilldelades: kontrollgrupp (n: 6): Tryckförband applicerades med manuellt tryck över gasväv; eller QC-grupp (n: 10): QC applicerades direkt över skadad femoralartär. Medelartärtryck, blodförlust och fysiologiska parametrar mättes under studieperioden.",
+        "Applicering av QC ledde till en långsammare blodtrycksfall. Kontrollgruppen hade en signifikant högre ökning av laktat inom 60 minuter. Medelvärdet för protrombintiden i kontrollgruppen ökade signifikant vid 60 minuter. Applicering av QC ledde till minskad total blodförlust. QC-gruppen hade signifikant högre hematokritnivåer. Applicering av QC genererade en signifikant värmeproduktion. Det fanns milda ödematösa och vakuolära förändringar i nervprover."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Administration, Topikal",
+        "Djur",
+        "Bandage",
+        "Blodtryck",
+        "Sjukdomsmodeller, Djur",
+        "Femoralartär",
+        "Hematokrit",
+        "Blödning",
+        "Hemostatika",
+        "Slumpmässig allokering",
+        "Specifika patogenfria organismer",
+        "Överlevnadstakt",
+        "Svin",
+        "Zeoliter"
+    ],
+    "YEAR": "2009",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "kanske",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Enligt de fysiologiska parametrarna observerade vi att zeolit tenderar att minska blodförlust, men kunde inte helt stoppa blödningen. Vi tror att ytterligare kliniska prövningar behövs för att dra slutsatsen att zeolit kan användas i rutinmässig praxis."
+}, "9427037": {
+    "QUESTION": "Är endotelcellmönster hos astrocytom indikativa för grad?",
+    "CONTEXTS": [
+        "De vanligaste primära hjärntumörerna hos barn och vuxna är av astrocytiskt ursprung. Klassiska histologiska graderingsscheman för astrocytom har inkluderat utvärdering av närvaron eller frånvaron av kärnanomalier, mitoser, vaskulär endotelproliferation och tumörnekros.",
+        "Vi utvärderade det vaskulära mönstret av 17 kirurgiska prov från astrocytom (sju från barn och 10 från vuxna), och fyra normala hjärnor erhållna vid obduktion, med användning av antikropp mot glial fibrillär surt protein (GFAP) och von Willebrand-faktor (vWF) med användning av konfokalmikroskopi. En modifierad WHO-klassificering användes.",
+        "Alla tumörfall visade celler positiva för GFAP. Kontrollvävnader visade ett fåtal, vida separerade kärl. Pilocytiska astrocytom (fyra fall) visade spetsiga kluster av små till medelstora kärl, med intakt kärlväggsintegritet. Diffust, låggradigt astrocytom (tre fall) visade ett färgningsmönster liknande kontrollvävnad; intermediär grad (ett fall), anaplastiskt astrocytom (tre fall) och glioblastoma multiforme (sex fall) visade en ökad kärltäthet med flera små kärl (glomeruloida kluster), vissa med framträdande intim hyperplasi, förlust av kärlväggsintegritet, och med många vWF-positiva enkla celler/mikrokärl inom tumörsubstansen."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "MATERIAL OCH METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Adolescent",
+        "Vuxen",
+        "Astrocytom",
+        "Barn, Förskola",
+        "Endotel, Vaskulärt",
+        "Kvinna",
+        "Fluorescerande Antikroppsteknik, Indirekt",
+        "Glialt Fibrillärt Surt Protein",
+        "Människor",
+        "Spädbarn",
+        "Man",
+    "von Willebrand-f   aktor"
+    ],
+    "YEAR": null,
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Utvärdering av astrocytom med användning av antikropp mot vWF och konfokalmikroskopi hjälper till med graderingen av dessa neoplasmer."
+}, "24481006": {
+    "QUESTION": "Bör kavitation på proximala ytor rapporteras vid konbämsdatortomografiundersökning?",
+    "CONTEXTS": [
+        "79 angränsande proximala ytor utan restaureringar i permanenta tänder undersöktes. Patienter misstänkta för att ha kariösa lesioner efter en visuell klinisk och en bettwingsundersökning deltog i en CBCT-undersökning (Kodak 9000 3D, 5 × 3.7 cm synfält, voxelstorlek 0.07 mm). Etiskt godkännande och informerat samtycke erhölls enligt Helsingforsdeklarationen. Radiografisk bedömning som registrerade lesioner med eller utan kavitation utfördes av två observatörer i bettwings och CBCT-sektioner. Ortodontiska separatorer placerades interdentalt mellan två ytor misstänkta för lesioner. Separationen avlägsnades efter 3 dagar och ytorna registrerades som kaviterade (ja/nej), dvs. kliniskt validerade. Skillnader mellan de två radiografiska modaliteterna (känslighet, specificitet och total noggrannhet) uppskattades genom att analysera de binära datan i en generaliserad linjär modell.",
+        "För båda observatörerna var känsligheten signifikant högre för CBCT än för bettwings (genomsnittlig skillnad 33%, p<0.001) medan specificiteten inte var signifikant olika mellan metoderna (p = 0.19). Den totala noggrannheten var också signifikant högre för CBCT (p<0.001)."
+    ],
+    "LABELS": [
+        "MATERIAL OCH METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Adolescent",
+        "Vuxen",
+        "Bicuspid",
+        "Konbämsdatortomografi",
+        "Tandkaries",
+        "Kvinna",
+        "Människor",
+        "Bildbehandling, Datorstödd",
+        "Linjära Modeller",
+        "Man",
+        "Medelålders",
+        "Molar",
+        "Observatörsvariation",
+        "Fysisk undersökning",
+        "Radiografi, Bettwing",
+        "Reproducerbarhet av Resultat",
+        "Känslighet och Specificitet",
+        "Tandkrona",
+        "Tanddisfärgning",
+        "Ung Vuxen"
+    ],
+    "YEAR": "2014",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "CBCT var mer exakt i att upptäcka kavitation på proximala ytor än bettwingsröntgen; därför bör en CBCT-undersökning som utförs för andra kliniska tillämpningar också utvärderas för proximala ytkaviteter i tänder utan restaureringar, och när det upptäcks, måste denna patologi vara en del av tandläkarens rapport."
+}, "8165771": {
+    "QUESTION": "Ultraljud vid skivepitelcancer i penis; ett användbart tillägg till klinisk stadieindelning?",
+    "CONTEXTS": [
+        "Som en del av stadieindelningsförfarandet vid skivepitelcancer i penis utvärderade vi rollen av ultraljudsundersökning, särskilt dess roll i att bedöma utsträckningen och invasionen i corpora.",
+        "Från 1988 till 1992 genomgick alla patienter som remitterades för primärbehandling ultraljudsbedömning med en 7,5 MHz linjär array small parts transducer som en del av den kliniska utredningen. Alla ultraljudsbilder granskades av en radiolog, utan kännedom om det kliniska utfallet och jämfördes med resultaten från histopatologisk undersökning.",
+        "Hos 16 patienter undersöktes den primära tumören och hos en patient ett återkommande cancer efter primärterapi. Alla tumörer identifierades som hypoekogena lesioner. Ultraljudsundersökning i glansområdet kunde inte skilja mellan invasion av subepitelial vävnad och invasion i corpus spongiosum, men frånvaro eller närvaro av invasion i tunica albuginea av corpus cavernosum visades tydligt. Exakt mätning med ultraljud av maximal tumörtjocklek observerades i sju av sexton undersökningar."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Carcinoma, Skivepitel",
+        "Människor",
+        "Man",
+        "Medelålders",
+        "Neoplasm Invasivitet",
+        "Neoplasm Stadieindelning",
+        "Peniscancer",
+        "Penis",
+        "Ultraljud"
+    ],
+    "YEAR": "1994",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "kanske",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Även om ultraljudsundersökning är billigt och lätt att utföra, är det inte tillräckligt noggrant för stadieindelning av små peniscancer belägna vid glans penis. Dock, för större tumörer kan ultraljud vara ett användbart tillägg till den fysiska undersökningen genom att tydligt avgränsa den anatomiska relationen av tumören till strukturer såsom tunica albuginea, corpus cavernosum och uretra."
+}, "22680064": {
+    "QUESTION": "Kan ultraljud under tredje trimestern förutspå presentationen av den första tvillingen vid förlossning?",
+    "CONTEXTS": [
+        "För att bestämma förmågan hos tidigt ultraljud att förutspå presentationen av tvilling A vid födseln.",
+        "En retrospektiv kohortstudie genomfördes på alla tvillinggraviditeter som utvärderades på vår fosterutvärderingsenhet från 2007 till 2009. Ultraljudsprotokoll granskades för presentationen av tvilling A vid sju graviditetsåldersintervall och inneliggande medicinska journaler granskades för presentationen av tvilling A vid förlossningen. Positivt prediktivt värde, sensitivitet och specificitet för presentation som bestämts av ultraljud, vid varje graviditetsåldersintervall, för samma presentation vid förlossning beräknades.",
+        "Tvåhundra trettioåtta tvillinggraviditeter uppfyllde inkluderingskriterierna. Totalt 896 ultraljud granskades. Det positiva prediktiva värdet för huvudpresentation av tvilling A som bestämts av ultraljud för beständighet av huvudpresentation vid förlossning nådde 95% efter 28 veckors graviditet. Det positiva prediktiva värdet för icke-cefalisk presentation som fastställts av sonogram för icke-cefalisk vid förlossning var> 90% efter 32 veckors graviditet."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Vuxen",
+        "Födelseordning",
+        "Födelsevikt",
+        "Kohortstudier",
+        "Förlossning",
+        "Kvinna",
+        "Människor",
+        "Nyfödd",
+        "Förlossningspresentation",
+        "Prediktivt värde av tester",
+        "Graviditet",
+        "Graviditetens tredje trimester",
+        "Tvillinggraviditet",
+        "Retrospektiva studier",
+        "Tvillingar",
+        "Prenatal ultraljud"
+    ],
+    "YEAR": "2012",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Presentationen av den första tvillingen vid förlossning kan bestämmas av sonogrammet vid 32:e graviditetsveckan i över 90% av tvillinggraviditeterna."
+}, "22540518": {
+    "QUESTION": "Är mikrodatortomografi tillförlitlig för att bestämma mikrostrukturen i överkäkens alveolära ben?",
+    "CONTEXTS": [
+        "För att analysera tillförlitligheten hos mikrodatortomografi (mikro-CT) för att bedöma bentätheten och mikrostrukturen i överkäkens ben vid den alveolära processen i humankliniker genom direkt jämförelse med konventionell stereologibaserad histomorfometri.",
+        "Analys av beniga mikrostrukturella variabler inklusive benets volymetriska densitet (BV/TV) av 39 biopsier från överkäkens alveolära ben utfördes med mikro-CT. Konventionell stereologibaserad histomorfometri av 10 benbiopsier utfördes med optisk mikroskopi (OM) och lågvakuumelektronmikroskopi (SEM). Procentandelar ben mellan mikro-CT och konventionell stereologibaserad histomorfometri jämfördes.",
+        "Signifikanta positiva korrelationer observerades mellan BV/TV och procentandelen ben (%Ben) analyserat med SEM (r = 0.933, P < 0.001), med toluidinblått färgning OM (r = 0.950, P < 0.001) och med mörkfält OM (r = 0.667, P = 0.05). Den höga positiva korrelationskoefficienten mellan BV/TV och trabekulär tjocklek illustrerar att ett värde av BV/TV över 50% överensstämmer med ett ben som presenterar de flesta av sina trabekler tjockare än 0.2 mm. Den höga negativa korrelationen mellan BV/TV och trabekulär separation visar att värden av BV/TV över 50% överensstämmer med ett ben som presenterar de flesta av sina trabekler separerade mindre än 0.3 mm från varandra."
+    ],
+    "LABELS": [
+        "MÅL",
+        "MATERIAL OCH METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Vuxen",
+        "Äldre",
+        "Alveolarprocess",
+        "Biopsi",
+        "Bentäthet",
+        "Färgämnen",
+        "Dental implantation, Endosseös",
+        "Kvinna",
+        "Människor",
+        "Bildbehandling, Datorstödd",
+        "Man",
+        "Maxilla",
+        "Mikroskopi",
+        "Mikroskopi, Elektron",
+        "Medelålders",
+        "Reproducerbarhet av Resultat",
+        "Spektrometri, Röntgenemission",
+        "Toloniumklorid",
+        "Röntgenmikrotomografi",
+        "Ung Vuxen"
+    ],
+    "YEAR": "2013",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "BV/TV bedömt av mikro-CT korrelerar med procentandelen ben bedömt av konventionell stereologibaserad histomorfometri. Mikro-CT är en tillförlitlig teknik för att bestämma bentätheten och mikrostrukturen i överkäkens alveolära ben vid platsen för tandimplantatinsättning."
+}, "20629769": {
+    "QUESTION": "Är primär angioplastik ett acceptabelt alternativ till trombolys?",
+    "CONTEXTS": [
+        "National Infarct Angioplasty Project utvärderade genomförbarheten av att etablera en omfattande primär angioplastiktjänst. Vi syftade till att jämföra tillfredsställelse vid interventionsjukhus som erbjuder angioplastikbaserad vård och kontrollsjukhus som erbjuder trombolysbaserad vård.",
+        "Blandade metoder, med postenkät till patienter och deras vårdgivare, kompletterat med semistrukturerade intervjuer.",
+        "Undersökning av 682 patienter och 486 vårdgivare, samt intervjuer med 33 patienter och vårdgivare, på åtta engelska sjukhus.",
+        "Primär angioplastik eller trombolys.",
+        "Tillfredsställelse med behandling.",
+        "Svar mottogs från 595/682 patienter (87%) och 418/486 vårdgivare (86%). Tillfredsställelse med den övergripande vården var hög både vid interventions- och kontrollplatser (78% vs 71% patienter bedömde sin vård som 'utmärkt', P = 0,074). Patienttillfredsställelsen var högre vid interventionsplatser för vissa aspekter av vården såsom behandlingens snabbhet (80% vs 67% 'utmärkt', P = 0,001). Möjligheten till besök bedömdes lägre vid interventionsplatser av vårdgivare (12% vs 1% 'dåligt', P = 0,001). Under intervjuerna rapporterade vårdgivare att de accepterade det ökade obehaget med att besöka primära angioplastikplatser i kontexten av denna livräddande behandling. Patienttillfredsställelse med utskrivning och eftervård var lägre i båda behandlingsgrupperna jämfört med andra aspekter av vården."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "DESIGN",
+        "INSTÄLLNING OCH DELTAGARE",
+        "INTERVENTIONER",
+        "HUVUDUTFALLSMÅTT",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Tonåring",
+        "Vuxen",
+        "Äldre",
+        "Äldre, 80 år och äldre",
+        "Angioplastik",
+        "Vårdgivare",
+        "England",
+        "Hälsovårdsundersökningar",
+        "Människor",
+        "Intervjuer som ämne",
+        "Man",
+        "Medelålders",
+        "Myokardinfarkt",
+        "Patienttillfredsställelse",
+        "Trombolytisk terapi",
+        "Ung Vuxen"
+    ],
+    "YEAR": "2010",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "kanske",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Omorganisation av vården för att erbjuda en primär angioplastiktjänst var acceptabel för patienter och deras vårdgivare. Tillfredsställelsenivåerna var höga oavsett vilken typ av vård som mottogs, med undantag för utskrivning och eftervård."
+}, "21726930": {
+    "QUESTION": "Är bildning av endometriepolyper associerad med ökad expression av vaskulär endothelial tillväxtfaktor och transformerande tillväxtfaktor-beta1?",
+    "CONTEXTS": [
+        "Endometriepolyp är en vanlig orsak till onormal uterin blödning, men etiologin och patogenesen är fortfarande oklar. Vaskulär endothelial tillväxtfaktor (VEGF) är angiogen, relaterad till kärl med tjocka väggar och transformerande tillväxtfaktor-beta1 (TGF-\u03b21) är relaterad till fibrös vävnad, vilka är egenskaper hos endometriepolyper. Det primära målet med denna studie var att ta reda på om bildning av endometriepolyper är associerad med ökad expression av VEGF eller TGF-\u03b21, eller båda. Ett sekundärt mål är att bestämma om förändringarna är relaterade till uttryck av steroidreceptorer.",
+        "Denna prospektiva studie jämförde VEGF och TGF-\u03b21 expression av endometriepolyper och intilliggande endometrievävnad hos 70 premenopausala kvinnor. Jämförelsen av resultaten gjordes separat för endometriumprover erhållna under proliferativa och sekretoriska faser. Resultaten korrelerades med steroidreceptorernas (östrogenreceptor och progesteronreceptor) expression.",
+        "Betyget för VEGF i körtelceller av endometriepolyper var signifikant högre än betyget i intilliggande endometrium, både under den proliferativa fasen (P<0.001) och den sekretoriska fasen (P=0.03); betyget för VEGF i stromaceller av endometriepolyper var signifikant högre än betyget i intilliggande endometrium endast under proliferativa fasen (P=0.006). Betyget för TGF-\u03b21 i körtelceller av endometriepolyper var signifikant högre än betyget i intilliggande endometrium under proliferativa fasen (P=0.02); medan betyget för TGF-\u03b21 i stromaceller av endometriepolyper var signifikant högre än betyget i intilliggande endometrium, både under den proliferativa fasen (P=0.006) och den sekretoriska fasen (P=0.008). Det fanns en signifikant korrelation mellan expressionen av steroidreceptorer och VEGF och TGF-\u03b21 (Spearman's korrelation P<0.001 och P<0.05, respektive)."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "STUDIEDESIGN",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Vuxen",
+        "Biopsi",
+        "Endometrium",
+        "Kvinna",
+        "Follikelfas",
+        "Människor",
+        "Hysteroskopi",
+        "Immunhistokemi",
+        "Lutealfas",
+        "Medelålders",
+        "Polyper",
+        "Prospective Studier",
+        "Receptorer, Östrogen",
+        "Receptorer, Progesteron",
+        "Stromaceller",
+        "Transformerande Tillväxtfaktor beta1",
+        "Uppreglering",
+        "Livmodersjukdomar",
+        "Vaskulär Endotelial Tillväxtfaktor A",
+        "Ung Vuxen"
+    ],
+    "YEAR": "2011",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Det fanns en ökad expression av TGF-\u03b21 och VEGF i polyper jämfört med intilliggande normal endometrievävnad. Det antyder att dessa cytokiner kan spela en roll i bildandet av endometriepolyper. Dessutom fanns en signifikant korrelation mellan steroidreceptorernas expression och VEGF och TGF-\u03b21 expression."
+}, "21481154": {
+    "QUESTION": "Förbättringar i överlevnad av gynekologisk cancer i Anglia-regionen i England: är dessa en effekt av centralisering av vård och användning av multidisciplinär hantering?",
+    "CONTEXTS": [
+        "Vår hypotes är att införandet av Department of Health (DH) vägledning har lett till en förbättring i utfall i gynekologisk canceröverlevnad.",
+        "År 1999 introducerade DH i England vägledningen Förbättra Utfallen i Gynekologisk Cancer, som rådgav om case management av multidisciplinära team med kirurgisk koncentration i specialist sjukhus. Denna vägledning antogs snabbt i Östra England, med en befolkning på 2,5 miljoner.",
+        "Befolkningen i Anglia Cancer Network var ungefär 2,3 miljoner.",
+        "Från 1996 till 2003 identifierades detaljer för 3406 fall av gynekologisk cancer i Anglia-regionen i England. Överlevnadsanalys utfördes genom Cox proportional hazards regression, relativt till fall diagnostiserade 1996.",
+        "Primärt utfallsmått var överlevnad.",
+        "Överlevnadstakterna för fall diagnostiserade mellan 1996 och 1999 var i stort sett desamma över tidsperioden, med en markant förbättring som ägde rum 2000, och fortsatte till 2003 (HR 0.71, 95% CI 0.64-0.79, jämfört med 1996-99 diagnoser), för alla gynekologiska platser kombinerat. Justering för behandlingar eller metod för falluppföljning försvagade inte dessa förbättringar. Det fanns en samtidig förändring mot större kirurgi som utförs i specialistcentrum från 2000."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "INSTÄLLNING",
+        "BEFOLKNING",
+        "METODER",
+        "HUVUDUTFALLSMÅTT",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "England",
+        "Kvinna",
+        "Gynekologiska Neoplasmer",
+        "Hälsovårdens Tillgänglighet",
+        "Människor",
+        "Patientvårdsteam",
+        "Regionala Medicinska Program",
+        "Överlevnadstakt"
+    ],
+    "YEAR": "2012",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Införandet av 1999 års vägledning om gynekologisk cancer, som inkluderade multidisciplinär case management och centralisering av kirurgi, resulterade i en markant förbättring i överlevnad av gynekologisk cancer i ett område i östra England år 2000."
+}, "22902073": {
+    "QUESTION": "Uppskattad fostervikt via ultraljud: en modifierbar riskfaktor för kejsarsnitt?",
+    "CONTEXTS": [
+        "Syftet med denna studie var att undersöka om kännedom om uppskattad fostervikt (US-EFW) erhållen via ultraljud är en riskfaktor för kejsarsnitt (CD).",
+        "Retrospektiv kohort från ett enda center 2009-2010 med enlingar, fullgångna levande födslar. CD-frekvenser jämfördes för kvinnor med och utan US-EFW inom en månad från förlossning och justerades för potentiella störfaktorer.",
+        "Av de 2329 kvinnorna i vår kohort hade 50,2% US-EFW inom en månad från förlossning. CD var signifikant vanligare hos kvinnor med US-EFW (15,7% jämfört med 10,2%; P<0,001); efter justering för störfaktorer kvarstod US-EFW som en oberoende riskfaktor för CD (oddsförhållande, 1,44; 95% konfidensintervall, 1,1-1,9). Risken ökade när US-EFW var >3500 g (oddsförhållande, 1,8; 95% konfidensintervall, 1,3-2,7)."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "STUDIEDESIGN",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Födelsevikt",
+        "Kejsarsnitt",
+        "Kvinna",
+        "Fostervikt",
+        "Graviditetsålder",
+        "Människor",
+        "Testers prediktiva värde",
+        "Graviditet",
+        "Retrospektiva studier",
+        "Riskfaktorer",
+        "Ultraljud, Prenatalt"
+    ],
+    "YEAR": "2012",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Kunskap om US-EFW, utöver effekten av fostrets storlek i sig, ökar risken för CD. Förvärv av US-EFW nära fullgången tid verkar vara en oberoende och potentiellt modifierbar riskfaktor för CD."
+}, "26370095": {
+    "QUESTION": "Är finansiella incitament kostnadseffektiva för att stödja rökstopp under graviditeten?",
+    "CONTEXTS": [
+        "Att undersöka kostnadseffektiviteten av upp till 400 pund i finansiella incitament för rökstopp under graviditeten som ett komplement till rutinmässig hälsovård.",
+        "Kostnadseffektivitetsanalys baserad på en fas II randomiserad kontrollerad studie (RCT) och en kostnadsnyttoanalys med en livstids Markov-modell.",
+        "RCT:n genomfördes i Glasgow, Skottland. Den ekonomiska analysen genomfördes ur perspektivet för den brittiska nationella hälsovårdstjänsten (NHS).",
+        "Totalt 612 gravida kvinnor randomiserades för att erhålla vanligt stöd för rökstopp plus eller minus finansiella incitament upp till 400 pund i kuponger (cirka 609 US-dollar), beroende på rökstopp.",
+        "Jämförelse av vanligt stöd och incitamentsinterventioner vad gäller kvittotin-validerade avhållare, kvalitetsjusterade levnadsår (QALYs) och direkta kostnader för NHS.",
+        "Den inkrementella kostnaden per avhållare vid 34-38 veckors graviditet var 1 127 pund (cirka 1 716 US-dollar). Detta är liknande det standardiserade värde som hämtats från Stapleton & West's publicerade ICER-tabeller, 1 390 pund per avhållare, genom att titta på den inkrementella kostnaden (157 pund) och det inkrementella 6-månaders utfallet (0,14). Livstidsmodellen resulterade i en inkrementell kostnad på 17 pund [95% konfidensintervall (CI) = -93 pund, 107 pund] och en vinst på 0,04 QALYs (95% CI = -0,058, 0,145), vilket ger en ICER på 482 pund/QALY (cirka 734 US-dollar/QALY). Probabilistisk känslighetsanalys indikerar osäkerhet i dessa resultat, särskilt när det gäller återfall efter förlossning. Det förväntade värdet av perfekt information var 30 miljoner pund (vid en betalningsvilja på 30 000 pund/QALY), så givet nuvarande osäkerhet är ytterligare forskning potentiellt värt."
+    ],
+    "LABELS": [
+        "MÅL",
+        "DESIGN",
+        "INSTÄLLNING",
+        "DELTAGARE",
+        "MÅTT",
+        "FYND"
+    ],
+    "MESHES": [
+        "Kostnads-nyttoanalys",
+        "Kvinna",
+        "Hälsopromotion",
+        "Människor",
+        "Markovkedjor",
+        "Motivation",
+        "Graviditet",
+        "Graviditetskomplikationer",
+        "Prenatal vård",
+        "Kvalitetsjusterade levnadsår",
+        "Skottland",
+        "Rökning",
+        "Rökavvänjning",
+        "Rökförebyggande"
+    ],
+    "YEAR": "2016",
+    "reasoning_required_pred": "kanske",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Finansiella incitament för rökstopp under graviditeten är mycket kostnadseffektiva, med en inkrementell kostnad per kvalitetsjusterade levnadsår på 482 pund, vilket är väl under rekommenderade beslutsgränser."
+}, "18041059": {
+    "QUESTION": "Ökar adjuvanta aromatashämmare kardiovaskulär risk hos postmenopausala kvinnor med tidig bröstcancer?",
+    "CONTEXTS": [
+        "Trots fördelarna med att använda aromatashämmare (AI) jämfört med tamoxifen för tidig bröstcancer, visades oväntat ett större antal grad 3 och 4 kardiovaskulära händelser (CVAE) (enligt National Cancer Institute of Canada-Common Toxicity Criteria [version 2.0]).",
+        "Fas 3 randomiserade kliniska prövningar (RCT) som jämför AI med tamoxifen i tidig bröstcancer ansågs berättigade för denna översyn. Händelsebaserade riskförhållanden (RR) med 95% konfidensintervall (95% CI) härleddes, och ett heterogenitetstest tillämpades. Slutligen bestämdes absoluta skillnader (AD) i händelsetakter och antalet patienter som behövdes för att skada 1 patient (NNH) bestämdes.",
+        "Sju berättigade RCT:er (19 818 patienter) rapporterade CVAE-resultat. När alla RCT:er beaktades var AD för primärt slutpunkt (CVAE) mellan de 2 armarna (0,52%), tamoxifen versus AI, statistiskt signifikant (RR, 1,31; 95% CI, 1,07-1,60; P = .007). Detta översattes till ett NNH-värde av 189 patienter; när endast tredje generationens AIs beaktades, förblev skillnaden (0,57%) signifikant (RR, 1,34; 95% CI, 1,09-1,63; P = .0038). Tromboemboliska händelser var signifikant vanligare i tamoxifenarmen, oavsett den antagna strategin (RR, 0,53; 95% CI, 0,42-0,65; P < .0001), utan signifikant heterogenitet (P = .21). En AD på 1,17% och ett NNH-värde på 85 patienter observerades."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Aromatashämmare",
+        "Bröstneoplasmer",
+        "Kardiovaskulära Sjukdomar",
+        "Kvinna",
+        "Människor",
+        "Medelålders",
+        "Postmenopaus",
+        "Randomiserade Kontrollerade Studier som Ämne",
+        "Tamoxifen"
+    ],
+    "YEAR": "2008",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Enligt resultaten från denna metaanalys var risken för grad 3 och 4 CVAE hos patienter som fick AI högre jämfört med risken hos patienter som fick tamoxifen, och skillnaden nådde statistisk signifikans. Dock var AD relativt låg, och från 160 till 180 patienter måste behandlas för att producera 1 händelse."
+}, "15041506": {
+    "QUESTION": "Avskräcker rädslan för anafylaktisk chock kirurger från att mer allmänt anta perkutana och laparoskopiska tekniker i behandlingen av leverhydatidcystor?",
+    "CONTEXTS": [
+        "Källor till rapporter om laparoskopisk och perkutan behandling av leverhydatidcystor är begränsade till bara några få länder. För att ta reda på orsaken till detta genomförde vi en undersökning av 30 kirurger i norra Jordanien.",
+        "Ett frågeformulär distribuerades för att samla in data om den kirurgiska teknik som föredrogs av varje kirurg. Ytterligare information samlades in från dem som inte antog minimalt invasiva tekniker för att fastställa deras skäl för att inte göra det.",
+        "Endast 3 kirurger (10%) ansåg laparoskopi som den första behandlingslinjen. Av de 27 kirurger som inte ansåg perkutan eller laparoskopisk behandling var rädslan för anafylaxi och/eller spridning det huvudsakliga skälet som gavs av 21 kirurger (78%) för att inte använda minimalt invasiva tekniker."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Vuxen",
+        "Anafylaxi",
+        "Echinococcosis, Hepatisk",
+        "Allmänkirurgi",
+        "Människor",
+        "Laparoskopi",
+        "Medelålders",
+        "Postoperativa Komplikationer",
+        "Läkares Praktikmönster",
+        "Undersökningar och Frågeformulär"
+    ],
+    "YEAR": "2004",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Den till synes överdrivna traditionella rädslan för anafylaxi verkar avskräcka kirurger från att mer allmänt anta minimalt invasiva tekniker för behandlingen av hydatidcystor."
+}, "11146778": {
+    "QUESTION": "Riskstratifiering hos akuta kirurgiska patienter: Är APACHE II-poängen en tillförlitlig markör för fysiologisk nedsättning?",
+    "CONTEXTS": [
+        "APACHE II-poängen (Acute Physiology and Chronic Health Evaluation II) som används som ett intensivvårdsenhet (IVU) inläggningspoäng hos akuta kirurgiska patienter är inte oberoende av behandlingseffekter och kan leda till betydande bias i jämförbarheten av definierade patientgrupper och i utvärderingen av behandlingspolicys. Postoperativ övervakning med APACHE II-poängen är kliniskt irrelevant.",
+        "Inceptions kohortstudie.",
+        "Sekundärt remisscenter.",
+        "Åttiofem på varandra följande akuta kirurgiska patienter som lades in på kirurgiska IVU under 1999. APACHE II-poängen beräknades före operation; efter inläggning på IVU; och på postoperativa dagar 3, 7 och 10.",
+        "APACHE II-poäng och förutsagd och observerad dödlighet.",
+        "Det genomsnittliga APACHE II-poängen +/- SD på 24,2 +/- 8,3 vid inläggning på IVU var ungefär 36% högre än den ursprungliga APACHE II-poängen på 17,8 +/- 7,7, en skillnad som var mycket statistiskt signifikant (P<.001). Den totala dödligheten på 32% motsvarade gynnsamt den förutsagda dödligheten på 34% enligt den ursprungliga APACHE II-poängen. Dock var den förutsagda dödligheten på 50% enligt APACHE II-poängen vid inläggning på IVU signifikant annorlunda från den observerade dödligheten (P =.02). Hos 40 långtidsvårdade patienter (>/=10 dagar på IVU) var skillnaden mellan APACHE II-poängen för överlevande och patienter som dog statistiskt signifikant på dag 10 (P =.04)."
+    ],
+    "LABELS": [
+        "HYPOTESER",
+        "DESIGN",
+        "INSTÄLLNING",
+        "PATIENTER",
+        "HOVEDUTFALLSMÅTT",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "APACHE",
+        "Åldrad",
+        "Kohortstudier",
+        "Akut Behandling",
+        "Kvinna",
+        "Människor",
+        "Intensivvårdsenheter",
+        "Man",
+        "Preoperativ Vård",
+        "Riskbedömning",
+        "Kirurgiska Ingrepp, Operativa",
+        "Överlevnadstakt",
+        "Tidsfaktorer"
+    ],
+    "YEAR": "2001",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "För riskstratifiering hos akuta kirurgiska patienter är det väsentligt att mäta APACHE II-poängen före kirurgisk behandling. Längsgående APACHE II-poängning avslöjar kontinuerlig förbättring av poängen hos överlevande patienter men har ingen terapeutisk relevans för den enskilda patienten."
+}, "27281318": {
+    "QUESTION": "Kan flexibla instrument skapa tillräcklig längd på femorala tunnlar vid 90\u00b0 knäflexion i rekonstruktion av främre korsbandet?",
+    "CONTEXTS": [
+        "Denna studie syftar till att undersöka femorala tunnelängder borrade med en flexibel reamer och avståndet till viktiga laterala strukturer erhållna genom att böja knäet i olika vinklar och genom att borra ledstiften artroskopiskt för att efterlikna klinisk praxis. Syftet med denna kadaverstudie var tvåfaldigt: 1. att bestämma om femorala tunnelängder på mer än 20 mm kan skapas med ett flexibelt reamersystem vid 90\u00b0 knäflexion och 2. att avgöra om de laterala strukturerna i knäet är säkra med denna teknik.",
+        "Tio färska kadaverknän användes. Den intraossösa längden kan mätas med en speciellt designad flexibel ledstång. Flexibla stift sattes in med knäet i 70\u00b0, 90\u00b0 och 120\u00b0 flexion. Den intraossösa längden mättes med mätanordningen. Varje specimen dissekerades runt knäets laterala aspekt för att identifiera kritiska strukturer, den gemensamma peronealnerven och LCL. Avståndet från ledstiften till den gemensamma peronealnerven och femorala fästet av LCL mättes med en standard flexibel papperslinjal till närmaste millimeter.",
+        "Det finns en tendens till progressivt ökande genomsnittlig intraossös längd associerad med ökad knäflexion. Den genomsnittliga intraossösa längden för 70\u00b0 flexion var 25,2 mm (20 mm till 32 mm), vilket var statistiskt signifikant jämfört med genomsnittliga intraossösa längder på 32,1 mm (22 mm till 45 mm) och 38,0 mm (34 mm till 45 mm) i 90\u00b0 och 120\u00b0 flexionsgrupperna respektive (p<0,05). Det fanns inga signifikanta skillnader mellan grupperna med avseende på avstånd till LCL. Det finns en tendens mot längre avstånd till den gemensamma peronealnerven med ökad flexion. Det fanns en statistiskt signifikant skillnad vid jämförelse av 120\u00b0 mot 70\u00b0 (p<0,05)."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Åldrad",
+        "Åldrad, 80 år och äldre",
+        "Anatomiska Landmärken",
+        "Främre Korsbandet",
+        "Rekonstruktion av Främre Korsbandet",
+        "Biomekaniska Fenomen",
+        "Kadaver",
+        "Utrustningsdesign",
+        "Femur",
+        "Människor",
+        "Knäled",
+        "Medelålders",
+        "Formbarhet",
+        "Rörelseomfång, Led",
+        "Kirurgiska Instrument"
+    ],
+    "YEAR": "2016",
+    "reasoning_required_pred": "nej",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Denna studie visar att tillräckliga femorala tunnelängder säkert kan skapas utan hyperflexion av knäet med flexibla instrument via en anteromedial portal."
+}, "21645374": {
+    "QUESTION": "Spelar mitokondrier en roll i omformningen av spetsblad under programmerad celldöd?",
+    "CONTEXTS": [
+        "Programmerad celldöd (PCD) är den reglerade döden av celler inom en organism. Spetsbladet (Aponogeton madagascariensis) producerar perforeringar i sina blad genom PCD. Bladen på växten består av ett nätverk av longitudinella och tvärgående vener som omsluter areoler. PCD inträffar i cellerna i mitten av dessa areoler och fortskrider utåt, stoppar ungefär fem celler från vaskulaturen. Rollen för mitokondrier under PCD har erkänts hos djur; dock har det studerats mindre under PCD hos växter.",
+        "Följande papper belyser rollen för mitokondriell dynamik under utvecklingsreglerad PCD in vivo i A. madagascariensis. En enda areol inom ett fönsterstadiumsblad (PCD inträffar) delades in i tre områden baserat på progressionen av PCD; celler som inte kommer att genomgå PCD (NPCD), celler i tidiga stadier av PCD (EPCD) och celler i sena stadier av PCD (LPCD). Fönsterstadiumsblad färgades med mitokondriell färg MitoTracker Red CMXRos och undersöktes. Mitokondriell dynamik indelades i fyra kategorier (M1-M4) baserat på egenskaper inklusive distribution, rörlighet och membranpotential (\u0394\u03a8m). Ett TUNEL-test visade fragmenterat nDNA i en gradient över dessa mitokondriestadier. Kloroplaster och transvakuolära strängar undersöktes också med levande cellavbildning. Den möjliga betydelsen av bildning av mitokondriell permeabilitetstransitionspor (PTP) under PCD undersöktes indirekt via in vivo-behandling med cyklosporin A (CsA). Denna behandling resulterade i spetsblad med ett signifikant lägre antal perforeringar jämfört med kontroller, och som visade mitokondriell dynamik liknande icke-PCD-celler."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Alismataceae",
+        "Apoptos",
+        "Celldifferentiering",
+        "Mitokondrier",
+        "Växtblad"
+    ],
+    "YEAR": "2011",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Resultaten visade mitokondriell dynamik in vivo när PCD fortskrider inom spetsbladet, och belyser samspelet av denna organell med andra organeller under utvecklingsreglerad PCD. Efter bästa kännedom är detta den första rapporten om mitokondrier och kloroplaster som rör sig på transvakuolära strängar för att bilda en ringstruktur kring kärnan under utvecklingsreglerad PCD. För första gången har vi också visat genomförbarheten för användning av CsA i ett helt växtsystem. Sammantaget implicerar våra resultat att mitokondrier spelar en kritisk och tidig roll i utvecklingsreglerad PCD i spetsbladet."
+}, "9465206": {
+    "QUESTION": "\"Dolda\" posttraumatiska skador på knäet: kan magnetisk resonanstomografi ersätta diagnostisk artroskopi?",
+    "CONTEXTS": [
+        "Vi undersökte den faktiska rollen för MR jämfört med artroskopi vid upptäckt och karaktärisering av dolda ben- och/eller broskskador hos patienter med tidigare muskuloskeletala trauma i knäet, smärta och allvarlig funktionell nedsättning. Dolda posttraumatiska osteokondrala skador på knäet är traumarelaterade ben- och/eller broskskador som missats vid vanlig röntgen.",
+        "Vi valde retrospektivt ut 70 patienter (män:kvinnor = 7:3; åldersintervall: 35 +/- 7 år) med en historia av akut muskuloskeletalt trauma, negativa konventionella röntgenbilder, smärta och begränsade ledrörelser. Alla patienter genomgick konventionell röntgen, artroskopi och MR, den senare med 0,5 T-enheter och T1-viktade SE. T2-viktade GE och FIR-sekvenser med fettundertryckning.",
+        "Vi identifierade tre typer av dolda posttraumatiska skador genom morfo-topografiska och signalintensitetsmönster: benkontusioner (nr. 25), subkondrala (nr. 33) och osteokondrala (nr. 35) skador. Artroskopi avbildade 45 osteokondrala och 19 broskskador. En benkontusion definierades som ett typiskt subkortikalt område av signalminskning, med olika former, på T1-viktade bilder och av ökad signalintensitet på T2-viktade och FIR-bilder. Det kortikala benet och artikulärt brosk var normalt i alla fall, medan osteokondrala skador uppvisade associerad ben- och broskskada med samma onormala MR-signalintensitet. Stukning var skademekanismen i 52 fall, kontusion i 12 och stress i 6. I 52 stukningar (30 i valgus) var skadeplatsen det laterala kompartimentet i 92,3% av fallen (100% i valgus), associerad med meniskskada i 73% av fallen (90% i valgus) och med ligamentskada i 90,4% (100% i valgus). I 12 kontusioner var skadeplatsen det laterala kompartimentet i 58,3% av fallen, knäskålen i 25% och det mediala kompartimentet i 16,7%; meniskskada var associerad i 25% av fallen och ligamentskada i 8,3%. I 6 stresskador var skadeplatsen lokaliserad i den mediala tibiakondylen i 80% av fallen, medan menisk- och ligamentrifter var frånvarande."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "MATERIAL OCH METODER",
+        "RESULTAT OCH DISKUSSION"
+    ],
+    "MESHES": [
+        "Vuxen",
+        "Artroskopi",
+        "Brosk, Artikulärt",
+        "Kontusioner",
+        "Kvinna",
+        "Frakturer, Ben",
+        "Människor",
+        "Knäskador",
+        "Knäled",
+        "Ligament, Artikulärt",
+        "Magnetisk Resonanstomografi",
+        "Man",
+        "Menisker, Tibial",
+        "Radiografi",
+        "Retrospektiva Studier",
+        "Känslighet och Specificitet",
+        "Tibiakondylskador"
+    ],
+    "YEAR": "1997",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "kanske",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Efter att ha jämfört MR- med artroskopiska fynd och granskat tillgänglig litteratur, drar vi slutsatsen att artroskopi möjliggör direkt visualisering av även fina artikulära ytförändringar men inte avbildar det subkondrala benet, den vanligaste skadeplatsen som upptäcks med MRI. MRI var ett mycket användbart verktyg vid upptäckt och karaktärisering av de olika typerna av dolda ben- och/eller broskskador och visade en statistiskt signifikant korrelation mellan plats och fördelning av ben- och broskskador samt mellan intern skada och trauma mekanismer. Därför anser vi att MR kan bidra till att undvika diagnostisk artroskopi hos patienter med en historia av posttraumatisk smärta, akuta artikulära block och negativa radiografiska fynd."
+}, "25887165": {
+    "QUESTION": "Återkommer känslan till nästippen efter mikrofettgrafting?",
+    "CONTEXTS": [
+        "Patienter klagar vanligtvis över domningar i nästippen efter mikrofettinjektioner. Den här studien utvärderade svårighetsgraden av domningen i nästippen efter ingreppet.",
+        "För att ta itu med forskningsfrågan designades och genomfördes en prospektiv studie på unga kvinnor vid Beijing Anzhen-sjukhuset. Tid var den primära prediktorvariabeln. Känslan i nästippen, som utvärderades med objektiva och subjektiva bedömningar, användes som den primära utfallsvariabeln. McNemar-Bowker-testet (tid vs nästippens känsla) användes för att upptäcka statistisk signifikans.",
+        "Totalt 30 unga kvinnor (ålder 20,04 \u00b1 3,63 år) rekryterades för den här studien. Det preoperativa genomsnittliga beröringströskelvärdet var 3,60 enheter. En vecka efter injektionen upplevde kvinnorna en minskning av beröringströskelvärdet med 2,50 enheter. Känslan återhämtade sig gradvis under uppföljningsperioden (1,51 enheter vid vecka 2, 2,39 enheter vid vecka 4, 3,01 enheter vid vecka 8 och 3,35 enheter vid vecka 12). Signifikanta skillnader upptäcktes mellan flera olika mätpunkter (P<.05). Procentandelen av de som upplevde parestesi efter mikrofettinjektioner minskade också gradvis till ingen."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "PATIENTER OCH METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Bukfett",
+        "Fettvävnad",
+        "Vuxen",
+        "Kohortstudier",
+        "Kvinna",
+        "Uppföljningsstudier",
+        "Människor",
+        "Hypestesi",
+        "Medelålders",
+        "Näsa",
+        "Postoperativa Komplikationer",
+        "Prospective Studier",
+        "Återhämtning av Funktion",
+        "Rhinoplasty",
+        "Känseltrösklar",
+        "Beröring",
+        "Transplantationsdonationsplats",
+        "Ung Vuxen"
+    ],
+    "YEAR": "2015",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Postoperativ domning inträffar hos de flesta patienter som får mikrofettinjektioner i näsan. Delvis till fullständig återhämtning av känslan i nästippen kan förväntas ske över en 3-månadersperiod."
+}, "15995461": {
+    "QUESTION": "Har vissa amerikanska delstater högre/lägre dödlighet i skador än andra?",
+    "CONTEXTS": [
+        "Den här artikeln undersöker hypotesen att de sex amerikanska delstater med de högsta dödlighetstalen i trafikolyckor (grupp 1 delstater) också hade över genomsnittet dödlighetstal för andra typer av skador som fall, förgiftning, drunkning, brand, kvävning, mord och självmord, och också för detaljhandeln och byggbranschen. Den omvända, andra hypotesen, för de sex delstater med de lägsta dödlighetstalen i trafikolyckor (grupp 2 delstater) undersöks också.",
+        "Data för dessa 12 delstater för perioden 1983 till 1995 inkluderade nio kategorier av oavsiktliga och fyra kategorier av avsiktliga skador. Sjuttiofyra procent av grupp 1 delstaterna stämde överens med den första hypotesen, och 85% av grupp 2 delstaterna stämde överens med den andra hypotesen."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Fallskador",
+        "Trafikolyckor",
+        "Kvävning",
+        "Drunkning",
+        "Kvinna",
+        "Bränder",
+        "Människor",
+        "Man",
+        "Förgiftningar",
+        "Förenta Staterna",
+        "Skador och Sår",
+        "Skottskador"
+    ],
+    "YEAR": "2005",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Grupp 1 delstater är sannolikt att uppvisa över genomsnittet dödlighetstal för de flesta andra kategorier av skadedödsfall, medan grupp 2 delstater är ännu mer sannolikt att uppvisa under genomsnittet dödlighetstal för de flesta andra kategorier av skadedödsfall."
+}, "21850494": {
+    "QUESTION": "Hepatorenalt syndrom: missar vi vissa prognostiska faktorer?",
+    "CONTEXTS": [
+        "Hepatorenalt syndrom (HRS) är den funktionella njursvikt som är associerad med avancerad cirros och har även beskrivits vid fulminant leversvikt. Utan levertransplantation är prognosen dyster. Vår studie inkluderade patienter med typ 1 HRS associerad med cirros, som inte var lämpliga kandidater för levertransplantation. SYFTE: Att identifiera variabler associerade med förbättrad överlevnad.",
+        "Sextioåtta patienter uppfyllde de reviderade Ascites Club-kriterierna för typ 1 HRS. Ingen av dem var lämplig för levertransplantation. Alla patienter behandlades med kombinationer av: albumin, midodrin och oktreotid, pressorer och hemodialys.",
+        "Medianöverlevnaden var 13 dagar för hela gruppen. Överlevnaden varierade med etiologin för slutstadiet leversjukdom (ESLD): autoimmun, 49 dagar, hjärtcirros, 22 dagar, idiopatisk, 15,5 dagar, viral, 15 dagar, hepatit C och alkohol, 14,5 dagar, alkohol 8 dagar, och neoplasi 4 dagar (p = 0,048). Överlevnaden av HRS associerad med alkoholisk leversjukdom jämfört med andra etiologier var inte statistiskt signifikant (p = 0,1). Ökat serumkreatinin (p = 0,02) och urinatrium 6-10 mEq/l (p = 0,027) vid behandlingens start var prognostiska faktorer för mortalitet. HRS-behandlingsmodaliteter (p = 0,73), användning av dialys (p = 0,56), dialysmodalitet (p = 0,35), användning av vasopressorer (p = 0,26), förekomst av njursjukdom (p = 0,49), kön (p = 0,90) och ålder (p = 0,57) var inte associerade med överlevnad."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Albuminer",
+        "Alkoholism",
+        "Autoimmuna Sjukdomar",
+        "Kreatinin",
+        "Slutstadiets Leversjukdom",
+        "Kvinna",
+        "Hepatit C",
+        "Hepatorenalt Syndrom",
+        "Människor",
+        "Levercirros",
+        "Man",
+        "Medelålders",
+        "Midodrin",
+        "Oktreotid",
+        "Prognos",
+        "Njurdialys",
+        "Retrospektiva Studier",
+        "Natrium",
+        "Överlevnadstakt"
+    ],
+    "YEAR": "2012",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Vi rapporterar för första gången etiologin för ESLD som en prognostisk faktor för överlevnad. Njurfunktionen (uttryckt som serumkreatinin) och urinärt Na (<5 mEq/l) vid diagnosens tidpunkt visade sig vara associerade med överlevnad, vilket tyder på att tidig behandling kan öka överlevnaden."
+}, "19106867": {
+    "QUESTION": "The Main Gate Syndrome: ett nytt format i hanteringen av \"våg\" av masskadeoffer?",
+    "CONTEXTS": [
+        "Nyliga självmordsbombningar utgör ett nytt problem för traumacentrum med den massiva samtidiga ankomsten av många allvarligt skadade patienter.",
+        "Vi rapporterar erfarenheten från den fransk-tyska militära traumagruppen, ett nivå 2-traumacenter, i Afghanistan under vågen av självmordsbombningar i februari 2007.",
+        "Fjorton skadade togs emot. En första triage genomfördes av den amerikanska arméns nivå I-grupp före evakuering. En andra kirurgisk triage genomfördes med systematisk ultraljudsundersökning. Fyra fall (ISS>25) omklassificerades och genomgick akuta kirurgiska ingrepp."
+    ],
+    "LABELS": [
+        "INTRODUKTION",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Buksskador",
+        "Vuxen",
+        "Afghanistan",
+        "Blastskador",
+        "Bomber",
+        "Akut Medicinsk Service",
+        "Extremiteter",
+        "Människor",
+        "Man",
+        "Masskadeincidenter",
+        "Medelålders",
+        "Reproducerbarhet av Resultat",
+        "Räddningsarbete",
+        "Retrospektiva Studier",
+        "Syndrom",
+        "Thoraxskador",
+        "Traumaskårighetsindex",
+        "Behandlingsresultat",
+        "Penetrerande Sår",
+        "Ung Vuxen"
+    ],
+    "YEAR": null,
+    "reasoning_required_pred": "kanske",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Självmordsbombning på trånga platser nära ett evakueringssjukhus kan överväldiga det medicinska resurserna i mottagningscentret. Det har refererats till som \"The Main Gate Syndrome\". Vi introducerade det nya konceptet med ett semi-evakueringssjukhus eller mottagningscenter där en andra kirurgisk triage genomfördes. Dessa exceptionella omständigheter kräver öppensinnad flexibilitet, en skräddarsydd strategi och nära samarbete mellan kirurger och anestesiläkare för att dela erfarenheter, åsikter och idéer. I händelse av masskador visade sig akut ultraljudsundersökning vara ett värdefullt och effektivt verktyg tack vare dess mobilitet, reproducerbarhet och omedelbara resultat."
+}, "21342862": {
+    "QUESTION": "Är EQ-5D ett giltigt instrument för livskvalitet hos patienter med akut koronarsyndrom?",
+    "CONTEXTS": [
+        "Syftet med denna studie var att utvärdera konstruktionens validitet för den turkiska versionen av EQ-5D hos patienter med akut koronarsyndrom.",
+        "Studien genomfördes som en tvärsnittsstudie vid Trakya universitetssjukhus mellan februari och maj 2008. Alla patienter fyllde i den turkiska versionen av EQ-5D och MacNew hjärtrelaterad livskvalitetsskala. Konstruktionens validitet för EQ-5D bedömdes enligt samband med MacNew-delskalor genom att använda Spearman rangkorrelation och multipel linjär regressionsanalys.",
+        "Ett hundra tjugo-två patienter svarade på instrumenten. Medelåldern var 62,9 \u00b1 9,3 år och manligt kön (88 eller 72,1%) var dominerande. Medelpoängen för EQ-5D-indexet var 0,79 \u00b1 0,32, medan det globala poängen för MacNew var 5,01 \u00b1 1,16. Korrelationskoefficienterna för EQ-5D-indexpoängen med MacNew-delskalor varierade från 0,557 till 0,721, med EQ-5D VAS-poäng som varierade från 0,297 till 0,484 (p<0,001 för alla). Enligt stegvis regressionsmodell visade sig MacNew globala poäng vara en signifikant effektiv faktor på EQ-5D-indexpoängen (\u03b2 =0,188; 95% CI: 0,152-0,224; p<0,001)."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Akut Koronarsyndrom",
+        "Tvärsnittsstudier",
+        "Kvinna",
+        "Människor",
+        "Man",
+        "Medelålders",
+        "Livskvalitet",
+        "Undersökningar och Frågeformulär",
+        "Turkiet"
+    ],
+    "YEAR": "2011",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Den turkiska versionen av EQ-5D-baserat nyttopoäng verkar vara ett giltigt instrument i bedömningen av livskvalitetsstudier hos patienter med akut koronarsyndrom."
+}, "24352924": {
+    "QUESTION": "Är bärbar ultraljud noggrant vid utvärderingen av Schanz-pinnplacering under fixering av extremitetsfrakturer i stränga miljöer?",
+    "CONTEXTS": [
+        "Syftet med denna studie var att undersöka effektiviteten av ultraljud för att bekräfta placeringen av Schanz-pinnar i en kadavermodell, samt interobservatörspålitligheten av ultraljudsmetodiken.",
+        "Denna undersökning är en upprepad mätning kadaverstudie med flera undersökare.",
+        "Kadaverpreparat och observationer utfördes av en ortopedisk traumatolog och läkare, och två allmänkirurgiska traumatologer.",
+        "Totalt 16 Schanz-pinnar placerades lika i bilaterala femur och tibia. Fyra undersökare tog mätningar av pinutstickning bortom de distala kortikala delarna med först ultraljud och sedan genom direkt mätning efter grov dissektion. HUVUDUTFALLSMÅTT: Distala Schanz-pinnutsticklängdsmätningar från både ultraljud och direkt mätning efter dissektion.",
+        "Schanz-pinnutstickmätningar underskattas av ultraljud (p<0,01) i genomsnitt med 10 procent över intervallet 5 till 18 mm, och de visar en proportionell bias som ökar underanmälan när magnituden av pinutstick ökar. Ultraljudsdata visar god linjär korrelation och representerar nära de faktiska utstickningsvärdena i intervallet 5 till 12 mm. Interobservatörspålitlighetsanalysen visade att alla undersökare inte var statistiskt olika i sina mätningar trots minimal bekantskap med ultraljudsmetodiken (p>0,8)."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "DESIGN",
+        "DELTAGARE",
+        "INGRIPANDEN",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Benpinnar",
+        "Kadaver",
+        "Externa Fixeringsmedel",
+        "Femurfrakturer",
+        "Frakturfixering",
+        "Människor",
+        "Point-of-Care System",
+        "Reproducerbarhet av Resultat",
+        "Tibiafrakturer",
+        "Ultraljud"
+    ],
+    "YEAR": "2013",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Trots den statistiska skillnaden i pinutstickmätning via ultraljud jämfört med den av grov dissektion, leder en bedömning av den kliniska relevansen av ultraljudsmätningsbias under en sträng operationsmiljö till slutsatsen att ultraljud är en adekvat metodik för mätning av Schanz-pinnutstick."
+}, "16147837": {
+    "QUESTION": "Är storgestationsförmåga en oberoende riskfaktor för ogynnsamma perinatala utfall?",
+    "CONTEXTS": [
+        "Att jämföra maternella och neonatala utfall bland storgestationskvinnor med de hos multipara kvinnor 30 år eller äldre.",
+        "En databas med majoriteten av maternella och nyfödda sjukhusutskrivningsregister länkade till födelse-/dödscertifikat användes för att få information om alla multipara kvinnor med en singletonleverans i delstaten Kalifornien från 1 januari 1997 till 31 december 1998. Maternella och neonatala graviditetsutfall av storgestationskvinnor jämfördes med multipara kvinnor som var 30 år eller äldre vid tiden för sin senaste födsel.",
+        "Studiepopulationen inkluderade 25 512 storgestationskvinnor och 265 060 multipara kvinnor 30 år eller äldre som kontroller. Storgestationskvinnor var övervägande hispaniska (56%). Efter kontroll för potentiella förväxlingsfaktorer var storgestationskvinnor signifikant mer riskbenägna för abruptio placentae (oddskvot OR: 1,3; 95% konfidensintervall CI: 1,2-1,5), för tidig födsel (OR: 1,3; 95% CI: 1,2-1,4), fetal makrosomi (OR: 1,5; 95% CI: 1,4-1,6), neonatal död (OR: 1,5; 95% CI: 1,3-1,8), postpartumblödning (OR: 1,2; 95% CI: 1,1-1,3) och blodtransfusion (OR: 1,5; 95% CI: 1,3-1,8)."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Kvinna",
+        "Människor",
+        "Paritet",
+        "Graviditet",
+        "Graviditetskomplikationer",
+        "Graviditetsutfall",
+        "Retrospektiva Studier",
+        "Riskfaktorer"
+    ],
+    "YEAR": "2005",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Storgestationskvinnor hade ökad maternell och neonatal morbiditet samt neonatal mortalitet även efter kontroll för förväxlingsfaktorer, vilket tyder på ett behov av noggrannare observation än vanliga multipara patienter under arbete och leverans."
+}, "26879871": {
+    "QUESTION": "Varierar diagnosen depression och utskrivning av antidepressiva läkemedel efter plats?",
+    "CONTEXTS": [
+        "Studier har kopplat etniska skillnader i depressionstal till bostadsområdens etniska densitet även om resultaten inte har varit entydiga. Vi undersökte detta med hjälp av en ny metod som analyserade hela befolkningsdata som täckte lite över en miljon GP-patienter i fyra Londonboroughs.",
+        "Med hjälp av en datamängd med GP-register för alla patienter registrerade i Lambeth, Hackney, Tower Hamlets och Newham 2013 undersökte vi nya diagnoser av depression och användning av antidepressiva läkemedel för: indiska, pakistanska, bangladeshiska, svarta karibiska och svarta afrikanska patienter. Grannskapseffekter bedömdes oberoende av GP-praktik med hjälp av en korsklassificerad flernivåmodell.",
+        "Svarta och etniska minoritetsgrupper är upp till fyra gånger mindre benägna att nydiagnostiseras med depression eller förskrivas antidepressiva läkemedel jämfört med vita brittiska patienter. Vi fann ett omvänt samband mellan grannskapets etniska densitet och ny depressiondiagnos för vissa grupper, där en ökning av 10% egen etnisk densitet var associerad med en statistiskt signifikant (p<0,05) minskad sannolikhet för depression för pakistanska [oddskvot (OR) 0,81, 95% konfidensintervall (CI) 0,70-0,93], indiska (OR 0,88, CI 0,81-0,95), afrikanska (OR 0,88, CI 0,78-0,99) och bangladeshiska (OR 0,94, CI 0,90-0,99) patienter. Svarta karibiska patienter visade dock motsatt effekt (OR 1,26, CI 1,09-1,46). Resultaten för användning av antidepressiva läkemedel var mycket likartade även om motsvarande effekt för svarta karibier inte längre var statistiskt signifikant (p = 0,07)."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "METOD",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Vuxen",
+        "Afrikanska kontinentalursprungsgruppen",
+        "Antidepressiva Medel",
+        "Datamängder som Ämne",
+        "Depressiv Störning",
+        "Läkemedelsförskrivning",
+        "Etniska Grupper",
+        "Europeiska kontinentalursprungsgruppen",
+        "Kvinna",
+        "Människor",
+        "London",
+        "Man",
+        "Medelålders",
+        "Primärvård",
+        "Regressionsanalys",
+        "Bostadsegenskaper",
+        "Ung Vuxen"
+    ],
+    "YEAR": "2016",
+    "reasoning_required_pred": "kanske",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Ny diagnos av depression och användning av antidepressiva läkemedel visade sig vara mindre sannolikt i områden med högre egen etnisk densitet för vissa, men inte alla, etniska grupper."
+}, "15918864": {
+    "QUESTION": "Inlärningsbehov hos kvinnor efter förlossning: spelar socioekonomisk status någon roll?",
+    "CONTEXTS": [
+        "Det är lite känt om hur informationsbehoven förändras över tid i den tidiga perioden efter förlossning eller hur dessa behov kan skilja sig åt givet socioekonomiska omständigheter. Syftet med denna studie var att undersöka kvinnors oro vid tiden för sjukhusutskrivning och ometade inlärningsbehov som självidentifierades 4 veckor efter utskrivning.",
+        "Data samlades in som en del av en tvärsnittsundersökning av utfall efter förlossning, tjänsteanvändning och vårdkostnader under de första 4 veckorna efter sjukhusutskrivning efter förlossning. Rekrytering av 250 kvinnor genomfördes från vardera 5 sjukhus i Ontario, Kanada (n = 1,250). Kvinnor som hade fött vaginalt ett levande enfödslabarn och som utskrevs samtidigt som sitt barn, antog vård om sitt barn, var kompetenta att ge samtycke och kunde kommunicera på ett av studiens språk var berättigade. Deltagarna fyllde i ett självrapporterat frågeformulär på sjukhuset; 890 (71,2 %) deltog i en strukturerad telefonintervju 4 veckor efter sjukhusutskrivning.",
+        "Ungefär 17 procent av deltagarna var av låg socioekonomisk status. Amning och tecken på spädbarnssjukdom var de vanligast identifierade oroerna hos kvinnor, oavsett deras socioekonomiska status. Tecken på spädbarnssjukdom och spädbarnsvård/beteende var de främsta ometade inlärningsbehoven. Även om få skillnader i identifierade oro var uppenbara, var kvinnor med låg socioekonomisk status signifikant mer benägna att rapportera ometade inlärningsbehov relaterade till 9 av 10 ämnen jämfört med kvinnor med högre socioekonomisk status. För de flesta ämnen identifierade betydligt fler kvinnor från båda grupperna inlärningsbehov 4 veckor efter utskrivning jämfört med antalet som identifierade motsvarande oro medan de var på sjukhuset."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Tonåring",
+        "Vuxen",
+        "Hälsoinställning",
+        "Amning",
+        "Kvinna",
+        "Människor",
+        "Ontario",
+        "Patientundervisning som Ämne",
+        "Efterförlossningsperioden",
+        "Socioekonomiska Faktorer",
+        "Undersökningar och Frågeformulär",
+        "Tidsfaktorer"
+    ],
+    "YEAR": "2005",
+    "reasoning_required_pred": "nej",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Det är viktigt att se till att nya mödrar är tillräckligt informerade om ämnen som är viktiga för dem medan de är på sjukhuset. Resultaten understryker behovet av tillgängliga och lämpliga samhällsbaserade informationsresurser för kvinnor under efterförlossningsperioden, särskilt för dem med låg socioekonomisk status."
+}, "22075911": {
+    "QUESTION": "Finns det en skillnad i tandhälsan hos nya rekryter till de brittiska väpnade styrkorna?",
+    "CONTEXTS": [
+        "Siffror från de brittiska försvarstjänsternas tandvård visar att personal i den brittiska armén konsekvent har en lägre nivå av tandhälsa än de i Royal Navy eller Royal Air Force. Ingen forskning hade genomförts för att fastställa om detta återspeglar munhälsan hos rekryter som ansluter sig till varje tjänst. Syftet med denna studie var att pilotstudera en process för insamling av tand- och socioekonomiska data från nya rekryter till varje tjänst och undersöka nollhypotesen att inga skillnader i tandhälsa fanns.",
+        "Diagnostiska kriterier utvecklades, ett urvalsstorlek beräknades och data samlades in vid de inledande utbildningsanläggningarna för varje tjänst.",
+        "Data för 432 deltagare matades in i analysen. Rekryter i arméprovet hade en signifikant högre prevalens av tandförfall och större behandlingsbehov än någon av de andra två tjänsterna. Armérekryter hade ett genomsnittligt antal 2,59 (2,08, 3,09) förfallna tänder per rekryt, jämfört med 1,93 (1,49, 2,39 p<0,01) hos Royal Navy-rekryter och 1,26 (0,98, 1,53 p<0,001) hos Royal Air Force-rekryter. Bland armérekryterna var 62,7 % från de två mest missgynnade kvintilerna av Index of Multiple Deprivation jämfört med 42,5 % av Royal Naval-rekryter och 36,6 % av Royal Air Force-rekryter."
+    ],
+    "LABELS": [
+        "BAKGRUND OCH SYFTE",
+        "METOD",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Tonåring",
+        "Tvärsnittsstudier",
+        "DMF-index",
+        "Tandförfall",
+        "Kvinna",
+        "Hälsostatusskillnader",
+        "Människor",
+        "Man",
+        "Militärtandvård",
+        "Militärpersonal",
+        "Munhälsa",
+        "Pilotprojekt",
+        "Förekomst",
+        "Rökning",
+        "Icke-parametrisk statistik",
+        "Förenade kungariket",
+        "Ung vuxen"
+    ],
+    "YEAR": "2011",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "En signifikant skillnad i tandhälsa mellan rekryter till varje tjänst existerar och är sannolikt en återspegling av den socioekonomiska bakgrund från vilken de är hämtade."
+}, "11035130": {
+    "QUESTION": "Behöver patienter med reumatoid artrit som behandlas med metotrexat och folsyra 5 mg dagligen fortsätta med folsyratillskott på lång sikt?",
+    "CONTEXTS": [
+        "Det antas att vissa aspekter av metotrexatets toxicitet kan relateras till dess verkan som en anti-folat. Folsyra (FA) ges ofta som ett tillägg till metotrexatbehandling, men det finns inget slutgiltigt bevis på att det minskar toxiciteten av metotrexat och det finns en teoretisk risk att det kan minska effekten av metotrexat.",
+        "För att undersöka effekten av att stoppa FA-tillskott hos brittiska patienter med reumatoid artrit (RA) som behandlas med metotrexat <20 mg veckovis och FA 5 mg dagligen, för att rapportera all toxicitet (inklusive absoluta förändringar i hematologiska och leverenzymindex) och för att rapportera förändringar i effektiviteten av metotrexat.",
+        "I en prospektiv, randomiserad, dubbelblind, placebokontrollerad studie bads 75 patienter som behandlades med metotrexat <20 mg veckovis och FA 5 mg dagligen att sluta med sitt FA och randomiserades till en av två grupper: placebo eller FA 5 mg dagligen. Patienterna utvärderades för behandlingstoxicitet och effektivitet före ingång och sedan med intervaller på 3 månader under 1 år.",
+        "Sammanlagt 25 (33 %) patienter avslutade studien i förtid, åtta (21 %) i gruppen som fortsatte med FA och 17 (46 %) i placebogruppen (P = 0,02). Två patienter i placebogruppen avbröt på grund av neutropeni. Vid 9 månader fanns en ökad förekomst av illamående i placebogruppen (45 mot 7 %, P = 0,001). Placebogruppen hade signifikant lägre sjukdomsaktivitet på några av de mätta variablerna, men dessa ansågs sannolikt inte vara kliniskt signifikanta."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Åldrad",
+        "Antireumatiska Medel",
+        "Artrit, Reumatoid",
+        "Dubbelblind Metod",
+        "Läkemedelsadministreringsschema",
+        "Kvinna",
+        "Folsyra",
+        "Människor",
+        "Man",
+        "Metotrexat",
+        "Medelålders",
+        "Prospective Studier",
+        "Behandlingsutfall"
+    ],
+    "YEAR": "2000",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Det är viktigt att fortsätta med folsyratillskott på lång sikt hos patienter som behandlas med metotrexat och folsyra för att förhindra att de avbryter behandlingen på grund av munsår eller illamående och kräkningar. Våra data tyder på att folsyratillskott också är till hjälp för att förhindra neutropeni, med mycket liten förlust av metotrexatets effektivitet."
+}, "21228436": {
+    "QUESTION": "Kan undervisning av medicinstudenter att undersöka läkemedelsfel förändra deras attityder gentemot patientsäkerhet?",
+    "CONTEXTS": [
+        "Syftet med denna studie var att utvärdera effekten av en patientsäkerhetskurs som administrerades under en barnmedicinsk praktik på medicinstudenters attityder gentemot patientsäkerhet.",
+        "Medicinstudenter såg en onlinevideo som introducerade dem till systembaserade analyser av medicinska fel. Fakulteten presenterade ett exempel på ett läkemedelsadministrationsfel och demonstrerade användning av verktyget 'Lära av defekter' för att undersöka defekten. Studentgrupper identifierade och analyserade sedan läkemedelsfel under sin kliniska rotation med hjälp av 'Lära av defekter'-ramverket för att organisera och presentera sina resultat. Resultat inkluderade förändringar i attityder till patientsäkerhet, mätt med frågor hämtade från säkerhetsattitydfrågeformuläret.",
+        "108 studenter slutförde kursen mellan juli 2008 och juli 2009. Alla studentgrupper (totalt 25) identifierade, analyserade och presenterade patienters säkerhetsproblem. Kurseffektiviteten demonstrerades genom signifikanta förändringar i frågeformulärsartiklar relaterade till attityder till patientsäkerhet. Majoriteten av studenterna kände att kursen var relevant för deras kliniska rotation och bör förbli en del av praktiken."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Hälsopersonals Attityd",
+        "Klinisk Praktik",
+        "Kursplan",
+        "Människor",
+        "Läkemedelsfel",
+        "Pediatrik",
+        "Programutvärdering",
+        "Säkerhetshantering",
+        "Medicinstudenter",
+        "Undersökningar och Frågeformulär"
+    ],
+    "YEAR": "2011",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "En aktiv inlärningskurs integrerad i en klinisk praktik kan förändra elevernas attityder mot patientsäkerhet. Studenterna fann att kursen var relevant och rekommenderade dess fortsättning."
+}, "11833948": {
+    "QUESTION": "Påverkar en fördröjning i överföringen till en rehabiliteringsenhet för äldre personer resultatet efter fraktur på lårbenets proximala del?",
+    "CONTEXTS": [
+        "Att fastställa sambandet mellan fördröjning i överföring till rehabiliteringsavdelningar och resultat för patienter äldre än 75 år med fraktur på lårbenets proximala del.",
+        "En observationsstudie på ett distriktssjukhus om alla patienter som antagits till sjukhus äldre än 75 år med fraktur på lårbenets proximala del under 3 1/2 år. Insamlade resultatdata inkluderade antalet patienter som skrivits ut till sitt vanliga boende och total sjukhusvistelse längd relaterad till ålder, kön, vanligt boende och fördröjning i överföringen till en rehabiliteringsavdelning.",
+        "58% av 455 patienter överfördes till en rehabiliteringsavdelning. För de patienter som överfördes till en rehabiliteringsavdelning förutsade endast ålder utskrivning till ett mer beroende boende. Den relativa risken för utskrivning till ett mer beroende boende för personer äldre än 85 år jämfört med yngre personer var 1.47 (95% CI 1.15-1.88). Fördröjning i överföring till rehabilitering var associerad med en längre total sjukhusvistelse med 0.64 (95% CI 0.23-1.05) dagar per dag av fördröjning i överföringen."
+    ],
+    "LABELS": [
+        "MÅL",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Äldre",
+        "Äldre, 80 år och äldre",
+        "Kvinna",
+        "Frakturer, lårbenets hals",
+        "Sjukhusavdelningar",
+        "Människor",
+        "Vistelselängd",
+        "Logistiska modeller",
+        "Man",
+        "Patientöverföring",
+        "Rehabiliteringscenter",
+        "Riskfaktorer",
+        "Tidsfaktorer"
+    ],
+    "YEAR": "2001",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Fördröjning i överföring till en rehabiliteringsavdelning var associerad med en oproportionerlig ökning av total sjukhusvistelselängd för patienter äldre än 75 med fraktur på lårbenets proximala del."
+}, "17682349": {
+    "QUESTION": "Finns det könsskillnader i orsakerna till att afroamerikaner dröjer med att söka medicinsk hjälp för symtom på en akut hjärtinfarkt?",
+    "CONTEXTS": [
+        "Att identifiera könsskillnader i fördröjningstid och orsakerna till att afroamerikaner dröjer med att söka medicinsk vård för symtom på akut hjärtinfarkt (AMI).",
+        "Tvärsnitt.",
+        "Fem sjukhus i San Francisco- och East Bay-områdena.",
+        "Sextioen afroamerikanska män och kvinnor diagnostiserade med en AMI.",
+        "Prehospital fördröjningstid.",
+        "Medianfördröjningstiden var längre för kvinnor jämfört med män (4,4 timmar mot 3,5 timmar), även om skillnaden inte var signifikant. Ensamstående kvinnor dröjde längre än ensamstående män (P = .03), och kvinnor som var ensamma när symtomen började dröjde längre än kvinnor med någon (P = .03). Kvinnor som fick råd om att söka hjälp eller ringa 911 vid symtomstart hade kortare fördröjningar jämfört med kvinnor som inte uppmanades att ringa 911 (P = .01). Män hemma dröjde längre än män som upplevde sina symtom utanför hemmet (P = .01). Män med försäkring för akutrummet dröjde längre än män utan försäkring för akutrummet (P = .03), och män som tog en ambulans till sjukhuset hade kortare fördröjningstider än män som tog andra transportmedel (P = .04)."
+    ],
+    "LABELS": [
+        "MÅL",
+        "DESIGN",
+        "PLATS",
+        "PATIENTER",
+        "HOVEDUTFALLSMÅTT",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Akut sjukdom",
+        "Vuxen",
+        "Afroamerikaner",
+        "Äldre",
+        "Äldre, 80 år och äldre",
+        "Kvinna",
+        "Behov av hälso- och sjukvårdstjänster",
+        "Människor",
+        "Man",
+        "Medelålders",
+        "Hjärtinfarkt",
+        "Patientacceptans av hälsovård",
+        "San Francisco",
+        "Undersökningar och enkäter",
+        "Tidsfaktorer"
+    ],
+    "YEAR": "2007",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Kvinnor jämfört med män dröjer ofta med att söka behandling för en AMI, vilket ytterligare ökar deras risker. Våra resultat tyder på specifika egenskaper som kan tjäna som en profil för de afroamerikaner som mest sannolikt dröjer med att söka behandling för AMI."
+}, "17355582": {
+    "QUESTION": "Förutsäger ambulatorisk vårdprocess hälsorelaterade livskvalitetsresultat för patienter med kronisk sjukdom?",
+    "CONTEXTS": [
+        "Validiteten av vårdkvalitetsmätning har viktiga implikationer för praktiserande kliniker, deras patienter och alla inblandade i hälsovårdsleveransen. Vi använde empiriska data från managed care-patienter inskrivna i västkustens läkarorganisationer för att testa hypotesen att observerade förändringar i hälsorelaterad livskvalitet över ett 2,5-årsfönster som återspeglar vårdprocessen.KÄLLOR/",
+        "Självrapporterade patientdata samt kliniskt detaljerad medicinsk journalgranskning avseende 963 patienter med kronisk sjukdom associerad med managed care från tre västkuststater.",
+        "Prospektiv kohortstudie av förändring i hälsorelaterade livskvalitetspoäng över 30 månader mätt genom förändring i SF-12 fysiska komponentspoäng.DATAINSAMLING/",
+        "Självrapportering av patient och medicinsk journalabstraktion.",
+        "Vi fann ett positivt samband mellan bättre processpoäng och högre sjukdomsbörda (p<.05). Efter justering för sjukdomsbörda visade användningen av instrumentella variabler att bättre process är associerad med mindre nedgångar i SF-12-poäng över ett 30-månaders observationsfönster (p=.014). Tillämpningen av den bästa kvartilen av vårdprocess på patienter som för närvarande får dålig process är associerad med en 4,24 ökning i delta SF-12-fysiska komponentsammanfattningspoäng."
+    ],
+    "LABELS": [
+        "MÅL",
+        "STUDIEINSTÄLLNING",
+        "STUDIEDESIGN",
+        "EXTRAKTIONSMETODER",
+        "HOVEDFYND"
+    ],
+    "MESHES": [
+        "Äldre",
+        "Kronisk sjukdom",
+        "Kvinna",
+        "Hälsostatus",
+        "Människor",
+        "Man",
+        "Managed care-program",
+        "Medelålders",
+        "Utvärdering av resultat och process (Hälsovård)",
+        "Prospektiva studier",
+        "Vårdkvalitet",
+        "Livskvalitet"
+    ],
+    "YEAR": "2007",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Användningen av instrumentella variabler tillät oss att påvisa ett signifikant samband mellan bättre ambulatorisk vårdprocess och bättre hälsorelaterad livskvalitet. Detta fynd understryker vikten av ansträngningar för att förbättra vårdprocessen."
+}, "15597845": {
+    "QUESTION": "Är kombinationen med 2-metoxiestradiol kapabel att minska doseringarna av kemoterapeutika i behandlingen av mänsklig äggstockscancer?",
+    "CONTEXTS": [
+        "Den endogena östradiolmetaboliten, 2-metoxiestradiol (2ME), har visat sig vara en potent hämmare av celldelning och en stark anti-angiogen substans. Vi undersökte för första gången om in vitro-kombinationer av 2ME med olika kemoterapeutiska föreningar kan resultera i en additiv inhiberande effekt på proliferationen av mänskliga äggstockscancerceller.",
+        "Som en modell användes två olika mänskliga äggstockscancercellinjer. Alla cellinjer inkuberades med ekvimolära koncentrationer av 2ME (0,8-25 mikroM) och kemoterapeutika epirubicin, doxorubicin, paclitaxel, docetaxel, karboplatin, vinorelbin, 5-fluorouracil och mafosfamid. Proliferation mättes efter fyra dagar med hjälp av ATP-kemosensitivitetstestet.",
+        "För båda äggstockscancercellinjerna observerades en signifikant additiv effekt av 2ME med epirubicin och karboplatin vid lägre koncentrationsområdet för dessa kemoterapeutiska substanser."
+    ],
+    "LABELS": [
+        "UNDERSÖKNINGSSYFTE",
+        "METOD",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Antineoplastisk kombinationskemoterapi",
+        "Karboplatin",
+        "Cellinje, Tumör",
+        "Cellproliferation",
+        "Cyklofosfamid",
+        "Dosis-Responsförhållande, Droger",
+        "Doxorubicin",
+        "Läkemedelsadministrationsplan",
+        "Epirubicin",
+        "Östradiol",
+        "Kvinna",
+        "Fluorouracil",
+        "Människor",
+        "Äggstockscancer",
+        "Paclitaxel",
+        "Taxoider",
+        "Vinblastin"
+    ],
+    "YEAR": "2004",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "2ME är kapabel att förstärka den antiproliferativa aktiviteten av vissa kemoterapeutika vid farmakologiskt relevanta koncentrationer. Denna östradiolmetabolit är för närvarande i en fas II-studie hos patienter med refraktär metastaserande bröstcancer och toleransen har visat sig vara mycket god. Kombinationen av 2ME med kemoterapeutika kan därför erbjuda ett nytt kliniskt relevant behandlingsregim för hormonberoende cancer."
+}, "10158597": {
+    "QUESTION": "Förbättrar en dedikerad utskrivningskoordinator kvaliteten på sjukhusutskrivning?",
+    "CONTEXTS": [
+        "Att utvärdera effektiviteten av rollen som utskrivningskoordinator vars enda ansvar var att planera och koordinera utskrivningen av patienter från medicinska avdelningar.",
+        "En interventionsstudie där kvaliteten på utskrivningsplaneringen bedömdes före och efter införandet av en utskrivningskoordinator. Patienter intervjuades på avdelningen före utskrivning och sju till tio dagar efter att de skrivits ut hem.",
+        "De tre medicinska avdelningarna på Homerton Hospital i Hackney, östra London.",
+        "600 slumpmässigt utvalda vuxna patienter inskrivna på medicinska avdelningar på studiens sjukhus, som var bosatta i distriktet (men inte på institutioner), var under vård av läkare (exklusive psykiatri), och som skrevs ut hem från en av de medicinska avdelningarna. Urvalet genomfördes i tre studiefaser, över 18 månader.",
+        "Fas I omfattade insamling av baslinjedata; i fas II samlades data in efter införandet av distriktets utskrivningsplaneringspolicy och ett utskrivningsformulär (checklista) för alla patienter; i fas III samlades data in efter införandet av utskrivningskoordinatorn.",
+        "Kvaliteten och utfallet av utskrivningsplaneringen. Återinläggningsrater, vårdtidens längd, lämpligheten av vårdens dagar, patienternas hälsa och tillfredsställelse, problem efter utskrivning och mottagande av tjänster.",
+        "Utskrivningskoordinatorn resulterade i en förbättrad process för utskrivningsplanering, och det fanns en minskning av problem som patienterna upplevde efter utskrivning och i uppfattat behov av medicinska och hälsovårdstjänster. Det fanns inga bevis för att utskrivningskoordinatorn resulterade i en mer tidseffektiv eller effektiv tillhandahållande av samhällstjänster efter utskrivning, eller att lämpligheten eller effektiviteten av sänganvändningen förbättrades."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "DESIGN",
+        "PLATS",
+        "PATIENTER",
+        "INSATSER",
+        "HOVEDMÅTT",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Aktiviteter i dagligt liv",
+        "Hälsostatusindikatorer",
+        "Människor",
+        "Vistelselängd",
+        "London",
+        "Patientskrivning",
+        "Patientåterinläggning",
+        "Patientnöjdhet",
+        "Programutvärdering",
+        "Kvalitetssäkring, hälsovård",
+        "Socialt arbete",
+        "Statlig medicin"
+    ],
+    "YEAR": "1996",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Införandet av en utskrivningskoordinator förbättrade kvaliteten på utskrivningsplaneringen, men till en extra kostnad."
+}, "27549226": {
+    "QUESTION": "Inverkan av MPH-program: bidrar till att stärka hälso- och sjukvårdssystem i låg- och medelinkomstländer?",
+    "CONTEXTS": [
+        "Krisen med 'hälsopersonal' har lett till ett ökat intresse för utbildning av hälsoyrkespersoner, inklusive MPH-program. Nyligen ifrågasattes om utbildning av mellan- till högre kadrer inom folkhälsa förbereder examinerade med kompetenser för att stärka hälso- och sjukvårdssystem i låg- och medelinkomstländer. Att mäta utbildningens inverkan har varit ökänt svårt; därför söktes innovativa metoder för att mäta resultatet och inverkan av MPH-program. Inverkan konceptualiserades som 'inverkan på arbetsplatsen' och 'inverkan på samhället', vilket innebar att studera hur dessa kompetenser utövades och till vilken effekt inom ramen för examinernas arbetsplatser, samt på samhällets hälsa.",
+        "Detta är en del av en större sex-land studie med blandade metoder; i denna artikel fokuseras på de kvalitativa resultaten av två engelskspråkiga program, det ena ett distans MPH-program som erbjuds från Sydafrika, det andra ett campusbaserat program i Nederländerna. Båda erbjuder MPH-utbildning till studenter från en mångfald av länder. Djupintervjuer genomfördes med 10 examinerade (per program), som arbetar i hälso- och sjukvårdssystem i låg- och medelinkomstländer, deras kollegor och deras chefer.",
+        "Inverkan på arbetsplatsen rapporterades som betydande av examinerade och kollegor samt chefer och inkluderade förändringar i ledning och ledarskap: befordran till en ledande position samt utökade eller vitaliserade ledningsroller rapporterades av många deltagare. Utvecklingen av ledarskapskapacitet värderades högt bland många examinerade, och denna kapacitet citerades av ett antal chefer och kollegor. Större inverkan på arbetsplatsen tog formen av att införa arbetsplatsinnovationer som att upprätta ett AIDS- och beroendeforskningscentrum och forskningsdeltagande; undervisning och utbildning, påverkansarbete och samhällsengagemang var andra sätt som examinerades inflytande nådde en bredare målgrupp. Utöver arbetsplatsen rapporterades en sektorsövergripande strategi, nationellt genomslag genom rådgivande roller till hälsovårdsministerier, policyutveckling och kapacitetsbyggande. Arbetsförhållanden och sammanhang påverkade gynnsamheten för innovation och i vilken utsträckning examinerade kunde ha effekt. Självselektion av examinerade och deras roll i att välja kollegor och chefer kan ha resulterat i viss bias, vissa examinerade kunde inte spåras, och social acceptansbias kan ha påverkat resultaten."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Inställning av hälso- och sjukvårdspersonal",
+        "Hälsovårdsleverans",
+        "U-länder",
+        "Distansutbildning",
+        "Utbildning, Graduate",
+        "Utbildning, Folkhälsoyrkesutbildning",
+        "Människor",
+        "Inkomst",
+        "Internet",
+        "Ledarskap",
+        "Nederländerna",
+        "Yrkesroll",
+        "Folkhälsa",
+        "Folkhälsopraxis",
+        "Kvalitativ forskning",
+        "Sydafrika",
+        "Arbetsplats"
+    ],
+    "YEAR": "2016",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Det fanns en betydande inverkan på många nivåer; examinerade uppfattades kunna bidra avsevärt till sina arbetsplatser och hade ofta inflytande på nationell nivå. Mycket av den beskrivna inverkan var i linje med utbildningsmål inom folkhälsa. Den kvalitativa metoden studie avslöjade djupare förståelse för examinerades inverkan samt deras karriärvägar."
+}, "26348845": {
+    "QUESTION": "Pap-tester med abnormiteter i körtelceller: Upptäcks de av snabb förskärming?",
+    "CONTEXTS": [
+        "Snabb förskärming (RPS) är en av kvalitetssäkringsmetoderna som används inom gynekologisk cytologi. Effektiviteten av RPS har tidigare studerats men mestadels med avseende på skivepitellesioner; faktum är att det inte har gjorts någon studie specifikt om känsligheten hos RPS för att upptäcka abnormiteter i körtelceller.",
+        "Totalt 80 565 Papanicolaou (Pap)-tester genomgick RPS under en 25-månadersperiod. Ett prov betecknades som 'granska för abnormitet' (R) om några abnorma celler (vid tröskeln för atypiska skivepitelceller av oklar betydelse/atypiska körtelceller [AGC]) tänktes vara närvarande eller betecknades som negativt (N) om inga upptäcktes. Varje prov genomgick sedan fullständig skärming (FS) och betecknades som antingen R eller N och gavs också en cytologisk tolkning.",
+        "Den slutliga cytologiska tolkningen var en körtelcellabnormitet (≥AGC) i 107 prover (0,13%); 39 av dessa (36,4%) flaggades som R vid RPS. Tjugofyra patienter (33,8%) av 71 som hade histologisk uppföljning visade sig ha en höggradig skivepitellesion eller carcinoma; 13 av dessa 24 Pap-tester (54,2%) hade flaggats som R vid RPS. Noterbart är att 11 AGC-fall upptäcktes enbart av RPS och inte av FS och representerade falskt negativa fall; 2 av dessa visade endometriell adenokarcinom vid histologisk uppföljning."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Adenokarcinom",
+        "Vuxen",
+        "Äldre",
+        "Äldre, 80 år och äldre",
+        "Kvinna",
+        "Människor",
+        "Massskärming",
+        "Medelålders",
+        "Papanicolaou-test",
+        "Känslighet och specificitet",
+        "Livmoderhalscancer",
+        "Vaginala utstryk",
+        "Ung vuxen"
+    ],
+    "YEAR": "2015",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Pap-tester med abnormiteter i körtelceller flaggas ofta som onormala av RPS, och detta resulterar i en känslighet på 36,4% (vid AGC-tröskeln). Framför allt upptäcks vissa fall av AGC på Pap-tester endast av RPS, och detta visar att RPS är en värdefull QA-metod."
+}, "25588461": {
+    "QUESTION": "Kan transkraniell direktströmsstimulering vara användbar för att skilja mellan unresponsive wakefulness syndrome och patienter i minimalt medvetande tillstånd?",
+    "CONTEXTS": [
+        "Diagnos av medvetandestörningar (DOC) beror på närvaro eller frånvaro av målinriktad motorisk respons, vilket kännetecknar minimalt medvetande tillstånd (MCS) och unresponsive wakefulness syndrome (UWS), respektive. Funktionella neuroradiologiska studier har väckt frågan om möjlig kvarvarande medveten medvetenhet också hos kliniskt definierade UWS-patienter. Syftet med vår studie var att identifiera elektrofysiologiska parametrar, genom användning av en transkraniell magnetstimuleringsteknik, som potentiellt kunde uttrycka närvaron av kvarvarande nätverk som upprätthåller fragmentariska beteendemönster, även när inget medvetet beteende kan observeras.",
+        "Vi registrerade 25 allvarliga DOC-patienter, efter postanoxisk eller traumatisk hjärnskada och 20 friska individer (HC) som kontrollgrupp. Baslinjeelektrofysiologisk utvärdering visade, jämfört med HC, en partiell bevarande av kortikal effektiv koppling och excitabilitet hos kliniskt definierade MCS, medan dessa komponenter var frånvarande hos kliniskt definierade UWS. Därefter tillämpades ett anodalt transkraniellt direktströmsstimuleringsprotokoll (a-tDCS) över orbitofrontalkortex.",
+        "a-tDCS kunde förstärka kortikal koppling och excitabilitet hos alla HC, MCS och för att avslöja sådan excitabilitet/koppling hos vissa UWS-patienter."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Vuxen",
+        "Äldre",
+        "Medvetandestörningar",
+        "Diagnos, Differentiell",
+        "Kvinna",
+        "Människor",
+        "Man",
+        "Medelålders",
+        "Neurala banor",
+        "Persistent Vegetative State",
+        "Prefrontalkortex",
+        "Transkraniell direktströmsstimulering"
+    ],
+    "YEAR": "2015",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "a-tDCS kan vara användbart för att identifiera kvarvarande kopplingsmarkörer hos kliniskt definierade UWS, som kan sakna målinriktat beteende som ett resultat av ett motoriskt utfallsfel."
+}, "23359100": {
+    "QUESTION": "Är etoricoxib effektivt för att förebygga heterotopisk ossifikation efter primär total höftledsplastik?",
+    "CONTEXTS": [
+        "Heterotopisk ossifikation är en vanlig komplikation efter total höftledsplastik. Icke-steroida antiinflammatoriska läkemedel (NSAID) är kända för att effektivt förebygga heterotopisk ossifikation, dock rapporteras ofta gastrointestinala besvär. I denna studie undersökte vi om etoricoxib, en selektiv cyklooxygenas-2 (COX-2) hämmare som ger färre gastrointestinala biverkningar, är ett effektivt alternativ för att förebygga heterotopisk ossifikation.",
+        "Vi undersökte effektiviteten av oral etoricoxib 90 mg under sju dagar i en prospektiv tvåstegsstudie designad för fas-2 kliniska prövningar på ett litet urval av patienter (n\u2009=\u200942). En cementerad primär total höftledsplastik implanterades på grund av artros. Sex månader efter operationen fastställdes heterotopisk ossifikation på anteroposteriora bäckenröntgenbilder med hjälp av Brooker-klassificeringen.",
+        "Ingen heterotopisk ossifikation hittades hos 62 % av patienterna som tog etoricoxib; 31 % av patienterna hade Brooker grad 1 och 7 % Brooker grad 2 ossifikation."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Administrering, Oral",
+        "Vuxen",
+        "Äldre",
+        "Äldre, 80 år och över",
+        "Artroplastik, Ersättning, Höft",
+        "Cyklooxygenas 2-hämmare",
+        "Dosis-Responsförhållande, Läkemedel",
+        "Kvinna",
+        "Höftled",
+        "Höftprotes",
+        "Människor",
+        "Man",
+        "Medelålders",
+        "Ossifikation, Heterotopisk",
+        "Artros, Höft",
+        "Prospective Studier",
+        "Pyridiner",
+        "Röntgenografi",
+        "Sjukdomens allvarlighetsindex",
+        "Sulfoner",
+        "Behandlingsutfall"
+    ],
+    "YEAR": "2013",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Etoricoxib verkar vara effektivt för att förebygga heterotopisk ossifikation efter total höftledsplastik. Detta resultat stöder ytterligare användningen av COX-2-hämmare för att förebygga heterotopisk ossifikation efter total höftledsplastik."
+}, "26548832": {
+    "QUESTION": "Bedömning av Patientrapporterade Utfallsmått via Telefonintervjuer Jämfört med Patientens Egen Undersökning i Kliniken: Mäter Vi Samma Sak?",
+    "CONTEXTS": [
+        "Att longitudinellt följa patienter kräver en infrastruktur för datainflöde som är beroende av en heltidsanställd (FTE). Det finns ansträngningar att fånga patientrapporterade utfall (PROs) genom användning av metoder som inte är beroende av FTE. I denna studie avsåg vi att bedöma tillförlitligheten av PRO-data som fångats via FTE-beroende jämfört med FTE-oberoende metoder.",
+        "Totalt 119 vuxna patienter (65 män) som genomgått 1- och 2-nivås lumbal fusion vid Duke University Medical Center inkluderades i denna prospektiva studie. Inkluderingskriterier inkluderade tillgänglig demografisk, klinisk och PRO-data. Alla patienter genomförde två uppsättningar frågeformulär - det första en telefonintervju och det andra en självundersökning. Det var minst en tvåveckorsperiod mellan telefonintervjuerna och självundersökningen. Frågeformulären inkluderade Oswestry Disability Index (ODI), den visuella analogskalan för ryggsmärta (VAS-BP) och den visuella analogskalan för bensmärta (VAS-LP). Upprepade mätningar av variansanalys användes för att jämföra tillförlitligheten av baslinje PRO-data som fångats.",
+        "39,49 % av patienterna var rökare, 21,00 % hade diabetes och 11,76 % hade kranskärlssjukdom; 26,89 % rapporterade historik av ångestsyndrom och 28,57 % rapporterade historik av depression. 97,47 % av patienterna hade en gymnasieexamen eller General Education Development, och 49,57 % hade uppnått en 4-årig universitetsexamen eller forskarutbildning. Vi observerade en hög korrelation mellan baslinje PRO-data fångade mellan FTE-beroende och FTE-oberoende metoder (ODI: r = -0.89, VAS-BP: r = 0.74, VAS-LP: r = 0.70). Det fanns ingen skillnad i PROs för baslinjesmärta och funktionshinder mellan FTE-beroende och FTE-oberoende metoder: baslinje ODI (FTE-beroende: 47,73 \u00b1 16,77 [medelvärde \u00b1 SD] vs. FTE-oberoende: 45,81 \u00b1 12,11, P = 0,39), VAS-LP (FTE-beroende: 6,13 \u00b1 2,78 vs. FTE-oberoende: 6,46 \u00b1 2,79, P = 0,36) och VAS-BP (FTE-beroende: 6,33 \u00b1 2,90 vs. FTE-oberoende: 6,53 \u00b1 2,48, P = 0,57)."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Vuxen",
+        "Äldre",
+        "Funktionsbedömning",
+        "Kvinna",
+        "Hälsovårdspersonal",
+        "Människor",
+        "Lumbosakralregion",
+        "Man",
+        "Medelålders",
+        "Smärta",
+        "Smärtmätning",
+        "Patientutfallsbedömning",
+        "Prospective Studier",
+        "Reproducerbarhet av Resultat",
+        "Riskfaktorer",
+        "Socioekonomiska faktorer",
+        "Spinal Fusion",
+        "Undersökningar och Enkäter",
+        "Telefon"
+    ],
+    "YEAR": "2016",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Vår studie antyder att det finns stor tillförlitlighet mellan PRO-data fångade mellan FTE-beroende och FTE-oberoende metoder."
+}, "25756710": {
+    "QUESTION": "Kan akutläkare korrekt och tillförlitligt bedöma akut yrsel på akutmottagningen?",
+    "CONTEXTS": [
+        "Att validera ett kliniskt diagnostiskt verktyg, använt av akutläkare (EPs), för att diagnostisera den centrala orsaken till patienter som presenterar med yrsel, och att bestämma interbedömarreliabiliteten av detta verktyg.",
+        "Ett bekvämlighetsurval av vuxna patienter som presenterade sig på en enda akademisk akutmottagning med isolerad yrsel (dvs. yrsel utan andra neurologiska underskott) utvärderades prospektivt med STANDING (SponTAneousNystagmus, Direction, head Impulse test, standiNG) av fem utbildade EPs. Det första steget fokuserade på närvaron av spontan nystagmus, det andra på riktningen av nystagmus, det tredje på huvudimpulstestet och det fjärde på gången. Den lokala standardpraxisen, senior audiologutvärdering styrkt av neurobildning när det ansågs lämpligt, ansågs vara referensstandarden. Känslighet och specificitet för STANDING beräknades. På de första 30 patienterna bedömdes också interobservatörsöverensstämmelsen bland EPs.",
+        "Fem EPs med begränsad erfarenhet av nystagmusbedömning erbjöd sig att delta i den aktuella studien som registrerade 98 patienter. Deras genomsnittliga utvärderingstid var 9,9 \u00b1 2,8\u2009min (intervall 6-17). Central akut yrsel misstänktes hos 16 (16,3%) patienter. Det fanns 13 sanna positiva, tre falska positiva, 81 sanna negativa och en falsk negativ, med hög känslighet (92,9%, 95% CI 70-100%) och specificitet (96,4%, 95% CI 93-38%) för central akut yrsel enligt senior audiologutvärdering. Cohens kappas för det första, andra, tredje och fjärde steget av STANDING var 0,86, 0,93, 0,73 respektive 0,78. Hela testet visade en god interobservatörsöverensstämmelse (k = 0,76, 95% CI 0,45-1)."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Akut Sjukdom",
+        "Algoritmer",
+        "Klinisk Kompetens",
+        "Kliniska beslutsstödsystem",
+        "Akutmedicin",
+        "Akutmottagning, Sjukhus",
+        "Människor",
+        "Prospective Studier",
+        "Yrsel"
+    ],
+    "YEAR": "2015",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "I akutläkares händer visade STANDING god interobservatörsöverensstämmelse och noggrannhet validerad mot den lokala standarden för vård."
+}, "20297950": {
+    "QUESTION": "Beviskonceptstudie: Har fenofibrat en roll i sömnapnésyndrom?",
+    "CONTEXTS": [
+        "Att undersöka effekten av fenofibrat på sömnapnéindex.",
+        "Beviskonceptstudie som omfattade en placebo-inledningsperiod (1 vecka, 5 veckor om uttvättning av fibrat krävdes) och en 4-veckors randomiserad, dubbelblind behandlingsperiod. Trettiofyra föremål (medelålder 55 år, kroppsmasseindex 34 kg/m2, fasta triglycerider 3,5 mmol/L) med diagnostiserat sömnapnésyndrom som inte behandlades med kontinuerligt positivt luftvägstryck registrerades och randomiserades till daglig behandling med fenofibrat (145 mg NanoCrystal(R)-tablett) eller placebo. Övernattning polysomnografi, datoriserade uppmärksamhet/vaksamhetstest och blodprovtagning för mätning av lipider, insulin, fastande plasma glukos och fibrinogen utfördes vid slutet av varje studieperiod.",
+        "NCT00816829.",
+        "Eftersom detta var en explorativ studie utvärderades en rad sömnvariabler. Apné/hypopnéindex (AHI) och procentandel av tiden tillbringad med arteriell syresättning (SpO(2))<90% var relevanta eftersom de har utvärderats i andra kliniska prövningar. Andra variabler inkluderade totala apnéer, hypopnéer och syresättningssänkningar, och icke-kortikala mikro-uppvaknanden relaterade till andningsevenemang per timme.",
+        "Fenofibratbehandling minskade signifikant procentandelen av tid med SpO(2)<90% (från 9,0% till 3,5% jämfört med 10,0% till 11,5% med placebo, p = 0,007), även om det inte fanns någon signifikant förändring i AHI (reduktion jämfört med kontroll 14% (95%CI -47 till 40%, p = 0,533). Behandlingen reducerade obstruktiva apnéer (med 44%, från 18,5 vid baslinjen till 15,0 vid behandlingens slut jämfört med 29,0 till 30,5 på placebo, p = 0,048), och icke-kortikala mikro-uppvaknanden per timme (från 23,5 till 18,0 jämfört med 24,0 till 25,0 med placebo, p = 0,004). Andra sömnvariabler påverkades inte signifikant av fenofibrat.",
+        "Explorativ studie på patienter med mild till måttlig sömnapné, begränsad behandlingslängd; samtidig hypnotisk behandling (35%); brist på korrigering för multiplicitet av testning."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "METODER",
+        "KLINISK PRÖVNINGSREGISTRERING",
+        "HOVEDUTFALLSMÅTT",
+        "RESULTAT",
+        "VÄSENTLIGA BEGRÄNSNINGAR"
+    ],
+    "MESHES": [
+        "Uppmärksamhet",
+        "Dubbelblind metod",
+        "Kvinna",
+        "Fenofibrat",
+        "Människor",
+        "Hypolipidemiska medel",
+        "Lipider",
+        "Man",
+        "Medelålders",
+        "Placebos",
+        "Sömn",
+        "Sömnapnésyndrom"
+    ],
+    "YEAR": "2010",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Den konsekventa riktningen av förändring i sömnindex i denna beviskonceptstudie kan stödja ytterligare undersökning av fenofibrat vid måttligt till svårt sömnapnésyndrom."
+}, "24622801": {
+    "QUESTION": "Reducerar implantatbeläggning med antibakteriellt laddad hydrogel bakteriekolonisering och biofilmsbildning in vitro?",
+    "CONTEXTS": [
+        "Implantatrelaterade infektioner representerar en av de allvarligaste komplikationerna inom ortopedin. En snabbt resorberbar, antibakteriellt laddad hydrogel kan minska eller förhindra bakteriekolonisering och biofilmsbildning på implanterade biomaterial. Vi frågade: (1) Kan en snabbt resorberbar hydrogel leverera antibakteriella ämnen in vitro? (2) Kan en hydrogel (antingen ensam eller antibakteriellt laddad) som beläggning på implantat minska bakteriekolonisering? Och (3) är intraoperativ beläggning genomförbar och motståndskraftig mot press-fit implantatinsättning?",
+        "Vi testade förmågan hos Disposable Antibacterial Coating (DAC) hydrogel (Novagenit Srl, Mezzolombardo, Italien) att leverera antibakteriella medel med hjälp av spektrofotometri och en mikrobiologisk analys. Antibakteriell och antibiofilmaktivitet bestämdes genom mikrodilutionsmetod och en kristallviolettanalys, respektive. Motståndskraften hos beläggningen mot press-fit insättning testades på kanintibior och människofemurer.",
+        "Fullständig frisättning av alla testade antibakteriella ämnen observerades på mindre än 96 timmar. Bakteriedödande och antibiofilmeffekt av DAC hydrogel i kombination med olika antibakteriella medel visades in vitro. Ungefär 80 % av hydrogelbeläggningen återfanns på implantatet efter press-fit insättning."
+    ],
+    "LABELS": [
+        "BAKGRUND",
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Absorberbara implantat",
+        "Djur",
+        "Antibakteriella medel",
+        "Biofilmer",
+        "Belagda material, biokompatibla",
+        "Läkemedelsbärare",
+        "Läkemedelsleveranssystem",
+        "Genomförbarhetsstudier",
+        "Femur",
+        "Människor",
+        "Hydrogel, Polyetylenglykoldimetakrylat",
+        "In Vitro-tekniker",
+        "Mikrobiell känslighetsprövning",
+        "Protesrelaterade infektioner",
+        "Kaniner",
+        "Staphylococcus aureus",
+        "Staphylococcus epidermidis",
+        "Tibia"
+    ],
+    "YEAR": "2014",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Implantatbeläggning med en antibakteriellt laddad hydrogel minskar bakteriekolonisering och biofilmsbildning in vitro."
+}, "9722752": {
+    "QUESTION": "Förbättrar fixering med benankare resultatet av perkutan blåshalsupphängning vid kvinnlig stressinkontinens?",
+    "CONTEXTS": [
+        "För att utvärdera resultatet av en ny modifikation av perkutan nålsuspension, med användning av ett benankarsystem för att fästa sutur vid pubisbenet, och jämföra resultaten med de som tidigare publicerats.",
+        "Från mars 1996 behandlades 37 patienter med stressinkontinens (>2 år) med ett benankarsystem. På varje sida fästes suturen till pubocervikalfascian och vaginalväggen via ett brett 'Z'-stygn. En urodynamisk undersökning utfördes preoperativt på alla patienter för att bekräfta stressinkontinens och utesluta detrusorinstabilitet. Resultatet bedömdes antingen genom en klinisk uppföljningsundersökning eller med hjälp av en standardiserad enkät, över en genomsnittlig uppföljningstid på 11 månader (intervall 6-18).",
+        "I de 37 patienterna var proceduren framgångsrik hos 25 (68%), med 16 (43%) av patienterna helt torra och nio (24%) väsentligt förbättrade. Borttagning av benankaret och sutur var nödvändig hos två patienter, på grund av unilateral bakteriell infektion hos en och en bilateral mjukvävnadsgranulom hos den andra. Ett benankare blev förskjutet hos en tredje patient. I två fall där behandlingen misslyckades dokumenterades ny detrusorinstabilitet urodynamiskt. Mindre komplikationer var långvarig sårsmärta hos 10 (26%) och tillfällig urinretention eller residualurin hos 12 patienter (32%)."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "PATIENTER OCH METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Vuxen",
+        "Äldre",
+        "Äldre, 80 år och över",
+        "Benankare",
+        "Kvinna",
+        "Uppföljningsstudier",
+        "Människor",
+        "Medelålders",
+        "Suturekniker",
+        "Behandlingsutfall",
+        "Urinvägssjukdomar",
+        "Urinarinkontinens, stress",
+        "Urodynamik",
+        "Urologiska kirurgiska ingrepp"
+    ],
+    "YEAR": "1998",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "nej",
+    "LONG_ANSWER": "Den dåliga framgångsfrekvensen i studien överensstämmer med långtidsresultaten av konventionella eller modifierade nålsuspensionsprocedurer och förstärker inte de optimistiska resultaten av benankring som nyligen publicerats. På grund av de sämre långtidsresultaten från perkutan nålsuspension jämfört med andra tekniker för öppen retropubisk blåshalsupphängning återstår det som en fråga om perkutan nålsuspension bör betraktas som en förstahandsmetod för behandling av kvinnlig stressinkontinens."
+}, "20577124": {
+    "QUESTION": "Är leptin involverat i fagocytisk NADPH-oxidas överaktivitet vid fetma?",
+    "CONTEXTS": [
+        "Hyperleptinemi och oxidativ stress spelar en stor roll i utvecklingen av kardiovaskulära sjukdomar vid fetma. Denna studie syftade till att undersöka om det finns ett samband mellan plasmaleptinnivåer och fagocytisk nikotinamidadenindinukleotidfosfat (NADPH) oxidasaktivitet, och dess potentiella relevans i kärlombyggnaden hos feta patienter.",
+        "Studien genomfördes på 164 feta och 94 normalviktsindivider (kontroller). NADPH-oxidasaktivitet utvärderades genom luminescens i fagocytiska celler. Leptinnivåer kvantifierades med ELISA i plasmaprover. Karotid intimamediatjocklek (cIMT) mättes med ultraljud. Dessutom genomfördes in vitro-experiment i humana perifera blodmononukleära celler och murina makrofager.",
+        "Fagocytisk NADPH-oxidasaktivitet och leptinnivåer var förhöjda (P<0.05) hos feta patienter jämfört med kontroller. NADPH-oxidasaktivitet korrelerade positivt med leptin hos feta patienter. Denna association kvarstod signifikant i en multivariat analys. cIMT var högre (P<0.05) hos feta patienter jämfört med kontroller. Dessutom korrelerade cIMT positivt med leptin och NADPH-oxidasaktivitet hos feta patienter. In vitro-studier visade att leptin inducerade NADPH-oxidasaktivering. Inhibition av leptininducerad NADPH-oxidasaktivitet av wortmannin och bisindolylmaleimid antydde en direkt inblandning av fosfatidylinositol 3-kinas och proteinkinas C-vägarna, respektive. Slutligen främjade leptininducerad NADPH-oxidasaktivering makrofagproliferation."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Djur",
+        "Ateroskleros",
+        "Karotidartärer",
+        "Fall-kontrollstudier",
+        "Cellinje",
+        "Cellproliferation",
+        "Kvinna",
+        "Människor",
+        "In Vitro-tekniker",
+        "Leptin",
+        "Makrofager",
+        "Man",
+        "Möss",
+        "Medelålders",
+        "NADPH Oxidaser",
+        "Fetma",
+        "Oxidativ stress",
+        "Fagocyter",
+        "Superoxider",
+        "Tunica Intima"
+    ],
+    "YEAR": "2010",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Dessa resultat visar att fagocytisk NADPH-oxidasaktivitet ökar vid fetma och är relaterad till preklinisk ateroskleros i detta tillstånd. Vi föreslår också att hyperleptinemi kan bidra till fagocytisk NADPH-oxidas överaktivitet vid fetma."
+}, "19027440": {
+    "QUESTION": "Kan vi förutsäga vilka överlevare av huvud- och nackcancer som utvecklar rädsla för återfall?",
+    "CONTEXTS": [
+        "Syftet med denna studie var att undersöka longitudinella prediktorer för rädsla för återfall hos överlevare av huvud- och nackcancer (HNC) med hjälp av Leventhals Common Sense Model (CSM) som ramverk. Forskningsfrågorna var följande: (a) i vilken utsträckning rapporterar HNC-patienter rädsla för canceråterfall? (b) I vilken utsträckning är rädslor för återfall manifestationer av sjukdomsrelaterad ångest? (c) Är rädslor för återfall nära relaterade till aktuella symtom, sjukdoms- och behandlingsrelaterade faktorer eller psykologiska/socio-demografiska faktorer? (d) Vilka faktorer är prediktiva för långsiktig rädsla för återfall?",
+        "En prospektiv upprepad mätstudiedesign användes där ett urval av 82 nydiagnostiserade HNC-patienter (54 män, 28 kvinnor, medelålder 60 år) genomförde mätningar av rädsla för återfall, sjukdomsuppfattningar, coping och ångest och depression, före behandling och 6-8 månader efter behandling (endast rädsla för återfall).",
+        "En tredjedel av HNC-patienterna vid diagnos rapporterade relativt höga nivåer av rädsla för återfall, med 12% som fortfarande rapporterade liknande nivåer av rädsla 6-8 månader efter behandling. Rädslor för återfall var inte relaterade till någon socio-demografisk faktor (ålder, kön, etnicitet, civilstånd och utbildningsnivå) eller sjukdoms-, behandlings- eller symtomrelaterade faktorer. Sökvägsanalyser visade att rädslor för canceråterfall efter behandling direkt förutsågs av förbehandlingsrädslor och optimism."
+    ],
+    "LABELS": [
+        "SYFTE",
+        "METODER",
+        "RESULTAT"
+    ],
+    "MESHES": [
+        "Anpassning, Psykologisk",
+        "Hälsotillstånd",
+        "Bröstcancer",
+        "Rädsla",
+        "Kvinna",
+        "Huvud- och nackcancer",
+        "Människor",
+        "Man",
+        "Personlighetsinventering",
+        "Prognos",
+        "Återfall",
+        "Stress, Psykologisk",
+        "Undersökningar och Enkäter",
+        "Överlevare"
+    ],
+    "YEAR": "2008",
+    "reasoning_required_pred": "ja",
+    "reasoning_free_pred": "ja",
+    "final_decision": "ja",
+    "LONG_ANSWER": "Även om komponenter av CSM (kognitiva och emotionella representationer, copingstrategier) var associerade med rädsla för återfall, visade sig optimism vara den starkaste prediktorn för rädsla, oberoende av ångest och nivå av rädsla rapporterad före behandling."
 }, "28196511": {
     "QUESTION": "Antiretroviral terapi relaterade biverkningar: Kan subsahariska Afrika hantera den nya \"testa och behandla\"-politiken från Världshälsoorganisationen?",
     "CONTEXTS": [
