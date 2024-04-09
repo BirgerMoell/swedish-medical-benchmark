@@ -39,7 +39,7 @@ def eval(system_prompt: str) -> None:
         prompt = f"{system_prompt}\n\nFråga\n{v['question']} svara bara 'ja', 'nej' eller 'kanske'"
         messages = [fmt_message("user", prompt)]
 
-        out = pipeline(messages, max_new_tokens=10, do_sample=True, temperature=0)
+        out = pipeline(messages, max_new_tokens=10, do_sample=False)
         answer = get_response(out)
 
         if "ja" in answer:
