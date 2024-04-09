@@ -35,16 +35,16 @@ We have started translating a  subset of the questions (N=100) for a first bench
 
 ## Compare Model Performance on the Benchmark 📊🔍
 
-| Metric                | Eir     |  Swe-PubMedQA-100  |
-|-----------------------|-------------------|-------------------|-------------------
-| Total Questions       | 100                | 100
-| Correct Answers       | 50            | -
-| Incorrect Answers     | 50            | -
-| Malformed Answers     | 0                 | -
-| Accuracy              | 50%            | -
-| Number of yes              | 56                | 60
-| Number of no              | 29               | 30
-| Number of maybe              | 15              | 10
+| Metric                     | Eir                | Swe-PubMedQA-100   |
+|----------------------------|--------------------|--------------------|
+| Total Questions            | 100 📋             | 100 📋             |
+| Correct Answers            | 50 ✅              | -                  |
+| Incorrect Answers          | 50 ❌              | -                  |
+| Malformed Answers          | 0 🚫               | -                  |
+| Accuracy                   | 50% 🎯             | -                  |
+| Number of yes              | 56 ✔️              | 60 ✔️              |
+| Number of no               | 29 ❎              | 30 ❎              |
+| Number of maybe            | 15 ➖              | 10 ➖              |
 
 ## Evaluating AI models on these benchmarks to understand their effectiveness and areas for improvement
 
