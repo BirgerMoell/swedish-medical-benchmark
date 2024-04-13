@@ -1,4 +1,5 @@
 import json
+import numpy as np
 
 from functools import partial
 from sklearn.metrics import (
@@ -9,6 +10,8 @@ from sklearn.metrics import (
     confusion_matrix,
 )
 from run_llm.benchmark_set_up import Benchmark, get_benchmark_by_name
+from collections import defaultdict
+
 
 # Configuration
 # =============
@@ -21,6 +24,7 @@ SAVE_RESULT_PATH = (
     None  # If saving to file set it to something like: "eval_results.txt"
 )
 OUTPUT_FILE = open(SAVE_RESULT_PATH, "w") if SAVE_RESULT_PATH else None
+AVERAGE_METHOD = None  # Can be "micro", "macro", "weighted", "samples", None
 
 printo = partial(print, file=OUTPUT_FILE)
 
@@ -28,16 +32,20 @@ printo = partial(print, file=OUTPUT_FILE)
 # Functions
 # =========
 def calculate_metrics(ground_truths: list[str], predictions: list[str]):
-    return {
+    metrics = {
         "accuracy": accuracy_score(ground_truths, predictions),
         "precision": precision_score(
-            ground_truths, predictions, average="macro", zero_division=0
+            ground_truths, predictions, average=AVERAGE_METHOD, zero_division=0
         ),
         "recall": recall_score(
-            ground_truths, predictions, average="macro", zero_division=0
+            ground_truths, predictions, average=AVERAGE_METHOD, zero_division=0
         ),
-        "f1": f1_score(ground_truths, predictions, average="macro"),
+        "f1": f1_score(ground_truths, predictions, average=AVERAGE_METHOD),
         "confusion_matrix": confusion_matrix(ground_truths, predictions),
+    }
+    return {
+        k: list(v) if isinstance(v, np.ndarray) and k != "confusion_matrix" else v
+        for k, v in metrics.items()
     }
 
 
@@ -50,15 +58,12 @@ def print_metrics(metrics: dict):
 
 
 def get_groups_by_property(ids: list[str], property: str, benchmark: Benchmark):
-    groups = {}
-    for n, i in enumerate(ids):
-        if not isinstance(benchmark.data[i][property], list):
-            benchmark.data[i][property] = [benchmark.data[i][property]]
-        for j in benchmark.data[i][property]:
-            if j not in groups:
-                groups[j] = [n]
-            else:
-                groups[j].append(n)
+    groups = defaultdict(list[int])
+    for n, id_ in enumerate(ids):
+        if not isinstance(benchmark.data[id_][property], list):
+            benchmark.data[id_][property] = [benchmark.data[id_][property]]
+        for j in benchmark.data[id_][property]:
+            groups[j].append(n)
     return groups
 
 
@@ -108,7 +113,11 @@ if __name__ == "__main__":
             printo(f"{property_name.capitalize()} performance ranking:")
             printo("------------------------------------")
             sorted_results = sorted(
-                property_results.items(), key=lambda x: x[1][RANK_BY], reverse=True
+                property_results.items(),
+                key=lambda x: (
+                    x[1][RANK_BY] if AVERAGE_METHOD else np.mean(x[1][RANK_BY])
+                ),
+                reverse=True,
             )
             for name, metrics in sorted_results[: 5 if not PRINT_ALL else None]:
                 printo(

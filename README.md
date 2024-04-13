@@ -81,7 +81,7 @@ python run_llm/huggingface.py.py
 
 For more detailed metrics run the evaluation script:
 ```bash
-python run_llm/evaluate.py
+python evaluate_performance.py
 ```
 
 > Note that these scripts have to be run from the root directory of the project.
