@@ -66,3 +66,22 @@ Follow the contribution guidelines in the CONTRIBUTING.md file for detailed inst
 Stay Connected 💬
 Join our community on Discord for discussions, updates, and collaboration opportunities. Together, we can make a difference in healthcare AI!
 <https://discord.gg/AgDx34t2>
+
+## Usage 🛠
+
+First  you n️eed to install the requirements:
+```bash
+pip install -r requirements.txt
+```
+
+Then you can run the file associated with the LLM model, make sure to adjust the configuration in the file to your needs. For instance:
+```bash
+python run_llm/huggingface.py.py
+```
+
+For more detailed metrics run the evaluation script:
+```bash
+python run_llm/evaluate.py
+```
+
+> Note that these scripts have to be run from the root directory of the project.
