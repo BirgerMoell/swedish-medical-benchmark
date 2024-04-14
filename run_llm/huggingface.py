@@ -53,7 +53,7 @@ if __name__ == "__main__":
         ids = []
         for k, v in benchmark.data.items():
             messages = [
-                fmt_message("user", benchmark.prompt.format(question=v["question"]))
+                fmt_message("user", benchmark.prompt.format(question=v["QUESTION"]))
             ]
             out = pipeline(
                 messages,
