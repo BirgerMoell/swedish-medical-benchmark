@@ -60,3 +60,5 @@ typing-extensions==4.10.0
     #   mypy
 urllib3==2.2.1
     # via requests
+scikit-learn==1.4.2
+    # via swedish-medical-benchmark (pyproject.toml)
