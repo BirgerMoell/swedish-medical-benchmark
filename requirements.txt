@@ -62,3 +62,5 @@ urllib3==2.2.1
     # via requests
 scikit-learn==1.4.2
     # via swedish-medical-benchmark (pyproject.toml)
+litellm==1.35.8
+    # via swedish-medical-benchmark (pyproject.toml)

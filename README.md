@@ -69,6 +69,8 @@ Join our community on Discord for discussions, updates, and collaboration opport
 
 ## Usage 🛠
 
+> Note: Make sure that you have Python 3.10 or higher installed on your machine.
+
 First  you n️eed to install the requirements:
 ```bash
 pip install -r requirements.txt
@@ -84,4 +86,4 @@ For more detailed metrics run the evaluation script:
 python evaluate_performance.py
 ```
 
-> Note that these scripts have to be run from the root directory of the project.
+> Note: The scripts have to be run from the root directory of the project.

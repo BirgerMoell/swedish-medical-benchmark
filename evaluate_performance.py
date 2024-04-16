@@ -19,7 +19,7 @@ PATH = "results.json"  # Path to the results file
 PRINT_ALL = False  # Print all groups or just the top 5
 INCLUDE_ALL_METRICS_IN_PROPERTY = False  # Include all metrics in the property ranking
 RANK_BY = "f1"  # This is due to the unbalanced data. Can be: "accuracy", "precision", "recall", "f1"
-MIN_SAMPLES = 3  # Minimum number of samples to consider a group
+MIN_SAMPLES = 10  # Minimum number of samples to consider a group
 SAVE_RESULT_PATH = (
     None  # If saving to file set it to something like: "eval_results.txt"
 )
