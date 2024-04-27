@@ -19,7 +19,7 @@ PATH = "results.json"  # Path to the results file
 PRINT_ALL = False  # Print all groups or just the top 5
 INCLUDE_ALL_METRICS_IN_PROPERTY = False  # Include all metrics in the property ranking
 RANK_BY = "f1"  # This is due to the unbalanced data. Can be: "accuracy", "precision", "recall", "f1"
-MIN_SAMPLES = 10  # Minimum number of samples to consider a group
+MIN_SAMPLES = 50  # Minimum number of samples to consider a group
 SAVE_RESULT_PATH = (
     None  # If saving to file set it to something like: "eval_results.txt"
 )
@@ -59,10 +59,11 @@ def print_metrics(metrics: dict):
 
 def get_groups_by_property(ids: list[str], property: str, benchmark: Benchmark):
     groups = defaultdict(list[int])
+    data = benchmark.data if not hasattr(benchmark, "og_data") else benchmark.og_data
     for n, id_ in enumerate(ids):
-        if not isinstance(benchmark.data[id_][property], list):
-            benchmark.data[id_][property] = [benchmark.data[id_][property]]
-        for j in benchmark.data[id_][property]:
+        if not isinstance(data[id_][property], list):
+            data[id_][property] = [data[id_][property]]
+        for j in data[id_][property]:
             groups[j].append(n)
     return groups
 
