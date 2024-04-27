@@ -10,6 +10,7 @@ class Benchmark(ABC):
     prompt: str
     labels: str | None = None
     meshes: str | None = None
+    og_data: dict | None = None
 
     @abstractmethod
     def get_ground_truth(self):
@@ -24,6 +25,9 @@ class PubMedQALSWE(Benchmark):
     def __init__(self, prompt: str = ""):
         self.data = json.loads(
             Path("./benchmarks/pubmedqa/data/ori_pqal_swe.json").read_text()
+        )
+        self.og_data = json.loads(
+            Path("./benchmarks/pubmedqa/data/ori_pqal.json").read_text()
         )
         self.prompt = prompt
         self.name = "PubMedQA-L-SWE"

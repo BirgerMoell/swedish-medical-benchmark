@@ -9,12 +9,14 @@ from tqdm import tqdm
 
 # Configuration
 # =============
-MODEL_NAME = "gpt-4-0125-preview"  # Specify the model to use. It doesn't need to be from OpenAI.
-PubMedQALSWE_SYSTEM_PROMPT = "Du är en specilaist läkare och skriver ett läkarprov. Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av de fördefinierade svaren: 'ja', 'nej', eller 'kanske'. Det är viktigt att du begränsar ditt svar till dessa alternativ för att säkerställa tydlighet i kommunikationen."
+MODEL_NAME = (
+    "gpt-4-0125-preview"  # Specify the model to use. It doesn't need to be from OpenAI.
+)
+PubMedQALSWE_SYSTEM_PROMPT = "Du är en utmärkt läkare och skriver ett läkarprov. Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av: 'ja', 'nej', eller 'kanske'. Det är viktigt att du begränsar ditt svar till dessa alternativ för att säkerställa tydlighet i kommunikationen."
 BENCHMARKS = [
     benchmarks.PubMedQALSWE(
         prompt=PubMedQALSWE_SYSTEM_PROMPT
-        + "\n\nFråga:\n{question}"
+        + "\n\nFråga:\n{question}\n\nSvara endast 'ja', 'nej' eller 'kanske'."
     )
 ]
 os.environ["OPENAI_API_KEY"] = "set-key-here"  # Set your api key and key name. 
@@ -32,7 +34,9 @@ def get_response(messages: list[str]) -> str:
 # ====
 if __name__ == "__main__":
     result = {
-        "llm_info": {"model": MODEL_NAME,},
+        "llm_info": {
+            "model": MODEL_NAME,
+        },
     }
     for benchmark in BENCHMARKS:
         llm_results = []
@@ -41,7 +45,10 @@ if __name__ == "__main__":
 
         for k, v in tqdm(benchmark.data.items(), desc=f"Processing {benchmark.name}"):
             messages = [
-                {"role": "user", "content": benchmark.prompt.format(question=v["QUESTION"])}
+                {
+                    "role": "user",
+                    "content": benchmark.prompt.format(question=v["QUESTION"]),
+                }
             ]
             out = completion(
                 model=MODEL_NAME,
