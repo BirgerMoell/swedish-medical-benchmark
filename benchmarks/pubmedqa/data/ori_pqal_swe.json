@@ -7084,22 +7084,22 @@
         "LONG_ANSWER": "LF och cruroplastik \u00e4r genomf\u00f6rbart och visar goda resultat n\u00e4r det g\u00e4ller kontroll av GERD-symtom och ytterligare viktnedg\u00e5ng. Den h\u00f6ga f\u00f6rekomsten av postoperativa komplikationer som observerats i denna serie \u00e4r dock en anledning till oro. Ett re-sleeve-f\u00f6rfarande kan \u00f6verv\u00e4gas som ett alternativ till RYGB/DS-omvandlingen begr\u00e4nsad till utvalda patienter."
     },
     "17453263": {
-        "FR\u00c5GA": "\u00c4r l\u00e4kares bed\u00f6mningar av astmasv\u00e5righetsgrad mindre exakta hos svarta j\u00e4mf\u00f6rt med vita patienter?",
-        "SAMMANHANG": [
+        "QUESTION": "\u00c4r l\u00e4kares bed\u00f6mningar av astmasv\u00e5righetsgrad mindre exakta hos svarta j\u00e4mf\u00f6rt med vita patienter?",
+        "CONTEXTS": [
             "Rasliga skillnader i astmav\u00e5rd kan inte helt f\u00f6rklaras av socioekonomisk status, tillg\u00e5ng till v\u00e5rd och f\u00f6rs\u00e4kringsstatus. L\u00e4mplig v\u00e5rd kr\u00e4ver exakta l\u00e4karbed\u00f6mningar av sv\u00e5righetsgraden. Det \u00e4r ok\u00e4nt om noggrannheten i l\u00e4kares bed\u00f6mningar skiljer sig mellan svarta och vita patienter och hur detta relaterar till skillnader i astmav\u00e5rd.",
             "Vi hypotetiserade att: 1) l\u00e4kares underskattning av astmasv\u00e5righetsgrad \u00e4r vanligare bland svarta patienter; 2) bland svarta patienter \u00e4r l\u00e4kares underskattning av sv\u00e5righetsgraden f\u00f6rknippad med s\u00e4mre kvalitet p\u00e5 astmav\u00e5rden.",
             "Vi genomf\u00f6rde en tv\u00e4rsnittsunders\u00f6kning bland vuxna patienter med astma som v\u00e5rdades inom 15 h\u00e4lsov\u00e5rdsorganisationer i USA. Vi samlade in l\u00e4kares uppskattningar av deras patienters astmasv\u00e5righetsgrad. L\u00e4kares bed\u00f6mningar av patienters astma som mindre allvarlig \u00e4n patientrapporterade symtom klassificerades som underskattningar av sv\u00e5righetsgraden.",
             "Frekvens av underskattning, astmav\u00e5rd och kommunikation.",
             "Tretusenfyrahundra och nittiofyra patienter deltog (13 % var svarta). Svarta var signifikant mer ben\u00e4gna \u00e4n vita patienter att f\u00e5 sin astmasv\u00e5righetsgrad underskattad (OR = 1.39, 95 % CI 1.08-1.79). Bland svarta patienter var underskattning f\u00f6rknippad med mindre anv\u00e4ndning av dagliga inhalerade kortikosteroider (13 % j\u00e4mf\u00f6rt med 20 %, p<.05), mindre l\u00e4karinstruktioner om hantering av astmaattacker (33 % j\u00e4mf\u00f6rt med 41 %, p<.0001) och l\u00e4gre betyg f\u00f6r astmav\u00e5rd (p = .01) och l\u00e4karkommunikation (p = .04)."
         ],
-        "ETIKETTER": [
+        "LABELS": [
             "BAKGRUND",
             "SYFTE",
             "DESIGN, MILJ\u00d6 OCH PATIENTER",
             "M\u00c4TNINGAR",
             "RESULTAT"
         ],
-        "N\u00c4TVERK": [
+        "MESHES": [
             "Vuxen",
             "Afroamerikaner",
             "Astma",
@@ -7116,11 +7116,11 @@
             "Kvalitet p\u00e5 h\u00e4lsov\u00e5rd",
             "Sv\u00e5righetsgradsindex f\u00f6r sjukdom"
         ],
-        "\u00c5R": "2007",
-        "kr\u00e4ver_resonemang": "nej",
-        "resonemang_fri": "ja",
-        "slutligt_beslut": "ja",
-        "L\u00c5NGT_SVAR": "Sneda uppskattningar av astmasv\u00e5righetsgrad kan bidra till rasligt disparat astmav\u00e5rd. Insatser f\u00f6r att f\u00f6rb\u00e4ttra l\u00e4kares bed\u00f6mningar av astmasv\u00e5righetsgrad och kommunikation l\u00e4kare-patient kan minimera rasliga skillnader i astmav\u00e5rden."
+        "YEAR": "2007",
+        "reasoning_required_pred": "nej",
+        "reasoning_free_pred": "ja",
+        "final_decision": "ja",
+        "LONG_ANSWER": "Sneda uppskattningar av astmasv\u00e5righetsgrad kan bidra till rasligt disparat astmav\u00e5rd. Insatser f\u00f6r att f\u00f6rb\u00e4ttra l\u00e4kares bed\u00f6mningar av astmasv\u00e5righetsgrad och kommunikation l\u00e4kare-patient kan minimera rasliga skillnader i astmav\u00e5rden."
     },
     "18322741": {
         "QUESTION": "Minskar laparoskopisk kirurgi risken f\u00f6r f\u00f6rmaksflimmer efter \u00f6vergripande kirurgi?",
@@ -27163,6 +27163,10 @@
             "Postoperativa komplikationer",
             "beta-N-acetylhexosaminidaser"
         ],
+        "YEAR": null,
+        "reasoning_required_pred": "nej",
+        "reasoning_free_pred": "ja",
+        "final_decision": "ja",
         "LONG_ANSWER": "Laparoskopiska ingrepp orsakade detekterbara skador p\u00e5 Kupffer- och endotelceller, vilket \u00e5terspeglas av \u00f6kade postoperativa HA-serumniv\u00e5er. Skadan p\u00e5 leverns hepatocyter och perisinusoidala celler har ingen klinisk betydelse och det laparoskopiska ingreppet sj\u00e4lvt \u00e4r den troliga orsaken till skadan p\u00e5 Kupffer- och endotelcellerna, medan andra mekanismer orsakade skador p\u00e5 hepatocyterna."
     },
     "20605051": {
