@@ -1,0 +1,615 @@
+[
+    {
+      "question": "Vilken av följande infektioner behandlas primärt med penicillin?",
+      "options": ["Influensa", "Herpes zoster", "Streptokocktonsillit", "HIV", "Tuberkulos"],
+      "correct_answer": "Streptokocktonsillit",
+      "justification": "Streptokocktonsillit orsakas av grupp A streptokocker, som är känsliga för penicillin."
+    },
+    {
+      "question": "Vilken undersökning är förstahandsval vid misstanke om lungemboli?",
+      "options": ["Spirometri", "Röntgen av thorax", "DT thorax med kontrast", "EKG", "Blodgasanalys"],
+      "correct_answer": "DT thorax med kontrast",
+      "justification": "DT thorax med kontrast är den mest känsliga och specifika metoden för att diagnostisera lungemboli."
+    },
+    {
+      "question": "Vilket av följande är ett vanligt symtom vid hyperthyreos?",
+      "options": ["Viktökning", "Kall intolerans", "Bradykardi", "Tremor", "Depression"],
+      "correct_answer": "Tremor",
+      "justification": "Hyperthyreos orsakar överproduktion av sköldkörtelhormoner, vilket kan leda till symtom som tremor."
+    },
+    {
+      "question": "Vilken av följande läkemedel används ofta vid behandling av hypertoni?",
+      "options": ["Paracetamol", "Ibuprofen", "Metoprolol", "Simvastatin", "Amoxicillin"],
+      "correct_answer": "Metoprolol",
+      "justification": "Metoprolol är en betablockerare som används för att sänka blodtrycket vid hypertoni."
+    },
+    {
+      "question": "Vilket organ påverkas främst av hepatit B?",
+      "options": ["Hjärnan", "Hjärtat", "Levern", "Lungorna", "Njuren"],
+      "correct_answer": "Levern",
+      "justification": "Hepatit B är en virusinfektion som primärt påverkar levern."
+    },
+    {
+      "question": "Vilket av följande är inte en riskfaktor för utveckling av typ 2-diabetes?",
+      "options": ["Övervikt", "Rökning", "Fysisk inaktivitet", "Högt kolesterol", "Högt blodtryck"],
+      "correct_answer": "Högt kolesterol",
+      "justification": "Högt kolesterol är en riskfaktor för hjärt-kärlsjukdomar men inte direkt för typ 2-diabetes."
+    },
+    {
+      "question": "Vilken av följande är den mest effektiva åtgärden för att förebygga spridning av influensa?",
+      "options": ["Handtvätt", "Antibiotika", "Vaccination", "C-vitamin", "Probiotika"],
+      "correct_answer": "Vaccination",
+      "justification": "Vaccination är det mest effektiva sättet att förebygga influensa genom att ge immunitet mot viruset."
+    },
+    {
+      "question": "Vilken undersökning används oftast för att bekräfta diagnosen osteoporos?",
+      "options": ["Blodprov", "MR", "DT", "DXA", "Ultraljud"],
+      "correct_answer": "DXA",
+      "justification": "DXA (Dual-energy X-ray Absorptiometry) är standardmetoden för att mäta bentäthet och diagnostisera osteoporos."
+    },
+    {
+      "question": "Vilken behandling är förstahandsval vid anafylaxi?",
+      "options": ["Antihistamin", "Kortison", "Adrenalin", "Bronkdilaterare", "Vätskeinfusion"],
+      "correct_answer": "Adrenalin",
+      "justification": "Adrenalin är det snabbaste och mest effektiva läkemedlet för att behandla anafylaktiska reaktioner."
+    },
+    {
+      "question": "Vilket av följande symtom är mest karakteristiskt för Parkinsons sjukdom?",
+      "options": ["Muskelatrofi", "Huvudvärk", "Darrningar i vila", "Utslag", "Synförlust"],
+      "correct_answer": "Darrningar i vila",
+      "justification": "Darrningar i vila är ett karakteristiskt symtom på Parkinsons sjukdom, orsakat av dopaminbrist i hjärnan."
+    },
+    {
+      "question": "Vilken av följande är en typisk komplikation vid obehandlad diabetes mellitus?",
+      "options": ["Cerebral infarkt", "Nephropati", "Astma", "Hypotoni", "Psoriasis"],
+      "correct_answer": "Nephropati",
+      "justification": "Diabetisk nefropati är en vanlig komplikation av långvarig, dåligt kontrollerad diabetes."
+    },
+    {
+      "question": "Vilken av följande är den vanligaste orsaken till hjärtinfarkt?",
+      "options": ["Myokardit", "Kardiomyopati", "Koronarartärsjukdom", "Perikardit", "Klaffel"],
+      "correct_answer": "Koronarartärsjukdom",
+      "justification": "Koronarartärsjukdom, som leder till förträngningar i hjärtats kranskärl, är den vanligaste orsaken till hjärtinfarkt."
+    },
+    {
+      "question": "Vilket av följande symtom är typiskt för appendicit?",
+      "options": ["Smärta i vänster fossa iliaca", "Smärta i höger fossa iliaca", "Diffus buksmärta", "Bröstsmärta", "Ryggsmärta"],
+      "correct_answer": "Smärta i höger fossa iliaca",
+      "justification": "Appendicit orsakar vanligtvis smärta i höger fossa iliaca, vilket är ett klassiskt tecken på tillståndet."
+    },
+    {
+      "question": "Vilken av följande är den vanligaste orsaken till demens?",
+      "options": ["Parkinsons sjukdom", "Huntingtons sjukdom", "Alzheimers sjukdom", "Multipel skleros", "AIDS"],
+      "correct_answer": "Alzheimers sjukdom",
+      "justification": "Alzheimers sjukdom är den vanligaste orsaken till demens och står för majoriteten av demensfallen."
+    },
+    {
+      "question": "Vilket av följande blodprov är mest specifikt för att diagnostisera en hjärtinfarkt?",
+      "options": ["CRP", "HbA1c", "Troponin", "D-dimer", "BNP"],
+      "correct_answer": "Troponin",
+      "justification": "Förhöjda nivåer av troponin i blodet är mycket specifika för hjärtmuskelskada, såsom vid hjärtinfarkt."
+    },
+    {
+      "question": "Vilken av följande åtgärder är mest effektiv för att förebygga koloncancer?",
+      "options": ["Fysisk aktivitet", "Fiberintag", "Screening med koloskopi", "Viktminskning", "Rökstopp"],
+      "correct_answer": "Screening med koloskopi",
+      "justification": "Screening med koloskopi är effektivt för att tidigt upptäcka och avlägsna polyper, vilket kan förebygga koloncancer."
+    },
+    {
+      "question": "Vilken typ av smärta är typisk för gallsten?",
+      "options": ["Epigastrisk smärta", "Smärta i höger övre kvadrant", "Smärta i vänster nedre kvadrant", "Central bröstsmärta", "Diffus ryggsmärta"],
+      "correct_answer": "Smärta i höger övre kvadrant",
+      "justification": "Gallstensanfall orsakar vanligtvis smärta i höger övre kvadrant av buken, där gallblåsan är belägen."
+    },
+    {
+      "question": "Vilken av följande läkemedel är mest lämplig för behandling av depression?",
+      "options": ["Ibuprofen", "Omeprazol", "Fluoxetin", "Simvastatin", "Lisinopril"],
+      "correct_answer": "Fluoxetin",
+      "justification": "Fluoxetin är en SSRI (selektiv serotoninåterupptagshämmare) som används vid behandling av depression."
+    },
+    {
+      "question": "Vilken är den vanligaste orsaken till kronisk obstruktiv lungsjukdom (KOL)?",
+      "options": ["Genetisk predisposition", "Långvarig astma", "Rökning", "Exponering för asbest", "Allergier"],
+      "correct_answer": "Rökning",
+      "justification": "Rökning är den vanligaste orsaken till KOL och står för majoriteten av fallen."
+    },
+    {
+      "question": "Vilken undersökning är förstahandsval vid misstänkt djup ventrombos (DVT)?",
+      "options": ["Blodprov", "EKG", "Ultraljud av benet", "MR", "CT"],
+      "correct_answer": "Ultraljud av benet",
+      "justification": "Ultraljud av benet är den mest använda och tillförlitliga metoden för att diagnostisera djup ventrombos."
+    },
+    {
+        "question": "Vilken av följande är den vanligaste orsaken till gastroenterit hos barn?",
+        "options": ["Salmonella", "Campylobacter", "Rotavirus", "E. coli", "Shigella"],
+        "correct_answer": "Rotavirus",
+        "justification": "Rotavirus är den vanligaste orsaken till gastroenterit hos barn, vilket ofta leder till kräkningar och diarré."
+      },
+      {
+        "question": "Vilken behandling är mest lämplig vid akut astmaattack?",
+        "options": ["Antihistaminer", "Kortison i tablettform", "Kortison i inhalationsform", "Bronkdilaterare", "Antibiotika"],
+        "correct_answer": "Bronkdilaterare",
+        "justification": "Bronkdilaterare, såsom beta-2-agonister, är förstahandsvalet vid behandling av akut astmaattack för att snabbt vidga luftvägarna."
+      },
+      {
+        "question": "Vilket av följande tillstånd är karakteriserat av smärta och stelhet i axel och höft?",
+        "options": ["Reumatoid artrit", "Osteoartrit", "Polymyalgia rheumatica", "Fibromyalgi", "Lupus"],
+        "correct_answer": "Polymyalgia rheumatica",
+        "justification": "Polymyalgia rheumatica kännetecknas av smärta och stelhet i axlar och höfter, särskilt på morgonen."
+      },
+      {
+        "question": "Vilken av följande är den vanligaste orsaken till kronisk njursjukdom?",
+        "options": ["Diabetes mellitus", "Hypertension", "Glomerulonefrit", "Polycystisk njursjukdom", "Lupus"],
+        "correct_answer": "Diabetes mellitus",
+        "justification": "Diabetes mellitus är den vanligaste orsaken till kronisk njursjukdom på grund av långvarig hyperglykemi som skadar njurarna."
+      },
+      {
+        "question": "Vilken av följande vacciner är mest lämplig för att förebygga livmoderhalscancer?",
+        "options": ["Hepatit B-vaccin", "Influensavaccin", "HPV-vaccin", "BCG-vaccin", "Varicella-vaccin"],
+        "correct_answer": "HPV-vaccin",
+        "justification": "HPV-vaccin skyddar mot humant papillomvirus, vilket är en huvudorsak till livmoderhalscancer."
+      },
+      {
+        "question": "Vilken av följande är en vanlig biverkning av statiner?",
+        "options": ["Hyperglykemi", "Hypotoni", "Muskelsmärta", "Synförlust", "Förstoppning"],
+        "correct_answer": "Muskelsmärta",
+        "justification": "Muskelsmärta är en vanlig biverkning av statiner, som används för att sänka kolesterolnivåerna."
+      },
+      {
+        "question": "Vilket av följande symtom är mest karakteristiskt för akut pankreatit?",
+        "options": ["Epigastrisk smärta", "Smärta i höger fossa iliaca", "Bröstsmärta", "Ryggsmärta", "Huvudvärk"],
+        "correct_answer": "Epigastrisk smärta",
+        "justification": "Akut pankreatit orsakar vanligtvis svår smärta i övre delen av buken (epigastriet), som kan stråla ut mot ryggen."
+      },
+      {
+        "question": "Vilken av följande sjukdomar orsakas av Borrelia burgdorferi?",
+        "options": ["TBE", "Malaria", "Leptospiros", "Borrelia", "Denguefeber"],
+        "correct_answer": "Borrelia",
+        "justification": "Borrelia, även kallad Lyme-borrelios, orsakas av bakterien Borrelia burgdorferi och sprids via fästingbett."
+      },
+      {
+        "question": "Vilken av följande är en typisk komplikation vid långvarig hypertoni?",
+        "options": ["Hypotoni", "Cerebral infarkt", "Diabetes insipidus", "Astma", "Psoriasis"],
+        "correct_answer": "Cerebral infarkt",
+        "justification": "Långvarig hypertoni kan leda till hjärninfarkter på grund av skador på blodkärlen i hjärnan."
+      },
+      {
+        "question": "Vilket av följande läkemedel används ofta vid behandling av GERD (gastroesofageal refluxsjukdom)?",
+        "options": ["Aspirin", "Lisinopril", "Omeprazol", "Metoprolol", "Simvastatin"],
+        "correct_answer": "Omeprazol",
+        "justification": "Omeprazol är en protonpumpshämmare som minskar magsyran och används ofta vid behandling av GERD."
+      },
+      {
+        "question": "Vilken av följande är en vanlig orsak till sekundär hypertoni?",
+        "options": ["Rökning", "Diabetes mellitus", "Hyperparatyreoidism", "Hjärtinsufficiens", "Astma"],
+        "correct_answer": "Hyperparatyreoidism",
+        "justification": "Hyperparatyreoidism kan orsaka sekundär hypertoni genom överproduktion av paratyreoideahormon som påverkar kalciumbalansen."
+      },
+      {
+        "question": "Vilken av följande diagnostiska metoder är mest användbar vid utvärdering av hjärtklaffsjukdom?",
+        "options": ["EKG", "Röntgen av thorax", "Hjärteko", "Blodtrycksmätning", "Blodgasanalys"],
+        "correct_answer": "Hjärteko",
+        "justification": "Hjärteko (ekokardiografi) är en icke-invasiv metod som används för att utvärdera hjärtklaffarnas struktur och funktion."
+      },
+      {
+        "question": "Vilket av följande symtom är mest karakteristiskt för gikt?",
+        "options": ["Bröstsmärta", "Epigastrisk smärta", "Svullnad och smärta i stortån", "Huvudvärk", "Ryggsmärta"],
+        "correct_answer": "Svullnad och smärta i stortån",
+        "justification": "Gikt orsakar ofta akut smärta och svullnad i lederna, särskilt stortån, på grund av urinsyrakristaller."
+      },
+      {
+        "question": "Vilket av följande är den vanligaste orsaken till kronisk hosta hos vuxna?",
+        "options": ["Astma", "Kronisk bronkit", "Lungcancer", "Hjärtsvikt", "Gastroesofageal refluxsjukdom (GERD)"],
+        "correct_answer": "Kronisk bronkit",
+        "justification": "Kronisk bronkit, ofta orsakad av långvarig exponering för irriterande ämnen som rökning, är en vanlig orsak till kronisk hosta."
+      },
+      {
+        "question": "Vilken av följande är den vanligaste orsaken till synförlust hos äldre?",
+        "options": ["Diabetesretinopati", "Katarakt", "Glaukom", "Åldersrelaterad makuladegeneration (AMD)", "Retinitis pigmentosa"],
+        "correct_answer": "Åldersrelaterad makuladegeneration (AMD)",
+        "justification": "AMD är den vanligaste orsaken till synförlust hos äldre på grund av skador på makula, den centrala delen av näthinnan."
+      },
+      {
+        "question": "Vilken av följande är den mest pålitliga metoden för att diagnostisera sömnapné?",
+        "options": ["Blodprov", "EKG", "Polysomnografi", "Blodtrycksmätning", "Lungröntgen"],
+        "correct_answer": "Polysomnografi",
+        "justification": "Polysomnografi, en övervakad sömnstudie, är den mest pålitliga metoden för att diagnostisera sömnapné."
+      },
+      {
+        "question": "Vilket av följande symtom är mest typiskt för njursten?",
+        "options": ["Bröstsmärta", "Huvudvärk", "Epigastrisk smärta", "Kraftig flank- eller ryggsmärta", "Suddig syn"],
+        "correct_answer": "Kraftig flank- eller ryggsmärta",
+        "justification": "Njursten orsakar vanligtvis kraftig smärta i flanken eller ryggen när stenen rör sig genom urinvägarna."
+      },
+      {
+        "question": "Vilken av följande vaccinationer rekommenderas för att förebygga bältros hos äldre vuxna?",
+        "options": ["Hepatit A-vaccin", "Pneumokockvaccin", "Bältrosvaccin", "HPV-vaccin", "MPR-vaccin"],
+        "correct_answer": "Bältrosvaccin",
+        "justification": "Bältrosvaccin rekommenderas för äldre vuxna för att minska risken för att utveckla bältros och dess komplikationer."
+      },
+      {
+        "question": "Vilken av följande är en typisk biverkning av långvarig användning av protonpumpshämmare (PPI)?",
+        "options": ["Hyperkalemi", "Hypomagnesemi", "Hypernatremi", "Hyponatremi", "Hypokalemi"],
+        "correct_answer": "Hypomagnesemi",
+        "justification": "Långvarig användning av PPI kan leda till hypomagnesemi på grund av minskad absorption av magnesium i tarmen."
+      },
+      {
+        "question": "Vilket av följande är den vanligaste orsaken till anemi hos äldre?",
+        "options": ["Järnbrist", "Folsyrabrist", "Vitamin B12-brist", "Kronisk sjukdom", "Hemolys"],
+        "correct_answer": "Kronisk sjukdom",
+        "justification": "Anemi vid kronisk sjukdom är en vanlig orsak till anemi hos äldre på grund av underliggande kroniska inflammatoriska tillstånd."
+      },
+      {
+        "question": "Vilken av följande läkemedel används vanligtvis för att behandla osteoporos?",
+        "options": ["Betablockerare", "ACE-hämmare", "Bisfosfonater", "Statiner", "Antihistaminer"],
+        "correct_answer": "Bisfosfonater",
+        "justification": "Bisfosfonater är en klass av läkemedel som används för att stärka benen och minska risken för frakturer vid osteoporos."
+      },
+        {
+          "question": "Vilket av följande symtom är mest karakteristiskt för hypotyreos?",
+          "options": ["Viktminskning", "Svettningar", "Takykardi", "Trötthet", "Diarré"],
+          "correct_answer": "Trötthet",
+          "justification": "Hypotyreos kännetecknas av en minskad produktion av sköldkörtelhormon, vilket ofta leder till trötthet och energibrist."
+        },
+        {
+          "question": "Vilken är den vanligaste orsaken till perifer neuropati hos vuxna?",
+          "options": ["Alkoholism", "Diabetes mellitus", "Infektioner", "Autoimmuna sjukdomar", "Nutrientbrist"],
+          "correct_answer": "Diabetes mellitus",
+          "justification": "Diabetes mellitus är den vanligaste orsaken till perifer neuropati på grund av långvarig hyperglykemi som skadar nerverna."
+        },
+        {
+          "question": "Vilket av följande är ett typiskt symtom vid perikardit?",
+          "options": ["Bröstsmärta", "Buksmärta", "Huvudvärk", "Ryggsmärta", "Kraftig viktökning"],
+          "correct_answer": "Bröstsmärta",
+          "justification": "Perikardit orsakar inflammation i hjärtsäcken, vilket ofta leder till skarp bröstsmärta som förvärras vid andning eller liggande."
+        },
+        {
+          "question": "Vilken undersökning är mest användbar för att diagnostisera djup ventrombos (DVT)?",
+          "options": ["Röntgen", "MR", "Ultraljud", "DT", "EKG"],
+          "correct_answer": "Ultraljud",
+          "justification": "Ultraljud är den mest använda och tillförlitliga metoden för att diagnostisera djup ventrombos."
+        },
+        {
+          "question": "Vilket av följande är den vanligaste orsaken till hjärtsvikt?",
+          "options": ["Myokardit", "Kardiomyopati", "Koronarartärsjukdom", "Perikardit", "Hjärtarytmi"],
+          "correct_answer": "Koronarartärsjukdom",
+          "justification": "Koronarartärsjukdom är den vanligaste orsaken till hjärtsvikt på grund av minskat blodflöde till hjärtmuskeln."
+        },
+        {
+          "question": "Vilket av följande läkemedel är förstahandsval vid behandling av typ 2-diabetes?",
+          "options": ["Insulin", "Metformin", "Glimepirid", "Pioglitazon", "Akarbos"],
+          "correct_answer": "Metformin",
+          "justification": "Metformin är förstahandsvalet vid behandling av typ 2-diabetes på grund av dess effektivitet och säkerhetsprofil."
+        },
+        {
+          "question": "Vilket av följande symtom är mest karakteristiskt för temporalisarterit?",
+          "options": ["Buksmärta", "Huvudvärk", "Bröstsmärta", "Ledsmärta", "Hudutslag"],
+          "correct_answer": "Huvudvärk",
+          "justification": "Temporalisarterit orsakar inflammation i tinningartärerna, vilket ofta leder till svår huvudvärk."
+        },
+        {
+          "question": "Vilken av följande infektioner behandlas med aciklovir?",
+          "options": ["Influensa", "HIV", "Herpes simplex", "Hepatit B", "Tuberkulos"],
+          "correct_answer": "Herpes simplex",
+          "justification": "Aciklovir är ett antiviralt läkemedel som används för att behandla herpes simplex-infektioner."
+        },
+        {
+          "question": "Vilket av följande är ett typiskt symtom vid njursten?",
+          "options": ["Bröstsmärta", "Buksmärta", "Svår smärta i flank eller ljumske", "Huvudvärk", "Diarré"],
+          "correct_answer": "Svår smärta i flank eller ljumske",
+          "justification": "Njursten orsakar ofta svår smärta i flanken eller ljumsken när stenen rör sig genom urinvägarna."
+        },
+        {
+          "question": "Vilken av följande vaccinationer rekommenderas för att förebygga hepatit B?",
+          "options": ["Hepatit B-vaccin", "Influensavaccin", "HPV-vaccin", "BCG-vaccin", "Varicella-vaccin"],
+          "correct_answer": "Hepatit B-vaccin",
+          "justification": "Hepatit B-vaccin används för att förebygga hepatit B-infektioner, som kan leda till kroniska leversjukdomar."
+        },
+        {
+          "question": "Vilken av följande är den vanligaste orsaken till kronisk bronkit?",
+          "options": ["Astma", "Rökning", "Infektioner", "Allergier", "Yrkesexponering"],
+          "correct_answer": "Rökning",
+          "justification": "Rökning är den vanligaste orsaken till kronisk bronkit på grund av långvarig irritation av luftvägarna."
+        },
+        {
+          "question": "Vilket av följande läkemedel används ofta för att behandla högt kolesterol?",
+          "options": ["Metformin", "Lisinopril", "Atorvastatin", "Amlodipin", "Propranolol"],
+          "correct_answer": "Atorvastatin",
+          "justification": "Atorvastatin är en statin som används för att sänka kolesterolnivåerna och minska risken för hjärt-kärlsjukdomar."
+        },
+        {
+          "question": "Vilket av följande symtom är mest karakteristiskt för celiaki?",
+          "options": ["Bröstsmärta", "Huvudvärk", "Diarré", "Hudutslag", "Håravfall"],
+          "correct_answer": "Diarré",
+          "justification": "Celiaki är en autoimmun sjukdom där glutenintag leder till skador på tunntarmen och ofta orsakar diarré."
+        },
+        {
+          "question": "Vilken av följande är den vanligaste orsaken till hjärnblödning hos äldre?",
+          "options": ["Högt blodtryck", "Diabetes", "Hyperlipidemi", "Alkoholmissbruk", "Infektioner"],
+          "correct_answer": "Högt blodtryck",
+          "justification": "Högt blodtryck är den vanligaste orsaken till hjärnblödning på grund av ökat tryck på blodkärlen i hjärnan."
+        },
+        {
+          "question": "Vilken undersökning är förstahandsval vid misstanke om kolorektal cancer?",
+          "options": ["Ultraljud", "Röntgen", "DT", "Koloskopi", "EKG"],
+          "correct_answer": "Koloskopi",
+          "justification": "Koloskopi är den mest tillförlitliga metoden för att undersöka hela tjocktarmen och identifiera kolorektal cancer."
+        },
+        {
+          "question": "Vilken av följande är en vanlig orsak till sekundär hypertoni?",
+          "options": ["Kronisk njursjukdom", "Astma", "Diabetes mellitus", "Anemi", "Lungfibros"],
+          "correct_answer": "Kronisk njursjukdom",
+          "justification": "Kronisk njursjukdom kan orsaka sekundär hypertoni genom påverkan på renin-angiotensin-systemet och natriumretention."
+        },
+        {
+          "question": "Vilken av följande läkemedel används för att behandla malaria?",
+          "options": ["Aciklovir", "Metronidazol", "Klorokin", "Doxycyklin", "Amoxicillin"],
+          "correct_answer": "Klorokin",
+          "justification": "Klorokin är ett antimalarialäkemedel som används för att behandla och förebygga malaria."
+        },
+        {
+          "question": "Vilket av följande är ett typiskt symtom vid Crohns sjukdom?",
+          "options": ["Bröstsmärta", "Buksmärta", "Huvudvärk", "Hudsår", "Hosta"],
+          "correct_answer": "Buksmärta",
+          "justification": "Crohns sjukdom är en inflammatorisk tarmsjukdom som ofta orsakar buksmärta och diarré."
+        },
+        {
+          "question": "Vilken av följande är den vanligaste orsaken till dödsfall vid cancer?",
+          "options": ["Lungcancer", "Bröstcancer", "Koloncancer", "Prostatacancer", "Hudcancer"],
+          "correct_answer": "Lungcancer",
+          "justification": "Lungcancer är den vanligaste orsaken till cancerrelaterade dödsfall globalt på grund av dess aggressiva natur och sena diagnos."
+        },
+        {
+          "question": "Vilken av följande är en vanlig biverkning av ACE-hämmare?",
+          "options": ["Hosta", "Diarré", "Huvudvärk", "Utslag", "Dåsighet"],
+          "correct_answer": "Hosta",
+          "justification": "ACE-hämmare kan orsaka en ihållande torrhosta som en biverkning på grund av ackumulering av bradykinin i luftvägarna."
+        },
+        {
+          "question": "Vilken av följande infektioner orsakas av en bakterie?",
+          "options": ["Influensa", "HIV", "Hepatit C", "Tuberkulos", "Herpes simplex"],
+          "correct_answer": "Tuberkulos",
+          "justification": "Tuberkulos orsakas av bakterien Mycobacterium tuberculosis och påverkar främst lungorna."
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till hosta hos barn?",
+            "options": ["Astma", "Kikhosta", "Allergi", "Virusinfektion", "Bakteriell infektion"],
+            "correct_answer": "Virusinfektion",
+            "justification": "Virusinfektioner, såsom förkylningar, är den vanligaste orsaken till hosta hos barn."
+          },
+          {
+            "question": "Vilken av följande är en typisk komplikation vid långvarig obehandlad gastroesofageal refluxsjukdom (GERD)?",
+            "options": ["Barretts esofagus", "Pankreatit", "Gallsten", "Irritabel tarm", "Appendicit"],
+            "correct_answer": "Barretts esofagus",
+            "justification": "Barretts esofagus är en komplikation av kronisk GERD, där esofagusslemhinnan förändras och ökar risken för esofaguscancer."
+          },
+          {
+            "question": "Vilken av följande är den mest effektiva behandlingen för akut koronarsyndrom?",
+            "options": ["Beta-blockerare", "ACE-hämmare", "Trombolys", "Statiner", "Diuretika"],
+            "correct_answer": "Trombolys",
+            "justification": "Trombolys används för att snabbt lösa upp blodproppar som orsakar akut koronarsyndrom, vilket återställer blodflödet till hjärtat."
+          },
+          {
+            "question": "Vilken av följande är den vanligaste orsaken till levercirros i västvärlden?",
+            "options": ["Viral hepatit", "Alkoholmissbruk", "Autoimmun hepatit", "Hemokromatos", "Gallsten"],
+            "correct_answer": "Alkoholmissbruk",
+            "justification": "Alkoholmissbruk är den vanligaste orsaken till levercirros i västvärlden på grund av långvarig levertoxisk påverkan."
+          },
+          {
+            "question": "Vilken av följande är den vanligaste orsaken till plötslig död hos unga idrottare?",
+            "options": ["Koronarartärsjukdom", "Aortadissektion", "Hypertrofisk kardiomyopati", "Pulmonell emboli", "Myokardit"],
+            "correct_answer": "Hypertrofisk kardiomyopati",
+            "justification": "Hypertrofisk kardiomyopati är en genetisk hjärtsjukdom som kan orsaka plötslig hjärtdöd hos unga idrottare."
+          },
+          {
+            "question": "Vilken av följande är en vanlig orsak till sekundär anemi?",
+            "options": ["Järnbrist", "Vitamin B12-brist", "Kronisk njursjukdom", "Folsyrabrist", "Hemolys"],
+            "correct_answer": "Kronisk njursjukdom",
+            "justification": "Kronisk njursjukdom kan leda till sekundär anemi på grund av minskad produktion av erytropoetin, vilket stimulerar röda blodkroppar."
+          },
+          {
+            "question": "Vilket av följande symtom är mest karakteristiskt för kronisk obstruktiv lungsjukdom (KOL)?",
+            "options": ["Plötslig bröstsmärta", "Feber", "Andfåddhet vid ansträngning", "Brösttryck", "Huvudvärk"],
+            "correct_answer": "Andfåddhet vid ansträngning",
+            "justification": "Kronisk obstruktiv lungsjukdom (KOL) kännetecknas av andfåddhet vid ansträngning på grund av luftvägsobstruktion."
+          },
+          {
+            "question": "Vilket av följande är ett vanligt symtom vid pyelonefrit?",
+            "options": ["Bröstsmärta", "Buksmärta", "Feber och frossa", "Huvudvärk", "Ledvärk"],
+            "correct_answer": "Feber och frossa",
+            "justification": "Pyelonefrit, en infektion i njurarna, orsakar ofta feber och frossa tillsammans med smärta i flankområdet."
+          },
+          {
+            "question": "Vilket av följande läkemedel används ofta vid behandling av migrän?",
+            "options": ["Aspirin", "Paracetamol", "Sumatriptan", "Ibuprofen", "Metformin"],
+            "correct_answer": "Sumatriptan",
+            "justification": "Sumatriptan är en triptan som används specifikt för att behandla migrän genom att minska blodkärlens vidgning i hjärnan."
+          },
+          {
+            "question": "Vilken av följande är en vanlig biverkning av långvarig användning av kortikosteroider?",
+            "options": ["Hyponatremi", "Hyperglykemi", "Hyperkalemi", "Hypotoni", "Hypoglykemi"],
+            "correct_answer": "Hyperglykemi",
+            "justification": "Långvarig användning av kortikosteroider kan leda till hyperglykemi på grund av deras effekt på glukosmetabolismen."
+          },
+          {
+            "question": "Vilket av följande är ett typiskt symtom vid myokardit?",
+            "options": ["Plötslig viktnedgång", "Buksmärta", "Bröstsmärta", "Huvudvärk", "Hudutslag"],
+            "correct_answer": "Bröstsmärta",
+            "justification": "Myokardit, en inflammation i hjärtmuskeln, orsakar ofta bröstsmärta som liknar symtomen vid en hjärtinfarkt."
+          },
+          {
+            "question": "Vilken av följande är den vanligaste orsaken till förstorade lymfkörtlar hos barn?",
+            "options": ["Bakteriell infektion", "Virusinfektion", "Autoimmuna sjukdomar", "Cancer", "Allergier"],
+            "correct_answer": "Virusinfektion",
+            "justification": "Virusinfektioner är den vanligaste orsaken till förstorade lymfkörtlar hos barn på grund av immunsystemets respons."
+          },
+          {
+            "question": "Vilken av följande undersökningar är mest användbar för att diagnostisera en akut gallblåseinflammation?",
+            "options": ["Ultraljud", "Röntgen", "DT", "MR", "EKG"],
+            "correct_answer": "Ultraljud",
+            "justification": "Ultraljud är förstahandsvalet för att diagnostisera akut gallblåseinflammation eftersom det effektivt kan visa gallstenar och inflammation."
+          },
+          {
+            "question": "Vilket av följande läkemedel används för att behandla allergisk rinit?",
+            "options": ["Paracetamol", "Ibuprofen", "Antihistaminer", "Metformin", "Aspirin"],
+            "correct_answer": "Antihistaminer",
+            "justification": "Antihistaminer används för att behandla allergisk rinit genom att blockera effekten av histamin, vilket minskar allergisymtom."
+          },
+          {
+            "question": "Vilken av följande är en typisk komplikation vid långvarig obehandlad högt blodtryck?",
+            "options": ["Diabetes", "Njursvikt", "Astma", "Lupus", "Hypotoni"],
+            "correct_answer": "Njursvikt",
+            "justification": "Långvarig obehandlad högt blodtryck kan skada njurarna och leda till njursvikt."
+          },
+          {
+            "question": "Vilken av följande är den vanligaste orsaken till anemi hos gravida kvinnor?",
+            "options": ["Vitamin B12-brist", "Järnbrist", "Folsyrabrist", "Kronisk sjukdom", "Hemolys"],
+            "correct_answer": "Järnbrist",
+            "justification": "Järnbrist är den vanligaste orsaken till anemi hos gravida kvinnor på grund av ökat järnbehov under graviditeten."
+          },
+          {
+            "question": "Vilket av följande är ett vanligt symtom vid hyponatremi?",
+            "options": ["Hypertoni", "Viktuppgång", "Förvirring", "Torr hud", "Öronsusningar"],
+            "correct_answer": "Förvirring",
+            "justification": "Hyponatremi, låga natriumnivåer i blodet, kan orsaka neurologiska symtom som förvirring på grund av svullnad i hjärncellerna."
+          },
+          {
+            "question": "Vilken av följande är den vanligaste orsaken till blindhet globalt?",
+            "options": ["Grå starr", "Glaukom", "Diabetisk retinopati", "Makula degeneration", "Retinitis pigmentosa"],
+            "correct_answer": "Grå starr",
+            "justification": "Grå starr är den vanligaste orsaken till blindhet globalt på grund av den gradvisa opaciteten i ögonlinsen."
+          },
+          {
+            "question": "Vilket av följande symtom är mest karakteristiskt för hypothyreos?",
+            "options": ["Takykardi", "Viktnedgång", "Diarré", "Trötthet", "Svettningar"],
+            "correct_answer": "Trötthet",
+            "justification": "Hypotyreos kännetecknas av låg produktion av sköldkörtelhormon, vilket leder till trötthet och nedsatt energi."
+          },
+          {
+            "question": "Vilken av följande infektioner orsakas av en svamp?",
+            "options": ["Tuberkulos", "Influensa", "Candidiasis", "Hepatit C", "Malaria"],
+            "correct_answer": "Candidiasis",
+            "justification": "Candidiasis är en infektion som orsakas av svampen Candida och påverkar hud, mun och genitala områden."
+          },
+            {
+              "question": "Vilken av följande är den vanligaste orsaken till akut pankreatit?",
+              "options": ["Gallsten", "Alkoholmissbruk", "Hög fetthalt i kosten", "Virusinfektion", "Läkemedelsreaktion"],
+              "correct_answer": "Gallsten",
+              "justification": "Gallstenar är den vanligaste orsaken till akut pankreatit då de kan blockera pankreasgången och orsaka inflammation."
+            },
+            {
+              "question": "Vilken av följande är ett vanligt symtom på hjärtsvikt?",
+              "options": ["Viktnedgång", "Huvudvärk", "Dyspné", "Näsblod", "Buksmärta"],
+              "correct_answer": "Dyspné",
+              "justification": "Dyspné eller andfåddhet är ett vanligt symtom på hjärtsvikt eftersom hjärtat inte kan pumpa blod effektivt, vilket leder till vätskeansamling i lungorna."
+            },
+            {
+              "question": "Vilken av följande är en riskfaktor för utveckling av osteoporos?",
+              "options": ["Hög proteinkonsumtion", "Övervikt", "Rökning", "Låg kalciumkonsumtion", "Hög alkoholkonsumtion"],
+              "correct_answer": "Rökning",
+              "justification": "Rökning är en riskfaktor för osteoporos eftersom det påverkar benmetabolismen och minskar benmassa."
+            },
+            {
+              "question": "Vilken av följande är den vanligaste typen av diabetes?",
+              "options": ["Typ 1-diabetes", "Typ 2-diabetes", "Graviditetsdiabetes", "MODY", "LADA"],
+              "correct_answer": "Typ 2-diabetes",
+              "justification": "Typ 2-diabetes är den vanligaste typen av diabetes och är ofta förknippad med övervikt och fysisk inaktivitet."
+            },
+            {
+              "question": "Vilken av följande är en vanlig biverkning av NSAID?",
+              "options": ["Hyperglykemi", "Hypotoni", "Gastrointestinal blödning", "Hepatit", "Hudutslag"],
+              "correct_answer": "Gastrointestinal blödning",
+              "justification": "NSAID ökar risken för gastrointestinal blödning genom att hämma prostaglandiner som skyddar magslemhinnan."
+            },
+            {
+              "question": "Vilken av följande infektioner kan leda till reumatisk feber om den inte behandlas?",
+              "options": ["Streptokockfaryngit", "Influensa", "Hepatit B", "Tuberkulos", "Herpes simplex"],
+              "correct_answer": "Streptokockfaryngit",
+              "justification": "Streptokockfaryngit, om den inte behandlas, kan leda till reumatisk feber, vilket påverkar hjärtat, lederna och andra vävnader."
+            },
+            {
+              "question": "Vilket av följande är ett vanligt symtom vid Crohns sjukdom?",
+              "options": ["Huvudvärk", "Förstoppning", "Buksmärta", "Hudutslag", "Hosta"],
+              "correct_answer": "Buksmärta",
+              "justification": "Buksmärta är ett vanligt symtom vid Crohns sjukdom, en inflammatorisk tarmsjukdom som påverkar matsmältningskanalen."
+            },
+            {
+              "question": "Vilken av följande är en typisk orsak till sekundär hypertoni?",
+              "options": ["Njursjukdom", "Hjärtsjukdom", "Astma", "Diabetes", "Anemi"],
+              "correct_answer": "Njursjukdom",
+              "justification": "Njursjukdom kan orsaka sekundär hypertoni genom att påverka renin-angiotensin-aldosteronsystemet och vätske- och saltbalansen."
+            },
+            {
+              "question": "Vilken av följande är den mest sannolika orsaken till anemi hos en äldre person?",
+              "options": ["Järnbrist", "Vitamin B12-brist", "Kronisk sjukdom", "Folsyrabrist", "Hemolys"],
+              "correct_answer": "Kronisk sjukdom",
+              "justification": "Anemi av kronisk sjukdom är vanligt hos äldre personer och är ofta förknippad med inflammatoriska tillstånd eller kroniska sjukdomar."
+            },
+            {
+              "question": "Vilket av följande är ett typiskt symtom vid hjärntumör?",
+              "options": ["Bröstsmärta", "Buksmärta", "Förändrad syn", "Torr hud", "Ökad törst"],
+              "correct_answer": "Förändrad syn",
+              "justification": "Förändrad syn kan vara ett tidigt symtom på en hjärntumör på grund av tryck på synnerven eller hjärnans visuella centra."
+            },
+            {
+              "question": "Vilken av följande är den vanligaste orsaken till kronisk hosta hos vuxna?",
+              "options": ["Astma", "Kronisk bronkit", "Gastroesofageal refluxsjukdom (GERD)", "Lungcancer", "Pneumoni"],
+              "correct_answer": "Gastroesofageal refluxsjukdom (GERD)",
+              "justification": "GERD är en vanlig orsak till kronisk hosta hos vuxna på grund av reflux av magsyra som irriterar luftvägarna."
+            },
+            {
+              "question": "Vilken av följande är en typisk behandling för akut cystit hos kvinnor?",
+              "options": ["Antibiotika", "Antihistaminer", "NSAID", "Diuretika", "Kortikosteroider"],
+              "correct_answer": "Antibiotika",
+              "justification": "Antibiotika används för att behandla akut cystit (urinvägsinfektion) hos kvinnor genom att eliminera de infekterande bakterierna."
+            },
+            {
+              "question": "Vilken av följande är den vanligaste orsaken till hematuri hos unga vuxna?",
+              "options": ["Njursjukdom", "Blåscancer", "Urinvägsinfektion", "Prostatit", "Lupus"],
+              "correct_answer": "Urinvägsinfektion",
+              "justification": "Urinvägsinfektion är den vanligaste orsaken till hematuri (blod i urinen) hos unga vuxna på grund av infektion och inflammation i urinvägarna."
+            },
+            {
+              "question": "Vilken av följande är en riskfaktor för utveckling av kolorektal cancer?",
+              "options": ["Hög fiberkonsumtion", "Rökning", "Fysisk aktivitet", "Lågt fettintag", "Lågt köttintag"],
+              "correct_answer": "Rökning",
+              "justification": "Rökning är en riskfaktor för kolorektal cancer på grund av de cancerframkallande ämnen som finns i tobaksrök."
+            },
+            {
+              "question": "Vilken av följande är en vanlig orsak till hypoglykemi hos diabetiker?",
+              "options": ["För mycket insulin", "För lite insulin", "För mycket mat", "För lite motion", "Ökad stress"],
+              "correct_answer": "För mycket insulin",
+              "justification": "Hypoglykemi hos diabetiker orsakas ofta av för mycket insulin eller diabetesmedicin i förhållande till matintag eller fysisk aktivitet."
+            },
+            {
+              "question": "Vilket av följande är ett typiskt symtom på hyperkalcemi?",
+              "options": ["Muskelkramper", "Svettningar", "Polyuri", "Kallsvettning", "Huvudvärk"],
+              "correct_answer": "Polyuri",
+              "justification": "Hyperkalcemi orsakar polyuri (ökad urinproduktion) genom att påverka njurarnas förmåga att koncentrera urinen."
+            },
+            {
+              "question": "Vilken av följande är en typisk komplikation vid obehandlad celiaki?",
+              "options": ["Hypotoni", "Anemi", "Hyperglykemi", "Leversvikt", "Njursvikt"],
+              "correct_answer": "Anemi",
+              "justification": "Obehandlad celiaki kan leda till anemi på grund av malabsorption av järn och andra näringsämnen."
+            },
+            {
+              "question": "Vilken av följande är en riskfaktor för utveckling av gallsten?",
+              "options": ["Övervikt", "Låg fettkonsumtion", "Fysisk aktivitet", "Ung ålder", "Vegetarisk kost"],
+              "correct_answer": "Övervikt",
+              "justification": "Övervikt är en riskfaktor för utveckling av gallsten på grund av ökad utsöndring av kolesterol i gallan."
+            },
+            {
+              "question": "Vilken av följande är den vanligaste orsaken till infertilitet hos kvinnor?",
+              "options": ["Endometrios", "Polycystiskt ovariesyndrom (PCOS)", "Uterus myom", "Tubal obstruktion", "Hyperprolaktinemi"],
+              "correct_answer": "Polycystiskt ovariesyndrom (PCOS)",
+              "justification": "PCOS är den vanligaste orsaken till infertilitet hos kvinnor på grund av hormonell obalans som påverkar ägglossningen."
+            },
+            {
+              "question": "Vilken av följande är en typisk komplikation vid långvarig obehandlad hypertoni?",
+              "options": ["Njursvikt", "Astma", "Hypotoni", "Diabetes", "Lupus"],
+              "correct_answer": "Njursvikt",
+              "justification": "Långvarig obehandlad hypertoni kan skada njurarna och leda till njursvikt genom att påverka blodkärlen och njurfunktionen."
+            }          
+  ]
+  

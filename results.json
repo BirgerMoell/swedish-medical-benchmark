@@ -1,0 +1,619 @@
+{
+    "llm_info": {
+        "model": "gpt-4o"
+    },
+    "questions": [
+        {
+            "question": "Vilken av följande infektioner behandlas primärt med penicillin?",
+            "llm_answer": "Streptokocktonsillit",
+            "correct_answer": "Streptokocktonsillit",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken undersökning är förstahandsval vid misstanke om lungemboli?",
+            "llm_answer": "DT thorax med kontrast",
+            "correct_answer": "DT thorax med kontrast",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande är ett vanligt symtom vid hyperthyreos?",
+            "llm_answer": "Tremor",
+            "correct_answer": "Tremor",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande läkemedel används ofta vid behandling av hypertoni?",
+            "llm_answer": "Metoprolol",
+            "correct_answer": "Metoprolol",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket organ påverkas främst av hepatit B?",
+            "llm_answer": "Levern",
+            "correct_answer": "Levern",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande är inte en riskfaktor för utveckling av typ 2-diabetes?",
+            "llm_answer": "Rökning",
+            "correct_answer": "Högt kolesterol",
+            "is_correct": false
+        },
+        {
+            "question": "Vilken av följande är den mest effektiva åtgärden för att förebygga spridning av influensa?",
+            "llm_answer": "Vaccination",
+            "correct_answer": "Vaccination",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken undersökning används oftast för att bekräfta diagnosen osteoporos?",
+            "llm_answer": "DXA",
+            "correct_answer": "DXA",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken behandling är förstahandsval vid anafylaxi?",
+            "llm_answer": "Adrenalin",
+            "correct_answer": "Adrenalin",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande symtom är mest karakteristiskt för Parkinsons sjukdom?",
+            "llm_answer": "Darrningar i vila",
+            "correct_answer": "Darrningar i vila",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en typisk komplikation vid obehandlad diabetes mellitus?",
+            "llm_answer": "Nephropati",
+            "correct_answer": "Nephropati",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till hjärtinfarkt?",
+            "llm_answer": "Koronarartärsjukdom",
+            "correct_answer": "Koronarartärsjukdom",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande symtom är typiskt för appendicit?",
+            "llm_answer": "Smärta i höger fossa iliaca",
+            "correct_answer": "Smärta i höger fossa iliaca",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till demens?",
+            "llm_answer": "Alzheimers sjukdom",
+            "correct_answer": "Alzheimers sjukdom",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande blodprov är mest specifikt för att diagnostisera en hjärtinfarkt?",
+            "llm_answer": "Troponin",
+            "correct_answer": "Troponin",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande åtgärder är mest effektiv för att förebygga koloncancer?",
+            "llm_answer": "Screening med koloskopi",
+            "correct_answer": "Screening med koloskopi",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken typ av smärta är typisk för gallsten?",
+            "llm_answer": "Smärta i höger övre kvadrant",
+            "correct_answer": "Smärta i höger övre kvadrant",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande läkemedel är mest lämplig för behandling av depression?",
+            "llm_answer": "Fluoxetin",
+            "correct_answer": "Fluoxetin",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken är den vanligaste orsaken till kronisk obstruktiv lungsjukdom (KOL)?",
+            "llm_answer": "Rökning",
+            "correct_answer": "Rökning",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken undersökning är förstahandsval vid misstänkt djup ventrombos (DVT)?",
+            "llm_answer": "Ultraljud av benet",
+            "correct_answer": "Ultraljud av benet",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till gastroenterit hos barn?",
+            "llm_answer": "Rotavirus",
+            "correct_answer": "Rotavirus",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken behandling är mest lämplig vid akut astmaattack?",
+            "llm_answer": "Bronkdilaterare",
+            "correct_answer": "Bronkdilaterare",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande tillstånd är karakteriserat av smärta och stelhet i axel och höft?",
+            "llm_answer": "Polymyalgia rheumatica",
+            "correct_answer": "Polymyalgia rheumatica",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till kronisk njursjukdom?",
+            "llm_answer": "Diabetes mellitus.",
+            "correct_answer": "Diabetes mellitus",
+            "is_correct": false
+        },
+        {
+            "question": "Vilken av följande vacciner är mest lämplig för att förebygga livmoderhalscancer?",
+            "llm_answer": "HPV-vaccin",
+            "correct_answer": "HPV-vaccin",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en vanlig biverkning av statiner?",
+            "llm_answer": "Muskelsmärta",
+            "correct_answer": "Muskelsmärta",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande symtom är mest karakteristiskt för akut pankreatit?",
+            "llm_answer": "Epigastrisk smärta",
+            "correct_answer": "Epigastrisk smärta",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande sjukdomar orsakas av Borrelia burgdorferi?",
+            "llm_answer": "Borrelia",
+            "correct_answer": "Borrelia",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en typisk komplikation vid långvarig hypertoni?",
+            "llm_answer": "Cerebral infarkt",
+            "correct_answer": "Cerebral infarkt",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande läkemedel används ofta vid behandling av GERD (gastroesofageal refluxsjukdom)?",
+            "llm_answer": "Omeprazol",
+            "correct_answer": "Omeprazol",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en vanlig orsak till sekundär hypertoni?",
+            "llm_answer": "Hyperparatyreoidism",
+            "correct_answer": "Hyperparatyreoidism",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande diagnostiska metoder är mest användbar vid utvärdering av hjärtklaffsjukdom?",
+            "llm_answer": "Hjärteko",
+            "correct_answer": "Hjärteko",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande symtom är mest karakteristiskt för gikt?",
+            "llm_answer": "Svullnad och smärta i stortån",
+            "correct_answer": "Svullnad och smärta i stortån",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande är den vanligaste orsaken till kronisk hosta hos vuxna?",
+            "llm_answer": "Gastroesofageal refluxsjukdom (GERD)",
+            "correct_answer": "Kronisk bronkit",
+            "is_correct": false
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till synförlust hos äldre?",
+            "llm_answer": "Åldersrelaterad makuladegeneration (AMD)",
+            "correct_answer": "Åldersrelaterad makuladegeneration (AMD)",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den mest pålitliga metoden för att diagnostisera sömnapné?",
+            "llm_answer": "Polysomnografi",
+            "correct_answer": "Polysomnografi",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande symtom är mest typiskt för njursten?",
+            "llm_answer": "Kraftig flank- eller ryggsmärta",
+            "correct_answer": "Kraftig flank- eller ryggsmärta",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande vaccinationer rekommenderas för att förebygga bältros hos äldre vuxna?",
+            "llm_answer": "Bältrosvaccin",
+            "correct_answer": "Bältrosvaccin",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en typisk biverkning av långvarig användning av protonpumpshämmare (PPI)?",
+            "llm_answer": "Hypomagnesemi",
+            "correct_answer": "Hypomagnesemi",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande är den vanligaste orsaken till anemi hos äldre?",
+            "llm_answer": "Kronisk sjukdom",
+            "correct_answer": "Kronisk sjukdom",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande läkemedel används vanligtvis för att behandla osteoporos?",
+            "llm_answer": "Bisfosfonater",
+            "correct_answer": "Bisfosfonater",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande symtom är mest karakteristiskt för hypotyreos?",
+            "llm_answer": "Trötthet",
+            "correct_answer": "Trötthet",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken är den vanligaste orsaken till perifer neuropati hos vuxna?",
+            "llm_answer": "Diabetes mellitus",
+            "correct_answer": "Diabetes mellitus",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande är ett typiskt symtom vid perikardit?",
+            "llm_answer": "Bröstsmärta",
+            "correct_answer": "Bröstsmärta",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken undersökning är mest användbar för att diagnostisera djup ventrombos (DVT)?",
+            "llm_answer": "Ultraljud",
+            "correct_answer": "Ultraljud",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande är den vanligaste orsaken till hjärtsvikt?",
+            "llm_answer": "Koronarartärsjukdom",
+            "correct_answer": "Koronarartärsjukdom",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande läkemedel är förstahandsval vid behandling av typ 2-diabetes?",
+            "llm_answer": "Metformin",
+            "correct_answer": "Metformin",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande symtom är mest karakteristiskt för temporalisarterit?",
+            "llm_answer": "Huvudvärk",
+            "correct_answer": "Huvudvärk",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande infektioner behandlas med aciklovir?",
+            "llm_answer": "Herpes simplex",
+            "correct_answer": "Herpes simplex",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande är ett typiskt symtom vid njursten?",
+            "llm_answer": "Svår smärta i flank eller ljumske.",
+            "correct_answer": "Svår smärta i flank eller ljumske",
+            "is_correct": false
+        },
+        {
+            "question": "Vilken av följande vaccinationer rekommenderas för att förebygga hepatit B?",
+            "llm_answer": "Hepatit B-vaccin",
+            "correct_answer": "Hepatit B-vaccin",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till kronisk bronkit?",
+            "llm_answer": "Rökning",
+            "correct_answer": "Rökning",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande läkemedel används ofta för att behandla högt kolesterol?",
+            "llm_answer": "Atorvastatin",
+            "correct_answer": "Atorvastatin",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande symtom är mest karakteristiskt för celiaki?",
+            "llm_answer": "Diarré",
+            "correct_answer": "Diarré",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till hjärnblödning hos äldre?",
+            "llm_answer": "Högt blodtryck",
+            "correct_answer": "Högt blodtryck",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken undersökning är förstahandsval vid misstanke om kolorektal cancer?",
+            "llm_answer": "Koloskopi",
+            "correct_answer": "Koloskopi",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en vanlig orsak till sekundär hypertoni?",
+            "llm_answer": "Kronisk njursjukdom",
+            "correct_answer": "Kronisk njursjukdom",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande läkemedel används för att behandla malaria?",
+            "llm_answer": "Klorokin",
+            "correct_answer": "Klorokin",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande är ett typiskt symtom vid Crohns sjukdom?",
+            "llm_answer": "Buksmärta",
+            "correct_answer": "Buksmärta",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till dödsfall vid cancer?",
+            "llm_answer": "Lungcancer",
+            "correct_answer": "Lungcancer",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en vanlig biverkning av ACE-hämmare?",
+            "llm_answer": "Hosta",
+            "correct_answer": "Hosta",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande infektioner orsakas av en bakterie?",
+            "llm_answer": "Tuberkulos",
+            "correct_answer": "Tuberkulos",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till hosta hos barn?",
+            "llm_answer": "Virusinfektion",
+            "correct_answer": "Virusinfektion",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en typisk komplikation vid långvarig obehandlad gastroesofageal refluxsjukdom (GERD)?",
+            "llm_answer": "Barretts esofagus",
+            "correct_answer": "Barretts esofagus",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den mest effektiva behandlingen för akut koronarsyndrom?",
+            "llm_answer": "Trombolys",
+            "correct_answer": "Trombolys",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till levercirros i västvärlden?",
+            "llm_answer": "Alkoholmissbruk",
+            "correct_answer": "Alkoholmissbruk",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till plötslig död hos unga idrottare?",
+            "llm_answer": "Hypertrofisk kardiomyopati",
+            "correct_answer": "Hypertrofisk kardiomyopati",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en vanlig orsak till sekundär anemi?",
+            "llm_answer": "Kronisk njursjukdom",
+            "correct_answer": "Kronisk njursjukdom",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande symtom är mest karakteristiskt för kronisk obstruktiv lungsjukdom (KOL)?",
+            "llm_answer": "Andfåddhet vid ansträngning",
+            "correct_answer": "Andfåddhet vid ansträngning",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande är ett vanligt symtom vid pyelonefrit?",
+            "llm_answer": "Feber och frossa",
+            "correct_answer": "Feber och frossa",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande läkemedel används ofta vid behandling av migrän?",
+            "llm_answer": "Sumatriptan",
+            "correct_answer": "Sumatriptan",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en vanlig biverkning av långvarig användning av kortikosteroider?",
+            "llm_answer": "Hyperglykemi",
+            "correct_answer": "Hyperglykemi",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande är ett typiskt symtom vid myokardit?",
+            "llm_answer": "Bröstsmärta",
+            "correct_answer": "Bröstsmärta",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till förstorade lymfkörtlar hos barn?",
+            "llm_answer": "Virusinfektion",
+            "correct_answer": "Virusinfektion",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande undersökningar är mest användbar för att diagnostisera en akut gallblåseinflammation?",
+            "llm_answer": "Ultraljud",
+            "correct_answer": "Ultraljud",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande läkemedel används för att behandla allergisk rinit?",
+            "llm_answer": "Antihistaminer",
+            "correct_answer": "Antihistaminer",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en typisk komplikation vid långvarig obehandlad högt blodtryck?",
+            "llm_answer": "Njursvikt",
+            "correct_answer": "Njursvikt",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till anemi hos gravida kvinnor?",
+            "llm_answer": "Järnbrist",
+            "correct_answer": "Järnbrist",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande är ett vanligt symtom vid hyponatremi?",
+            "llm_answer": "Förvirring",
+            "correct_answer": "Förvirring",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till blindhet globalt?",
+            "llm_answer": "Grå starr",
+            "correct_answer": "Grå starr",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande symtom är mest karakteristiskt för hypothyreos?",
+            "llm_answer": "Trötthet",
+            "correct_answer": "Trötthet",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande infektioner orsakas av en svamp?",
+            "llm_answer": "Candidiasis",
+            "correct_answer": "Candidiasis",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till akut pankreatit?",
+            "llm_answer": "Gallsten",
+            "correct_answer": "Gallsten",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är ett vanligt symtom på hjärtsvikt?",
+            "llm_answer": "Dyspné",
+            "correct_answer": "Dyspné",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en riskfaktor för utveckling av osteoporos?",
+            "llm_answer": "Rökning",
+            "correct_answer": "Rökning",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste typen av diabetes?",
+            "llm_answer": "Typ 2-diabetes",
+            "correct_answer": "Typ 2-diabetes",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en vanlig biverkning av NSAID?",
+            "llm_answer": "Gastrointestinal blödning",
+            "correct_answer": "Gastrointestinal blödning",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande infektioner kan leda till reumatisk feber om den inte behandlas?",
+            "llm_answer": "Streptokockfaryngit",
+            "correct_answer": "Streptokockfaryngit",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande är ett vanligt symtom vid Crohns sjukdom?",
+            "llm_answer": "Buksmärta",
+            "correct_answer": "Buksmärta",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en typisk orsak till sekundär hypertoni?",
+            "llm_answer": "Njursjukdom",
+            "correct_answer": "Njursjukdom",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den mest sannolika orsaken till anemi hos en äldre person?",
+            "llm_answer": "Kronisk sjukdom",
+            "correct_answer": "Kronisk sjukdom",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande är ett typiskt symtom vid hjärntumör?",
+            "llm_answer": "Förändrad syn",
+            "correct_answer": "Förändrad syn",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till kronisk hosta hos vuxna?",
+            "llm_answer": "Gastroesofageal refluxsjukdom (GERD).",
+            "correct_answer": "Gastroesofageal refluxsjukdom (GERD)",
+            "is_correct": false
+        },
+        {
+            "question": "Vilken av följande är en typisk behandling för akut cystit hos kvinnor?",
+            "llm_answer": "Antibiotika",
+            "correct_answer": "Antibiotika",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till hematuri hos unga vuxna?",
+            "llm_answer": "Urinvägsinfektion",
+            "correct_answer": "Urinvägsinfektion",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en riskfaktor för utveckling av kolorektal cancer?",
+            "llm_answer": "Rökning",
+            "correct_answer": "Rökning",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en vanlig orsak till hypoglykemi hos diabetiker?",
+            "llm_answer": "För mycket insulin",
+            "correct_answer": "För mycket insulin",
+            "is_correct": true
+        },
+        {
+            "question": "Vilket av följande är ett typiskt symtom på hyperkalcemi?",
+            "llm_answer": "Polyuri",
+            "correct_answer": "Polyuri",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en typisk komplikation vid obehandlad celiaki?",
+            "llm_answer": "Anemi",
+            "correct_answer": "Anemi",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en riskfaktor för utveckling av gallsten?",
+            "llm_answer": "Övervikt",
+            "correct_answer": "Övervikt",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är den vanligaste orsaken till infertilitet hos kvinnor?",
+            "llm_answer": "Polycystiskt ovariesyndrom (PCOS)",
+            "correct_answer": "Polycystiskt ovariesyndrom (PCOS)",
+            "is_correct": true
+        },
+        {
+            "question": "Vilken av följande är en typisk komplikation vid långvarig obehandlad hypertoni?",
+            "llm_answer": "Njursvikt",
+            "correct_answer": "Njursvikt",
+            "is_correct": true
+        }
+    ]
+}
