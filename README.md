@@ -18,14 +18,7 @@ Create New Benchmark for Swedish 🛠️🆕
 
 ## Benchmarks
 
-### Pubmedqa
-
-Pubmedqa is a large benchmark of medical questions with yes / no / maybe answers that can be benchmarked with the help of LLMs.
-<https://github.com/pubmedqa/pubmedqa>
-
-### Pubmedqa-swe-tiny
-
-We have started translating a  subset of the questions (N=100) for a first benchmark in Swedish.
+See more information regarding implemented benchamrks in the [Benchmarks readme](benchmarks/BENCHMARK_DESCRIPTIONS.md) file.
 
 ## Develop benchmarks specifically for the Swedish context, incorporating
 
@@ -78,7 +71,7 @@ pip install -r requirements.txt
 
 Then you can run the file associated with the LLM model, make sure to adjust the configuration in the file to your needs. For instance:
 ```bash
-python run_llm/huggingface.py.py
+python run_llm/huggingface.py
 ```
 
 For more detailed metrics run the evaluation script:
