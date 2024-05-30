@@ -11,6 +11,7 @@ class Benchmark(ABC):
     labels: str | None = None
     meshes: str | None = None
     og_data: dict | None = None
+    answer_options: str | None = None
 
     @abstractmethod
     def get_ground_truth(self):
@@ -50,8 +51,29 @@ class PubMedQALSWE(Benchmark):
         return np.asarray(predictions)
 
 
+class GeneralPractioner(Benchmark):
+    def __init__(self, prompt: str = ""):
+        self.data = json.loads(
+            Path(
+                "./benchmarks/general_practitioner/general_practioner.json"
+            ).read_text()
+        )
+        self.prompt = prompt
+        self.name = "GeneralPractioner"
+        self.label_tag_groups = ["correct_answer", "options"]
+        self.answer_options = "options"
+
+    def get_ground_truth(self):
+        return np.asarray([v["correct_answer"] for v in self.data.values()])
+
+    def detect_answers(self, llm_answers):
+        return np.asarray(llm_answers)
+
+
 def get_benchmark_by_name(name: str):
     if name == "PubMedQA-L-SWE":
         return PubMedQALSWE()
+    elif name == "GeneralPractioner":
+        return GeneralPractioner()
     else:
         raise ValueError(f"Unknown benchmark: {name}")
