@@ -1,0 +1,542 @@
+[
+    {
+        "question": "Vilken mutation är starkt associerad med familjär hypertrofisk kardiomyopati?",
+        "options": ["MYH7", "FBN1", "COL3A1", "NOTCH1", "PCSK9"],
+        "correct_answer": "MYH7",
+        "justification": "Familjär hypertrofisk kardiomyopati är ofta associerad med mutationer i MYH7-genen som kodar för beta-myosin heavy chain."
+    },
+    {
+        "question": "Vilken bildteknik är bäst för att visualisera koronarkärlens anatomi vid misstanke om kranskärlssjukdom?",
+        "options": ["Koronar angiografi", "Transthorakal ekokardiografi", "Stress-EKG", "Magnetresonanstomografi", "Röntgen av thorax"],
+        "correct_answer": "Koronar angiografi",
+        "justification": "Koronar angiografi är guldstandarden för att visualisera koronarkärlens anatomi och identifiera blockeringar."
+    },
+    {
+        "question": "Vilken av följande är en typisk elektrokardiografisk förändring vid hyperkalemi?",
+        "options": ["Spetsiga T-vågor", "Låga U-vågor", "Förlängd QT-tid", "ST-höjning", "Sänkt ST-sträcka"],
+        "correct_answer": "Spetsiga T-vågor",
+        "justification": "Spetsiga T-vågor på EKG är en karakteristisk förändring vid hyperkalemi."
+    },
+    {
+        "question": "Vilken är den vanligaste genetiska orsaken till långsamt förmaksflimmer?",
+        "options": ["SCN5A-mutation", "KCNH2-mutation", "LMNA-mutation", "RYR2-mutation", "CACNA1C-mutation"],
+        "correct_answer": "SCN5A-mutation",
+        "justification": "Mutationer i SCN5A-genen, som kodar för en natriumkanal, är en vanlig genetisk orsak till långsamt förmaksflimmer."
+    },
+    {
+        "question": "Vilken behandling är förstahandsval vid akut STEMI?",
+        "options": ["PCI", "Trombolys", "CABG", "Beta-blockerare", "ACE-hämmare"],
+        "correct_answer": "PCI",
+        "justification": "Primär PCI (perkutan koronar intervention) är förstahandsbehandlingen vid akut ST-höjningsinfarkt (STEMI) för att återställa blodflödet."
+    },
+    {
+        "question": "Vilken av följande är en riskfaktor för utveckling av aortadissektion?",
+        "options": ["Hypertoni", "Diabetes", "Hypotyreos", "Hypotoni", "Hyperlipidemi"],
+        "correct_answer": "Hypertoni",
+        "justification": "Hypertoni är en betydande riskfaktor för utveckling av aortadissektion."
+    },
+    {
+        "question": "Vilket tillstånd kännetecknas av en kontinuerlig maskinljud-liknande blåsljud?",
+        "options": ["Patent ductus arteriosus", "Mitralisstenos", "Aortainsufficiens", "Ventrikelseptumdefekt", "Förmaksseptumdefekt"],
+        "correct_answer": "Patent ductus arteriosus",
+        "justification": "Patent ductus arteriosus kännetecknas av en kontinuerlig maskinljud-liknande blåsljud."
+    },
+    {
+        "question": "Vilket av följande är ett kännetecken för perikardit på EKG?",
+        "options": ["Upphöjda ST-sträckor i alla avledningar", "Förlängd PR-tid", "Inverterade T-vågor", "Q-vågor i flera avledningar", "Förlängt QT-intervall"],
+        "correct_answer": "Upphöjda ST-sträckor i alla avledningar",
+        "justification": "Upphöjda ST-sträckor i flera eller alla avledningar är ett klassiskt fynd på EKG vid perikardit."
+    },
+    {
+        "question": "Vilken biomarkör är mest specifik för hjärtinfarkt?",
+        "options": ["Troponin", "CK-MB", "Myoglobin", "BNP", "CRP"],
+        "correct_answer": "Troponin",
+        "justification": "Troponin är den mest specifika biomarkören för hjärtinfarkt och används för diagnos."
+    },
+    {
+        "question": "Vilken av följande är en vanlig biverkning av ACE-hämmare?",
+        "options": ["Hosta", "Hyperkalemi", "Hypotoni", "Hypokalemi", "Bradykardi"],
+        "correct_answer": "Hosta",
+        "justification": "Hosta är en vanlig biverkning av ACE-hämmare, som beror på ökad bradykininaktivitet."
+    },
+    {
+        "question": "Vilket av följande är en typisk klinisk manifestation av mitralisstenos?",
+        "options": ["Dyspné", "Bröstsmärta", "Synkope", "Perifer cyanos", "Huvudvärk"],
+        "correct_answer": "Dyspné",
+        "justification": "Dyspné är en typisk klinisk manifestation av mitralisstenos på grund av ökat tryck i vänster förmak och lungkretslopp."
+    },
+    {
+        "question": "Vilken av följande behandlingar är indicerad vid asymptomatisk, allvarlig aortastenos?",
+        "options": ["Ingen behandling", "Beta-blockerare", "ACE-hämmare", "Kirurgisk aortaklaffbyte", "Diuretika"],
+        "correct_answer": "Kirurgisk aortaklaffbyte",
+        "justification": "Kirurgisk aortaklaffbyte är indicerad vid allvarlig aortastenos, även om patienten är asymptomatisk, för att förebygga komplikationer."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till restriktiv kardiomyopati?",
+        "options": ["Amyloidos", "Hypertension", "Ateroskleros", "Mitralisprolaps", "Myokardit"],
+        "correct_answer": "Amyloidos",
+        "justification": "Amyloidos är en vanlig orsak till restriktiv kardiomyopati, som kännetecknas av styvhet i hjärtmuskeln."
+    },
+    {
+        "question": "Vilken av följande är en indikation för användning av spironolakton vid hjärtsvikt?",
+        "options": ["Hyperkalemi", "Hypotoni", "Hypernatremi", "Nedsatt vänsterkammarfunktion", "Normal vänsterkammarfunktion"],
+        "correct_answer": "Nedsatt vänsterkammarfunktion",
+        "justification": "Spironolakton används vid hjärtsvikt för att minska mortaliteten hos patienter med nedsatt vänsterkammarfunktion."
+    },
+    {
+        "question": "Vilken av följande bilddiagnostiska metoder är bäst för att identifiera en aortadissektion?",
+        "options": ["CT-angiografi", "Röntgen av thorax", "MR-angiografi", "Transthorakal ekokardiografi", "Ventilations-perfusionsscintigrafi"],
+        "correct_answer": "CT-angiografi",
+        "justification": "CT-angiografi är guldstandarden för att diagnostisera aortadissektion på grund av dess höga upplösning och snabbhet."
+    },
+    {
+        "question": "Vilken av följande är en kontraindikation för användning av nitroglycerin?",
+        "options": ["Hypotoni", "Bröstsmärta", "Dyspné", "Huvudvärk", "Perifer cyanos"],
+        "correct_answer": "Hypotoni",
+        "justification": "Nitroglycerin är kontraindicerat vid hypotoni eftersom det kan sänka blodtrycket ytterligare och leda till hemodynamisk instabilitet."
+    },
+    {
+        "question": "Vilken typ av arytmi är mest associerad med risk för stroke?",
+        "options": ["Förmaksflimmer", "Ventrikeltakykardi", "Sinusbradykardi", "Förmaksfladder", "AV-block III"],
+        "correct_answer": "Förmaksflimmer",
+        "justification": "Förmaksflimmer är starkt associerad med ökad risk för stroke på grund av bildandet av blodproppar i vänster förmaksöra."
+    },
+    {
+        "question": "Vilken av följande är en viktig prognostisk markör vid hjärtsvikt?",
+        "options": ["BNP-nivåer", "CK-MB-nivåer", "CRP-nivåer", "Myoglobinnivåer", "Troponinnivåer"],
+        "correct_answer": "BNP-nivåer",
+        "justification": "Förhöjda nivåer av BNP (B-typ natriuretisk peptid) är associerade med sämre prognos vid hjärtsvikt."
+    },
+    {
+        "question": "Vilken är den mest sannolika orsaken till plötslig hjärtdöd hos unga idrottare?",
+        "options": ["Hypertrofisk kardiomyopati", "Ateroskleros", "Restriktiv kardiomyopati", "Mitralisprolaps", "Aortadissektion"],
+        "correct_answer": "Hypertrofisk kardiomyopati",
+        "justification": "Hypertrofisk kardiomyopati är den vanligaste orsaken till plötslig hjärtdöd hos unga idrottare på grund av ventrikulära arytmier."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till diastolisk hjärtsvikt?",
+        "options": ["Hypertension", "Mitralisprolaps", "Aortastenos", "Aortainsufficiens", "Trikuspidalisinsufficiens"],
+        "correct_answer": "Hypertension",
+        "justification": "Hypertension är en vanlig orsak till diastolisk hjärtsvikt på grund av ökad stelhet och minskad eftergivlighet i vänster kammare."
+    },
+    {
+        "question": "Vilken av följande är den vanligaste formen av medfödd hjärtdefekt?",
+        "options": ["Ventrikelseptumdefekt", "Förmaksseptumdefekt", "Tetralogi av Fallot", "Patent ductus arteriosus", "Transposition av de stora artärerna"],
+        "correct_answer": "Ventrikelseptumdefekt",
+        "justification": "Ventrikelseptumdefekt (VSD) är den vanligaste formen av medfödd hjärtdefekt och innebär en öppning i skiljeväggen mellan vänster och höger kammare."
+    },
+    {
+        "question": "Vilken av följande mutationer är starkt associerad med Brugada syndrom?",
+        "options": ["SCN5A", "MYH7", "KCNQ1", "CACNA1C", "GATA4"],
+        "correct_answer": "SCN5A",
+        "justification": "Mutationer i SCN5A-genen, som kodar för natriumkanal alfa-subenhet, är starkt associerade med Brugada syndrom."
+    },
+    {
+        "question": "Vilken bilddiagnostik är förstahandsval för att utvärdera aortaklaffens anatomi och funktion vid misstänkt aortastenos?",
+        "options": ["Ekokardiografi", "CT-angiografi", "MR-angiografi", "Röntgen av thorax", "Stress-EKG"],
+        "correct_answer": "Ekokardiografi",
+        "justification": "Ekokardiografi är förstahandsval för att utvärdera aortaklaffens anatomi och funktion vid misstänkt aortastenos."
+    },
+    {
+        "question": "Vilken av följande är en typisk EKG-förändring vid hypokalemi?",
+        "options": ["Upphöjda U-vågor", "Förlängd PR-tid", "Spetsiga T-vågor", "ST-höjning", "Förkortat QT-intervall"],
+        "correct_answer": "Upphöjda U-vågor",
+        "justification": "Hypokalemi kännetecknas ofta av upphöjda U-vågor på EKG."
+    },
+    {
+        "question": "Vilken av följande är en indikation för användning av en implanterbar defibrillator (ICD) hos patienter med hjärtsvikt?",
+        "options": ["LVEF ≤ 35%", "LVEF > 50%", "Förmaksflimmer", "Nydebuterad hjärtsvikt", "Normal EKG"],
+        "correct_answer": "LVEF ≤ 35%",
+        "justification": "En implanterbar defibrillator (ICD) rekommenderas för patienter med hjärtsvikt och LVEF ≤ 35% för att förebygga plötslig hjärtdöd."
+    },
+    {
+        "question": "Vilken av följande är den vanligaste orsaken till förvärvad aortastenos i den äldre populationen?",
+        "options": ["Degenerativ kalcifiering", "Reumatisk hjärtsjukdom", "Bikuspid aortaklaff", "Endokardit", "Marfans syndrom"],
+        "correct_answer": "Degenerativ kalcifiering",
+        "justification": "Degenerativ kalcifiering av aortaklaffen är den vanligaste orsaken till förvärvad aortastenos hos äldre individer."
+    },
+    {
+        "question": "Vilken av följande är en vanlig biverkning av digoxin?",
+        "options": ["Nedsatt syn", "Hyperkalemi", "Hypotoni", "Illamående", "Huvudvärk"],
+        "correct_answer": "Illamående",
+        "justification": "Illamående är en vanlig biverkning av digoxin, särskilt vid högre doser."
+    },
+    {
+        "question": "Vilken genetisk mutation är mest associerad med långsamt QT-syndrom typ 1 (LQT1)?",
+        "options": ["KCNQ1", "SCN5A", "RYR2", "CACNA1C", "MYH7"],
+        "correct_answer": "KCNQ1",
+        "justification": "Mutationer i KCNQ1-genen, som kodar för en kaliumkanal, är mest associerade med långsamt QT-syndrom typ 1 (LQT1)."
+    },
+    {
+        "question": "Vilken av följande är en riskfaktor för utveckling av ventrikulära arytmier?",
+        "options": ["Hypertrofisk kardiomyopati", "Låg fysisk aktivitet", "Hyperkalcemi", "Hypotoni", "Bradykardi"],
+        "correct_answer": "Hypertrofisk kardiomyopati",
+        "justification": "Hypertrofisk kardiomyopati är en viktig riskfaktor för utveckling av ventrikulära arytmier."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till hjärttamponad?",
+        "options": ["Perikardit", "Aortadissektion", "Mitralisstenos", "Förmaksflimmer", "Aortastenos"],
+        "correct_answer": "Perikardit",
+        "justification": "Perikardit kan leda till ansamling av vätska i perikardialsäcken, vilket kan orsaka hjärttamponad."
+    },
+    {
+        "question": "Vilken av följande bilddiagnostiska metoder är bäst för att bedöma hjärtfunktion vid hjärtsvikt?",
+        "options": ["Ekokardiografi", "CT-angiografi", "MR-angiografi", "Röntgen av thorax", "Stress-EKG"],
+        "correct_answer": "Ekokardiografi",
+        "justification": "Ekokardiografi är guldstandarden för att bedöma hjärtfunktion och diagnos av hjärtsvikt."
+    },
+    {
+        "question": "Vilket av följande är en vanlig komplikation vid hypertensiv hjärtsjukdom?",
+        "options": ["Vänsterkammarhypertrofi", "Högersidig hjärtsvikt", "Pulmonell hypertension", "Trikuspidalisinsufficiens", "Förmaksseptumdefekt"],
+        "correct_answer": "Vänsterkammarhypertrofi",
+        "justification": "Hypertensiv hjärtsjukdom leder ofta till vänsterkammarhypertrofi på grund av ökat efterarbete."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till kardiogen chock?",
+        "options": ["Akut hjärtinfarkt", "Lungemboli", "Aortadissektion", "Perikardit", "Mitralisstenos"],
+        "correct_answer": "Akut hjärtinfarkt",
+        "justification": "Akut hjärtinfarkt är en vanlig orsak till kardiogen chock på grund av omfattande myokardskada."
+    },
+    {
+        "question": "Vilken av följande är en indikation för användning av beta-blockerare vid hjärtsvikt?",
+        "options": ["Reducerad LVEF", "Normal LVEF", "Nydebuterad hjärtsvikt", "Hypotoni", "Förmaksseptumdefekt"],
+        "correct_answer": "Reducerad LVEF",
+        "justification": "Beta-blockerare rekommenderas för patienter med hjärtsvikt och reducerad LVEF för att förbättra prognosen."
+    },
+    {
+        "question": "Vilken av följande är en typisk förändring vid ekokardiografi hos patienter med dilaterad kardiomyopati?",
+        "options": ["Dilaterade hjärtkamrar", "Förstorade förmak", "Hypertrofiska hjärtkamrar", "Tjocka klaffar", "Perikardvätska"],
+        "correct_answer": "Dilaterade hjärtkamrar",
+        "justification": "Dilaterad kardiomyopati kännetecknas av dilaterade hjärtkamrar och nedsatt systolisk funktion."
+    },
+    {
+        "question": "Vilken av följande är en riskfaktor för utveckling av atrioventrikulärt block?",
+        "options": ["Myokardit", "Aortastenos", "Mitralisprolaps", "Förmaksseptumdefekt", "Ventrikelseptumdefekt"],
+        "correct_answer": "Myokardit",
+        "justification": "Myokardit kan orsaka inflammation och skada på ledningssystemet, vilket kan leda till atrioventrikulärt block."
+    },
+    {
+        "question": "Vilken av följande är en vanlig biverkning av statiner?",
+        "options": ["Myopati", "Hyperkalemi", "Hypotoni", "Hypoglykemi", "Hyperurikemi"],
+        "correct_answer": "Myopati",
+        "justification": "Myopati är en vanlig biverkning av statiner och kan manifestera sig som muskelvärk och svaghet."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till ortostatisk hypotoni?",
+        "options": ["Diabetes mellitus", "Hypertension", "Hyperkalemi", "Hypertyreos", "Hypotermi"],
+        "correct_answer": "Diabetes mellitus",
+        "justification": "Diabetes mellitus kan orsaka autonom neuropati, vilket leder till ortostatisk hypotoni."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till pulmonell hypertension?",
+        "options": ["Kronisk obstruktiv lungsjukdom (KOL)", "Hypertension", "Hypotyreos", "Mitralisstenos", "Aortainsufficiens"],
+        "correct_answer": "Kronisk obstruktiv lungsjukdom (KOL)",
+        "justification": "Kronisk obstruktiv lungsjukdom (KOL) är en vanlig orsak till pulmonell hypertension på grund av kronisk hypoxi och vaskulär remodellering."
+    },
+    {
+        "question": "Vilken av följande är en typisk fynd vid ekokardiografi hos patienter med hypertrofisk kardiomyopati?",
+        "options": ["Asymmetrisk septal hypertrofi", "Dilaterade hjärtkamrar", "Perikardvätska", "Förstorade förmak", "Hypertrofiska klaffar"],
+        "correct_answer": "Asymmetrisk septal hypertrofi",
+        "justification": "Hypertrofisk kardiomyopati kännetecknas av asymmetrisk septal hypertrofi, vilket kan leda till utflödesobstruktion."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till högersidig hjärtsvikt?",
+        "options": ["Pulmonell hypertension", "Hypertension", "Mitralisprolaps", "Aortastenos", "Förmaksseptumdefekt"],
+        "correct_answer": "Pulmonell hypertension",
+        "justification": "Pulmonell hypertension är en vanlig orsak till högersidig hjärtsvikt på grund av ökat tryck i lungkretsloppet."
+    },
+    {
+        "question": "Vilken av följande är en vanlig komplikation vid dilaterad kardiomyopati?",
+        "options": ["Hjärtsvikt", "Hypertoni", "Hypotoni", "Förmaksflimmer", "Hjärtinfarkt"],
+        "correct_answer": "Hjärtsvikt",
+        "justification": "Dilaterad kardiomyopati leder ofta till hjärtsvikt på grund av nedsatt systolisk funktion och dilaterade hjärtkamrar."
+    },
+    {
+        "question": "Vilken av följande är en typisk klinisk manifestation av pulmonell hypertension?",
+        "options": ["Dyspné", "Bröstsmärta", "Synkope", "Perifer cyanos", "Huvudvärk"],
+        "correct_answer": "Dyspné",
+        "justification": "Dyspné är en typisk klinisk manifestation av pulmonell hypertension på grund av ökat tryck i lungkretsloppet."
+    },
+    {
+        "question": "Vilken av följande är en indikation för användning av ACE-hämmare vid hjärtsvikt?",
+        "options": ["Reducerad LVEF", "Normal LVEF", "Nydebuterad hjärtsvikt", "Hypotoni", "Förmaksseptumdefekt"],
+        "correct_answer": "Reducerad LVEF",
+        "justification": "ACE-hämmare rekommenderas för patienter med hjärtsvikt och reducerad LVEF för att förbättra prognosen."
+    },
+    {
+        "question": "Vilken av följande är en typisk förändring vid ekokardiografi hos patienter med restriktiv kardiomyopati?",
+        "options": ["Förstorade förmak", "Dilaterade hjärtkamrar", "Hypertrofiska hjärtkamrar", "Tjocka klaffar", "Perikardvätska"],
+        "correct_answer": "Förstorade förmak",
+        "justification": "Restriktiv kardiomyopati kännetecknas av förstorade förmak på grund av styvhet i hjärtmuskeln och nedsatt fyllnad."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till förvärvad mitralisstenos?",
+        "options": ["Reumatisk hjärtsjukdom", "Degenerativ kalcifiering", "Bikuspid aortaklaff", "Endokardit", "Marfans syndrom"],
+        "correct_answer": "Reumatisk hjärtsjukdom",
+        "justification": "Reumatisk hjärtsjukdom är den vanligaste orsaken till förvärvad mitralisstenos, som leder till förtjockning och fusion av klaffbladen."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till restriktiv kardiomyopati?",
+        "options": ["Amyloidos", "Hypertension", "Ateroskleros", "Mitralisprolaps", "Myokardit"],
+        "correct_answer": "Amyloidos",
+        "justification": "Amyloidos är en vanlig orsak till restriktiv kardiomyopati, som kännetecknas av styvhet i hjärtmuskeln."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till kardiomyopati vid alkoholmissbruk?",
+        "options": ["Dilaterad kardiomyopati", "Hypertrofisk kardiomyopati", "Restriktiv kardiomyopati", "Arytmogen högerkammardysplasi", "Takotsubo kardiomyopati"],
+        "correct_answer": "Dilaterad kardiomyopati",
+        "justification": "Kroniskt alkoholmissbruk kan leda till dilaterad kardiomyopati, som kännetecknas av dilaterade hjärtkamrar och nedsatt systolisk funktion."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till förmaksfladder?",
+        "options": ["Hypertension", "Myokardit", "Hypertrofisk kardiomyopati", "Mitralisprolaps", "Aortastenos"],
+        "correct_answer": "Hypertension",
+        "justification": "Hypertension är en vanlig orsak till förmaksfladder på grund av ökat tryck i vänster förmak."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till högersidig hjärtsvikt?",
+        "options": ["Pulmonell hypertension", "Hypertension", "Mitralisprolaps", "Aortastenos", "Förmaksseptumdefekt"],
+        "correct_answer": "Pulmonell hypertension",
+        "justification": "Pulmonell hypertension är en vanlig orsak till högersidig hjärtsvikt på grund av ökat tryck i lungkretsloppet."
+    },
+    {
+        "question": "Vilken av följande är en typisk klinisk manifestation av mitralisprolaps?",
+        "options": ["Midsystoliskt klick", "Systoliskt blåsljud", "Diastoliskt blåsljud", "Förkortad QT-tid", "ST-höjning"],
+        "correct_answer": "Midsystoliskt klick",
+        "justification": "Ett midsystoliskt klick är en typisk klinisk manifestation av mitralisprolaps, vilket uppstår när mitralisklaffens blad buktar ut mot vänster förmak under systole."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till högersidig hjärtsvikt?",
+        "options": ["Pulmonell hypertension", "Hypertension", "Mitralisprolaps", "Aortastenos", "Förmaksseptumdefekt"],
+        "correct_answer": "Pulmonell hypertension",
+        "justification": "Pulmonell hypertension är en vanlig orsak till högersidig hjärtsvikt på grund av ökat tryck i lungkretsloppet."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till förmaksflimmer?",
+        "options": ["Hypertension", "Myokardit", "Hypertrofisk kardiomyopati", "Mitralisprolaps", "Aortastenos"],
+        "correct_answer": "Hypertension",
+        "justification": "Hypertension är en vanlig orsak till förmaksflimmer på grund av ökat tryck i vänster förmak."
+    },
+    {
+        "question": "Vilken av följande är en vanlig komplikation vid dilaterad kardiomyopati?",
+        "options": ["Hjärtsvikt", "Hypertoni", "Hypotoni", "Förmaksflimmer", "Hjärtinfarkt"],
+        "correct_answer": "Hjärtsvikt",
+        "justification": "Dilaterad kardiomyopati leder ofta till hjärtsvikt på grund av nedsatt systolisk funktion och dilaterade hjärtkamrar."
+    },
+    {
+        "question": "Vilken av följande är en typisk förändring vid ekokardiografi hos patienter med hypertrofisk kardiomyopati?",
+        "options": ["Asymmetrisk septal hypertrofi", "Dilaterade hjärtkamrar", "Perikardvätska", "Förstorade förmak", "Hypertrofiska klaffar"],
+        "correct_answer": "Asymmetrisk septal hypertrofi",
+        "justification": "Hypertrofisk kardiomyopati kännetecknas av asymmetrisk septal hypertrofi, vilket kan leda till utflödesobstruktion."
+    },
+    {
+        "question": "Vilken av följande är en indikation för användning av spironolakton vid hjärtsvikt?",
+        "options": ["Hyperkalemi", "Hypotoni", "Hypernatremi", "Nedsatt vänsterkammarfunktion", "Normal vänsterkammarfunktion"],
+        "correct_answer": "Nedsatt vänsterkammarfunktion",
+        "justification": "Spironolakton används vid hjärtsvikt för att minska mortaliteten hos patienter med nedsatt vänsterkammarfunktion."
+    },
+    {
+        "question": "Vilken av följande är en riskfaktor för utveckling av ventrikulära arytmier?",
+        "options": ["Hypertrofisk kardiomyopati", "Låg fysisk aktivitet", "Hyperkalcemi", "Hypotoni", "Bradykardi"],
+        "correct_answer": "Hypertrofisk kardiomyopati",
+        "justification": "Hypertrofisk kardiomyopati är en viktig riskfaktor för utveckling av ventrikulära arytmier."
+    },
+    {
+        "question": "Vilken av följande är en vanlig komplikation vid dilaterad kardiomyopati?",
+        "options": ["Hjärtsvikt", "Hypertoni", "Hypotoni", "Förmaksflimmer", "Hjärtinfarkt"],
+        "correct_answer": "Hjärtsvikt",
+        "justification": "Dilaterad kardiomyopati leder ofta till hjärtsvikt på grund av nedsatt systolisk funktion och dilaterade hjärtkamrar."
+    },
+    {
+        "question": "Vilken av följande är en typisk klinisk manifestation av pulmonell hypertension?",
+        "options": ["Dyspné", "Bröstsmärta", "Synkope", "Perifer cyanos", "Huvudvärk"],
+        "correct_answer": "Dyspné",
+        "justification": "Dyspné är en typisk klinisk manifestation av pulmonell hypertension på grund av ökat tryck i lungkretsloppet."
+    },
+    {
+        "question": "Vilken av följande är en indikation för användning av ACE-hämmare vid hjärtsvikt?",
+        "options": ["Reducerad LVEF", "Normal LVEF", "Nydebuterad hjärtsvikt", "Hypotoni", "Förmaksseptumdefekt"],
+        "correct_answer": "Reducerad LVEF",
+        "justification": "ACE-hämmare rekommenderas för patienter med hjärtsvikt och reducerad LVEF för att förbättra prognosen."
+    },
+    {
+        "question": "Vilken av följande är en typisk förändring vid ekokardiografi hos patienter med restriktiv kardiomyopati?",
+        "options": ["Förstorade förmak", "Dilaterade hjärtkamrar", "Hypertrofiska hjärtkamrar", "Tjocka klaffar", "Perikardvätska"],
+        "correct_answer": "Förstorade förmak",
+        "justification": "Restriktiv kardiomyopati kännetecknas av förstorade förmak på grund av styvhet i hjärtmuskeln och nedsatt fyllnad."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till förvärvad mitralisstenos?",
+        "options": ["Reumatisk hjärtsjukdom", "Degenerativ kalcifiering", "Bikuspid aortaklaff", "Endokardit", "Marfans syndrom"],
+        "correct_answer": "Reumatisk hjärtsjukdom",
+        "justification": "Reumatisk hjärtsjukdom är den vanligaste orsaken till förvärvad mitralisstenos, som leder till förtjockning och fusion av klaffbladen."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till restriktiv kardiomyopati?",
+        "options": ["Amyloidos", "Hypertension", "Ateroskleros", "Mitralisprolaps", "Myokardit"],
+        "correct_answer": "Amyloidos",
+        "justification": "Amyloidos är en vanlig orsak till restriktiv kardiomyopati, som kännetecknas av styvhet i hjärtmuskeln."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till kardiomyopati vid alkoholmissbruk?",
+        "options": ["Dilaterad kardiomyopati", "Hypertrofisk kardiomyopati", "Restriktiv kardiomyopati", "Arytmogen högerkammardysplasi", "Takotsubo kardiomyopati"],
+        "correct_answer": "Dilaterad kardiomyopati",
+        "justification": "Kroniskt alkoholmissbruk kan leda till dilaterad kardiomyopati, som kännetecknas av dilaterade hjärtkamrar och nedsatt systolisk funktion."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till förmaksfladder?",
+        "options": ["Hypertension", "Myokardit", "Hypertrofisk kardiomyopati", "Mitralisprolaps", "Aortastenos"],
+        "correct_answer": "Hypertension",
+        "justification": "Hypertension är en vanlig orsak till förmaksfladder på grund av ökat tryck i vänster förmak."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till högersidig hjärtsvikt?",
+        "options": ["Pulmonell hypertension", "Hypertension", "Mitralisprolaps", "Aortastenos", "Förmaksseptumdefekt"],
+        "correct_answer": "Pulmonell hypertension",
+        "justification": "Pulmonell hypertension är en vanlig orsak till högersidig hjärtsvikt på grund av ökat tryck i lungkretsloppet."
+    },
+    {
+        "question": "Vilken av följande är en typisk klinisk manifestation av mitralisprolaps?",
+        "options": ["Midsystoliskt klick", "Systoliskt blåsljud", "Diastoliskt blåsljud", "Förkortad QT-tid", "ST-höjning"],
+        "correct_answer": "Midsystoliskt klick",
+        "justification": "Ett midsystoliskt klick är en typisk klinisk manifestation av mitralisprolaps, vilket uppstår när mitralisklaffens blad buktar ut mot vänster förmak under systole."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till högersidig hjärtsvikt?",
+        "options": ["Pulmonell hypertension", "Hypertension", "Mitralisprolaps", "Aortastenos", "Förmaksseptumdefekt"],
+        "correct_answer": "Pulmonell hypertension",
+        "justification": "Pulmonell hypertension är en vanlig orsak till högersidig hjärtsvikt på grund av ökat tryck i lungkretsloppet."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till förmaksflimmer?",
+        "options": ["Hypertension", "Myokardit", "Hypertrofisk kardiomyopati", "Mitralisprolaps", "Aortastenos"],
+        "correct_answer": "Hypertension",
+        "justification": "Hypertension är en vanlig orsak till förmaksflimmer på grund av ökat tryck i vänster förmak."
+    },
+    {
+        "question": "Vilken av följande är en vanlig komplikation vid dilaterad kardiomyopati?",
+        "options": ["Hjärtsvikt", "Hypertoni", "Hypotoni", "Förmaksflimmer", "Hjärtinfarkt"],
+        "correct_answer": "Hjärtsvikt",
+        "justification": "Dilaterad kardiomyopati leder ofta till hjärtsvikt på grund av nedsatt systolisk funktion och dilaterade hjärtkamrar."
+    },
+    {
+        "question": "Vilken av följande är en typisk förändring vid ekokardiografi hos patienter med hypertrofisk kardiomyopati?",
+        "options": ["Asymmetrisk septal hypertrofi", "Dilaterade hjärtkamrar", "Perikardvätska", "Förstorade förmak", "Hypertrofiska klaffar"],
+        "correct_answer": "Asymmetrisk septal hypertrofi",
+        "justification": "Hypertrofisk kardiomyopati kännetecknas av asymmetrisk septal hypertrofi, vilket kan leda till utflödesobstruktion."
+    },
+    {
+        "question": "Vilken av följande är en indikation för användning av spironolakton vid hjärtsvikt?",
+        "options": ["Hyperkalemi", "Hypotoni", "Hypernatremi", "Nedsatt vänsterkammarfunktion", "Normal vänsterkammarfunktion"],
+        "correct_answer": "Nedsatt vänsterkammarfunktion",
+        "justification": "Spironolakton används vid hjärtsvikt för att minska mortaliteten hos patienter med nedsatt vänsterkammarfunktion."
+    },
+    {
+        "question": "Vilken av följande är en riskfaktor för utveckling av ventrikulära arytmier?",
+        "options": ["Hypertrofisk kardiomyopati", "Låg fysisk aktivitet", "Hyperkalcemi", "Hypotoni", "Bradykardi"],
+        "correct_answer": "Hypertrofisk kardiomyopati",
+        "justification": "Hypertrofisk kardiomyopati är en viktig riskfaktor för utveckling av ventrikulära arytmier."
+    },
+    {
+        "question": "Vilken av följande är en vanlig komplikation vid dilaterad kardiomyopati?",
+        "options": ["Hjärtsvikt", "Hypertoni", "Hypotoni", "Förmaksflimmer", "Hjärtinfarkt"],
+        "correct_answer": "Hjärtsvikt",
+        "justification": "Dilaterad kardiomyopati leder ofta till hjärtsvikt på grund av nedsatt systolisk funktion och dilaterade hjärtkamrar."
+    },
+    {
+        "question": "Vilken av följande är en typisk klinisk manifestation av pulmonell hypertension?",
+        "options": ["Dyspné", "Bröstsmärta", "Synkope", "Perifer cyanos", "Huvudvärk"],
+        "correct_answer": "Dyspné",
+        "justification": "Dyspné är en typisk klinisk manifestation av pulmonell hypertension på grund av ökat tryck i lungkretsloppet."
+    },
+    {
+        "question": "Vilken av följande är en indikation för användning av ACE-hämmare vid hjärtsvikt?",
+        "options": ["Reducerad LVEF", "Normal LVEF", "Nydebuterad hjärtsvikt", "Hypotoni", "Förmaksseptumdefekt"],
+        "correct_answer": "Reducerad LVEF",
+        "justification": "ACE-hämmare rekommenderas för patienter med hjärtsvikt och reducerad LVEF för att förbättra prognosen."
+    },
+    {
+        "question": "Vilken av följande är en typisk förändring vid ekokardiografi hos patienter med restriktiv kardiomyopati?",
+        "options": ["Förstorade förmak", "Dilaterade hjärtkamrar", "Hypertrofiska hjärtkamrar", "Tjocka klaffar", "Perikardvätska"],
+        "correct_answer": "Förstorade förmak",
+        "justification": "Restriktiv kardiomyopati kännetecknas av förstorade förmak på grund av styvhet i hjärtmuskeln och nedsatt fyllnad."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till förvärvad mitralisstenos?",
+        "options": ["Reumatisk hjärtsjukdom", "Degenerativ kalcifiering", "Bikuspid aortaklaff", "Endokardit", "Marfans syndrom"],
+        "correct_answer": "Reumatisk hjärtsjukdom",
+        "justification": "Reumatisk hjärtsjukdom är den vanligaste orsaken till förvärvad mitralisstenos, som leder till förtjockning och fusion av klaffbladen."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till restriktiv kardiomyopati?",
+        "options": ["Amyloidos", "Hypertension", "Ateroskleros", "Mitralisprolaps", "Myokardit"],
+        "correct_answer": "Amyloidos",
+        "justification": "Amyloidos är en vanlig orsak till restriktiv kardiomyopati, som kännetecknas av styvhet i hjärtmuskeln."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till kardiomyopati vid alkoholmissbruk?",
+        "options": ["Dilaterad kardiomyopati", "Hypertrofisk kardiomyopati", "Restriktiv kardiomyopati", "Arytmogen högerkammardysplasi", "Takotsubo kardiomyopati"],
+        "correct_answer": "Dilaterad kardiomyopati",
+        "justification": "Kroniskt alkoholmissbruk kan leda till dilaterad kardiomyopati, som kännetecknas av dilaterade hjärtkamrar och nedsatt systolisk funktion."
+    },
+    {
+        "question": "Vilken genetisk mutation är mest associerad med dilaterad kardiomyopati (DCM)?",
+        "options": ["TTN", "SCN5A", "MYH7", "LMNA", "CACNA1C"],
+        "correct_answer": "TTN",
+        "justification": "Mutationer i TTN-genen, som kodar för titin, är starkt associerade med dilaterad kardiomyopati (DCM)."
+    },
+    {
+        "question": "Vilken av följande är en riskfaktor för utveckling av torsades de pointes?",
+        "options": ["Hypomagnesemi", "Hyperkalemi", "Hyponatremi", "Hyperkalcemi", "Hypofosfatemi"],
+        "correct_answer": "Hypomagnesemi",
+        "justification": "Hypomagnesemi är en riskfaktor för utveckling av torsades de pointes, en polymorf ventrikeltakykardi som kan vara livshotande."
+    },
+    {
+        "question": "Vilken av följande är den vanligaste orsaken till akut myokardit hos unga individer?",
+        "options": ["Virusinfektion", "Bakteriell infektion", "Autoimmun sjukdom", "Läkemedelstoxicitet", "Strålning"],
+        "correct_answer": "Virusinfektion",
+        "justification": "Virusinfektioner, särskilt med enterovirus som coxsackievirus, är den vanligaste orsaken till akut myokardit hos unga individer."
+    },
+    {
+        "question": "Vilken är den mest specifika markören för hjärtmuskelskada vid hjärtinfarkt?",
+        "options": ["Troponin I", "CK-MB", "LDH", "Myoglobin", "BNP"],
+        "correct_answer": "Troponin I",
+        "justification": "Troponin I är den mest specifika markören för hjärtmuskelskada och används för att diagnostisera hjärtinfarkt."
+    },
+    {
+        "question": "Vilken av följande mediciner är mest effektiv vid behandling av paroxysmalt supraventrikulärt takykardi (PSVT)?",
+        "options": ["Adenosin", "Amiodaron", "Beta-blockerare", "Digoxin", "Diltiazem"],
+        "correct_answer": "Adenosin",
+        "justification": "Adenosin är förstahandsvalet för akut behandling av paroxysmalt supraventrikulärt takykardi (PSVT) på grund av dess snabbverkande och effektiva verkan."
+    },
+    {
+        "question": "Vilken av följande är en indikation för hjärtkirurgi vid infektiös endokardit?",
+        "options": ["Vegetationer > 10 mm", "Mild klaffinsufficiens", "Normal hjärtfunktion", "Subakut förlopp", "Hjärtfrekvens < 60 bpm"],
+        "correct_answer": "Vegetationer > 10 mm",
+        "justification": "Kirurgisk intervention är indicerad vid infektiös endokardit när vegetationerna är större än 10 mm, särskilt om de är associerade med emboliska händelser eller hemodynamisk instabilitet."
+    },
+    {
+        "question": "Vilken av följande tillstånd är starkast förknippat med utvecklingen av perikardiell konstriktion?",
+        "options": ["Tuberkulos", "Viral perikardit", "Bakteriell endokardit", "Myokardit", "Sarkoidos"],
+        "correct_answer": "Tuberkulos",
+        "justification": "Tuberkulos är en viktig orsak till perikardiell konstriktion, särskilt i utvecklingsländer, och leder till fibrotisk förtjockning av perikardiet."
+    },
+    {
+        "question": "Vilken av följande är en vanlig elektrofysiologisk förändring vid brugadas syndrom?",
+        "options": ["ST-höjning i högersidiga prekordialavledningar", "Q-vågor i inferolaterala avledningar", "T-vågsinversion i V1-V3", "Förlängd QT-tid", "Delta-vågor"],
+        "correct_answer": "ST-höjning i högersidiga prekordialavledningar",
+        "justification": "Brugadas syndrom kännetecknas av ST-höjning i de högersidiga prekordialavledningarna (V1-V3) på EKG."
+    },
+    {
+        "question": "Vilken av följande mediciner används främst för att behandla kronisk stabil angina?",
+        "options": ["Beta-blockerare", "Loopdiuretika", "ACE-hämmare", "Angiotensin II-receptorblockerare", "Statiner"],
+        "correct_answer": "Beta-blockerare",
+        "justification": "Beta-blockerare är förstahandsval för att behandla kronisk stabil angina genom att reducera hjärtfrekvensen och myokardiets syrebehov."
+    },
+    {
+        "question": "Vilken av följande är den mest effektiva akuta behandlingen för patienter med kardiogen chock till följd av hjärtinfarkt?",
+        "options": ["Primär PCI", "Trombolys", "ACE-hämmare", "Diuretika", "Digitalis"],
+        "correct_answer": "Primär PCI",
+        "justification": "Primär PCI (perkutan koronar intervention) är den mest effektiva akuta behandlingen för att återställa blodflödet vid kardiogen chock till följd av hjärtinfarkt."
+    }
+]

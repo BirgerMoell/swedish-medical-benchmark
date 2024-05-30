@@ -1,0 +1,464 @@
+[
+    {
+      "question": "Vilken typ av psykos förekommer oftast vid schizofreni?",
+      "options": ["Hallucinationer", "Mani", "Depression", "Katatoni", "Panikattacker"],
+      "correct_answer": "Hallucinationer",
+      "justification": "Hallucinationer, särskilt auditiva, är ett vanligt symtom vid schizofreni."
+    },
+    {
+      "question": "Vilken behandlingsmetod är förstahandsval vid bipolär sjukdom typ I?",
+      "options": ["Antidepressiva", "Antipsykotiska läkemedel", "Litium", "Bensodiazepiner", "Psykoterapi"],
+      "correct_answer": "Litium",
+      "justification": "Litium är ett stämningsstabiliserande läkemedel som ofta används som förstahandsbehandling vid bipolär sjukdom typ I."
+    },
+    {
+      "question": "Vilken är en vanlig biverkning av antipsykotiska läkemedel?",
+      "options": ["Sömnlöshet", "Viktökning", "Hyperaktivitet", "Hypotension", "Ökad salivation"],
+      "correct_answer": "Viktökning",
+      "justification": "Viktökning är en vanlig biverkning av många antipsykotiska läkemedel."
+    },
+    {
+      "question": "Vilket av följande är ett symtom på generaliserat ångestsyndrom (GAD)?",
+      "options": ["Hypomani", "Konstant oro", "Social fobi", "Dissociation", "Hypervigilans"],
+      "correct_answer": "Konstant oro",
+      "justification": "Konstant och överdriven oro är ett centralt symtom på generaliserat ångestsyndrom."
+    },
+    {
+      "question": "Vilken diagnos ställs vid en period med depressiv episod följt av en manisk episod?",
+      "options": ["Schizoaffektivt syndrom", "Bipolär sjukdom typ II", "Cyklotymi", "Bipolär sjukdom typ I", "Dystymi"],
+      "correct_answer": "Bipolär sjukdom typ I",
+      "justification": "Bipolär sjukdom typ I karakteriseras av förekomsten av minst en manisk episod."
+    },
+    {
+      "question": "Vilket av följande läkemedel används ofta för att behandla PTSD?",
+      "options": ["SSRI", "Litium", "Antipsykotika", "Bensodiazepiner", "Stämningsstabiliserare"],
+      "correct_answer": "SSRI",
+      "justification": "Selektiva serotoninåterupptagshämmare (SSRI) är förstahandsbehandling vid PTSD."
+    },
+    {
+      "question": "Vad är en typisk egenskap hos borderline personlighetsstörning?",
+      "options": ["Ständigt förhöjt stämningsläge", "Impulsivitet", "Social isolering", "Minskad självkänsla", "Ökad aptit"],
+      "correct_answer": "Impulsivitet",
+      "justification": "Impulsivitet är ett kärnsymtom vid borderline personlighetsstörning."
+    },
+    {
+      "question": "Vilken av följande behandlingar är effektiv vid tvångssyndrom (OCD)?",
+      "options": ["Bensodiazepiner", "Psykodynamisk terapi", "Exponerings- och responsprevention (ERP)", "Litium", "Elektrokonvulsiv behandling (ECT)"],
+      "correct_answer": "Exponerings- och responsprevention (ERP)",
+      "justification": "Exponerings- och responsprevention (ERP) är en form av kognitiv beteendeterapi som är mycket effektiv vid behandling av tvångssyndrom."
+    },
+    {
+      "question": "Vilken neurotransmittor är främst associerad med depression?",
+      "options": ["Dopamin", "Noradrenalin", "GABA", "Serotonin", "Glutamat"],
+      "correct_answer": "Serotonin",
+      "justification": "Låga nivåer av serotonin i hjärnan har starkt associerats med depression."
+    },
+    {
+      "question": "Vilken typ av terapi är evidensbaserad för behandling av anorexia nervosa?",
+      "options": ["Gruppterapi", "Psykodynamisk terapi", "Kognitiv beteendeterapi (KBT)", "Elektrokonvulsiv behandling (ECT)", "Hypnos"],
+      "correct_answer": "Kognitiv beteendeterapi (KBT)",
+      "justification": "Kognitiv beteendeterapi (KBT) har visat sig vara effektiv för behandling av anorexia nervosa."
+    },
+    {
+      "question": "Vilket av följande är ett vanligt tecken på alkoholabstinens?",
+      "options": ["Eufori", "Illamående", "Tremor", "Sömnlöshet", "Synhallucinationer"],
+      "correct_answer": "Tremor",
+      "justification": "Tremor är ett vanligt symtom vid alkoholabstinens."
+    },
+    {
+      "question": "Vilket tillstånd kännetecknas av återkommande episoder av överätning följt av kompensatoriska beteenden?",
+      "options": ["Anorexia nervosa", "Bulimia nervosa", "Binge eating disorder", "Ortorexi", "Pica"],
+      "correct_answer": "Bulimia nervosa",
+      "justification": "Bulimia nervosa kännetecknas av återkommande episoder av överätning följt av kompensatoriska beteenden som kräkningar eller överdriven träning."
+    },
+    {
+      "question": "Vilken av följande är en kognitiv symtom på demens?",
+      "options": ["Apati", "Aggression", "Förvirring", "Rastlöshet", "Minskat omdöme"],
+      "correct_answer": "Förvirring",
+      "justification": "Förvirring är ett vanligt kognitivt symtom vid demens."
+    },
+    {
+      "question": "Vilken medicinsk bildteknik används ofta för att diagnostisera schizofreni?",
+      "options": ["EEG", "DT-scan", "fMRI", "PET-scan", "SPECT"],
+      "correct_answer": "fMRI",
+      "justification": "Funktionell MRI (fMRI) kan användas för att undersöka hjärnaktivitet och har använts i forskning om schizofreni."
+    },
+    {
+      "question": "Vilken är den mest effektiva långsiktiga behandlingen för svår depression som inte svarar på läkemedel?",
+      "options": ["Psykodynamisk terapi", "Kognitiv beteendeterapi", "Elektrokonvulsiv behandling (ECT)", "SSRI", "Litium"],
+      "correct_answer": "Elektrokonvulsiv behandling (ECT)",
+      "justification": "Elektrokonvulsiv behandling (ECT) är ofta mycket effektiv för svår depression som inte svarar på andra behandlingar."
+    },
+    {
+      "question": "Vilket av följande är ett exempel på en positiv symtom vid schizofreni?",
+      "options": ["Social tillbakadragenhet", "Nedsatt initiativförmåga", "Hallucinationer", "Minskad motivation", "Kognitiva svårigheter"],
+      "correct_answer": "Hallucinationer",
+      "justification": "Hallucinationer är ett exempel på positiva symtom vid schizofreni."
+    },
+    {
+      "question": "Vilken av följande är en känd biverkning av bensodiazepiner?",
+      "options": ["Hyperaktivitet", "Sömnlöshet", "Minnesförlust", "Viktökning", "Hypertoni"],
+      "correct_answer": "Minnesförlust",
+      "justification": "Minnesförlust är en vanlig biverkning av långvarig användning av bensodiazepiner."
+    },
+    {
+      "question": "Vilket läkemedel används ofta för att behandla ADHD hos barn?",
+      "options": ["Sertralin", "Mirtazapin", "Metylfenidat", "Klozapin", "Haloperidol"],
+      "correct_answer": "Metylfenidat",
+      "justification": "Metylfenidat är ett centralt stimulant som ofta används för att behandla ADHD."
+    },
+    {
+      "question": "Vilken psykoterapiform är särskilt effektiv för behandling av posttraumatiskt stressyndrom (PTSD)?",
+      "options": ["Gruppterapi", "Kognitiv beteendeterapi", "Interpersonell terapi", "Psykodynamisk terapi", "Elektrokonvulsiv terapi"],
+      "correct_answer": "Kognitiv beteendeterapi",
+      "justification": "Kognitiv beteendeterapi, särskilt traumafokuserad KBT, har visat sig vara mycket effektiv för behandling av PTSD."
+    },
+    {
+      "question": "Vilket av följande är ett vanligt tecken på litiumförgiftning?",
+      "options": ["Hallucinationer", "Bradykardi", "Tremor", "Hyperglykemi", "Anorexi"],
+      "correct_answer": "Tremor",
+      "justification": "Tremor är ett vanligt tecken på litiumförgiftning."
+    },
+    {
+      "question": "Vilken av följande är en typisk biverkning av SSRI?",
+      "options": ["Aptitlöshet", "Darrningar", "Hyperaktivitet", "Viktökning", "Tinnitus"],
+      "correct_answer": "Aptitlöshet",
+      "justification": "Aptitlöshet är en vanlig biverkning av SSRI."
+    },
+    {
+      "question": "Vilken är den vanligaste formen av demens?",
+      "options": ["Frontotemporal demens", "Vaskulär demens", "Lewykroppsdemens", "Parkinsons sjukdoms demens", "Alzheimers sjukdom"],
+      "correct_answer": "Alzheimers sjukdom",
+      "justification": "Alzheimers sjukdom är den vanligaste formen av demens."
+    },
+    {
+      "question": "Vilket av följande är ett exempel på ett negativt symtom vid schizofreni?",
+      "options": ["Hallucinationer", "Delirium", "Anhedoni", "Paranoia", "Grandiositet"],
+      "correct_answer": "Anhedoni",
+      "justification": "Anhedoni, eller oförmågan att känna glädje, är ett negativt symtom vid schizofreni."
+    },
+    {
+      "question": "Vilken av följande är en karakteristisk egenskap hos social fobi?",
+      "options": ["Rädsla för höjder", "Rädsla för öppna ytor", "Rädsla för sociala situationer", "Rädsla för trånga utrymmen", "Rädsla för blod"],
+      "correct_answer": "Rädsla för sociala situationer",
+      "justification": "Social fobi karakteriseras av en intensiv rädsla för sociala situationer och prestationssituationer."
+    },
+    {
+      "question": "Vilket läkemedel används ofta som förstahandsval för behandling av paniksyndrom?",
+      "options": ["Bensodiazepiner", "Antipsykotika", "Litium", "SSRI", "Antidepressiva"],
+      "correct_answer": "SSRI",
+      "justification": "SSRI är ofta förstahandsvalet för behandling av paniksyndrom."
+    },
+    {
+      "question": "Vilken av följande är ett vanligt symtom på autism spektrum störning (ASD)?",
+      "options": ["Maniska episoder", "Psykos", "Social kommunikationssvårigheter", "Sömnproblem", "Desorganiserat tal"],
+      "correct_answer": "Social kommunikationssvårigheter",
+      "justification": "Social kommunikationssvårigheter är ett kärnsymtom vid autism spektrum störning (ASD)."
+    },
+    {
+      "question": "Vilken behandlingsmetod har visat sig vara effektiv vid behandling av borderline personlighetsstörning?",
+      "options": ["Elektrokonvulsiv behandling", "Litium", "Dialektisk beteendeterapi (DBT)", "Psykodynamisk terapi", "Gruppterapi"],
+      "correct_answer": "Dialektisk beteendeterapi (DBT)",
+      "justification": "Dialektisk beteendeterapi (DBT) är särskilt utvecklad för att behandla borderline personlighetsstörning och har visat sig vara effektiv."
+    },
+    {
+      "question": "Vilket tillstånd karakteriseras av episoder av mani och depression?",
+      "options": ["Schizoaffektivt syndrom", "Bipolär sjukdom", "Unipolär depression", "Cyklotymi", "Dystymi"],
+      "correct_answer": "Bipolär sjukdom",
+      "justification": "Bipolär sjukdom karakteriseras av återkommande episoder av mani och depression."
+    },
+    {
+      "question": "Vilket av följande är ett kännetecken för PTSD?",
+      "options": ["Anhedoni", "Konstant oro", "Återupplevande av trauma", "Social isolering", "Hypomani"],
+      "correct_answer": "Återupplevande av trauma",
+      "justification": "Återupplevande av traumatiska händelser är ett kärnsymtom vid PTSD."
+    },
+    {
+      "question": "Vilken typ av terapi är mest effektiv för behandling av specifika fobier?",
+      "options": ["Gruppterapi", "Kognitiv beteendeterapi", "Psykodynamisk terapi", "Elektrokonvulsiv terapi", "Hypnos"],
+      "correct_answer": "Kognitiv beteendeterapi",
+      "justification": "Kognitiv beteendeterapi, särskilt exponeringsbehandling, är mest effektiv för behandling av specifika fobier."
+    },
+    {
+      "question": "Vilken av följande är en vanlig biverkning av antipsykotiska läkemedel?",
+      "options": ["Hyperaktivitet", "Sömnlöshet", "Viktökning", "Illamående", "Tremor"],
+      "correct_answer": "Viktökning",
+      "justification": "Viktökning är en vanlig biverkning av många antipsykotiska läkemedel."
+    },
+    {
+      "question": "Vilket av följande är ett kännetecken för generaliserat ångestsyndrom (GAD)?",
+      "options": ["Eufori", "Rastlöshet", "Maniska episoder", "Dissociation", "Social fobi"],
+      "correct_answer": "Rastlöshet",
+      "justification": "Rastlöshet är ett vanligt symtom vid generaliserat ångestsyndrom."
+    },
+    {
+      "question": "Vilket av följande är ett karakteristiskt symtom på posttraumatiskt stressyndrom (PTSD)?",
+      "options": ["Apati", "Hallucinationer", "Återupplevande av trauma", "Rastlöshet", "Anhedoni"],
+      "correct_answer": "Återupplevande av trauma",
+      "justification": "Återupplevande av traumatiska händelser är ett centralt symtom vid PTSD."
+    },
+    {
+      "question": "Vilken typ av terapi har visat sig vara mest effektiv för behandling av depression?",
+      "options": ["Gruppterapi", "Kognitiv beteendeterapi", "Psykodynamisk terapi", "Hypnos", "Elektrokonvulsiv terapi"],
+      "correct_answer": "Kognitiv beteendeterapi",
+      "justification": "Kognitiv beteendeterapi har visat sig vara mycket effektiv för behandling av depression."
+    },
+    {
+      "question": "Vilket tillstånd behandlas ofta med SSRI-läkemedel?",
+      "options": ["Schizofreni", "Bipolär sjukdom", "Depression", "ADHD", "Autism spektrum störning"],
+      "correct_answer": "Depression",
+      "justification": "SSRI-läkemedel används ofta som förstahandsbehandling vid depression."
+    },
+    {
+      "question": "Vilken behandlingsmetod används ofta för att hantera abstinenssymtom vid alkoholmissbruk?",
+      "options": ["Litium", "Antipsykotika", "Bensodiazepiner", "Antidepressiva", "Antiepileptika"],
+      "correct_answer": "Bensodiazepiner",
+      "justification": "Bensodiazepiner används ofta för att hantera abstinenssymtom vid alkoholmissbruk."
+    },
+    {
+      "question": "Vilken neurotransmittor är främst associerad med ångestsyndrom?",
+      "options": ["Dopamin", "Noradrenalin", "GABA", "Serotonin", "Glutamat"],
+      "correct_answer": "GABA",
+      "justification": "GABA (gamma-aminosmörsyra) är en neurotransmittor som är starkt associerad med ångestsyndrom."
+    },
+    {
+      "question": "Vilket av följande är ett vanligt symtom vid psykotisk depression?",
+      "options": ["Maniska episoder", "Hypomani", "Vanföreställningar", "Social isolering", "Hyperaktivitet"],
+      "correct_answer": "Vanföreställningar",
+      "justification": "Psykotisk depression kännetecknas av allvarlig depression tillsammans med psykotiska symtom som vanföreställningar."
+    },
+    {
+      "question": "Vilket tillstånd behandlas ofta med litium?",
+      "options": ["Schizofreni", "Bipolär sjukdom", "Depression", "Paniksyndrom", "PTSD"],
+      "correct_answer": "Bipolär sjukdom",
+      "justification": "Litium används ofta som stämningsstabiliserande behandling vid bipolär sjukdom."
+    },
+    {
+      "question": "Vilken av följande är en vanlig biverkning av litiumbehandling?",
+      "options": ["Hallucinationer", "Bradykardi", "Tremor", "Hyperglykemi", "Hypotension"],
+      "correct_answer": "Tremor",
+      "justification": "Tremor är en vanlig biverkning av litiumbehandling."
+    },
+    {
+      "question": "Vilken typ av terapi är mest effektiv för behandling av anorexia nervosa?",
+      "options": ["Gruppterapi", "Kognitiv beteendeterapi", "Psykodynamisk terapi", "Elektrokonvulsiv terapi", "Hypnos"],
+      "correct_answer": "Kognitiv beteendeterapi",
+      "justification": "Kognitiv beteendeterapi har visat sig vara mycket effektiv för behandling av anorexia nervosa."
+    },
+    {
+      "question": "Vilket av följande är ett vanligt symtom vid autism spektrum störning (ASD)?",
+      "options": ["Maniska episoder", "Psykos", "Social kommunikationssvårigheter", "Sömnproblem", "Desorganiserat tal"],
+      "correct_answer": "Social kommunikationssvårigheter",
+      "justification": "Social kommunikationssvårigheter är ett kärnsymtom vid autism spektrum störning (ASD)."
+    },
+    {
+      "question": "Vilken typ av terapi har visat sig vara mest effektiv för behandling av depression?",
+      "options": ["Gruppterapi", "Kognitiv beteendeterapi", "Psykodynamisk terapi", "Hypnos", "Elektrokonvulsiv terapi"],
+      "correct_answer": "Kognitiv beteendeterapi",
+      "justification": "Kognitiv beteendeterapi har visat sig vara mycket effektiv för behandling av depression."
+    },
+    {
+      "question": "Vilket tillstånd kännetecknas av en period av förhöjt stämningsläge och ökad energi följt av en period av depression?",
+      "options": ["Schizoaffektivt syndrom", "Bipolär sjukdom", "Unipolär depression", "Cyklotymi", "Dystymi"],
+      "correct_answer": "Bipolär sjukdom",
+      "justification": "Bipolär sjukdom kännetecknas av återkommande episoder av mani och depression."
+    },
+    {
+      "question": "Vilket av följande är ett vanligt tecken på alkoholabstinens?",
+      "options": ["Eufori", "Illamående", "Tremor", "Sömnlöshet", "Synhallucinationer"],
+      "correct_answer": "Tremor",
+      "justification": "Tremor är ett vanligt symtom vid alkoholabstinens."
+    },
+    {
+      "question": "Vilken av följande är en karakteristisk egenskap hos social fobi?",
+      "options": ["Rädsla för höjder", "Rädsla för öppna ytor", "Rädsla för sociala situationer", "Rädsla för trånga utrymmen", "Rädsla för blod"],
+      "correct_answer": "Rädsla för sociala situationer",
+      "justification": "Social fobi karakteriseras av en intensiv rädsla för sociala situationer och prestationssituationer."
+    },
+    {
+      "question": "Vilket tillstånd kännetecknas av en period av förhöjt stämningsläge och ökad energi följt av en period av depression?",
+      "options": ["Schizoaffektivt syndrom", "Bipolär sjukdom", "Unipolär depression", "Cyklotymi", "Dystymi"],
+      "correct_answer": "Bipolär sjukdom",
+      "justification": "Bipolär sjukdom kännetecknas av återkommande episoder av mani och depression."
+    },
+    {
+      "question": "Vilket av följande är ett vanligt tecken på alkoholabstinens?",
+      "options": ["Eufori", "Illamående", "Tremor", "Sömnlöshet", "Synhallucinationer"],
+      "correct_answer": "Tremor",
+      "justification": "Tremor är ett vanligt symtom vid alkoholabstinens."
+    },
+    {
+      "question": "Vilket tillstånd behandlas ofta med litium?",
+      "options": ["Schizofreni", "Bipolär sjukdom", "Depression", "Paniksyndrom", "PTSD"],
+      "correct_answer": "Bipolär sjukdom",
+      "justification": "Litium används ofta som stämningsstabiliserande behandling vid bipolär sjukdom."
+    },
+    {
+      "question": "Vilket av följande är ett exempel på ett negativt symtom vid schizofreni?",
+      "options": ["Hallucinationer", "Delirium", "Anhedoni", "Paranoia", "Grandiositet"],
+      "correct_answer": "Anhedoni",
+      "justification": "Anhedoni, eller oförmågan att känna glädje, är ett negativt symtom vid schizofreni."
+    },
+    {
+      "question": "Vilken typ av terapi är mest effektiv för behandling av specifika fobier?",
+      "options": ["Gruppterapi", "Kognitiv beteendeterapi", "Psykodynamisk terapi", "Elektrokonvulsiv terapi", "Hypnos"],
+      "correct_answer": "Kognitiv beteendeterapi",
+      "justification": "Kognitiv beteendeterapi, särskilt exponeringsbehandling, är mest effektiv för behandling av specifika fobier."
+    },
+    {
+      "question": "Vilken av följande är en vanlig biverkning av litiumbehandling?",
+      "options": ["Hallucinationer", "Bradykardi", "Tremor", "Hyperglykemi", "Hypotension"],
+      "correct_answer": "Tremor",
+      "justification": "Tremor är en vanlig biverkning av litiumbehandling."
+    },
+    {
+      "question": "Vilken typ av terapi är mest effektiv för behandling av anorexia nervosa?",
+      "options": ["Gruppterapi", "Kognitiv beteendeterapi", "Psykodynamisk terapi", "Elektrokonvulsiv terapi", "Hypnos"],
+      "correct_answer": "Kognitiv beteendeterapi",
+      "justification": "Kognitiv beteendeterapi har visat sig vara mycket effektiv för behandling av anorexia nervosa."
+    },
+    {
+      "question": "Vilken av följande är en vanlig biverkning av antipsykotiska läkemedel?",
+      "options": ["Hyperaktivitet", "Sömnlöshet", "Viktökning", "Illamående", "Tremor"],
+      "correct_answer": "Viktökning",
+      "justification": "Viktökning är en vanlig biverkning av många antipsykotiska läkemedel."
+    },
+    {
+      "question": "Vilken av följande är en karakteristisk egenskap hos social fobi?",
+      "options": ["Rädsla för höjder", "Rädsla för öppna ytor", "Rädsla för sociala situationer", "Rädsla för trånga utrymmen", "Rädsla för blod"],
+      "correct_answer": "Rädsla för sociala situationer",
+      "justification": "Social fobi karakteriseras av en intensiv rädsla för sociala situationer och prestationssituationer."
+    },
+    {
+      "question": "Vilket tillstånd kännetecknas av en period av förhöjt stämningsläge och ökad energi följt av en period av depression?",
+      "options": ["Schizoaffektivt syndrom", "Bipolär sjukdom", "Unipolär depression", "Cyklotymi", "Dystymi"],
+      "correct_answer": "Bipolär sjukdom",
+      "justification": "Bipolär sjukdom kännetecknas av återkommande episoder av mani och depression."
+    },
+    {
+      "question": "Vilket av följande är ett vanligt tecken på alkoholabstinens?",
+      "options": ["Eufori", "Illamående", "Tremor", "Sömnlöshet", "Synhallucinationer"],
+      "correct_answer": "Tremor",
+      "justification": "Tremor är ett vanligt symtom vid alkoholabstinens."
+    },
+    {
+      "question": "Vilket tillstånd behandlas ofta med litium?",
+      "options": ["Schizofreni", "Bipolär sjukdom", "Depression", "Paniksyndrom", "PTSD"],
+      "correct_answer": "Bipolär sjukdom",
+      "justification": "Litium används ofta som stämningsstabiliserande behandling vid bipolär sjukdom."
+    },
+    {
+      "question": "Vilket av följande är ett exempel på ett negativt symtom vid schizofreni?",
+      "options": ["Hallucinationer", "Delirium", "Anhedoni", "Paranoia", "Grandiositet"],
+      "correct_answer": "Anhedoni",
+      "justification": "Anhedoni, eller oförmågan att känna glädje, är ett negativt symtom vid schizofreni."
+    },
+    {
+      "question": "Vilken typ av terapi är mest effektiv för behandling av specifika fobier?",
+      "options": ["Gruppterapi", "Kognitiv beteendeterapi", "Psykodynamisk terapi", "Elektrokonvulsiv terapi", "Hypnos"],
+      "correct_answer": "Kognitiv beteendeterapi",
+      "justification": "Kognitiv beteendeterapi, särskilt exponeringsbehandling, är mest effektiv för behandling av specifika fobier."
+    },
+    {
+      "question": "Vilken av följande är en vanlig biverkning av litiumbehandling?",
+      "options": ["Hallucinationer", "Bradykardi", "Tremor", "Hyperglykemi", "Hypotension"],
+      "correct_answer": "Tremor",
+      "justification": "Tremor är en vanlig biverkning av litiumbehandling."
+    },
+    {
+      "question": "Vilken typ av terapi är mest effektiv för behandling av anorexia nervosa?",
+      "options": ["Gruppterapi", "Kognitiv beteendeterapi", "Psykodynamisk terapi", "Elektrokonvulsiv terapi", "Hypnos"],
+      "correct_answer": "Kognitiv beteendeterapi",
+      "justification": "Kognitiv beteendeterapi har visat sig vara mycket effektiv för behandling av anorexia nervosa."
+    },
+    {
+      "question": "Vilken av följande är en vanlig biverkning av antipsykotiska läkemedel?",
+      "options": ["Hyperaktivitet", "Sömnlöshet", "Viktökning", "Illamående", "Tremor"],
+      "correct_answer": "Viktökning",
+      "justification": "Viktökning är en vanlig biverkning av många antipsykotiska läkemedel."
+    },
+    {
+      "question": "Vilken av följande är en karakteristisk egenskap hos social fobi?",
+      "options": ["Rädsla för höjder", "Rädsla för öppna ytor", "Rädsla för sociala situationer", "Rädsla för trånga utrymmen", "Rädsla för blod"],
+      "correct_answer": "Rädsla för sociala situationer",
+      "justification": "Social fobi karakteriseras av en intensiv rädsla för sociala situationer och prestationssituationer."
+    },
+    {
+      "question": "Vilket tillstånd kännetecknas av en period av förhöjt stämningsläge och ökad energi följt av en period av depression?",
+      "options": ["Schizoaffektivt syndrom", "Bipolär sjukdom", "Unipolär depression", "Cyklotymi", "Dystymi"],
+      "correct_answer": "Bipolär sjukdom",
+      "justification": "Bipolär sjukdom kännetecknas av återkommande episoder av mani och depression."
+    },
+    {
+      "question": "Vilket av följande är ett vanligt tecken på alkoholabstinens?",
+      "options": ["Eufori", "Illamående", "Tremor", "Sömnlöshet", "Synhallucinationer"],
+      "correct_answer": "Tremor",
+      "justification": "Tremor är ett vanligt symtom vid alkoholabstinens."
+    },
+    {
+      "question": "Vilket tillstånd behandlas ofta med litium?",
+      "options": ["Schizofreni", "Bipolär sjukdom", "Depression", "Paniksyndrom", "PTSD"],
+      "correct_answer": "Bipolär sjukdom",
+      "justification": "Litium används ofta som stämningsstabiliserande behandling vid bipolär sjukdom."
+    },
+    {
+        "question": "Vilken svensk lag reglerar tvångsvård inom psykiatrin?",
+        "options": ["Lagen om vård av missbrukare (LVM)", "Hälso- och sjukvårdslagen (HSL)", "Lagen om psykiatrisk tvångsvård (LPT)", "Socialtjänstlagen (SoL)", "Brottsbalken (BrB)"],
+        "correct_answer": "Lagen om psykiatrisk tvångsvård (LPT)",
+        "justification": "Lagen om psykiatrisk tvångsvård (LPT) reglerar hur och när tvångsvård får användas inom psykiatrin i Sverige."
+    },
+    {
+        "question": "Vilken bedömningsmetod används ofta för att bedöma suicidrisk hos en patient?",
+        "options": ["Beck Depression Inventory (BDI)", "Mini-Mental State Examination (MMSE)", "Columbia-Suicide Severity Rating Scale (C-SSRS)", "Hamilton Rating Scale for Depression (HRSD)", "Generalized Anxiety Disorder 7 (GAD-7)"],
+        "correct_answer": "Columbia-Suicide Severity Rating Scale (C-SSRS)",
+        "justification": "Columbia-Suicide Severity Rating Scale (C-SSRS) används för att systematiskt bedöma suicidrisk hos patienter."
+    },
+    {
+        "question": "Vilken av följande är en varningssignal för ökad suicidrisk?",
+        "options": ["Ökad aptit", "Sömnlöshet", "Social isolering", "Ökad fysisk aktivitet", "Positiv framtidssyn"],
+        "correct_answer": "Social isolering",
+        "justification": "Social isolering är en varningssignal för ökad suicidrisk eftersom det kan indikera förvärrad depression och hopplöshet."
+    },
+    {
+        "question": "Vad innebär 'vårdintyg' i samband med psykiatrisk tvångsvård?",
+        "options": ["En skriftlig plan för frivillig vård", "En förutsättning för att påbörja tvångsvård", "En juridisk försäkran om patientens rättigheter", "Ett intyg för arbetsgivaren om frånvaro", "En rekommendation för läkemedelsbehandling"],
+        "correct_answer": "En förutsättning för att påbörja tvångsvård",
+        "justification": "Vårdintyg är en nödvändig dokumentation som krävs för att påbörja tvångsvård enligt LPT."
+    },
+    {
+        "question": "Vilken av följande behandlingar anses vara effektiv vid behandling av tvångssyndrom (OCD)?",
+        "options": ["Psykodynamisk terapi", "Elektrokonvulsiv behandling (ECT)", "Kognitiv beteendeterapi (KBT)", "Gruppterapi", "Hypnos"],
+        "correct_answer": "Kognitiv beteendeterapi (KBT)",
+        "justification": "Kognitiv beteendeterapi (KBT), särskilt exponerings- och responsprevention (ERP), är en evidensbaserad behandling för tvångssyndrom (OCD)."
+    },
+    {
+        "question": "Vilken svensk myndighet ansvarar för tillsynen av psykiatrisk tvångsvård?",
+        "options": ["Socialstyrelsen", "Folkhälsomyndigheten", "Läkemedelsverket", "Inspektionen för vård och omsorg (IVO)", "Datainspektionen"],
+        "correct_answer": "Inspektionen för vård och omsorg (IVO)",
+        "justification": "Inspektionen för vård och omsorg (IVO) ansvarar för tillsynen av hälso- och sjukvården, inklusive psykiatrisk tvångsvård."
+    },
+    {
+        "question": "Vilken av följande är en psykiatrisk akutmedicin som ofta används för att hantera agitation eller aggression?",
+        "options": ["Sertralin", "Diazepam", "Risperidon", "Lithium", "Fluoxetin"],
+        "correct_answer": "Diazepam",
+        "justification": "Diazepam är en bensodiazepin som ofta används i akuta situationer för att lugna patienter med agitation eller aggression."
+    },
+    {
+        "question": "Vilken är den mest effektiva akutbehandlingen vid svår suicidal kris?",
+        "options": ["Psykoterapi", "SSRI", "Litium", "Akut psykiatrisk vård och observation", "Exponeringsbehandling"],
+        "correct_answer": "Akut psykiatrisk vård och observation",
+        "justification": "Vid svår suicidal kris är akut psykiatrisk vård och noggrann observation av största vikt för att förhindra suicid."
+    },
+    {
+        "question": "Vilken är en indikation för att använda tvångsåtgärder enligt LPT?",
+        "options": ["Patientens egna önskemål", "Patientens ekonomiska situation", "Risk för allvarlig skada på sig själv eller andra", "Familjens oro", "Långvarig arbetslöshet"],
+        "correct_answer": "Risk för allvarlig skada på sig själv eller andra",
+        "justification": "Tvångsåtgärder enligt LPT kan endast användas om patienten utgör en omedelbar fara för sig själv eller andra."
+    },
+    {
+        "question": "Vilken av följande är ett kriterium för att kunna ställa diagnosen schizofreni enligt DSM-5?",
+        "options": ["Maniska episoder", "Fobier", "Paranoida vanföreställningar", "Ständig glädje", "OCD-liknande tvångstankar"],
+        "correct_answer": "Paranoida vanföreställningar",
+        "justification": "Paranoida vanföreställningar är ett av de symtom som kan förekomma vid schizofreni enligt DSM-5."
+    }
+]

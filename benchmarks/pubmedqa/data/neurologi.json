@@ -1,0 +1,206 @@
+[
+    {
+        "question": "Vilken genetisk mutation är mest associerad med Huntingtons sjukdom?",
+        "options": ["APP-genmutation", "HTT-genmutation", "PSEN1-genmutation", "TARDBP-genmutation", "MAPT-genmutation"],
+        "correct_answer": "HTT-genmutation",
+        "justification": "Huntingtons sjukdom orsakas av en mutation i HTT-genen, som kodar för proteinet huntingtin."
+    },
+    {
+        "question": "Vilket är det mest specifika fyndet i cerebrospinalvätskan vid Guillain-Barrés syndrom?",
+        "options": ["Förhöjd proteinmängd utan pleocytos", "Låg glukosnivå", "Hög laktatnivå", "Ökad antal röda blodkroppar", "Förhöjd nivå av oligoklonala band"],
+        "correct_answer": "Förhöjd proteinmängd utan pleocytos",
+        "justification": "Förhöjd proteinmängd utan ökat antal celler (pleocytos) är typiskt för Guillain-Barrés syndrom."
+    },
+    {
+        "question": "Vilken undersökning är förstahandsval för att diagnosticera en akut subaraknoidalblödning?",
+        "options": ["MRI", "CT-skanning utan kontrast", "EEG", "PET-skanning", "EMG"],
+        "correct_answer": "CT-skanning utan kontrast",
+        "justification": "CT-skanning utan kontrast är förstahandsval för att snabbt diagnostisera en akut subaraknoidalblödning."
+    },
+    {
+        "question": "Vilket av följande är en typisk initial behandling för status epilepticus?",
+        "options": ["Valproat", "Fenytoin", "Levetiracetam", "Lorazepam", "Topiramat"],
+        "correct_answer": "Lorazepam",
+        "justification": "Lorazepam är en benzodiazepin som ofta används som förstahandsbehandling för status epilepticus."
+    },
+    {
+        "question": "Vilket fynd på EMG är mest associerat med amyotrofisk lateralskleros (ALS)?",
+        "options": ["Polyfasiska motorenhetspotentialer", "Förlängd F-våglatens", "Repetitiva nervaktiveringspotentialer", "Fibrillationer och positiva vassa vågor", "Förlängd distal latens"],
+        "correct_answer": "Fibrillationer och positiva vassa vågor",
+        "justification": "Fibrillationer och positiva vassa vågor på EMG är karakteristiska för ALS."
+    },
+    {
+        "question": "Vilken neurologisk sjukdom är starkt associerad med en mutation i SCN1A-genen?",
+        "options": ["Dravets syndrom", "Charcot-Marie-Tooth sjukdom", "Rett syndrom", "Spinocerebellär ataxi", "Wilson's sjukdom"],
+        "correct_answer": "Dravets syndrom",
+        "justification": "Dravets syndrom orsakas ofta av en mutation i SCN1A-genen, som kodar för en natriumkanal."
+    },
+    {
+        "question": "Vilken är den mest specifika bilddiagnostiska metoden för att identifiera multipel skleros-lesioner?",
+        "options": ["CT-skanning", "PET-skanning", "fMRI", "T2-viktad MRI", "Angiografi"],
+        "correct_answer": "T2-viktad MRI",
+        "justification": "T2-viktad MRI är särskilt känslig för att identifiera lesioner associerade med multipel skleros."
+    },
+    {
+        "question": "Vilket av följande är ett diagnostiskt kriterium för migrän utan aura enligt International Headache Society (IHS)?",
+        "options": ["Minst 5 attacker", "Lokaliserad smärta", "Nedsatt syn", "Hörselhallucinationer", "Krampanfall"],
+        "correct_answer": "Minst 5 attacker",
+        "justification": "För att diagnostisera migrän utan aura krävs minst 5 attacker enligt IHS kriterier."
+    },
+    {
+        "question": "Vilket protein ackumuleras i hjärnan vid Parkinsons sjukdom?",
+        "options": ["Tau", "Amyloid-beta", "Alpha-synuklein", "Prion", "Ubiquitin"],
+        "correct_answer": "Alpha-synuklein",
+        "justification": "Alpha-synuklein ackumuleras och bildar Lewy-kroppar i hjärnan vid Parkinsons sjukdom."
+    },
+    {
+        "question": "Vilken typ av demens är associerad med frontotemporal atrofi?",
+        "options": ["Alzheimers sjukdom", "Lewykroppsdemens", "Vaskulär demens", "Frontotemporal demens", "Parkinsons sjukdoms demens"],
+        "correct_answer": "Frontotemporal demens",
+        "justification": "Frontotemporal demens karakteriseras av degeneration av frontalloben och temporalloben."
+    },
+    {
+        "question": "Vilken genetisk sjukdom kännetecknas av progressiv ataxi, spasticitet och dysartri?",
+        "options": ["Friedreichs ataxi", "Huntingtons sjukdom", "Rett syndrom", "Charcot-Marie-Tooth sjukdom", "Duchennes muskeldystrofi"],
+        "correct_answer": "Friedreichs ataxi",
+        "justification": "Friedreichs ataxi är en autosomal recessiv sjukdom som leder till progressiv ataxi, spasticitet och dysartri."
+    },
+    {
+        "question": "Vilken av följande är en karakteristisk egenskap hos Wernickes encefalopati?",
+        "options": ["Progressiv förlamning", "Ataxi", "Förlust av korttidsminnet", "Optisk neurit", "Desorientering"],
+        "correct_answer": "Ataxi",
+        "justification": "Ataxi, tillsammans med ögonrörelsestörningar och förvirring, är en karakteristisk egenskap hos Wernickes encefalopati."
+    },
+    {
+        "question": "Vilken är den vanligaste orsaken till icke-traumatisk subaraknoidalblödning?",
+        "options": ["Arteriovenös missbildning", "Högt blodtryck", "Aneurysm", "Kärlväggsdissektion", "Koagulopati"],
+        "correct_answer": "Aneurysm",
+        "justification": "Ruptur av ett aneurysm är den vanligaste orsaken till icke-traumatisk subaraknoidalblödning."
+    },
+    {
+        "question": "Vilket test är mest användbart för att differentiera mellan epileptiska anfall och psykogena icke-epileptiska anfall?",
+        "options": ["CT-skanning", "MRI", "Video-EEG övervakning", "PET-skanning", "EMG"],
+        "correct_answer": "Video-EEG övervakning",
+        "justification": "Video-EEG övervakning är guldstandarden för att differentiera mellan epileptiska anfall och psykogena icke-epileptiska anfall."
+    },
+    {
+        "question": "Vilket autoantikropp är starkt associerat med myasthenia gravis?",
+        "options": ["Anti-Hu", "Anti-MuSK", "Anti-SSA", "Anti-dsDNA", "Anti-ACHR"],
+        "correct_answer": "Anti-ACHR",
+        "justification": "Anti-ACHR antikroppar riktade mot acetylkolinreceptorerna är starkt associerade med myasthenia gravis."
+    },
+    {
+        "question": "Vilket fynd på MR-hjärna är typiskt för multipel skleros?",
+        "options": ["Periventrikulära lesioner", "Cerebellär atrofi", "Hjärnstamsatrofi", "Hydrocephalus", "Basalganglie lesioner"],
+        "correct_answer": "Periventrikulära lesioner",
+        "justification": "Periventrikulära lesioner är typiska fynd på MR-hjärna hos patienter med multipel skleros."
+    },
+    {
+        "question": "Vilken av följande är en primär demyeliniserande sjukdom i centrala nervsystemet?",
+        "options": ["Alzheimers sjukdom", "Parkinsons sjukdom", "Multipel skleros", "Huntingtons sjukdom", "Amyotrofisk lateralskleros (ALS)"],
+        "correct_answer": "Multipel skleros",
+        "justification": "Multipel skleros är en autoimmun demyeliniserande sjukdom som påverkar centrala nervsystemet."
+    },
+    {
+        "question": "Vilket neurodegenerativt tillstånd kännetecknas av Lewy-kroppar i hjärnan?",
+        "options": ["Parkinsons sjukdom", "Alzheimers sjukdom", "Huntingtons sjukdom", "Amyotrofisk lateralskleros (ALS)", "Creutzfeldt-Jakobs sjukdom"],
+        "correct_answer": "Parkinsons sjukdom",
+        "justification": "Lewy-kroppar, som består av alfa-synukleinproteiner, är karakteristiska för Parkinsons sjukdom."
+    },
+    {
+        "question": "Vilken är den primära orsaken till progressiv multifokal leukoencefalopati (PML)?",
+        "options": ["JC-virus", "Herpes simplex-virus", "Epstein-Barr-virus", "Varicella zoster-virus", "Cytomegalovirus"],
+        "correct_answer": "JC-virus",
+        "justification": "Progressiv multifokal leukoencefalopati orsakas av reaktivering av JC-virus i immunosupprimerade individer."
+    },
+    {
+        "question": "Vilket är ett typiskt kliniskt fynd vid myasthenia gravis?",
+        "options": ["Förlamning av en extremitet", "Muskeltrötthet som förbättras med vila", "Långsam progressiv svaghet", "Snabb progression till andningssvikt", "Sensoriska bortfall"],
+        "correct_answer": "Muskeltrötthet som förbättras med vila",
+        "justification": "Myasthenia gravis kännetecknas av muskeltrötthet som förbättras efter vila och försämras med aktivitet."
+    },
+    {
+        "question": "Vilken mutation är mest associerad med autosomal dominant arvelig Alzheimers sjukdom?",
+        "options": ["PSEN1-genen", "APP-genen", "TARDBP-genen", "MAPT-genen", "FUS-genen"],
+        "correct_answer": "PSEN1-genen",
+        "justification": "Mutationer i PSEN1-genen är starkt associerade med autosomal dominant arvelig Alzheimers sjukdom."
+    },
+    {
+        "question": "Vilket autoimmunt syndrom kännetecknas av akut, asymmetrisk svaghet i ansiktets muskler?",
+        "options": ["Guillain-Barrés syndrom", "Myasthenia gravis", "Multiple skleros", "Bells pares", "Lambert-Eatons syndrom"],
+        "correct_answer": "Bells pares",
+        "justification": "Bells pares är ett autoimmunt syndrom som orsakar akut, asymmetrisk svaghet i ansiktets muskler."
+    },
+    {
+        "question": "Vilket av följande är ett kännetecken för neurofibromatos typ 1 (NF1)?",
+        "options": ["Cafe-au-lait-fläckar", "Optisk neurit", "Lhermittes tecken", "Atrofiska muskelspolar", "Nystagmus"],
+        "correct_answer": "Cafe-au-lait-fläckar",
+        "justification": "Cafe-au-lait-fläckar är ett diagnostiskt kriterium för neurofibromatos typ 1."
+    },
+    {
+        "question": "Vilket av följande är ett kardinalsymtom på multipel skleros (MS)?",
+        "options": ["Optisk neurit", "Hörselhallucinationer", "Epileptiska anfall", "Huvudvärk", "Dubbelseende"],
+        "correct_answer": "Optisk neurit",
+        "justification": "Optisk neurit, inflammation av synnerven, är ett vanligt första symtom på multipel skleros."
+    },
+    {
+        "question": "Vilken genetisk mutation är förknippad med autosomal dominant polycystisk njursjukdom (ADPKD) med cerebrala aneurysmer?",
+        "options": ["PKD1-genen", "COL4A5-genen", "TSC2-genen", "VHL-genen", "PKHD1-genen"],
+        "correct_answer": "PKD1-genen",
+        "justification": "Mutationer i PKD1-genen är associerade med autosomal dominant polycystisk njursjukdom och ökad risk för cerebrala aneurysmer."
+    },
+    {
+        "question": "Vilket av följande kännetecknar Lambert-Eatons myastena syndrom (LEMS)?",
+        "options": ["Progressiv muskeltrötthet", "Förbättrad muskelstyrka efter aktivitet", "Muskelatrofi", "Ögonlockspares", "Demens"],
+        "correct_answer": "Förbättrad muskelstyrka efter aktivitet",
+        "justification": "Lambert-Eatons myastena syndrom kännetecknas av muskeltrötthet som förbättras efter aktivitet, till skillnad från myasthenia gravis."
+    },
+    {
+        "question": "Vilken typ av huvudvärk är associerad med en 'aura' som föregår smärtan?",
+        "options": ["Migrän", "Spänningshuvudvärk", "Clusterhuvudvärk", "Sinusit-huvudvärk", "Trigeminal neuralgi"],
+        "correct_answer": "Migrän",
+        "justification": "Migrän karakteriseras ofta av en 'aura', som kan inkludera visuella störningar, innan själva huvudvärken börjar."
+    },
+    {
+        "question": "Vilken neurologisk sjukdom är associerad med en trinukleotidupprepning av CAG i HTT-genen?",
+        "options": ["Huntingtons sjukdom", "Friedreichs ataxi", "Duchennes muskeldystrofi", "Myotonisk dystrofi", "Spinal muskelatrofi"],
+        "correct_answer": "Huntingtons sjukdom",
+        "justification": "Huntingtons sjukdom orsakas av en expanderad trinukleotidupprepning av CAG i HTT-genen."
+    },
+    {
+        "question": "Vilket autoantikropp är mest associerat med neuromyelitis optica (NMO)?",
+        "options": ["Anti-NMDA", "Anti-AQP4", "Anti-MOG", "Anti-SSA", "Anti-GAD"],
+        "correct_answer": "Anti-AQP4",
+        "justification": "Anti-AQP4 antikroppar är starkt associerade med neuromyelitis optica, en sjukdom som påverkar synnerv och ryggmärg."
+    },
+    {
+        "question": "Vilket av följande är en riskfaktor för utveckling av temporalisarterit?",
+        "options": ["Kvinna", "Ålder över 50 år", "Rökning", "Hypotyreos", "Diabetes"],
+        "correct_answer": "Ålder över 50 år",
+        "justification": "Temporalisarterit är vanligast hos personer över 50 år."
+    },
+    {
+        "question": "Vilken av följande är en typisk symptom vid karotisstenos?",
+        "options": ["Afasi", "Diplopi", "Amaurosis fugax", "Hemianopsi", "Ataxi"],
+        "correct_answer": "Amaurosis fugax",
+        "justification": "Amaurosis fugax, tillfällig synförlust, är en typisk symptom vid karotisstenos."
+    },
+    {
+        "question": "Vilken genetisk sjukdom är starkt associerad med muskeltrötthet och ptos?",
+        "options": ["Myasthenia gravis", "Duchennes muskeldystrofi", "Beckers muskeldystrofi", "Spinal muskelatrofi", "Friedreichs ataxi"],
+        "correct_answer": "Myasthenia gravis",
+        "justification": "Myasthenia gravis är en autoimmun sjukdom som orsakar muskeltrötthet och ptos (hängande ögonlock)."
+    },
+    {
+        "question": "Vilken typ av hydrocephalus är karakteristisk för Normal Pressure Hydrocephalus (NPH)?",
+        "options": ["Icke-kommunicerande hydrocephalus", "Kommunicerande hydrocephalus", "Ex vacuo hydrocephalus", "Hydrocephalus internus", "Hydrocephalus externus"],
+        "correct_answer": "Kommunicerande hydrocephalus",
+        "justification": "Normal Pressure Hydrocephalus kännetecknas av kommunicerande hydrocephalus med normalt cerebrospinalvätsketryck."
+    },
+    {
+        "question": "Vilket av följande är ett typiskt symtom på basilarismigrän?",
+        "options": ["Vertigo", "Hemipares", "Optisk neurit", "Aphasi", "Sensoriska bortfall"],
+        "correct_answer": "Vertigo",
+        "justification": "Vertigo är ett vanligt symtom på basilarismigrän, en typ av migrän som påverkar hjärnstammen."
+    }
+]

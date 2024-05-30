@@ -1,0 +1,578 @@
+[
+    {
+        "question": "Vilken hormonell obalans är den vanligaste orsaken till hyperprolaktinemi?",
+        "options": [
+            "Prolaktinom",
+            "Hypotyreos",
+            "Hyperparatyreoidism",
+            "Cushings syndrom",
+            "Akromegali"
+        ],
+        "correct_answer": "Prolaktinom",
+        "justification": "Prolaktinom, en prolaktinproducerande hypofystumör, är den vanligaste orsaken till hyperprolaktinemi."
+    },
+    {
+        "question": "Vilket laboratorietest är mest specifikt för diagnos av primär aldosteronism?",
+        "options": [
+            "Aldosteron/renin-kvot",
+            "Serum kalium",
+            "Plasma kortisol",
+            "TSH-nivåer",
+            "Serum natrium"
+        ],
+        "correct_answer": "Aldosteron/renin-kvot",
+        "justification": "En förhöjd aldosteron/renin-kvot är specifik för diagnos av primär aldosteronism, vilket indikerar överproduktion av aldosteron oberoende av renin."
+    },
+    {
+        "question": "Vilken är den vanligaste orsaken till sekundär hyperparatyreoidism?",
+        "options": [
+            "Kronisk njursvikt",
+            "D-vitaminbrist",
+            "Malabsorption",
+            "Hyperkalcemi",
+            "Thiaziddiuretika"
+        ],
+        "correct_answer": "Kronisk njursvikt",
+        "justification": "Kronisk njursvikt leder till fosfateretension och hypokalcemi, vilket stimulerar paratyreoidea och orsakar sekundär hyperparatyreoidism."
+    },
+    {
+        "question": "Vilken behandling är förstahandsval vid Graves sjukdom?",
+        "options": [
+            "Radiojodbehandling",
+            "Tyreoidektomi",
+            "Propyltiouracil",
+            "Metimazol",
+            "Betablockerare"
+        ],
+        "correct_answer": "Metimazol",
+        "justification": "Metimazol är ett antityreoideapreparat som är förstahandsval för behandling av Graves sjukdom, en autoimmun hypertyreos."
+    },
+    {
+        "question": "Vilken av följande är en vanlig biverkning av glukokortikoidbehandling?",
+        "options": [
+            "Osteoporos",
+            "Hypoglykemi",
+            "Hyponatremi",
+            "Hyperkalemi",
+            "Hypotension"
+        ],
+        "correct_answer": "Osteoporos",
+        "justification": "Långvarig glukokortikoidbehandling kan leda till osteoporos på grund av minskad kalciumabsorption och ökad benresorption."
+    },
+    {
+        "question": "Vilken hormonell rubbning är associerad med diabetes insipidus?",
+        "options": [
+            "Brist på antidiuretiskt hormon",
+            "Överskott av aldosteron",
+            "Brist på tillväxthormon",
+            "Överskott av kortisol",
+            "Brist på tyreoideahormon"
+        ],
+        "correct_answer": "Brist på antidiuretiskt hormon",
+        "justification": "Diabetes insipidus orsakas av brist på antidiuretiskt hormon (ADH), vilket leder till oförmåga att koncentrera urinen och resulterar i polyuri och polydipsi."
+    },
+    {
+        "question": "Vilken av följande är en typisk klinisk manifestation av akromegali?",
+        "options": [
+            "Förstorade händer och fötter",
+            "Viktminskning",
+            "Tunn hud",
+            "Hypotoni",
+            "Små leder"
+        ],
+        "correct_answer": "Förstorade händer och fötter",
+        "justification": "Akromegali, orsakad av överproduktion av tillväxthormon, leder till förstorade händer och fötter samt andra beniga förändringar."
+    },
+    {
+        "question": "Vilket test används för att diagnostisera Cushings syndrom?",
+        "options": [
+            "Dexametason-suppressionstest",
+            "Serum kalium",
+            "Plasma reninaktivitet",
+            "Aldosteron/renin-kvot",
+            "Serum kalcium"
+        ],
+        "correct_answer": "Dexametason-suppressionstest",
+        "justification": "Dexametason-suppressionstest används för att diagnostisera Cushings syndrom genom att utvärdera kroppens kortisolrespons på dexametason."
+    },
+    {
+        "question": "Vilken av följande är en riskfaktor för utveckling av typ 2-diabetes?",
+        "options": [
+            "Övervikt",
+            "Lågt blodtryck",
+            "Högt HDL-kolesterol",
+            "Lågt LDL-kolesterol",
+            "Högt fibrinogen"
+        ],
+        "correct_answer": "Övervikt",
+        "justification": "Övervikt är en stark riskfaktor för utveckling av typ 2-diabetes på grund av insulinresistens."
+    },
+    {
+        "question": "Vilken behandling är förstahandsval vid hyperkalcemi orsakad av primär hyperparatyreoidism?",
+        "options": [
+            "Paratyreoidektomi",
+            "Kalciumtillskott",
+            "D-vitamin",
+            "Bisfosfonater",
+            "Tiaziddiuretika"
+        ],
+        "correct_answer": "Paratyreoidektomi",
+        "justification": "Paratyreoidektomi är förstahandsvalet vid behandling av hyperkalcemi orsakad av primär hyperparatyreoidism, eftersom det tar bort källan till överproduktion av paratyreoideahormon."
+    },
+    {
+        "question": "Vilken är den vanligaste orsaken till Addisonkris?",
+        "options": [
+            "Infektion",
+            "Överdos av glukokortikoider",
+            "Högt blodtryck",
+            "Diabetes insipidus",
+            "Hypertyreos"
+        ],
+        "correct_answer": "Infektion",
+        "justification": "Infektion är en vanlig utlösande faktor för Addisonkris, särskilt hos patienter med odiagnostiserad eller dåligt behandlad Addison sjukdom."
+    },
+    {
+        "question": "Vilken hormonell obalans leder till hirsutism hos kvinnor?",
+        "options": [
+            "Överskott av androgener",
+            "Brist på östrogen",
+            "Överskott av prolaktin",
+            "Brist på progesteron",
+            "Överskott av kortisol"
+        ],
+        "correct_answer": "Överskott av androgener",
+        "justification": "Hirsutism hos kvinnor orsakas oftast av ett överskott av androgener, vilket kan bero på tillstånd som polycystiskt ovariesyndrom (PCOS) eller adrenal hyperplasi."
+    },
+    {
+        "question": "Vilken av följande är en typisk laboratoriefynd vid hypotyreos?",
+        "options": [
+            "Förhöjt TSH",
+            "Lågt TSH",
+            "Förhöjt fritt T4",
+            "Förhöjt fritt T3",
+            "Lågt kortisol"
+        ],
+        "correct_answer": "Förhöjt TSH",
+        "justification": "Hypotyreos kännetecknas av förhöjda TSH-nivåer som svar på låga nivåer av sköldkörtelhormoner (fritt T4 och fritt T3)."
+    },
+    {
+        "question": "Vilken av följande är en vanlig komplikation vid obehandlad hypertyreos?",
+        "options": [
+            "Osteoporos",
+            "Hypotoni",
+            "Hypoglykemi",
+            "Hypokalcemi",
+            "Viktökning"
+        ],
+        "correct_answer": "Osteoporos",
+        "justification": "Hypertyreos kan leda till osteoporos på grund av ökad benresorption och minskad benmassa."
+    },
+    {
+        "question": "Vilken av följande är en viktig behandling vid akut hypokalcemi?",
+        "options": [
+            "Intravenöst kalcium",
+            "Oralt kalcium",
+            "D-vitamin",
+            "Tiaziddiuretika",
+            "Betablockerare"
+        ],
+        "correct_answer": "Intravenöst kalcium",
+        "justification": "Akut hypokalcemi behandlas med intravenöst kalcium för att snabbt höja kalciumnivåerna och förebygga livshotande komplikationer."
+    },
+    {
+        "question": "Vilken av följande är en typisk klinisk manifestation av feokromocytom?",
+        "options": [
+            "Hypertoni",
+            "Hypotoni",
+            "Bradykardi",
+            "Viktnedgång",
+            "Hypokalemi"
+        ],
+        "correct_answer": "Hypertoni",
+        "justification": "Feokromocytom, en tumör i binjuremärgen som producerar katekolaminer, leder oftast till episodisk eller ihållande hypertoni."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till sekundär osteoporos?",
+        "options": [
+            "Kronisk glukokortikoidanvändning",
+            "Hypotyreos",
+            "Hyponatremi",
+            "Hypofosfatemi",
+            "Hypertrofi"
+        ],
+        "correct_answer": "Kronisk glukokortikoidanvändning",
+        "justification": "Långvarig användning av glukokortikoider är en vanlig orsak till sekundär osteoporos på grund av dess negativa effekter på benmetabolismen."
+    },
+    {
+        "question": "Vilken av följande är en vanlig manifestation av polycystiskt ovariesyndrom (PCOS)?",
+        "options": [
+            "Oligomenorré",
+            "Hyperkalemi",
+            "Hypotoni",
+            "Hypoglykemi",
+            "Hyponatremi"
+        ],
+        "correct_answer": "Oligomenorré",
+        "justification": "Oligomenorré, eller oregelbunden menstruation, är en vanlig manifestation av polycystiskt ovariesyndrom (PCOS), vilket orsakas av hormonella obalanser."
+    },
+    {
+        "question": "Vilken av följande är en typisk klinisk manifestation av kongenital adrenal hyperplasi (CAH)?",
+        "options": [
+            "Virilisering",
+            "Hypotoni",
+            "Hypoglykemi",
+            "Viktnedgång",
+            "Hypernatremi"
+        ],
+        "correct_answer": "Virilisering",
+        "justification": "Kongenital adrenal hyperplasi (CAH) kan leda till virilisering på grund av överproduktion av androgener från binjurarna."
+    },
+    {
+        "question": "Vilken behandling är förstahandsval vid akut hyponatremi?",
+        "options": [
+            "Hyperton saltlösning",
+            "Isoton saltlösning",
+            "D5W",
+            "Oralt vatten",
+            "Diuretika"
+        ],
+        "correct_answer": "Hyperton saltlösning",
+        "justification": "Akut hyponatremi behandlas med hyperton saltlösning för att snabbt korrigera natriumnivåerna och undvika hjärnödem."
+    },
+    {
+        "question": "Vilket test används för att diagnostisera primär hypotyreos?",
+        "options": [
+            "Serum TSH och fritt T4",
+            "Serum kortisol och ACTH",
+            "Plasma glukos och insulin",
+            "Serum aldosteron och renin",
+            "Serum kalcium och PTH"
+        ],
+        "correct_answer": "Serum TSH och fritt T4",
+        "justification": "Primär hypotyreos diagnostiseras genom att mäta serum TSH och fritt T4. Förhöjt TSH och lågt fritt T4 bekräftar diagnosen."
+    },
+    {
+        "question": "Vilken av följande är en karakteristisk fynd vid Addison sjukdom?",
+        "options": [
+            "Hyperpigmentering",
+            "Hypernatremi",
+            "Hyperglykemi",
+            "Hypertension",
+            "Hypokalemi"
+        ],
+        "correct_answer": "Hyperpigmentering",
+        "justification": "Hyperpigmentering är ett karakteristiskt fynd vid Addison sjukdom på grund av ökad ACTH-produktion som stimulerar melanocyt-stimulerande hormon."
+    },
+    {
+        "question": "Vilken är den mest specifika diagnostiska metoden för akromegali?",
+        "options": [
+            "IGF-1 nivåer",
+            "Plasma kortisol",
+            "Serum TSH",
+            "Plasma aldosteron",
+            "Serum kalcium"
+        ],
+        "correct_answer": "IGF-1 nivåer",
+        "justification": "Förhöjda nivåer av IGF-1 (insulin-like growth factor 1) är den mest specifika diagnostiska markören för akromegali."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till ektopisk ACTH-produktion?",
+        "options": [
+            "Småcellig lungcancer",
+            "Binjureadenom",
+            "Prolaktinom",
+            "Pheokromocytom",
+            "Paratyreoideaadenom"
+        ],
+        "correct_answer": "Småcellig lungcancer",
+        "justification": "Småcellig lungcancer är en vanlig orsak till ektopisk ACTH-produktion, vilket kan leda till Cushings syndrom."
+    },
+    {
+        "question": "Vilken av följande är en typisk manifestation av hypoparatyreoidism?",
+        "options": [
+            "Tetani",
+            "Hyperkalcemi",
+            "Viktnedgång",
+            "Hyperglykemi",
+            "Hypotoni"
+        ],
+        "correct_answer": "Tetani",
+        "justification": "Hypoparatyreoidism leder till hypokalcemi, vilket kan orsaka tetani, ett tillstånd med muskelspasmer och kramper."
+    },
+    {
+        "question": "Vilket av följande är ett klassiskt symtom på diabetes insipidus?",
+        "options": [
+            "Polyuri",
+            "Hypoglykemi",
+            "Hyperkalcemi",
+            "Hypotoni",
+            "Hypernatremi"
+        ],
+        "correct_answer": "Polyuri",
+        "justification": "Diabetes insipidus kännetecknas av polyuri, som är ett resultat av brist på eller resistens mot antidiuretiskt hormon (ADH)."
+    },
+    {
+        "question": "Vilken av följande är en typisk biverkning av behandling med metformin?",
+        "options": [
+            "Gastrointestinala besvär",
+            "Hyperglykemi",
+            "Viktökning",
+            "Hypotoni",
+            "Hyperlipidemi"
+        ],
+        "correct_answer": "Gastrointestinala besvär",
+        "justification": "Metformin kan orsaka gastrointestinala besvär, inklusive diarré, illamående och buksmärtor."
+    },
+    {
+        "question": "Vilket laboratorietest används för att bekräfta diagnosen av primär hyperaldosteronism?",
+        "options": [
+            "Aldosteron/renin-kvot",
+            "Serum kalium",
+            "Serum natrium",
+            "Plasma kortisol",
+            "Serum glukos"
+        ],
+        "correct_answer": "Aldosteron/renin-kvot",
+        "justification": "En förhöjd aldosteron/renin-kvot är diagnostisk för primär hyperaldosteronism, vilket indikerar överproduktion av aldosteron."
+    },
+    {
+        "question": "Vilken av följande är en typisk laboratoriefynd vid hypotyreos?",
+        "options": [
+            "Förhöjt TSH",
+            "Lågt TSH",
+            "Förhöjt fritt T4",
+            "Förhöjt fritt T3",
+            "Lågt kortisol"
+        ],
+        "correct_answer": "Förhöjt TSH",
+        "justification": "Hypotyreos kännetecknas av förhöjda TSH-nivåer som svar på låga nivåer av sköldkörtelhormoner (fritt T4 och fritt T3)."
+    },
+    {
+        "question": "Vilken av följande är en vanlig komplikation av obehandlad diabetes mellitus typ 1?",
+        "options": [
+            "Diabetisk ketoacidos",
+            "Hyperkalcemi",
+            "Hypotoni",
+            "Hyponatremi",
+            "Hyperlipidemi"
+        ],
+        "correct_answer": "Diabetisk ketoacidos",
+        "justification": "Diabetisk ketoacidos är en allvarlig komplikation av obehandlad diabetes mellitus typ 1, orsakad av insulinbrist och hyperglykemi."
+    },
+    {
+        "question": "Vilken behandling är förstahandsval vid postmenopausal osteoporos?",
+        "options": [
+            "Bisfosfonater",
+            "Kalciumtillskott",
+            "D-vitamin",
+            "Östrogen",
+            "Tiaziddiuretika"
+        ],
+        "correct_answer": "Bisfosfonater",
+        "justification": "Bisfosfonater är förstahandsvalet vid behandling av postmenopausal osteoporos eftersom de minskar benresorption och ökar bentätheten."
+    },
+    {
+        "question": "Vilken hormonell rubbning leder till hirsutism hos kvinnor?",
+        "options": [
+            "Överskott av androgener",
+            "Brist på östrogen",
+            "Överskott av prolaktin",
+            "Brist på progesteron",
+            "Överskott av kortisol"
+        ],
+        "correct_answer": "Överskott av androgener",
+        "justification": "Hirsutism hos kvinnor orsakas oftast av ett överskott av androgener, vilket kan bero på tillstånd som polycystiskt ovariesyndrom (PCOS) eller adrenal hyperplasi."
+    },
+    {
+        "question": "Vilken är den vanligaste orsaken till sekundär hyperparatyreoidism?",
+        "options": [
+            "Kronisk njursvikt",
+            "D-vitaminbrist",
+            "Malabsorption",
+            "Hyperkalcemi",
+            "Thiaziddiuretika"
+        ],
+        "correct_answer": "Kronisk njursvikt",
+        "justification": "Kronisk njursvikt leder till fosfateretension och hypokalcemi, vilket stimulerar paratyreoidea och orsakar sekundär hyperparatyreoidism."
+    },
+    {
+        "question": "Vilken av följande är en typisk manifestation av hyperparatyreoidism?",
+        "options": [
+            "Njursten",
+            "Hypokalemi",
+            "Hyperglykemi",
+            "Hypotoni",
+            "Viktnedgång"
+        ],
+        "correct_answer": "Njursten",
+        "justification": "Hyperparatyreoidism kan leda till hyperkalcemi, vilket ökar risken för njursten."
+    },
+    {
+        "question": "Vilken av följande är en riskfaktor för utveckling av typ 2-diabetes?",
+        "options": [
+            "Övervikt",
+            "Lågt blodtryck",
+            "Högt HDL-kolesterol",
+            "Lågt LDL-kolesterol",
+            "Högt fibrinogen"
+        ],
+        "correct_answer": "Övervikt",
+        "justification": "Övervikt är en stark riskfaktor för utveckling av typ 2-diabetes på grund av insulinresistens."
+    },
+    {
+        "question": "Vilken av följande är en typisk laboratoriefynd vid primär aldosteronism?",
+        "options": [
+            "Hypokalemi",
+            "Hyperkalemi",
+            "Hypokalcemi",
+            "Hypernatremi",
+            "Hyponatremi"
+        ],
+        "correct_answer": "Hypokalemi",
+        "justification": "Primär aldosteronism leder till ökad natriumretention och kaliumutsöndring, vilket resulterar i hypokalemi."
+    },
+    {
+        "question": "Vilken av följande är en typisk manifestation av Cushings syndrom?",
+        "options": [
+            "Centripetal fetma",
+            "Hypotoni",
+            "Viktnedgång",
+            "Hyperkalemi",
+            "Hypoglykemi"
+        ],
+        "correct_answer": "Centripetal fetma",
+        "justification": "Centripetal fetma, där fett ackumuleras i bukområdet men extremiteterna förblir smala, är en typisk manifestation av Cushings syndrom."
+    },
+    {
+        "question": "Vilken av följande är en typisk laboratoriefynd vid Addison sjukdom?",
+        "options": [
+            "Hyponatremi",
+            "Hypernatremi",
+            "Hyperglykemi",
+            "Hypokalemi",
+            "Hyperkalcemi"
+        ],
+        "correct_answer": "Hyponatremi",
+        "justification": "Addison sjukdom leder till brist på aldosteron och kortisol, vilket kan orsaka hyponatremi och hyperkalemi."
+    },
+    {
+        "question": "Vilken av följande är en typisk manifestation av hypopituitarism?",
+        "options": [
+            "Trötthet",
+            "Hyperkalemi",
+            "Hyponatremi",
+            "Hyperglykemi",
+            "Viktökning"
+        ],
+        "correct_answer": "Trötthet",
+        "justification": "Hypopituitarism, eller brist på en eller flera hypofyshormoner, kan leda till trötthet, viktminskning och andra symtom beroende på vilka hormoner som saknas."
+    },
+    {
+        "question": "Vilken av följande är en vanlig komplikation av obehandlad akromegali?",
+        "options": [
+            "Kardiomyopati",
+            "Hyperglykemi",
+            "Hypokalemi",
+            "Hyponatremi",
+            "Hyperkalcemi"
+        ],
+        "correct_answer": "Kardiomyopati",
+        "justification": "Obehandlad akromegali kan leda till kardiomyopati, vilket är en betydande orsak till morbiditet och mortalitet hos dessa patienter."
+    },
+    {
+        "question": "Vilken av följande är en typisk manifestation av pheokromocytom?",
+        "options": [
+            "Hypertoni",
+            "Hypotoni",
+            "Hypoglykemi",
+            "Hyperkalcemi",
+            "Hypokalemi"
+        ],
+        "correct_answer": "Hypertoni",
+        "justification": "Pheokromocytom, en tumör i binjuremärgen som producerar katekolaminer, leder oftast till episodisk eller ihållande hypertoni."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till primär hyperparatyreoidism?",
+        "options": [
+            "Paratyreoideaadenom",
+            "Kronisk njursvikt",
+            "D-vitaminbrist",
+            "Hyperkalcemi",
+            "Tiaziddiuretika"
+        ],
+        "correct_answer": "Paratyreoideaadenom",
+        "justification": "Paratyreoideaadenom är den vanligaste orsaken till primär hyperparatyreoidism och leder till överproduktion av paratyreoideahormon."
+    },
+    {
+        "question": "Vilken av följande är en vanlig manifestation av hypoparatyreoidism?",
+        "options": [
+            "Hypokalcemi",
+            "Hyperkalcemi",
+            "Hyperglykemi",
+            "Hypernatremi",
+            "Hypokalemi"
+        ],
+        "correct_answer": "Hypokalcemi",
+        "justification": "Hypoparatyreoidism leder till hypokalcemi, vilket kan orsaka muskelkramper, tetani och parestesier."
+    },
+    {
+        "question": "Vilken av följande är en typisk manifestation av primär aldosteronism?",
+        "options": [
+            "Hypertension",
+            "Hypotoni",
+            "Hyperkalcemi",
+            "Hyperglykemi",
+            "Hypoglykemi"
+        ],
+        "correct_answer": "Hypertension",
+        "justification": "Primär aldosteronism leder till ökad natriumretention och volymökning, vilket resulterar i hypertension."
+    },
+    {
+        "question": "Vilken av följande är en vanlig manifestation av hyperparatyreoidism?",
+        "options": [
+            "Njursten",
+            "Hypokalemi",
+            "Hyperglykemi",
+            "Hypotoni",
+            "Viktnedgång"
+        ],
+        "correct_answer": "Njursten",
+        "justification": "Hyperparatyreoidism kan leda till hyperkalcemi, vilket ökar risken för njursten."
+    },
+    {
+        "question": "Vilken av följande är en riskfaktor för utveckling av typ 2-diabetes?",
+        "options": [
+            "Övervikt",
+            "Lågt blodtryck",
+            "Högt HDL-kolesterol",
+            "Lågt LDL-kolesterol",
+            "Högt fibrinogen"
+        ],
+        "correct_answer": "Övervikt",
+        "justification": "Övervikt är en stark riskfaktor för utveckling av typ 2-diabetes på grund av insulinresistens."
+    },
+    {
+        "question": "Vilken av följande är en typisk laboratoriefynd vid primär aldosteronism?",
+        "options": [
+            "Hypokalemi",
+            "Hyperkalemi",
+            "Hypokalcemi",
+            "Hypernatremi",
+            "Hyponatremi"
+        ],
+        "correct_answer": "Hypokalemi",
+        "justification": "Primär aldosteronism leder till ökad natriumretention och kaliumutsöndring, vilket resulterar i hypokalemi."
+    },
+    {
+        "question": "Vilken av följande är en typisk manifestation av Cushings syndrom?",
+        "options": [
+            "Centripetal fetma",
+            "Hypotoni",
+            "Viktnedgång",
+            "Hyperkalemi",
+            "Hypoglykemi"
+        ],
+        "correct_answer": "Centripetal fetma",
+        "justification": "Centripetal fetma, där fett ackumuleras i bukområdet men extremiteterna förblir smala, är en typisk manifestation av Cushings syndrom."
+    }
+]

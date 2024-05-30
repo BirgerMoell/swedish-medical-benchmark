@@ -1,0 +1,590 @@
+[
+    {
+        "question": "Vilken genetisk mutation är mest associerad med kronisk myeloisk leukemi (KML)?",
+        "options": ["BCR-ABL1", "JAK2", "CALR", "FLT3", "NPM1"],
+        "correct_answer": "BCR-ABL1",
+        "justification": "Kronisk myeloisk leukemi (KML) orsakas vanligtvis av en BCR-ABL1-fusionsgen, som är resultatet av en translokation mellan kromosomerna 9 och 22, känd som Philadelphia-kromosomen."
+    },
+    {
+        "question": "Vilken av följande är en typisk komplikation vid sicklecellsanemi?",
+        "options": ["Hemolytisk kris", "Neutropeni", "Leukocytos", "Trombocytopeni", "Polycytemi"],
+        "correct_answer": "Hemolytisk kris",
+        "justification": "Hemolytiska kriser är vanliga komplikationer vid sicklecellsanemi, där de sickle-formade röda blodkropparna bryts ned snabbare än normalt."
+    },
+    {
+        "question": "Vilken koagulationsfaktor är bristfällig vid hemofili A?",
+        "options": ["Faktor VIII", "Faktor IX", "Faktor XI", "Faktor XII", "Faktor XIII"],
+        "correct_answer": "Faktor VIII",
+        "justification": "Hemofili A orsakas av en brist på koagulationsfaktor VIII, vilket leder till blödningsbenägenhet."
+    },
+    {
+        "question": "Vilken genetisk mutation är vanligast vid polycytemia vera?",
+        "options": ["JAK2 V617F", "CALR", "MPL", "FLT3", "BCR-ABL1"],
+        "correct_answer": "JAK2 V617F",
+        "justification": "Polycytemia vera är starkt associerad med en mutation i JAK2-genen, specifikt V617F-mutationen."
+    },
+    {
+        "question": "Vilken av följande är den vanligaste typen av icke-Hodgkin-lymfom?",
+        "options": ["Diffust storcelligt B-cellslymfom", "Follikulärt lymfom", "Mantelcellslymfom", "Burkitts lymfom", "T-cellslymfom"],
+        "correct_answer": "Diffust storcelligt B-cellslymfom",
+        "justification": "Diffust storcelligt B-cellslymfom (DLBCL) är den vanligaste typen av icke-Hodgkin-lymfom och utgör cirka 30-40% av alla fall."
+    },
+    {
+        "question": "Vilken typ av cell är karakteristisk för Hodgkins lymfom?",
+        "options": ["Reed-Sternberg celler", "B-celler", "T-celler", "Plasmaceller", "Stamceller"],
+        "correct_answer": "Reed-Sternberg celler",
+        "justification": "Reed-Sternberg celler är stora, onormala lymfoida celler som är karakteristiska för Hodgkins lymfom."
+    },
+    {
+        "question": "Vilken mutation är ofta associerad med akut promyelocytisk leukemi (APL)?",
+        "options": ["PML-RARA", "BCR-ABL1", "NPM1", "FLT3", "RUNX1-RUNX1T1"],
+        "correct_answer": "PML-RARA",
+        "justification": "Akut promyelocytisk leukemi (APL) orsakas av en translokation mellan kromosomerna 15 och 17, vilket leder till en PML-RARA-fusionsgen."
+    },
+    {
+        "question": "Vilken är den vanligaste orsaken till hemolytisk uremiskt syndrom (HUS)?",
+        "options": ["E. coli O157:H7", "Streptococcus pneumoniae", "Neisseria meningitidis", "Haemophilus influenzae", "Salmonella typhi"],
+        "correct_answer": "E. coli O157:H7",
+        "justification": "Hemolytisk uremiskt syndrom (HUS) orsakas oftast av en infektion med E. coli O157:H7 som producerar Shiga-toxin."
+    },
+    {
+        "question": "Vilken behandling är förstahandsval vid immuntrombocytopeni (ITP)?",
+        "options": ["Kortikosteroider", "IVIG", "Splenektomi", "Trombopoietinreceptoragonister", "Rituximab"],
+        "correct_answer": "Kortikosteroider",
+        "justification": "Kortikosteroider är oftast förstahandsvalet vid behandling av immuntrombocytopeni (ITP) för att minska immunsystemets angrepp på trombocyter."
+    },
+    {
+        "question": "Vilken genetisk sjukdom kännetecknas av mikrosfärocyter i blodutstryk?",
+        "options": ["Hereditär sfärocytos", "Sicklecellanemi", "Thalassemi", "G6PD-brist", "Fanconis anemi"],
+        "correct_answer": "Hereditär sfärocytos",
+        "justification": "Hereditär sfärocytos kännetecknas av mikrosfärocyter, som är små och runda röda blodkroppar."
+    },
+    {
+        "question": "Vilket protein är defekt vid von Willebrands sjukdom?",
+        "options": ["von Willebrand-faktor", "Fibrinogen", "Protrombin", "Faktor VIII", "Faktor IX"],
+        "correct_answer": "von Willebrand-faktor",
+        "justification": "von Willebrands sjukdom orsakas av en defekt i von Willebrand-faktorn, vilket leder till blödningsbenägenhet."
+    },
+    {
+        "question": "Vilken sjukdom kännetecknas av ett överdrivet antal omogna blodceller, kända som blaster, i blodet?",
+        "options": ["Akut myeloisk leukemi", "Kronisk lymfatisk leukemi", "Essentiell trombocytemi", "Primär myelofibros", "Polycytemia vera"],
+        "correct_answer": "Akut myeloisk leukemi",
+        "justification": "Akut myeloisk leukemi (AML) kännetecknas av en hög andel omogna blodceller, eller blaster, i blod och benmärg."
+    },
+    {
+        "question": "Vilken av följande är en markör för hemolys?",
+        "options": ["Haptoglobin", "Albumin", "Transferrin", "Ferritin", "C-reaktivt protein (CRP)"],
+        "correct_answer": "Haptoglobin",
+        "justification": "Låga nivåer av haptoglobin i blodet är en markör för hemolys, eftersom det konsumeras när det binder till fritt hemoglobin från lysade röda blodkroppar."
+    },
+    {
+        "question": "Vilken genetisk mutation är vanligast vid essentiell trombocytemi?",
+        "options": ["JAK2 V617F", "CALR", "MPL", "FLT3", "BCR-ABL1"],
+        "correct_answer": "JAK2 V617F",
+        "justification": "JAK2 V617F-mutationen är den vanligaste genetiska förändringen som associeras med essentiell trombocytemi."
+    },
+    {
+        "question": "Vilken av följande är en typisk egenskap hos multiple myelom?",
+        "options": ["Monoklonal gammopati", "Neutropeni", "Leukocytos", "Trombocytopeni", "Polycytemi"],
+        "correct_answer": "Monoklonal gammopati",
+        "justification": "Multiple myelom kännetecknas av förekomst av monoklonala immunglobuliner eller deras fragment i blodet, kallat monoklonal gammopati."
+    },
+    {
+        "question": "Vilket virus är starkt associerat med utvecklingen av Burkitts lymfom?",
+        "options": ["Epstein-Barr-virus", "Hepatit B-virus", "Hepatit C-virus", "Humant papillomvirus", "Cytomegalovirus"],
+        "correct_answer": "Epstein-Barr-virus",
+        "justification": "Epstein-Barr-virus (EBV) är starkt associerat med utvecklingen av Burkitts lymfom, särskilt i endemiska områden."
+    },
+    {
+        "question": "Vilken koagulationsfaktor är defekt vid hemofili B?",
+        "options": ["Faktor VIII", "Faktor IX", "Faktor XI", "Faktor XII", "Faktor XIII"],
+        "correct_answer": "Faktor IX",
+        "justification": "Hemofili B orsakas av en brist på koagulationsfaktor IX, vilket leder till blödningsbenägenhet."
+    },
+    {
+        "question": "Vilken av följande är en vanlig komplikation av kronisk lymfatisk leukemi (KLL)?",
+        "options": ["Autoimmun hemolytisk anemi", "DIC", "Trombocytopen purpura", "Hemofili", "Polycytemia vera"],
+        "correct_answer": "Autoimmun hemolytisk anemi",
+        "justification": "Kronisk lymfatisk leukemi (KLL) kan kompliceras av autoimmun hemolytisk anemi, där immunsystemet angriper de röda blodkropparna."
+    },
+    {
+        "question": "Vilket protein är målstrukturen för antikroppar vid paroxysmal nattlig hemoglobinuri (PNH)?",
+        "options": ["Glykosylfosfatidylinositol (GPI)", "Fibrinogen", "Transferrin", "Albumin", "Faktor VIII"],
+        "correct_answer": "Glykosylfosfatidylinositol (GPI)",
+        "justification": "Paroxysmal nattlig hemoglobinuri (PNH) orsakas av en mutation som påverkar GPI-ankaret, vilket leder till komplementmedierad hemolys."
+    },
+    {
+        "question": "Vilken av följande är en karakteristisk funktion av myeloproliferativa neoplasmer (MPN)?",
+        "options": ["Overproduktion av en eller flera typer av blodceller", "Hypocellulär benmärg", "Låg erythropoietin-nivå", "Hemolys", "Trombocytopeni"],
+        "correct_answer": "Overproduktion av en eller flera typer av blodceller",
+        "justification": "Myeloproliferativa neoplasmer (MPN) kännetecknas av överproduktion av en eller flera typer av blodceller i benmärgen."
+    },
+    {
+        "question": "Vilken genetisk mutation är associerad med hög risk för trombos vid essentiell trombocytemi?",
+        "options": ["JAK2 V617F", "CALR", "MPL", "FLT3", "BCR-ABL1"],
+        "correct_answer": "JAK2 V617F",
+        "justification": "JAK2 V617F-mutationen är associerad med en högre risk för trombos hos patienter med essentiell trombocytemi."
+    },
+    {
+        "question": "Vilken av följande sjukdomar kännetecknas av ökade nivåer av erytropoietin (EPO)?",
+        "options": ["Sekundär polycytemi", "Primär polycytemi", "Aplastisk anemi", "Myelodysplastiskt syndrom", "Akut myeloisk leukemi"],
+        "correct_answer": "Sekundär polycytemi",
+        "justification": "Sekundär polycytemi orsakas av ökade nivåer av erytropoietin (EPO) som svar på hypoxi eller andra faktorer."
+    },
+    {
+        "question": "Vilken genetisk sjukdom är starkt associerad med multipla benigna tumörer, inklusive cafe-au-lait-fläckar?",
+        "options": ["Neurofibromatos typ 1", "Sicklecellanemi", "Thalassemi", "Hereditär sfärocytos", "Fanconis anemi"],
+        "correct_answer": "Neurofibromatos typ 1",
+        "justification": "Neurofibromatos typ 1 kännetecknas av multipla benigna tumörer, inklusive cafe-au-lait-fläckar."
+    },
+    {
+        "question": "Vilken av följande mutationer är associerad med förbättrad prognos vid akut promyelocytisk leukemi (APL)?",
+        "options": ["PML-RARA", "BCR-ABL1", "NPM1", "FLT3", "RUNX1-RUNX1T1"],
+        "correct_answer": "PML-RARA",
+        "justification": "PML-RARA-fusionsgenen är associerad med en god respons på behandling med all-trans retinsyra (ATRA) vid akut promyelocytisk leukemi."
+    },
+    {
+        "question": "Vilken typ av cell är mest karakteristisk för multipel myelom?",
+        "options": ["Plasmaceller", "B-celler", "T-celler", "Stamceller", "Makrofager"],
+        "correct_answer": "Plasmaceller",
+        "justification": "Multipel myelom kännetecknas av proliferation av maligna plasmaceller i benmärgen."
+    },
+    {
+        "question": "Vilken typ av genetisk förändring är vanligast vid myelodysplastiska syndrom (MDS)?",
+        "options": ["Deletioner", "Punktmutationer", "Translokationer", "Inversioner", "Aneuploidier"],
+        "correct_answer": "Deletioner",
+        "justification": "Deletioner av specifika kromosomregioner är vanliga genetiska förändringar vid myelodysplastiska syndrom (MDS)."
+    },
+    {
+        "question": "Vilken markör används för att diagnostisera hemolytisk anemi?",
+        "options": ["Förhöjd LDH", "Låg ferritin", "Hög erytropoietin", "Låg transferrin", "Förhöjd C-reaktivt protein (CRP)"],
+        "correct_answer": "Förhöjd LDH",
+        "justification": "Förhöjd laktatdehydrogenas (LDH) är en markör för hemolys och används för att diagnostisera hemolytisk anemi."
+    },
+    {
+        "question": "Vilken av följande sjukdomar är starkt associerad med Epstein-Barr-virus (EBV) infektion?",
+        "options": ["Hodgkins lymfom", "Akut lymfatisk leukemi", "Kronisk myeloisk leukemi", "Essentiell trombocytemi", "Primär myelofibros"],
+        "correct_answer": "Hodgkins lymfom",
+        "justification": "Epstein-Barr-virus (EBV) infektion är starkt associerad med utvecklingen av Hodgkins lymfom."
+    },
+    {
+        "question": "Vilken koagulationsfaktor är bristfällig vid von Willebrands sjukdom typ 2N?",
+        "options": ["Faktor VIII", "Faktor IX", "Faktor XI", "Faktor XII", "Faktor XIII"],
+        "correct_answer": "Faktor VIII",
+        "justification": "von Willebrands sjukdom typ 2N kännetecknas av en defekt i von Willebrand-faktorns förmåga att binda till och stabilisera faktor VIII."
+    },
+    {
+        "question": "Vilken behandling är förstahandsval vid akut leukemi hos barn?",
+        "options": ["Kemoterapi", "Strålbehandling", "Benmärgstransplantation", "Immunterapi", "Målstyrd terapi"],
+        "correct_answer": "Kemoterapi",
+        "justification": "Kemoterapi är förstahandsvalet vid behandling av akut leukemi hos barn, med syftet att inducera remission."
+    },
+    {
+        "question": "Vilken av följande är en typisk laboratoriefynd vid järnbristanemi?",
+        "options": ["Låg ferritin", "Förhöjd ferritin", "Låg transferrinmättnad", "Hög MCV", "Låg TIBC"],
+        "correct_answer": "Låg ferritin",
+        "justification": "Lågt ferritin är en typisk laboratoriefynd vid järnbristanemi, vilket indikerar låga järndepåer i kroppen."
+    },
+    {
+        "question": "Vilken genetisk mutation är associerad med Fanconis anemi?",
+        "options": ["FANCA", "BRCA1", "TP53", "MLH1", "ATM"],
+        "correct_answer": "FANCA",
+        "justification": "Fanconis anemi är en autosomal recessiv sjukdom som oftast orsakas av mutationer i FANCA-genen."
+    },
+    {
+        "question": "Vilken av följande är en vanlig komplikation vid thalassemi?",
+        "options": ["Järnöverskott", "Neutropeni", "Leukocytos", "Trombocytopeni", "Polycytemi"],
+        "correct_answer": "Järnöverskott",
+        "justification": "Patienter med thalassemi är ofta beroende av blodtransfusioner, vilket kan leda till järnöverskott."
+    },
+    {
+        "question": "Vilken typ av transfusion används för att behandla akut blödning hos patienter med hemofili?",
+        "options": ["Faktorkoncentrat", "Plasmaferes", "Röda blodkroppar", "Trombocyttransfusion", "Färskfryst plasma"],
+        "correct_answer": "Faktorkoncentrat",
+        "justification": "Faktorkoncentrat används för att snabbt korrigera koagulationsfaktorsbrist och stoppa blödning hos patienter med hemofili."
+    },
+    {
+        "question": "Vilken genetisk mutation är vanligast vid kronisk myelomonocytisk leukemi (CMML)?",
+        "options": ["TET2", "BCR-ABL1", "NPM1", "FLT3", "RUNX1-RUNX1T1"],
+        "correct_answer": "TET2",
+        "justification": "TET2-mutationer är vanliga vid kronisk myelomonocytisk leukemi (CMML), en typ av myelodysplastiskt/myeloproliferativt syndrom."
+    },
+    {
+        "question": "Vilken av följande är en viktig prognostisk markör vid multipel myelom?",
+        "options": ["Beta-2-mikroglobulin", "Ferritin", "Transferrin", "Haptoglobin", "C-reaktivt protein (CRP)"],
+        "correct_answer": "Beta-2-mikroglobulin",
+        "justification": "Förhöjda nivåer av beta-2-mikroglobulin är associerade med en sämre prognos vid multipel myelom."
+    },
+    {
+        "question": "Vilken behandling är mest effektiv vid behandling av trombotisk trombocytopen purpura (TTP)?",
+        "options": ["Plasmaferes", "Kortikosteroider", "Splenektomi", "Trombopoietinreceptoragonister", "Rituximab"],
+        "correct_answer": "Plasmaferes",
+        "justification": "Plasmaferes är den mest effektiva behandlingen för trombotisk trombocytopen purpura (TTP) och hjälper till att avlägsna skadliga antikroppar och multimerer av von Willebrand-faktor från blodet."
+    },
+    {
+        "question": "Vilken av följande genetiska förändringar är associerad med bättre prognos vid akut lymfatisk leukemi (ALL)?",
+        "options": ["t(12;21)", "t(9;22)", "t(4;11)", "t(1;19)", "11q23-rearrangemang"],
+        "correct_answer": "t(12;21)",
+        "justification": "Translokationen t(12;21), som involverar ETV6-RUNX1, är associerad med en bättre prognos vid akut lymfatisk leukemi (ALL)."
+    },
+    {
+        "question": "Vilket av följande tillstånd kan leda till sekundär hemokromatos?",
+        "options": ["Återkommande blodtransfusioner", "Aplastisk anemi", "Järnbristanemi", "Megoblastisk anemi", "Hypersplenism"],
+        "correct_answer": "Återkommande blodtransfusioner",
+        "justification": "Återkommande blodtransfusioner kan leda till järnöverskott och sekundär hemokromatos på grund av ackumulering av järn i kroppen."
+    },
+    {
+        "question": "Vilken av följande är en känd komplikation vid essentiell trombocytemi?",
+        "options": ["Arteriell och venös trombos", "Hemofili", "Järnbristanemi", "Autoimmun hemolytisk anemi", "Neutropeni"],
+        "correct_answer": "Arteriell och venös trombos",
+        "justification": "Essentiell trombocytemi är associerad med ökad risk för arteriell och venös trombos på grund av ökat antal trombocyter."
+    },
+    {
+        "question": "Vilken av följande mutationer är starkt associerad med myeloproliferativa neoplasmer (MPN)?",
+        "options": ["JAK2 V617F", "BCR-ABL1", "NPM1", "FLT3", "RUNX1-RUNX1T1"],
+        "correct_answer": "JAK2 V617F",
+        "justification": "JAK2 V617F-mutationen är starkt associerad med flera typer av myeloproliferativa neoplasmer, inklusive polycytemia vera, essentiell trombocytemi och primär myelofibros."
+    },
+    {
+        "question": "Vilken typ av cell ses oftast i perifert blodutstryk hos patienter med kronisk myeloisk leukemi (KML)?",
+        "options": ["Myelocyter", "Blaster", "Erytrocyter", "Trombocyter", "Lymfocyter"],
+        "correct_answer": "Myelocyter",
+        "justification": "Kronisk myeloisk leukemi (KML) kännetecknas av en hög andel omogna myeloiska celler, såsom myelocyter, i perifert blodutstryk."
+    },
+    {
+        "question": "Vilket protein är målet för behandlingen med imatinib vid kronisk myeloisk leukemi (KML)?",
+        "options": ["BCR-ABL1", "JAK2", "FLT3", "NPM1", "CALR"],
+        "correct_answer": "BCR-ABL1",
+        "justification": "Imatinib är en tyrosinkinashämmare som riktar sig mot BCR-ABL1-fusionsproteinet, vilket är patogenetiskt för kronisk myeloisk leukemi (KML)."
+    },
+    {
+        "question": "Vilken av följande genetiska förändringar är mest associerad med akut lymfatisk leukemi (ALL) hos vuxna?",
+        "options": ["t(9;22)", "t(12;21)", "t(4;11)", "t(1;19)", "11q23-rearrangemang"],
+        "correct_answer": "t(9;22)",
+        "justification": "Translokationen t(9;22), även känd som Philadelphia-kromosomen, är starkt associerad med akut lymfatisk leukemi (ALL) hos vuxna."
+    },
+    {
+        "question": "Vilket av följande är ett typiskt laboratoriefynd vid hemolytisk anemi?",
+        "options": ["Ökad retikulocytos", "Minskat haptoglobin", "Förhöjd bilirubin", "Alla ovanstående", "Inget av ovanstående"],
+        "correct_answer": "Alla ovanstående",
+        "justification": "Hemolytisk anemi kännetecknas av ökad retikulocytos, minskat haptoglobin och förhöjd bilirubin på grund av ökad nedbrytning av röda blodkroppar."
+    },
+    {
+        "question": "Vilken genetisk mutation är vanligast vid essentiell trombocytemi?",
+        "options": ["JAK2 V617F", "CALR", "MPL", "FLT3", "BCR-ABL1"],
+        "correct_answer": "JAK2 V617F",
+        "justification": "JAK2 V617F-mutationen är den vanligaste genetiska förändringen som associeras med essentiell trombocytemi."
+    },
+    {
+        "question": "Vilken av följande är en karakteristisk funktion av myeloproliferativa neoplasmer (MPN)?",
+        "options": ["Overproduktion av en eller flera typer av blodceller", "Hypocellulär benmärg", "Låg erythropoietin-nivå", "Hemolys", "Trombocytopeni"],
+        "correct_answer": "Overproduktion av en eller flera typer av blodceller",
+        "justification": "Myeloproliferativa neoplasmer (MPN) kännetecknas av överproduktion av en eller flera typer av blodceller i benmärgen."
+    },
+    {
+        "question": "Vilken mutation är associerad med förbättrad prognos vid akut promyelocytisk leukemi (APL)?",
+        "options": ["PML-RARA", "BCR-ABL1", "NPM1", "FLT3", "RUNX1-RUNX1T1"],
+        "correct_answer": "PML-RARA",
+        "justification": "PML-RARA-fusionsgenen är associerad med en god respons på behandling med all-trans retinsyra (ATRA) vid akut promyelocytisk leukemi."
+    },
+    {
+        "question": "Vilken av följande är en känd komplikation vid thalassemi?",
+        "options": ["Järnöverskott", "Neutropeni", "Leukocytos", "Trombocytopeni", "Polycytemi"],
+        "correct_answer": "Järnöverskott",
+        "justification": "Patienter med thalassemi är ofta beroende av blodtransfusioner, vilket kan leda till järnöverskott."
+    },
+    {
+        "question": "Vilken typ av cell är mest karakteristisk för multipel myelom?",
+        "options": ["Plasmaceller", "B-celler", "T-celler", "Stamceller", "Makrofager"],
+        "correct_answer": "Plasmaceller",
+        "justification": "Multipel myelom kännetecknas av proliferation av maligna plasmaceller i benmärgen."
+    },
+    {
+        "question": "Vilken genetisk mutation är starkt associerad med polycytemia vera?",
+        "options": ["JAK2 V617F", "CALR", "MPL", "FLT3", "BCR-ABL1"],
+        "correct_answer": "JAK2 V617F",
+        "justification": "Polycytemia vera är starkt associerad med en mutation i JAK2-genen, specifikt V617F-mutationen."
+    },
+    {
+        "question": "Vilken koagulationsfaktor är defekt vid hemofili B?",
+        "options": ["Faktor VIII", "Faktor IX", "Faktor XI", "Faktor XII", "Faktor XIII"],
+        "correct_answer": "Faktor IX",
+        "justification": "Hemofili B orsakas av en brist på koagulationsfaktor IX, vilket leder till blödningsbenägenhet."
+    },
+    {
+        "question": "Vilken typ av cell ses oftast i perifert blodutstryk hos patienter med kronisk myeloisk leukemi (KML)?",
+        "options": ["Myelocyter", "Blaster", "Erytrocyter", "Trombocyter", "Lymfocyter"],
+        "correct_answer": "Myelocyter",
+        "justification": "Kronisk myeloisk leukemi (KML) kännetecknas av en hög andel omogna myeloiska celler, såsom myelocyter, i perifert blodutstryk."
+    },
+    {
+        "question": "Vilken av följande är en typisk komplikation vid sicklecellsanemi?",
+        "options": ["Hemolytisk kris", "Neutropeni", "Leukocytos", "Trombocytopeni", "Polycytemi"],
+        "correct_answer": "Hemolytisk kris",
+        "justification": "Hemolytiska kriser är vanliga komplikationer vid sicklecellsanemi, där de sickle-formade röda blodkropparna bryts ned snabbare än normalt."
+    },
+    {
+        "question": "Vilken behandling är förstahandsval vid immuntrombocytopeni (ITP)?",
+        "options": ["Kortikosteroider", "IVIG", "Splenektomi", "Trombopoietinreceptoragonister", "Rituximab"],
+        "correct_answer": "Kortikosteroider",
+        "justification": "Kortikosteroider är oftast förstahandsvalet vid behandling av immuntrombocytopeni (ITP) för att minska immunsystemets angrepp på trombocyter."
+    },
+    {
+        "question": "Vilken markör används för att diagnostisera hemolytisk anemi?",
+        "options": ["Förhöjd LDH", "Låg ferritin", "Hög erytropoietin", "Låg transferrin", "Förhöjd C-reaktivt protein (CRP)"],
+        "correct_answer": "Förhöjd LDH",
+        "justification": "Förhöjd laktatdehydrogenas (LDH) är en markör för hemolys och används för att diagnostisera hemolytisk anemi."
+    },
+    {
+        "question": "Vilken typ av cell är karakteristisk för Hodgkins lymfom?",
+        "options": ["Reed-Sternberg celler", "B-celler", "T-celler", "Plasmaceller", "Stamceller"],
+        "correct_answer": "Reed-Sternberg celler",
+        "justification": "Reed-Sternberg celler är stora, onormala lymfoida celler som är karakteristiska för Hodgkins lymfom."
+    },
+    {
+        "question": "Vilken mutation är vanligast vid polycytemia vera?",
+        "options": ["JAK2 V617F", "CALR", "MPL", "FLT3", "BCR-ABL1"],
+        "correct_answer": "JAK2 V617F",
+        "justification": "Polycytemia vera är starkt associerad med en mutation i JAK2-genen, specifikt V617F-mutationen."
+    },
+    {
+        "question": "Vilken typ av genetisk förändring är vanligast vid myelodysplastiska syndrom (MDS)?",
+        "options": ["Deletioner", "Punktmutationer", "Translokationer", "Inversioner", "Aneuploidier"],
+        "correct_answer": "Deletioner",
+        "justification": "Deletioner av specifika kromosomregioner är vanliga genetiska förändringar vid myelodysplastiska syndrom (MDS)."
+    },
+    {
+        "question": "Vilken behandling är mest effektiv vid behandling av trombotisk trombocytopen purpura (TTP)?",
+        "options": ["Plasmaferes", "Kortikosteroider", "Splenektomi", "Trombopoietinreceptoragonister", "Rituximab"],
+        "correct_answer": "Plasmaferes",
+        "justification": "Plasmaferes är den mest effektiva behandlingen för trombotisk trombocytopen purpura (TTP) och hjälper till att avlägsna skadliga antikroppar och multimerer av von Willebrand-faktor från blodet."
+    },
+    {
+        "question": "Vilket protein är defekt vid von Willebrands sjukdom?",
+        "options": ["von Willebrand-faktor", "Fibrinogen", "Protrombin", "Faktor VIII", "Faktor IX"],
+        "correct_answer": "von Willebrand-faktor",
+        "justification": "von Willebrands sjukdom orsakas av en defekt i von Willebrand-faktorn, vilket leder till blödningsbenägenhet."
+    },
+    {
+        "question": "Vilken genetisk mutation är starkt associerad med Fanconis anemi?",
+        "options": ["FANCA", "BRCA1", "TP53", "MLH1", "ATM"],
+        "correct_answer": "FANCA",
+        "justification": "Fanconis anemi är en autosomal recessiv sjukdom som oftast orsakas av mutationer i FANCA-genen."
+    },
+    {
+        "question": "Vilken typ av transfusion används för att behandla akut blödning hos patienter med hemofili?",
+        "options": ["Faktorkoncentrat", "Plasmaferes", "Röda blodkroppar", "Trombocyttransfusion", "Färskfryst plasma"],
+        "correct_answer": "Faktorkoncentrat",
+        "justification": "Faktorkoncentrat används för att snabbt korrigera koagulationsfaktorsbrist och stoppa blödning hos patienter med hemofili."
+    },
+    {
+        "question": "Vilken genetisk mutation är vanligast vid kronisk myelomonocytisk leukemi (CMML)?",
+        "options": ["TET2", "BCR-ABL1", "NPM1", "FLT3", "RUNX1-RUNX1T1"],
+        "correct_answer": "TET2",
+        "justification": "TET2-mutationer är vanliga vid kronisk myelomonocytisk leukemi (CMML), en typ av myelodysplastiskt/myeloproliferativt syndrom."
+    },
+    {
+        "question": "Vilken av följande genetiska förändringar är associerad med bättre prognos vid akut lymfatisk leukemi (ALL)?",
+        "options": ["t(12;21)", "t(9;22)", "t(4;11)", "t(1;19)", "11q23-rearrangemang"],
+        "correct_answer": "t(12;21)",
+        "justification": "Translokationen t(12;21), som involverar ETV6-RUNX1, är associerad med en bättre prognos vid akut lymfatisk leukemi (ALL)."
+    },
+    {
+        "question": "Vilket virus är starkt associerat med utvecklingen av Burkitts lymfom?",
+        "options": ["Epstein-Barr-virus", "Hepatit B-virus", "Hepatit C-virus", "Humant papillomvirus", "Cytomegalovirus"],
+        "correct_answer": "Epstein-Barr-virus",
+        "justification": "Epstein-Barr-virus (EBV) är starkt associerat med utvecklingen av Burkitts lymfom, särskilt i endemiska områden."
+    },
+    {
+        "question": "Vilken typ av genetisk förändring är vanligast vid myelodysplastiska syndrom (MDS)?",
+        "options": ["Deletioner", "Punktmutationer", "Translokationer", "Inversioner", "Aneuploidier"],
+        "correct_answer": "Deletioner",
+        "justification": "Deletioner av specifika kromosomregioner är vanliga genetiska förändringar vid myelodysplastiska syndrom (MDS)."
+    },
+    {
+        "question": "Vilken typ av cell är mest karakteristisk för multipel myelom?",
+        "options": ["Plasmaceller", "B-celler", "T-celler", "Stamceller", "Makrofager"],
+        "correct_answer": "Plasmaceller",
+        "justification": "Multipel myelom kännetecknas av proliferation av maligna plasmaceller i benmärgen."
+    },
+    {
+        "question": "Vilken av följande är en viktig prognostisk markör vid multipel myelom?",
+        "options": ["Beta-2-mikroglobulin", "Ferritin", "Transferrin", "Haptoglobin", "C-reaktivt protein (CRP)"],
+        "correct_answer": "Beta-2-mikroglobulin",
+        "justification": "Förhöjda nivåer av beta-2-mikroglobulin är associerade med en sämre prognos vid multipel myelom."
+    },
+    {
+        "question": "Vilken av följande sjukdomar är starkt associerad med Epstein-Barr-virus (EBV) infektion?",
+        "options": ["Hodgkins lymfom", "Akut lymfatisk leukemi", "Kronisk myeloisk leukemi", "Essentiell trombocytemi", "Primär myelofibros"],
+        "correct_answer": "Hodgkins lymfom",
+        "justification": "Epstein-Barr-virus (EBV) infektion är starkt associerad med utvecklingen av Hodgkins lymfom."
+    },
+    {
+        "question": "Vilken genetisk mutation är starkt associerad med polycytemia vera?",
+        "options": ["JAK2 V617F", "CALR", "MPL", "FLT3", "BCR-ABL1"],
+        "correct_answer": "JAK2 V617F",
+        "justification": "Polycytemia vera är starkt associerad med en mutation i JAK2-genen, specifikt V617F-mutationen."
+    },
+    {
+        "question": "Vilken typ av cell ses oftast i perifert blodutstryk hos patienter med kronisk myeloisk leukemi (KML)?",
+        "options": ["Myelocyter", "Blaster", "Erytrocyter", "Trombocyter", "Lymfocyter"],
+        "correct_answer": "Myelocyter",
+        "justification": "Kronisk myeloisk leukemi (KML) kännetecknas av en hög andel omogna myeloiska celler, såsom myelocyter, i perifert blodutstryk."
+    },
+    {
+        "question": "Vilken mutation är vanligast vid polycytemia vera?",
+        "options": ["JAK2 V617F", "CALR", "MPL", "FLT3", "BCR-ABL1"],
+        "correct_answer": "JAK2 V617F",
+        "justification": "Polycytemia vera är starkt associerad med en mutation i JAK2-genen, specifikt V617F-mutationen."
+    },
+    {
+        "question": "Vilken genetisk mutation är vanligast vid kronisk myelomonocytisk leukemi (CMML)?",
+        "options": ["TET2", "BCR-ABL1", "NPM1", "FLT3", "RUNX1-RUNX1T1"],
+        "correct_answer": "TET2",
+        "justification": "TET2-mutationer är vanliga vid kronisk myelomonocytisk leukemi (CMML), en typ av myelodysplastiskt/myeloproliferativt syndrom."
+    },
+    {
+        "question": "Vilken mutation är mest associerad med kronisk myeloisk leukemi (KML)?",
+        "options": ["BCR-ABL1", "JAK2", "CALR", "FLT3", "NPM1"],
+        "correct_answer": "BCR-ABL1",
+        "justification": "Kronisk myeloisk leukemi (KML) orsakas vanligtvis av en BCR-ABL1-fusionsgen, som är resultatet av en translokation mellan kromosomerna 9 och 22, känd som Philadelphia-kromosomen."
+    },
+    {
+        "question": "Vilken genetisk mutation är associerad med Fanconis anemi?",
+        "options": ["FANCA", "BRCA1", "TP53", "MLH1", "ATM"],
+        "correct_answer": "FANCA",
+        "justification": "Fanconis anemi är en autosomal recessiv sjukdom som oftast orsakas av mutationer i FANCA-genen."
+    },
+    {
+        "question": "Vilken genetisk mutation är starkt associerad med Fanconis anemi?",
+        "options": ["FANCA", "BRCA1", "TP53", "MLH1", "ATM"],
+        "correct_answer": "FANCA",
+        "justification": "Fanconis anemi är en autosomal recessiv sjukdom som oftast orsakas av mutationer i FANCA-genen."
+    },
+    {
+        "question": "Vilken koagulationsfaktor är defekt vid hemofili A?",
+        "options": ["Faktor VIII", "Faktor IX", "Faktor XI", "Faktor XII", "Faktor XIII"],
+        "correct_answer": "Faktor VIII",
+        "justification": "Hemofili A orsakas av en brist på koagulationsfaktor VIII, vilket leder till blödningsbenägenhet."
+    },
+    {
+        "question": "Vilken koagulationsfaktor är defekt vid hemofili B?",
+        "options": ["Faktor VIII", "Faktor IX", "Faktor XI", "Faktor XII", "Faktor XIII"],
+        "correct_answer": "Faktor IX",
+        "justification": "Hemofili B orsakas av en brist på koagulationsfaktor IX, vilket leder till blödningsbenägenhet."
+    },
+    {
+        "question": "Vilken koagulationsfaktor är defekt vid von Willebrands sjukdom?",
+        "options": ["von Willebrand-faktor", "Fibrinogen", "Protrombin", "Faktor VIII", "Faktor IX"],
+        "correct_answer": "von Willebrand-faktor",
+        "justification": "von Willebrands sjukdom orsakas av en defekt i von Willebrand-faktorn, vilket leder till blödningsbenägenhet."
+    },
+    {
+        "question": "Vilken mutation är associerad med förbättrad prognos vid akut promyelocytisk leukemi (APL)?",
+        "options": ["PML-RARA", "BCR-ABL1", "NPM1", "FLT3", "RUNX1-RUNX1T1"],
+        "correct_answer": "PML-RARA",
+        "justification": "PML-RARA-fusionsgenen är associerad med en god respons på behandling med all-trans retinsyra (ATRA) vid akut promyelocytisk leukemi."
+    },
+    {
+        "question": "Vilken typ av genetisk förändring är vanligast vid myelodysplastiska syndrom (MDS)?",
+        "options": ["Deletioner", "Punktmutationer", "Translokationer", "Inversioner", "Aneuploidier"],
+        "correct_answer": "Deletioner",
+        "justification": "Deletioner av specifika kromosomregioner är vanliga genetiska förändringar vid myelodysplastiska syndrom (MDS)."
+    },
+    {
+        "question": "Vilken genetisk mutation är starkt associerad med polycytemia vera?",
+        "options": ["JAK2 V617F", "CALR", "MPL", "FLT3", "BCR-ABL1"],
+        "correct_answer": "JAK2 V617F",
+        "justification": "Polycytemia vera är starkt associerad med en mutation i JAK2-genen, specifikt V617F-mutationen."
+    },
+    {
+        "question": "Vilken typ av cell är mest karakteristisk för multipel myelom?",
+        "options": ["Plasmaceller", "B-celler", "T-celler", "Stamceller", "Makrofager"],
+        "correct_answer": "Plasmaceller",
+        "justification": "Multipel myelom kännetecknas av proliferation av maligna plasmaceller i benmärgen."
+    },
+    {
+        "question": "Vilken mutation är vanligast vid polycytemia vera?",
+        "options": ["JAK2 V617F", "CALR", "MPL", "FLT3", "BCR-ABL1"],
+        "correct_answer": "JAK2 V617F",
+        "justification": "Polycytemia vera är starkt associerad med en mutation i JAK2-genen, specifikt V617F-mutationen."
+    },
+    {
+        "question": "Vilken mutation är mest associerad med kronisk myeloisk leukemi (KML)?",
+        "options": ["BCR-ABL1", "JAK2", "CALR", "FLT3", "NPM1"],
+        "correct_answer": "BCR-ABL1",
+        "justification": "Kronisk myeloisk leukemi (KML) orsakas vanligtvis av en BCR-ABL1-fusionsgen, som är resultatet av en translokation mellan kromosomerna 9 och 22, känd som Philadelphia-kromosomen."
+    },
+    {
+        "question": "Vilken typ av cell ses oftast i perifert blodutstryk hos patienter med kronisk myeloisk leukemi (KML)?",
+        "options": ["Myelocyter", "Blaster", "Erytrocyter", "Trombocyter", "Lymfocyter"],
+        "correct_answer": "Myelocyter",
+        "justification": "Kronisk myeloisk leukemi (KML) kännetecknas av en hög andel omogna myeloiska celler, såsom myelocyter, i perifert blodutstryk."
+    },
+    {
+        "question": "Vilken koagulationsfaktor är defekt vid hemofili A?",
+        "options": ["Faktor VIII", "Faktor IX", "Faktor XI", "Faktor XII", "Faktor XIII"],
+        "correct_answer": "Faktor VIII",
+        "justification": "Hemofili A orsakas av en brist på koagulationsfaktor VIII, vilket leder till blödningsbenägenhet."
+    },
+    {
+        "question": "Vilken mutation är associerad med förbättrad prognos vid akut promyelocytisk leukemi (APL)?",
+        "options": ["PML-RARA", "BCR-ABL1", "NPM1", "FLT3", "RUNX1-RUNX1T1"],
+        "correct_answer": "PML-RARA",
+        "justification": "PML-RARA-fusionsgenen är associerad med en god respons på behandling med all-trans retinsyra (ATRA) vid akut promyelocytisk leukemi."
+    },
+    {
+        "question": "Vilken koagulationsfaktor är defekt vid von Willebrands sjukdom?",
+        "options": ["von Willebrand-faktor", "Fibrinogen", "Protrombin", "Faktor VIII", "Faktor IX"],
+        "correct_answer": "von Willebrand-faktor",
+        "justification": "von Willebrands sjukdom orsakas av en defekt i von Willebrand-faktorn, vilket leder till blödningsbenägenhet."
+    },
+    {
+        "question": "Vilken genetisk mutation är starkt associerad med Fanconis anemi?",
+        "options": ["FANCA", "BRCA1", "TP53", "MLH1", "ATM"],
+        "correct_answer": "FANCA",
+        "justification": "Fanconis anemi är en autosomal recessiv sjukdom som oftast orsakas av mutationer i FANCA-genen."
+    },
+    {
+        "question": "Vilken genetisk mutation är vanligast vid kronisk myelomonocytisk leukemi (CMML)?",
+        "options": ["TET2", "BCR-ABL1", "NPM1", "FLT3", "RUNX1-RUNX1T1"],
+        "correct_answer": "TET2",
+        "justification": "TET2-mutationer är vanliga vid kronisk myelomonocytisk leukemi (CMML), en typ av myelodysplastiskt/myeloproliferativt syndrom."
+    },
+    {
+        "question": "Vilken koagulationsfaktor är bristfällig vid hemofili A?",
+        "options": ["Faktor VIII", "Faktor IX", "Faktor XI", "Faktor XII", "Faktor XIII"],
+        "correct_answer": "Faktor VIII",
+        "justification": "Hemofili A orsakas av en brist på koagulationsfaktor VIII, vilket leder till blödningsbenägenhet."
+    },
+    {
+        "question": "Vilken koagulationsfaktor är defekt vid hemofili B?",
+        "options": ["Faktor VIII", "Faktor IX", "Faktor XI", "Faktor XII", "Faktor XIII"],
+        "correct_answer": "Faktor IX",
+        "justification": "Hemofili B orsakas av en brist på koagulationsfaktor IX, vilket leder till blödningsbenägenhet."
+    },
+    {
+        "question": "Vilken typ av cell är mest karakteristisk för multipel myelom?",
+        "options": ["Plasmaceller", "B-celler", "T-celler", "Stamceller", "Makrofager"],
+        "correct_answer": "Plasmaceller",
+        "justification": "Multipel myelom kännetecknas av proliferation av maligna plasmaceller i benmärgen."
+    },
+    {
+        "question": "Vilken mutation är starkt associerad med Fanconis anemi?",
+        "options": ["FANCA", "BRCA1", "TP53", "MLH1", "ATM"],
+        "correct_answer": "FANCA",
+        "justification": "Fanconis anemi är en autosomal recessiv sjukdom som oftast orsakas av mutationer i FANCA-genen."
+    },
+    {
+        "question": "Vilken mutation är starkt associerad med polycytemia vera?",
+        "options": ["JAK2 V617F", "CALR", "MPL", "FLT3", "BCR-ABL1"],
+        "correct_answer": "JAK2 V617F",
+        "justification": "Polycytemia vera är starkt associerad med en mutation i JAK2-genen, specifikt V617F-mutationen."
+    },
+    {
+        "question": "Vilken typ av cell ses oftast i perifert blodutstryk hos patienter med kronisk myeloisk leukemi (KML)?",
+        "options": ["Myelocyter", "Blaster", "Erytrocyter", "Trombocyter", "Lymfocyter"],
+        "correct_answer": "Myelocyter",
+        "justification": "Kronisk myeloisk leukemi (KML) kännetecknas av en hög andel omogna myeloiska celler, såsom myelocyter, i perifert blodutstryk."
+    }
+]
