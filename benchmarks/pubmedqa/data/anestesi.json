@@ -1,0 +1,403 @@
+[
+    {
+        "question": "Vilken är den vanligaste komplikationen vid användning av central venkateter?",
+        "options": ["Pneumothorax", "Hematoma", "Infektion", "Luftemboli"],
+        "correct_answer": "Infektion",
+        "justification": "Infektion är den vanligaste komplikationen vid användning av central venkateter på grund av risken för bakteriell kontaminering."
+    },
+    {
+        "question": "Vilken anestesiform innebär att patienten är vaken men smärtfri under operationen?",
+        "options": ["Allmän anestesi", "Regional anestesi", "Lokalbedövning", "Sedation"],
+        "correct_answer": "Regional anestesi",
+        "justification": "Regional anestesi innebär att en större del av kroppen bedövas, men patienten förblir vaken."
+    },
+    {
+        "question": "Vilken läkemedelsklass används ofta för att inducerad medvetslöshet vid allmän anestesi?",
+        "options": ["Opioider", "Barbiturater", "Bensodiazepiner", "Inhalationsanestetika"],
+        "correct_answer": "Inhalationsanestetika",
+        "justification": "Inhalationsanestetika, såsom sevofluran och isofluran, används ofta för att inducera och underhålla medvetslöshet vid allmän anestesi."
+    },
+    {
+        "question": "Vilket monitoreringsverktyg är viktigt för att övervaka djupet av anestesi?",
+        "options": ["EKG", "Pulse oximeter", "Kapnograf", "BIS-monitor"],
+        "correct_answer": "BIS-monitor",
+        "justification": "BIS-monitor (bispektral index) används för att övervaka hjärnans elektriska aktivitet och bedöma anestesidjupet."
+    },
+    {
+        "question": "Vilken läkemedelsklass används för att reversera effekten av neuromuskulära blockader?",
+        "options": ["Antikolinesteraser", "Bensodiazepiner", "Opioider", "Kortikosteroider"],
+        "correct_answer": "Antikolinesteraser",
+        "justification": "Antikolinesteraser, såsom neostigmin, används för att reversera effekten av neuromuskulära blockader."
+    },
+    {
+        "question": "Vilken parameter är mest kritisk att övervaka vid administrering av propofol?",
+        "options": ["Hjärtfrekvens", "Blodtryck", "Andningsfrekvens", "Syremättnad"],
+        "correct_answer": "Blodtryck",
+        "justification": "Propofol kan orsaka hypotoni, så det är viktigt att övervaka blodtrycket noggrant."
+    },
+    {
+        "question": "Vilket av följande är ett tecken på malign hypertermi?",
+        "options": ["Bradykardi", "Muskelstelhet", "Hypotermi", "Hypotoni"],
+        "correct_answer": "Muskelstelhet",
+        "justification": "Malign hypertermi kännetecknas av snabb ökning av kroppstemperatur och muskelstelhet."
+    },
+    {
+        "question": "Vilken läkemedelsklass används för att behandla malign hypertermi?",
+        "options": ["Beta-blockerare", "Dantrolen", "Bensodiazepiner", "Kortikosteroider"],
+        "correct_answer": "Dantrolen",
+        "justification": "Dantrolen är ett muskelavslappnande medel som används specifikt för att behandla malign hypertermi."
+    },
+    {
+        "question": "Vilken är den vanligaste orsaken till akut njursvikt hos intensivvårdspatienter?",
+        "options": ["Läkemedelstoxicitet", "Sepsis", "Hjärtinfarkt", "Hypovolemi"],
+        "correct_answer": "Sepsis",
+        "justification": "Sepsis är den vanligaste orsaken till akut njursvikt på grund av den systemiska inflammatoriska responsen och organdysfunktion."
+    },
+    {
+        "question": "Vilket av följande är en indikation för mekanisk ventilation?",
+        "options": ["Hyperkapni", "Hypotoni", "Bradykardi", "Hypoglykemi"],
+        "correct_answer": "Hyperkapni",
+        "justification": "Hyperkapni, eller förhöjda nivåer av koldioxid i blodet, är en indikation för mekanisk ventilation för att säkerställa tillräcklig gasutbyte."
+    },
+    {
+        "question": "Vilket läkemedel används ofta som förstahandsval för att behandla septisk chock?",
+        "options": ["Noradrenalin", "Adrenalin", "Dopamin", "Dobutamin"],
+        "correct_answer": "Noradrenalin",
+        "justification": "Noradrenalin är den föredragna vasopressorn för att behandla septisk chock på grund av dess effekt på att öka blodtrycket."
+    },
+    {
+        "question": "Vilken åtgärd är mest effektiv för att förebygga ventilatorassocierad pneumoni?",
+        "options": ["Sängläge i Trendelenburg", "Tidig mobilisering", "Daglig bedömning av extubationsberedskap", "Användning av bredspektrumantibiotika"],
+        "correct_answer": "Daglig bedömning av extubationsberedskap",
+        "justification": "Daglig bedömning av extubationsberedskap och minimering av ventilatortid är effektivt för att förebygga ventilatorassocierad pneumoni."
+    },
+    {
+        "question": "Vilket protokoll används för att bedöma delirium hos intensivvårdspatienter?",
+        "options": ["RASS", "CAM-ICU", "GCS", "APACHE II"],
+        "correct_answer": "CAM-ICU",
+        "justification": "CAM-ICU (Confusion Assessment Method for the ICU) används för att bedöma förekomsten av delirium hos intensivvårdspatienter."
+    },
+    {
+        "question": "Vilken parameter är viktigast att övervaka vid administrering av opioider till intensivvårdspatienter?",
+        "options": ["Hjärtfrekvens", "Blodtryck", "Andningsfrekvens", "Temperatur"],
+        "correct_answer": "Andningsfrekvens",
+        "justification": "Opioider kan orsaka andningsdepression, så det är kritiskt att övervaka andningsfrekvensen."
+    },
+    {
+        "question": "Vilken metod är mest tillförlitlig för att mäta centralt venöst tryck (CVP)?",
+        "options": ["Arteriell blodtrycksmätning", "Pulsoximetri", "Central venkateter", "Ekokardiografi"],
+        "correct_answer": "Central venkateter",
+        "justification": "Mätning av CVP via en central venkateter är den mest tillförlitliga metoden för att bedöma centralt venöst tryck."
+    },
+    {
+        "question": "Vilket av följande är en vanlig orsak till akut respiratorisk svikt hos intensivvårdspatienter?",
+        "options": ["Lungemboli", "Hypotermi", "Hypoglykemi", "Hyponatremi"],
+        "correct_answer": "Lungemboli",
+        "justification": "Lungemboli kan orsaka akut respiratorisk svikt genom att blockera blodflödet i lungorna och försämra gasutbytet."
+    },
+    {
+        "question": "Vilket av följande läkemedel används ofta för att inducera medvetslöshet vid RSI (rapid sequence intubation)?",
+        "options": ["Propofol", "Midazolam", "Ketamin", "Etomidat"],
+        "correct_answer": "Etomidat",
+        "justification": "Etomidat används ofta för att inducera medvetslöshet vid RSI på grund av dess hemodynamiska stabilitet."
+    },
+    {
+        "question": "Vilken parameter övervakas med en kapnograf?",
+        "options": ["Syremättnad", "Koldioxidnivåer", "Blodtryck", "Hjärtfrekvens"],
+        "correct_answer": "Koldioxidnivåer",
+        "justification": "Kapnografi används för att övervaka koldioxidnivåerna i utandningsluften, vilket ger information om ventilationseffektiviteten."
+    },
+    {
+        "question": "Vilken komplikation är mest förknippad med användning av intraaortaballongpump (IABP)?",
+        "options": ["Blödning", "Infektion", "Luftemboli", "Lågt blodtryck"],
+        "correct_answer": "Blödning",
+        "justification": "Blödning är en vanlig komplikation vid användning av IABP på grund av behovet av antikoagulation och risken för vaskulära skador."
+    },
+    {
+        "question": "Vilken är den vanligaste orsaken till hypoxisk hjärnskada hos intensivvårdspatienter?",
+        "options": ["Hjärtstillestånd", "Lungemboli", "Sepsis", "Hypovolemi"],
+        "correct_answer": "Hjärtstillestånd",
+        "justification": "Hjärtstillestånd är en vanlig orsak till hypoxisk hjärnskada på grund av det totala avbrottet av blodflöde till hjärnan."
+    },
+    {
+        "question": "Vilket av följande är ett vanligt tecken på övervätskning hos intensivvårdspatienter?",
+        "options": ["Torr hud", "Ödem", "Hypotension", "Takykardi"],
+        "correct_answer": "Ödem",
+        "justification": "Övervätskning kan leda till vätskeansamling i vävnader, vilket manifesterar sig som ödem."
+    },
+    {
+        "question": "Vilken läkemedelsklass används för att behandla hypotension orsakad av septisk chock?",
+        "options": ["Diuretika", "Vasopressorer", "Antibiotika", "Kortikosteroider"],
+        "correct_answer": "Vasopressorer",
+        "justification": "Vasopressorer, såsom noradrenalin, används för att öka blodtrycket vid hypotension orsakad av septisk chock."
+    },
+    {
+        "question": "Vilken bilddiagnostisk metod används ofta för att diagnostisera lungemboli hos intensivvårdspatienter?",
+        "options": ["Röntgen", "MR", "CT-angiografi", "Ultraljud"],
+        "correct_answer": "CT-angiografi",
+        "justification": "CT-angiografi är den mest använda bilddiagnostiska metoden för att diagnostisera lungemboli."
+    },
+    {
+        "question": "Vilken av följande är en vanlig komplikation av mekanisk ventilation?",
+        "options": ["Ventilatorassocierad pneumoni", "Hypotermi", "Hyperglykemi", "Bradykardi"],
+        "correct_answer": "Ventilatorassocierad pneumoni",
+        "justification": "Ventilatorassocierad pneumoni är en vanlig komplikation på grund av långvarig användning av mekanisk ventilation och intubation."
+    },
+    {
+        "question": "Vilken parameter är mest kritisk att övervaka vid administrering av inotropa läkemedel?",
+        "options": ["Blodtryck", "Hjärtfrekvens", "Andningsfrekvens", "Temperatur"],
+        "correct_answer": "Blodtryck",
+        "justification": "Inotropa läkemedel påverkar hjärtets kontraktilitet och kan därmed påverka blodtrycket, vilket är viktigt att övervaka."
+    },
+    {
+        "question": "Vilken av följande är en indikation för användning av ECMO (extrakorporeal membranoxygenering)?",
+        "options": ["Refraktär hypoxemi", "Hyperkapni", "Hypotoni", "Hyperglykemi"],
+        "correct_answer": "Refraktär hypoxemi",
+        "justification": "ECMO används för att behandla refraktär hypoxemi när konventionella ventilationsstrategier inte är tillräckliga."
+    },
+    {
+        "question": "Vilket av följande är ett tecken på akut lungskada (ALI) eller akut respiratoriskt distressyndrom (ARDS)?",
+        "options": ["Ökad lungcompliance", "Hypoxemi", "Hyperkapni", "Hypertension"],
+        "correct_answer": "Hypoxemi",
+        "justification": "Hypoxemi, eller låga nivåer av syre i blodet, är ett kännetecken för ALI och ARDS."
+    },
+    {
+        "question": "Vilken behandlingsstrategi används ofta för att förbättra syresättningen hos patienter med ARDS?",
+        "options": ["Låg tidalvolym", "Hög tidalvolym", "Hög frekvensventilation", "Hypotermibehandling"],
+        "correct_answer": "Låg tidalvolym",
+        "justification": "Användning av låg tidalvolym vid mekanisk ventilation minskar risken för ventilatorinducerad lungskada och förbättrar syresättningen hos patienter med ARDS."
+    },
+    {
+        "question": "Vilken parameter övervakas med en Pulsoximeter?",
+        "options": ["Syremättnad", "Koldioxidnivåer", "Blodtryck", "Hjärtfrekvens"],
+        "correct_answer": "Syremättnad",
+        "justification": "Pulsoximetri används för att övervaka syremättnaden i blodet."
+    },
+    {
+        "question": "Vilken är den mest effektiva åtgärden för att förebygga stressulcus hos intensivvårdspatienter?",
+        "options": ["Antibiotika", "Antacida", "Protonpumpshämmare", "Diuretika"],
+        "correct_answer": "Protonpumpshämmare",
+        "justification": "Protonpumpshämmare används för att minska magsyraproduktionen och förebygga stressulcus hos intensivvårdspatienter."
+    },
+    {
+        "question": "Vilken parameter är mest kritisk att övervaka vid administrering av kortikosteroider till intensivvårdspatienter?",
+        "options": ["Blodtryck", "Blodsockernivåer", "Andningsfrekvens", "Temperatur"],
+        "correct_answer": "Blodsockernivåer",
+        "justification": "Kortikosteroider kan höja blodsockernivåerna, så det är viktigt att övervaka dessa noggrant."
+    },
+    {
+        "question": "Vilken bilddiagnostisk metod används ofta för att övervaka lungödem hos intensivvårdspatienter?",
+        "options": ["Röntgen", "MR", "CT-skanning", "Ultraljud"],
+        "correct_answer": "Röntgen",
+        "justification": "Lungröntgen används ofta för att identifiera och övervaka lungödem hos intensivvårdspatienter."
+    },
+    {
+        "question": "Vilket läkemedel är mest effektivt för att behandla refraktär hypotoni vid septisk chock?",
+        "options": ["Adrenalin", "Noradrenalin", "Dopamin", "Dobutamin"],
+        "correct_answer": "Noradrenalin",
+        "justification": "Noradrenalin är den föredragna vasopressorn för att behandla refraktär hypotoni vid septisk chock på grund av dess effekt på att öka blodtrycket."
+    },
+    {
+        "question": "Vilken metod används ofta för att säkerställa korrekt positionering av endotrakealtub?",
+        "options": ["Lungröntgen", "Kapnografi", "Pulsoximetri", "EKG"],
+        "correct_answer": "Kapnografi",
+        "justification": "Kapnografi används för att bekräfta korrekt placering av endotrakealtuben genom att mäta utandad koldioxid."
+    },
+    {
+        "question": "Vilket av följande är ett vanligt tecken på akut pankreatit hos intensivvårdspatienter?",
+        "options": ["Hyperglykemi", "Hypokalcemi", "Hyponatremi", "Hyperkalemi"],
+        "correct_answer": "Hypokalcemi",
+        "justification": "Hypokalcemi är ett vanligt tecken på akut pankreatit på grund av saponifikation av fettvävnad i bukspottkörteln."
+    },
+    {
+        "question": "Vilken parameter är viktigast att övervaka vid administrering av insulin till intensivvårdspatienter?",
+        "options": ["Blodtryck", "Blodsockernivåer", "Andningsfrekvens", "Temperatur"],
+        "correct_answer": "Blodsockernivåer",
+        "justification": "Det är kritiskt att övervaka blodsockernivåer noggrant vid administrering av insulin för att undvika hypoglykemi."
+    },
+    {
+        "question": "Vilket protokoll används för att bedöma njurfunktion hos intensivvårdspatienter?",
+        "options": ["APACHE II", "RIFLE", "GCS", "SOFA"],
+        "correct_answer": "RIFLE",
+        "justification": "RIFLE-kriterierna används för att bedöma och klassificera akut njurskada hos intensivvårdspatienter."
+    },
+    {
+        "question": "Vilken parameter är mest kritisk att övervaka vid administrering av blodtransfusioner?",
+        "options": ["Blodtryck", "Andningsfrekvens", "Temperatur", "Syremättnad"],
+        "correct_answer": "Blodtryck",
+        "justification": "Blodtryck är viktigt att övervaka under blodtransfusioner för att tidigt upptäcka transfusionsreaktioner."
+    },
+    {
+        "question": "Vilken bilddiagnostisk metod används för att diagnostisera hjärnblödning hos intensivvårdspatienter?",
+        "options": ["Röntgen", "MR", "CT-skanning", "Ultraljud"],
+        "correct_answer": "CT-skanning",
+        "justification": "CT-skanning är den mest använda bilddiagnostiska metoden för att diagnostisera hjärnblödning på grund av dess snabbhet och noggrannhet."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till hypernatremi hos intensivvårdspatienter?",
+        "options": ["Diabetes insipidus", "Addisons sjukdom", "Hyponatremi", "Hypothyreos"],
+        "correct_answer": "Diabetes insipidus",
+        "justification": "Diabetes insipidus kan leda till hypernatremi på grund av ökad vattenförlust."
+    },
+    {
+        "question": "Vilket av följande är ett tecken på överdosering av opioider?",
+        "options": ["Takykardi", "Hyperventilation", "Mios", "Hypertension"],
+        "correct_answer": "Mios",
+        "justification": "Mios, eller förminskade pupiller, är ett vanligt tecken på opioidöverdos."
+    },
+    {
+        "question": "Vilken parameter är mest kritisk att övervaka vid administrering av neuromuskulära blockader?",
+        "options": ["Blodtryck", "Hjärtfrekvens", "Andningsfrekvens", "Temperatur"],
+        "correct_answer": "Andningsfrekvens",
+        "justification": "Andningsfrekvens är viktig att övervaka eftersom neuromuskulära blockader kan orsaka andningsdepression."
+    },
+    {
+        "question": "Vilken metod används för att bedöma medvetandegrad hos intensivvårdspatienter?",
+        "options": ["RASS", "CAM-ICU", "GCS", "APACHE II"],
+        "correct_answer": "GCS",
+        "justification": "Glasgow Coma Scale (GCS) används för att bedöma medvetandegrad hos patienter."
+    },
+    {
+        "question": "Vilket av följande läkemedel används för att reversera effekten av opioidöverdos?",
+        "options": ["Naloxon", "Flumazenil", "Atropin", "Protamin"],
+        "correct_answer": "Naloxon",
+        "justification": "Naloxon är en opioidantagonist som används för att reversera effekten av opioidöverdos."
+    },
+    {
+        "question": "Vilken parameter är viktigast att övervaka vid behandling av akut hyperkalemi?",
+        "options": ["Blodtryck", "Hjärtfrekvens", "EKG", "Syremättnad"],
+        "correct_answer": "EKG",
+        "justification": "EKG-övervakning är kritisk vid behandling av akut hyperkalemi för att upptäcka livshotande arytmier."
+    },
+    {
+        "question": "Vilken parameter används för att bedöma vävnadsperfussion hos intensivvårdspatienter?",
+        "options": ["Blodtryck", "Laktatnivåer", "Andningsfrekvens", "Temperatur"],
+        "correct_answer": "Laktatnivåer",
+        "justification": "Förhöjda laktatnivåer kan indikera dålig vävnadsperfussion och anaerob metabolism."
+    },
+    {
+        "question": "Vilken av följande är en vanlig komplikation av långvarig användning av mekanisk ventilation?",
+        "options": ["Ventilatorassocierad pneumoni", "Hypotermi", "Hyperglykemi", "Bradykardi"],
+        "correct_answer": "Ventilatorassocierad pneumoni",
+        "justification": "Ventilatorassocierad pneumoni är en vanlig komplikation på grund av långvarig användning av mekanisk ventilation och intubation."
+    },
+    {
+        "question": "Vilken läkemedelsklass används för att behandla neurogen chock?",
+        "options": ["Vasopressorer", "Diuretika", "Antibiotika", "Kortikosteroider"],
+        "correct_answer": "Vasopressorer",
+        "justification": "Vasopressorer används för att behandla neurogen chock genom att öka blodtrycket och förbättra vävnadsperfussion."
+    },
+    {
+        "question": "Vilken parameter övervakas med en Pulsoximeter?",
+        "options": ["Syremättnad", "Koldioxidnivåer", "Blodtryck", "Hjärtfrekvens"],
+        "correct_answer": "Syremättnad",
+        "justification": "Pulsoximetri används för att övervaka syremättnaden i blodet."
+    },
+    {
+        "question": "Vilken behandling är mest effektiv vid hyperkalemisk kardiotoxicitet?",
+        "options": ["Kalciumglukonat", "Insulin", "Natriumbikarbonat", "Diuretika"],
+        "correct_answer": "Kalciumglukonat",
+        "justification": "Kalciumglukonat administreras för att stabilisera hjärtmuskelmembranen vid hyperkalemisk kardiotoxicitet."
+    },
+    {
+        "question": "Vilken parameter är mest kritisk att övervaka vid behandling av hypovolemisk chock?",
+        "options": ["Blodtryck", "Hjärtfrekvens", "Andningsfrekvens", "Syremättnad"],
+        "correct_answer": "Blodtryck",
+        "justification": "Blodtryck är kritiskt att övervaka vid behandling av hypovolemisk chock för att bedöma effektiviteten av vätskebehandling."
+    },
+    {
+        "question": "Vilken bilddiagnostisk metod används för att diagnostisera hjärnödem hos intensivvårdspatienter?",
+        "options": ["Röntgen", "MR", "CT-skanning", "Ultraljud"],
+        "correct_answer": "CT-skanning",
+        "justification": "CT-skanning är den mest använda bilddiagnostiska metoden för att diagnostisera hjärnödem på grund av dess snabbhet och noggrannhet."
+    },
+    {
+        "question": "Vilken är den mest effektiva behandlingen för att korrigera metabolisk acidos hos intensivvårdspatienter?",
+        "options": ["Natriumbikarbonat", "Insulin", "Kalciumglukonat", "Diuretika"],
+        "correct_answer": "Natriumbikarbonat",
+        "justification": "Natriumbikarbonat administreras för att korrigera metabolisk acidos genom att neutralisera överskott av syror."
+    },
+    {
+        "question": "Vilken parameter är mest kritisk att övervaka vid administrering av sedativa till intensivvårdspatienter?",
+        "options": ["Blodtryck", "Andningsfrekvens", "Hjärtfrekvens", "Syremättnad"],
+        "correct_answer": "Andningsfrekvens",
+        "justification": "Sedativa kan orsaka andningsdepression, så det är viktigt att övervaka andningsfrekvensen noggrant."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till hyperglykemi hos intensivvårdspatienter?",
+        "options": ["Sepsis", "Hypotermi", "Hyponatremi", "Hypokalemi"],
+        "correct_answer": "Sepsis",
+        "justification": "Sepsis kan leda till hyperglykemi på grund av stressresponsen och frisättning av stresshormoner."
+    },
+    {
+        "question": "Vilken metod används för att bedöma lungfunktion hos intensivvårdspatienter?",
+        "options": ["Spirometri", "Lungröntgen", "Kapnografi", "Pulsoximetri"],
+        "correct_answer": "Spirometri",
+        "justification": "Spirometri används för att bedöma lungfunktion genom att mäta volymer och flöden av luft."
+    },
+    {
+        "question": "Vilken parameter är mest kritisk att övervaka vid administrering av kortikosteroider till intensivvårdspatienter?",
+        "options": ["Blodtryck", "Blodsockernivåer", "Andningsfrekvens", "Temperatur"],
+        "correct_answer": "Blodsockernivåer",
+        "justification": "Kortikosteroider kan höja blodsockernivåerna, så det är viktigt att övervaka dessa noggrant."
+    },
+    {
+        "question": "Vilken parameter används för att bedöma njurfunktion hos intensivvårdspatienter?",
+        "options": ["Serumkreatinin", "Blodtryck", "Andningsfrekvens", "Syremättnad"],
+        "correct_answer": "Serumkreatinin",
+        "justification": "Serumkreatinin används för att bedöma njurfunktion och upptäcka njurskada."
+    },
+    {
+        "question": "Vilken metod används för att säkerställa korrekt positionering av en central venkateter?",
+        "options": ["Lungröntgen", "EKG", "Kapnografi", "Pulsoximetri"],
+        "correct_answer": "Lungröntgen",
+        "justification": "Lungröntgen används för att bekräfta korrekt positionering av en central venkateter."
+    },
+    {
+        "question": "Vilken parameter är mest kritisk att övervaka vid administrering av vasopressorer?",
+        "options": ["Blodtryck", "Hjärtfrekvens", "Andningsfrekvens", "Temperatur"],
+        "correct_answer": "Blodtryck",
+        "justification": "Blodtryck är viktigt att övervaka eftersom vasopressorer används för att höja blodtrycket."
+    },
+    {
+        "question": "Vilken behandlingsstrategi används ofta för att behandla hypovolemisk chock?",
+        "options": ["Vätsketillförsel", "Vasopressorer", "Antibiotika", "Kortikosteroider"],
+        "correct_answer": "Vätsketillförsel",
+        "justification": "Vätsketillförsel är den primära behandlingen för hypovolemisk chock för att återställa cirkulerande blodvolym."
+    },
+    {
+        "question": "Vilken parameter används för att bedöma syra-basbalansen hos intensivvårdspatienter?",
+        "options": ["Blodgasanalys", "Blodsockernivåer", "Serumkreatinin", "Laktatnivåer"],
+        "correct_answer": "Blodgasanalys",
+        "justification": "Blodgasanalys används för att bedöma syra-basbalansen genom att mäta pH, koldioxid och bikarbonatnivåer."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till metabolisk acidos hos intensivvårdspatienter?",
+        "options": ["Diabetes ketoacidos", "Hyperventilation", "Hyponatremi", "Hypokalemi"],
+        "correct_answer": "Diabetes ketoacidos",
+        "justification": "Diabetes ketoacidos är en vanlig orsak till metabolisk acidos på grund av ackumulering av ketoner."
+    },
+    {
+        "question": "Vilken parameter är viktigast att övervaka vid behandling av akut hyperkalemi?",
+        "options": ["Blodtryck", "Hjärtfrekvens", "EKG", "Syremättnad"],
+        "correct_answer": "EKG",
+        "justification": "EKG-övervakning är kritisk vid behandling av akut hyperkalemi för att upptäcka livshotande arytmier."
+    },
+    {
+        "question": "Vilken metod används för att bedöma vävnadsperfussion hos intensivvårdspatienter?",
+        "options": ["Blodtryck", "Laktatnivåer", "Andningsfrekvens", "Temperatur"],
+        "correct_answer": "Laktatnivåer",
+        "justification": "Förhöjda laktatnivåer kan indikera dålig vävnadsperfussion och anaerob metabolism."
+    },
+    {
+        "question": "Vilken av följande är en vanlig komplikation av långvarig användning av mekanisk ventilation?",
+        "options": ["Ventilatorassocierad pneumoni", "Hypotermi", "Hyperglykemi", "Bradykardi"],
+        "correct_answer": "Ventilatorassocierad pneumoni",
+        "justification": "Ventilatorassocierad pneumoni är en vanlig komplikation på grund av långvarig användning av mekanisk ventilation och intubation."
+    },
+    {
+        "question": "Vilken läkemedelsklass används för att behandla neurogen chock?",
+        "options": ["Vasopressorer", "Diuretika", "Antibiotika", "Kortikosteroider"],
+        "correct_answer": "Vasopressorer",
+        "justification": "Vasopressorer används för att behandla neurogen chock genom att öka blodtrycket och förbättra vävnadsperfussion."
+    }]
