@@ -1,0 +1,482 @@
+[
+    {
+        "question": "Vilken är den vanligaste formen av hudcancer?",
+        "options": ["Basalcellscancer", "Skivepitelcancer", "Malignt melanom", "Merkelcellscancer"],
+        "correct_answer": "Basalcellscancer",
+        "justification": "Basalcellscancer är den vanligaste formen av hudcancer och orsakas ofta av solens UV-strålar."
+    },
+    {
+        "question": "Vilket ämne produceras i överskott vid akne och bidrar till tilltäppning av hårsäckar?",
+        "options": ["Sebum", "Keratin", "Melanin", "Histamin"],
+        "correct_answer": "Sebum",
+        "justification": "Sebum är ett oljigt ämne som produceras av talgkörtlar och kan leda till tilltäppning av hårsäckar vid akne."
+    },
+    {
+        "question": "Vilken typ av utslag är typiskt för psoriasis?",
+        "options": ["Noduler", "Papler", "Plack", "Vesiklar"],
+        "correct_answer": "Plack",
+        "justification": "Psoriasis kännetecknas av fjällande plack som ofta är röda och kliande."
+    },
+    {
+        "question": "Vilken behandling är förstahandsval vid atopisk dermatit?",
+        "options": ["Systemiska kortikosteroider", "Topikala kortikosteroider", "Antibiotika", "Antifungala medel"],
+        "correct_answer": "Topikala kortikosteroider",
+        "justification": "Topikala kortikosteroider är vanligtvis förstahandsvalet vid behandling av atopisk dermatit på grund av deras effektiva antiinflammatoriska egenskaper."
+    },
+    {
+        "question": "Vilken typ av hudförändring är associerad med herpes simplex virusinfektion?",
+        "options": ["Erytem", "Ulcer", "Vesikel", "Papul"],
+        "correct_answer": "Vesikel",
+        "justification": "Herpes simplex virusinfektion orsakar smärtsamma blåsor, eller vesikler, på huden eller slemhinnorna."
+    },
+    {
+        "question": "Vilken hudsjukdom kännetecknas av silverfärgade fjäll på rodnade plack?",
+        "options": ["Eksem", "Psoriasis", "Dermatitis herpetiformis", "Tinea corporis"],
+        "correct_answer": "Psoriasis",
+        "justification": "Psoriasis är känd för sina tjocka, silverfärgade fjäll på rodnade plack."
+    },
+    {
+        "question": "Vilken typ av eksem är vanligast hos barn?",
+        "options": ["Nummulärt eksem", "Seborroiskt eksem", "Atopiskt eksem", "Kontakteksem"],
+        "correct_answer": "Atopiskt eksem",
+        "justification": "Atopiskt eksem, även känt som barneksem, är den vanligaste formen av eksem hos barn."
+    },
+    {
+        "question": "Vilken faktor är mest associerad med utvecklingen av melasma?",
+        "options": ["Genetik", "Sol exponering", "Virusinfektioner", "Kontaktallergi"],
+        "correct_answer": "Sol exponering",
+        "justification": "Sol exponering är en av de viktigaste faktorerna som bidrar till utvecklingen av melasma."
+    },
+    {
+        "question": "Vilken är den främsta orsaken till kontaktdermatit?",
+        "options": ["Bakterieinfektion", "Allergisk reaktion", "Virusinfektion", "Genetiska faktorer"],
+        "correct_answer": "Allergisk reaktion",
+        "justification": "Kontaktdermatit orsakas ofta av en allergisk reaktion mot ämnen som kommer i kontakt med huden."
+    },
+    {
+        "question": "Vilken hudsjukdom kännetecknas av fjällande, kliande och rodnade hudutslag som ofta är symmetriska?",
+        "options": ["Atopiskt eksem", "Psoriasis", "Seborroiskt eksem", "Rosacea"],
+        "correct_answer": "Atopiskt eksem",
+        "justification": "Atopiskt eksem kännetecknas av kliande och rodnade hudutslag som ofta är symmetriska."
+    },
+    {
+        "question": "Vilken bakterie är vanligast vid impetigo?",
+        "options": ["Staphylococcus aureus", "Streptococcus pyogenes", "Pseudomonas aeruginosa", "Escherichia coli"],
+        "correct_answer": "Staphylococcus aureus",
+        "justification": "Staphylococcus aureus är den vanligaste bakterien som orsakar impetigo, en smittsam hudinfektion."
+    },
+    {
+        "question": "Vilket ämne bryts ned och leder till ökad produktion av porfyriner i huden vid porfyri?",
+        "options": ["Hemoglobin", "Keratin", "Melanin", "Sebum"],
+        "correct_answer": "Hemoglobin",
+        "justification": "Vid porfyri bryts hemoglobin ned på ett onormalt sätt, vilket leder till ökad produktion av porfyriner som kan orsaka hudsymptom."
+    },
+    {
+        "question": "Vilken är den vanligaste behandlingen för aktinisk keratos?",
+        "options": ["Topikal 5-fluorouracil", "Systemiska antibiotika", "Laserterapi", "Orala kortikosteroider"],
+        "correct_answer": "Topikal 5-fluorouracil",
+        "justification": "Topikal 5-fluorouracil är en vanlig behandling för aktinisk keratos, en förstadium till hudcancer."
+    },
+    {
+        "question": "Vilket virus orsakar vorter?",
+        "options": ["Herpes simplex virus", "Human papillomavirus", "Varicella-zoster virus", "Epstein-Barr virus"],
+        "correct_answer": "Human papillomavirus",
+        "justification": "Vorter orsakas av olika typer av human papillomavirus (HPV)."
+    },
+    {
+        "question": "Vilken hudförändring är typisk för skabb?",
+        "options": ["Plack", "Noduler", "Papler", "Gångar"],
+        "correct_answer": "Gångar",
+        "justification": "Skabb orsakar kliande gångar i huden där kvalstren har grävt sig in."
+    },
+    {
+        "question": "Vilken av följande är en autoimmun sjukdom som påverkar huden och leder till blåsbildning?",
+        "options": ["Psoriasis", "Vitiligo", "Pemfigus", "Rosacea"],
+        "correct_answer": "Pemfigus",
+        "justification": "Pemfigus är en autoimmun sjukdom som orsakar blåsbildning på huden och slemhinnor."
+    },
+    {
+        "question": "Vilket av följande är ett vanligt symtom på rosacea?",
+        "options": ["Blåsor", "Rodnad", "Blåmärken", "Gulaktiga fjäll"],
+        "correct_answer": "Rodnad",
+        "justification": "Rodnad, ofta i ansiktet, är ett vanligt symtom på rosacea."
+    },
+    {
+        "question": "Vilken typ av läkemedel används vanligtvis för att behandla svår akne?",
+        "options": ["Topikala antibiotika", "Orala antibiotika", "Retinoider", "Kortikosteroider"],
+        "correct_answer": "Retinoider",
+        "justification": "Orala retinoider, såsom isotretinoin, används ofta för att behandla svår akne."
+    },
+    {
+        "question": "Vilken hudsjukdom är känd för att orsaka vitiligo?",
+        "options": ["Eksem", "Psoriasis", "Lupus erythematosus", "Autoimmun sjukdom"],
+        "correct_answer": "Autoimmun sjukdom",
+        "justification": "Vitiligo är en autoimmun sjukdom där kroppens immunsystem angriper melanocyter, vilket leder till förlust av hudpigment."
+    },
+    {
+        "question": "Vilken svampinfektion påverkar vanligtvis fötterna och är känd som 'atletens fot'?",
+        "options": ["Candida", "Aspergillus", "Tinea pedis", "Malassezia"],
+        "correct_answer": "Tinea pedis",
+        "justification": "Tinea pedis, eller 'atletens fot', är en svampinfektion som vanligtvis påverkar fötterna."
+    },
+    {
+        "question": "Vilket av följande är ett vanligt symtom på eksem?",
+        "options": ["Knottror", "Vesiklar", "Blåsor", "Knottror"],
+        "correct_answer": "Knottror",
+        "justification": "Eksem kännetecknas ofta av kliande knottror och torr hud."
+    },
+    {
+        "question": "Vilken bakterie är den vanligaste orsaken till erysipelas?",
+        "options": ["Staphylococcus aureus", "Streptococcus pyogenes", "Pseudomonas aeruginosa", "Escherichia coli"],
+        "correct_answer": "Streptococcus pyogenes",
+        "justification": "Streptococcus pyogenes är den vanligaste orsaken till erysipelas, en akut hudinfektion."
+    },
+    {
+        "question": "Vilken av följande är en riskfaktor för utveckling av hudcancer?",
+        "options": ["Mörk hudfärg", "Kort solexponering", "Ljus hudfärg", "Låg höjd"],
+        "correct_answer": "Ljus hudfärg",
+        "justification": "Personer med ljus hudfärg har en högre risk att utveckla hudcancer på grund av lägre mängd skyddande melanin."
+    },
+    {
+        "question": "Vilken av följande är en metod för att diagnostisera allergisk kontaktdermatit?",
+        "options": ["Biopsi", "Patch-test", "Blodprov", "Hudskrapning"],
+        "correct_answer": "Patch-test",
+        "justification": "Patch-test används för att diagnostisera allergisk kontaktdermatit genom att applicera olika allergener på huden och observera reaktionen."
+    },
+    {
+        "question": "Vilken typ av hudförändring är typisk för urtikaria (nässelutslag)?",
+        "options": ["Plack", "Papler", "Noduler", "Wheals"],
+        "correct_answer": "Wheals",
+        "justification": "Urtikaria kännetecknas av tillfälliga, kliande wheals eller upphöjda områden på huden."
+    },
+    {
+        "question": "Vilken hudsjukdom är känd för att orsaka depigmenterade fläckar på huden?",
+        "options": ["Eksem", "Psoriasis", "Vitiligo", "Lupus"],
+        "correct_answer": "Vitiligo",
+        "justification": "Vitiligo orsakar depigmenterade fläckar på huden på grund av förlust av melanocyter."
+    },
+    {
+        "question": "Vilken typ av virus orsakar molluscum contagiosum?",
+        "options": ["Herpesvirus", "Poxvirus", "Papillomavirus", "Adenovirus"],
+        "correct_answer": "Poxvirus",
+        "justification": "Molluscum contagiosum orsakas av ett poxvirus och resulterar i små, kupolformade papler."
+    },
+    {
+        "question": "Vilken är den vanligaste behandlingen för seborroiskt eksem?",
+        "options": ["Topikala antibiotika", "Systemiska kortikosteroider", "Antifungala krämer", "Orala retinoider"],
+        "correct_answer": "Antifungala krämer",
+        "justification": "Antifungala krämer är en vanlig behandling för seborroiskt eksem, särskilt när jästsvampen Malassezia är involverad."
+    },
+    {
+        "question": "Vilken sjukdom är associerad med ett fjärilsliknande utslag över ansiktet?",
+        "options": ["Psoriasis", "Lupus erythematosus", "Eksem", "Rosacea"],
+        "correct_answer": "Lupus erythematosus",
+        "justification": "Lupus erythematosus är ofta associerad med ett fjärilsliknande utslag över näsan och kinderna."
+    },
+    {
+        "question": "Vilken av följande behandlingar är mest effektiv för att minska rodnad vid rosacea?",
+        "options": ["Topikala antibiotika", "Laserbehandling", "Kortikosteroider", "Retinoider"],
+        "correct_answer": "Laserbehandling",
+        "justification": "Laserbehandling används ofta för att minska rodnad och synliga blodkärl vid rosacea."
+    },
+    {
+        "question": "Vilken faktor ökar risken för utveckling av aktinisk keratos?",
+        "options": ["Rökning", "Solexponering", "Kallt klimat", "Övervikt"],
+        "correct_answer": "Solexponering",
+        "justification": "Aktinisk keratos är en hudförändring orsakad av långvarig solexponering."
+    },
+    {
+        "question": "Vilken hudåkomma kännetecknas av vätskefyllda blåsor på händer och fötter, ofta kopplad till stress och allergier?",
+        "options": ["Kontaktdermatit", "Dyshidrotiskt eksem", "Psoriasis", "Urtikaria"],
+        "correct_answer": "Dyshidrotiskt eksem",
+        "justification": "Dyshidrotiskt eksem kännetecknas av små, vätskefyllda blåsor på händer och fötter och kan utlösas av stress och allergier."
+    },
+    {
+        "question": "Vilken hudsjukdom kännetecknas av en kraftig klåda, särskilt nattetid, och gångar i huden?",
+        "options": ["Skabb", "Psoriasis", "Eksem", "Urtikaria"],
+        "correct_answer": "Skabb",
+        "justification": "Skabb orsakas av kvalster som gräver gångar i huden och orsakar kraftig klåda, särskilt nattetid."
+    },
+    {
+        "question": "Vilken typ av hudförändring är typisk för molluscum contagiosum?",
+        "options": ["Papler", "Plack", "Vesiklar", "Noduler"],
+        "correct_answer": "Papler",
+        "justification": "Molluscum contagiosum kännetecknas av små, kupolformade papler med en central grop."
+    },
+    {
+        "question": "Vilken av följande är en behandling för att minska talgproduktionen vid akne?",
+        "options": ["Kortikosteroider", "Orala retinoider", "Antifungala krämer", "Topikala antibiotika"],
+        "correct_answer": "Orala retinoider",
+        "justification": "Orala retinoider, såsom isotretinoin, minskar talgproduktionen och används för att behandla svår akne."
+    },
+    {
+        "question": "Vilken hudsjukdom är känd för att orsaka fjällande fläckar på hårbotten och andra hudområden?",
+        "options": ["Seborroiskt eksem", "Psoriasis", "Eksem", "Rosacea"],
+        "correct_answer": "Seborroiskt eksem",
+        "justification": "Seborroiskt eksem orsakar fjällande fläckar på hårbotten och andra talgrika hudområden."
+    },
+    {
+        "question": "Vilken behandling används ofta för att behandla basaliom?",
+        "options": ["Systemiska kortikosteroider", "Kirurgisk excision", "Topikala antibiotika", "Orala retinoider"],
+        "correct_answer": "Kirurgisk excision",
+        "justification": "Kirurgisk excision är en vanlig behandling för basaliom, en typ av hudcancer."
+    },
+    {
+        "question": "Vilken typ av hudförändring är typisk för skivepitelcancer?",
+        "options": ["Noduler", "Plack", "Papler", "Vesiklar"],
+        "correct_answer": "Noduler",
+        "justification": "Skivepitelcancer kan manifesteras som fasta, röda noduler på huden."
+    },
+    {
+        "question": "Vilken av följande är en riskfaktor för utveckling av malignt melanom?",
+        "options": ["Mörk hudfärg", "Ljus hudfärg", "Kort solexponering", "Låg höjd"],
+        "correct_answer": "Ljus hudfärg",
+        "justification": "Personer med ljus hudfärg har en högre risk att utveckla malignt melanom på grund av lägre mängd skyddande melanin."
+    },
+    {
+        "question": "Vilken typ av utslag är typiskt för atopiskt eksem?",
+        "options": ["Papler", "Plack", "Vesiklar", "Noduler"],
+        "correct_answer": "Papler",
+        "justification": "Atopiskt eksem kännetecknas ofta av kliande papler och torr hud."
+    },
+    {
+        "question": "Vilken typ av läkemedel används ofta för att behandla svår psoriasis?",
+        "options": ["Topikala kortikosteroider", "Systemiska retinoider", "Antifungala medel", "Orala antibiotika"],
+        "correct_answer": "Systemiska retinoider",
+        "justification": "Systemiska retinoider används ofta för att behandla svår psoriasis på grund av deras antiinflammatoriska och immunmodulerande effekter."
+    },
+    {
+        "question": "Vilken sjukdom är associerad med fjärilsliknande utslag över näsa och kinder?",
+        "options": ["Psoriasis", "Lupus erythematosus", "Eksem", "Rosacea"],
+        "correct_answer": "Lupus erythematosus",
+        "justification": "Lupus erythematosus är ofta associerad med ett fjärilsliknande utslag över näsa och kinder."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till tinea corporis (ringorm)?",
+        "options": ["Bakterieinfektion", "Svampinfektion", "Virusinfektion", "Parasiter"],
+        "correct_answer": "Svampinfektion",
+        "justification": "Tinea corporis orsakas av en svampinfektion och kännetecknas av ringformade utslag på huden."
+    },
+    {
+        "question": "Vilken typ av läkemedel används för att behandla svampinfektioner i huden?",
+        "options": ["Antibiotika", "Kortikosteroider", "Antifungala medel", "Retinoider"],
+        "correct_answer": "Antifungala medel",
+        "justification": "Antifungala medel används för att behandla svampinfektioner i huden, såsom tinea corporis."
+    },
+    {
+        "question": "Vilken hudförändring är typisk för aktinisk keratos?",
+        "options": ["Vesiklar", "Papler", "Noduler", "Skrovliga fläckar"],
+        "correct_answer": "Skrovliga fläckar",
+        "justification": "Aktinisk keratos kännetecknas av skrovliga, fjällande fläckar på huden orsakade av långvarig solexponering."
+    },
+    {
+        "question": "Vilken av följande är en autoimmun sjukdom som påverkar huden och leder till förlust av pigment?",
+        "options": ["Psoriasis", "Vitiligo", "Eksem", "Rosacea"],
+        "correct_answer": "Vitiligo",
+        "justification": "Vitiligo är en autoimmun sjukdom som orsakar förlust av pigment i huden på grund av att kroppens immunsystem angriper melanocyter."
+    },
+    {
+        "question": "Vilken typ av hudförändring är typisk för impetigo?",
+        "options": ["Papler", "Vesiklar", "Krustor", "Plack"],
+        "correct_answer": "Krustor",
+        "justification": "Impetigo kännetecknas av honungsgula krustor som bildas på huden efter att vesiklar spruckit."
+    },
+    {
+        "question": "Vilken typ av behandling används ofta för att behandla skabb?",
+        "options": ["Topikala antibiotika", "Orala kortikosteroider", "Antifungala krämer", "Topikala skabicider"],
+        "correct_answer": "Topikala skabicider",
+        "justification": "Topikala skabicider används för att behandla skabb genom att döda kvalstren som orsakar infektionen."
+    },
+    {
+        "question": "Vilken av följande är en riskfaktor för utveckling av seborroiskt eksem?",
+        "options": ["Stress", "Övervikt", "Sol exponering", "Låg höjd"],
+        "correct_answer": "Stress",
+        "justification": "Stress är en känd riskfaktor för utveckling av seborroiskt eksem, vilket kan förvärra symtomen."
+    },
+    {
+        "question": "Vilken hudåkomma orsakas av herpes zoster virus och kännetecknas av smärtsamma blåsor längs en nerv?",
+        "options": ["Herpes simplex", "Skabb", "Bältros", "Vitiligo"],
+        "correct_answer": "Bältros",
+        "justification": "Bältros orsakas av herpes zoster virus och kännetecknas av smärtsamma blåsor som följer en nerv."
+    },
+    {
+        "question": "Vilken typ av läkemedel används för att behandla svår atopisk dermatit?",
+        "options": ["Systemiska kortikosteroider", "Topikala antibiotika", "Orala retinoider", "Antifungala medel"],
+        "correct_answer": "Systemiska kortikosteroider",
+        "justification": "Systemiska kortikosteroider används ofta för att behandla svår atopisk dermatit på grund av deras kraftfulla antiinflammatoriska effekter."
+    },
+    {
+        "question": "Vilken hudförändring är typisk för pyoderma gangrenosum?",
+        "options": ["Papler", "Vesiklar", "Nekrotiska sår", "Plack"],
+        "correct_answer": "Nekrotiska sår",
+        "justification": "Pyoderma gangrenosum kännetecknas av smärtsamma, nekrotiska sår på huden som kan vara svåra att behandla."
+    },
+    {
+        "question": "Vilken sjukdom är associerad med 'bullous pemphigoid'?",
+        "options": ["Psoriasis", "Lupus erythematosus", "Eksem", "Autoimmun sjukdom"],
+        "correct_answer": "Autoimmun sjukdom",
+        "justification": "Bullous pemphigoid är en autoimmun sjukdom där kroppens immunsystem angriper huden och orsakar blåsbildning."
+    },
+    {
+        "question": "Vilken typ av behandling används ofta för att behandla plantarvorter?",
+        "options": ["Systemiska kortikosteroider", "Topikala salicylsyror", "Orala antibiotika", "Antifungala medel"],
+        "correct_answer": "Topikala salicylsyror",
+        "justification": "Topikala salicylsyror används ofta för att behandla plantarvorter genom att lösa upp det hårda hudlagret."
+    },
+    {
+        "question": "Vilken hudsjukdom orsakas av Staphylococcus aureus och resulterar i smärtsamma, varfyllda knölar?",
+        "options": ["Impetigo", "Follikulit", "Cellulit", "Furunkulos"],
+        "correct_answer": "Furunkulos",
+        "justification": "Furunkulos orsakas av Staphylococcus aureus och resulterar i smärtsamma, varfyllda knölar som kan spricka."
+    },
+    {
+        "question": "Vilken typ av hudförändring är typisk för lichen planus?",
+        "options": ["Plack", "Papler", "Vesiklar", "Noduler"],
+        "correct_answer": "Papler",
+        "justification": "Lichen planus kännetecknas av kliande, platta, lila papler på huden."
+    },
+    {
+        "question": "Vilken hudåkomma kännetecknas av rodnade och förtjockade områden i handflator och fotsulor?",
+        "options": ["Psoriasis", "Pustulosis palmoplantaris", "Eksem", "Urtikaria"],
+        "correct_answer": "Pustulosis palmoplantaris",
+        "justification": "Pustulosis palmoplantaris kännetecknas av rodnade och förtjockade områden i handflator och fotsulor, ofta med pustler."
+    },
+    {
+        "question": "Vilken typ av hudförändring är typisk för pityriasis rosea?",
+        "options": ["Papler", "Plack", "Vesiklar", "Herald patch"],
+        "correct_answer": "Herald patch",
+        "justification": "Pityriasis rosea börjar ofta med en stor, fjällande fläck kallad 'herald patch' följt av mindre fläckar."
+    },
+    {
+        "question": "Vilken behandling är mest effektiv för att behandla herpes simplex utbrott?",
+        "options": ["Antifungala medel", "Antivirala medel", "Topikala kortikosteroider", "Orala antibiotika"],
+        "correct_answer": "Antivirala medel",
+        "justification": "Antivirala medel, såsom aciklovir, används för att behandla herpes simplex utbrott och minska symtomens svårighetsgrad."
+    },
+    {
+        "question": "Vilken typ av utslag är typiskt för lupus erythematosus?",
+        "options": ["Papler", "Vesiklar", "Plack", "Fjärilsliknande utslag"],
+        "correct_answer": "Fjärilsliknande utslag",
+        "justification": "Lupus erythematosus är ofta associerad med ett fjärilsliknande utslag över näsa och kinder."
+    },
+    {
+        "question": "Vilken av följande är en vanlig riskfaktor för utveckling av akne?",
+        "options": ["Låg höjd", "Kort solexponering", "Hormonella förändringar", "Kallt klimat"],
+        "correct_answer": "Hormonella förändringar",
+        "justification": "Hormonella förändringar, särskilt under puberteten, är en vanlig riskfaktor för utveckling av akne."
+    },
+    {
+        "question": "Vilken hudsjukdom kännetecknas av kliande, fjällande fläckar på huden och är vanligtvis kronisk?",
+        "options": ["Psoriasis", "Eksem", "Vitiligo", "Rosacea"],
+        "correct_answer": "Psoriasis",
+        "justification": "Psoriasis är en kronisk hudsjukdom som kännetecknas av kliande, fjällande fläckar på huden."
+    },
+    {
+        "question": "Vilken typ av utslag är typiskt för dermatit herpetiformis?",
+        "options": ["Papler", "Vesiklar", "Plack", "Blåsor"],
+        "correct_answer": "Blåsor",
+        "justification": "Dermatit herpetiformis kännetecknas av små, kliande blåsor och är ofta associerad med celiaki."
+    },
+    {
+        "question": "Vilken hudåkomma orsakas av ett överaktivt immunsystem som angriper hudens melanocyter?",
+        "options": ["Psoriasis", "Vitiligo", "Eksem", "Rosacea"],
+        "correct_answer": "Vitiligo",
+        "justification": "Vitiligo orsakas av ett överaktivt immunsystem som angriper hudens melanocyter, vilket leder till förlust av pigment."
+    },
+    {
+        "question": "Vilken behandling används ofta för att minska rodnad och inflammation vid rosacea?",
+        "options": ["Antivirala medel", "Kortikosteroider", "Antifungala medel", "Topikala antibiotika"],
+        "correct_answer": "Topikala antibiotika",
+        "justification": "Topikala antibiotika, såsom metronidazol, används ofta för att minska rodnad och inflammation vid rosacea."
+    },
+    {
+        "question": "Vilken hudförändring är typisk för kutan lupus erythematosus?",
+        "options": ["Papler", "Vesiklar", "Diskoida plack", "Noduler"],
+        "correct_answer": "Diskoida plack",
+        "justification": "Kutan lupus erythematosus kännetecknas av diskformade, fjällande plack som kan lämna ärr."
+    },
+    {
+        "question": "Vilken av följande är en vanlig orsak till utveckling av aktinisk keratos?",
+        "options": ["Sol exponering", "Rökning", "Övervikt", "Låg höjd"],
+        "correct_answer": "Sol exponering",
+        "justification": "Aktinisk keratos är en hudförändring orsakad av långvarig solexponering."
+    },
+    {
+        "question": "Vilken typ av hudförändring är typisk för basaliom?",
+        "options": ["Papler", "Plack", "Noduler", "Vesiklar"],
+        "correct_answer": "Noduler",
+        "justification": "Basaliom kan manifesteras som fasta, pärlformade noduler på huden."
+    },
+    {
+        "question": "Vilken hudsjukdom kännetecknas av rodnade, fjällande fläckar i talgrika områden, såsom hårbotten och ansikte?",
+        "options": ["Eksem", "Psoriasis", "Seborroiskt eksem", "Rosacea"],
+        "correct_answer": "Seborroiskt eksem",
+        "justification": "Seborroiskt eksem kännetecknas av rodnade, fjällande fläckar i talgrika områden som hårbotten och ansikte."
+    },
+    {
+        "question": "Vilken typ av behandling används ofta för att behandla hudinfektioner orsakade av svamp?",
+        "options": ["Antibiotika", "Kortikosteroider", "Antifungala medel", "Retinoider"],
+        "correct_answer": "Antifungala medel",
+        "justification": "Antifungala medel används för att behandla hudinfektioner orsakade av svamp, såsom tinea corporis."
+    },
+    {
+        "question": "Vilken typ av hudförändring är typisk för pityriasis versicolor?",
+        "options": ["Papler", "Plack", "Hypopigmenterade fläckar", "Noduler"],
+        "correct_answer": "Hypopigmenterade fläckar",
+        "justification": "Pityriasis versicolor kännetecknas av hypopigmenterade eller hyperpigmenterade fläckar på huden."
+    },
+    {
+        "question": "Vilken behandling används ofta för att behandla plantarvorter?",
+        "options": ["Topikala salicylsyror", "Orala kortikosteroider", "Antifungala medel", "Systemiska antibiotika"],
+        "correct_answer": "Topikala salicylsyror",
+        "justification": "Topikala salicylsyror används ofta för att behandla plantarvorter genom att lösa upp det hårda hudlagret."
+    },
+    {
+        "question": "Vilken hudsjukdom kännetecknas av upphöjda, kliande wheals som försvinner inom 24 timmar?",
+        "options": ["Eksem", "Psoriasis", "Urtikaria", "Lichen planus"],
+        "correct_answer": "Urtikaria",
+        "justification": "Urtikaria kännetecknas av upphöjda, kliande wheals som försvinner inom 24 timmar."
+    },
+    {
+        "question": "Vilken hudförändring är typisk för erythema nodosum?",
+        "options": ["Papler", "Plack", "Noduler", "Vesiklar"],
+        "correct_answer": "Noduler",
+        "justification": "Erythema nodosum kännetecknas av smärtsamma, röda noduler, oftast på underbenen."
+    },
+    {
+        "question": "Vilken behandling används ofta för att behandla svår psoriasis?",
+        "options": ["Topikala kortikosteroider", "Systemiska retinoider", "Antifungala medel", "Orala antibiotika"],
+        "correct_answer": "Systemiska retinoider",
+        "justification": "Systemiska retinoider används ofta för att behandla svår psoriasis på grund av deras antiinflammatoriska och immunmodulerande effekter."
+    },
+    {
+        "question": "Vilken hudsjukdom kännetecknas av smärtsamma blåsor och ulcerationer på slemhinnor?",
+        "options": ["Pemfigus vulgaris", "Psoriasis", "Vitiligo", "Lichen planus"],
+        "correct_answer": "Pemfigus vulgaris",
+        "justification": "Pemfigus vulgaris är en autoimmun sjukdom som orsakar smärtsamma blåsor och ulcerationer på slemhinnor."
+    },
+    {
+        "question": "Vilken typ av behandling används ofta för att behandla kontaktdermatit?",
+        "options": ["Systemiska antibiotika", "Topikala kortikosteroider", "Antifungala medel", "Orala retinoider"],
+        "correct_answer": "Topikala kortikosteroider",
+        "justification": "Topikala kortikosteroider används ofta för att behandla kontaktdermatit på grund av deras antiinflammatoriska egenskaper."
+    },
+    {
+        "question": "Vilken hudförändring är typisk för acne vulgaris?",
+        "options": ["Papler", "Plack", "Noduler", "Pustler"],
+        "correct_answer": "Pustler",
+        "justification": "Acne vulgaris kännetecknas av inflammatoriska lesioner som pustler, papler och ibland noduler."
+    },
+    {
+        "question": "Vilken hudåkomma kännetecknas av en fjärilsliknande rodnad över näsa och kinder?",
+        "options": ["Rosacea", "Lupus erythematosus", "Eksem", "Psoriasis"],
+        "correct_answer": "Lupus erythematosus",
+        "justification": "Lupus erythematosus är ofta associerad med ett fjärilsliknande utslag över näsa och kinder."
+    },
+    {
+        "question": "Vilken av följande är en behandling för att minska talgproduktionen vid akne?",
+        "options": ["Topikala salicylsyror", "Orala retinoider", "Antifungala medel", "Systemiska antibiotika"],
+        "correct_answer": "Orala retinoider",
+        "justification": "Orala retinoider, såsom isotretinoin, minskar talgproduktionen och används för att behandla svår akne."
+    }
+]
