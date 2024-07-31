@@ -58,22 +58,12 @@ if __name__ == "__main__":
         ground_truths = benchmark.get_ground_truth()
 
         for k, v in tqdm(benchmark.data.items(), desc=f"Processing {benchmark.name}"):
-            if benchmark.answer_options is not None:
-                messages = [
-                    {
-                        "role": "user",
-                        "content": benchmark.prompt.format(
-                            question=v["QUESTION"], options=v[benchmark.answer_options]
-                        ),
-                    }
-                ]
-            else:
-                messages = [
-                    {
-                        "role": "user",
-                        "content": benchmark.prompt.format(question=v["QUESTION"]),
-                    }
-                ]
+            messages = [
+                {
+                    "role": "user",
+                    "content": benchmark.final_prompt_format(v),
+                }
+            ]
             out = completion(
                 model=MODEL_NAME,
                 messages=messages,

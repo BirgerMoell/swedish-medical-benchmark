@@ -71,20 +71,9 @@ if __name__ == "__main__":
         ground_truths = benchmark.get_ground_truth()
 
         for k, v in tqdm(benchmark.data.items(), desc=f"Processing {benchmark.name}"):
-            if benchmark.answer_options is not None:
-                messages = [
-                    fmt_message(
-                        "user",
-                        benchmark.prompt.format(
-                            question=v["QUESTION"],
-                            options=", ".join(v[benchmark.answer_options]),
-                        ),
-                    )
-                ]
-            else:
-                messages = [
-                    fmt_message("user", benchmark.prompt.format(question=v["QUESTION"]))
-                ]
+            messages = [
+                fmt_message("user", benchmark.prompt.format(question=v["QUESTION"]))
+            ]
             out = pipeline(
                 messages,
                 max_new_tokens=PIPELINE_PARAMS["max_new_tokens"],
