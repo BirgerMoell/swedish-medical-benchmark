@@ -16,6 +16,7 @@ MODEL_NAME = (
 )
 PubMedQALSWE_SYSTEM_PROMPT = "Du är en utmärkt läkare och skriver ett läkarprov. Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av: 'ja', 'nej', eller 'kanske'. Det är viktigt att du begränsar ditt svar till dessa alternativ för att säkerställa tydlighet i kommunikationen."
 GeneralPractioner_SYSTEM_PROMPT = "Du är en utmärkt läkare och skriver ett läkarprov. Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av alternativen."
+SwedishDoctorsExam = "Du är en utmärkt läkare och skriver ett läkarprov. Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av alternativen. Svara med hela svarsalternativet. Utöver det är det viktigt att du inte inkluderar någon annan text i ditt svar."
 # Make sure to uncomment the benchmarks you want to run
 BENCHMARKS = [
     benchmarks.PubMedQALSWE(
@@ -27,6 +28,7 @@ BENCHMARKS = [
     #     prompt=GeneralPractioner_SYSTEM_PROMPT
     #     + "\n\nFråga:\n{question}\nAlternativ:{options}\n\nSvara endast ett av alternativen."
     # ),
+    # benchmarks.SwedishDoctorsExam(prompt=SwedishDoctorsExam + "\n\nFråga:\n{question}\n\nSvara med endast ett av alternativen. Svara med hela svarsalternativet."),
 ]
 os.environ["OPENAI_API_KEY"] = "set-key-here"  # Set your api key and key name.
 
@@ -67,7 +69,7 @@ if __name__ == "__main__":
             out = completion(
                 model=MODEL_NAME,
                 messages=messages,
-                max_tokens=10,
+                max_tokens=benchmark.max_tokens,
             )
             llm_results.append(get_response(out))
             predictions = benchmark.detect_answers(llm_results)

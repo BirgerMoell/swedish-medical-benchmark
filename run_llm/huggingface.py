@@ -14,6 +14,7 @@ from tqdm import tqdm
 MODEL_NAME = "birgermoell/eir"
 PubMedQALSWE_SYSTEM_PROMPT = "Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av de fördefinierade svaren: 'ja', 'nej', eller 'kanske'. Det är viktigt att du begränsar ditt svar till dessa alternativ för att säkerställa tydlighet i kommunikationen."
 GeneralPractioner_SYSTEM_PROMPT = "Du är en utmärkt läkare och skriver ett läkarprov. Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av alternativen."
+SwedishDoctorsExam = "Du är en utmärkt läkare och skriver ett läkarprov. Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av alternativen. Svara med hela svarsalternativet. Utöver det är det viktigt att du inte inkluderar någon annan text i ditt svar."
 # Make sure to uncomment the benchmarks you want to run
 BENCHMARKS = [
     benchmarks.PubMedQALSWE(
@@ -25,8 +26,9 @@ BENCHMARKS = [
     #     prompt=GeneralPractioner_SYSTEM_PROMPT
     #     + "\n\nFråga:\n{question}\nAlternativ:{options}\n\nSvara endast ett av alternativen."
     # ),
+    # benchmarks.SwedishDoctorsExam(prompt=SwedishDoctorsExam + "\n\nFråga:\n{question}\n\nSvara med endast ett av alternativen. Svara med hela svarsalternativet."),
 ]
-PIPELINE_PARAMS = {"max_new_tokens": 10, "do_sample": False}
+PIPELINE_PARAMS = {"do_sample": False}
 
 
 # Functions
@@ -76,7 +78,7 @@ if __name__ == "__main__":
             ]
             out = pipeline(
                 messages,
-                max_new_tokens=PIPELINE_PARAMS["max_new_tokens"],
+                max_new_tokens=benchmark.max_tokens,
                 do_sample=PIPELINE_PARAMS["do_sample"],
             )
             llm_results.append(get_response(out))

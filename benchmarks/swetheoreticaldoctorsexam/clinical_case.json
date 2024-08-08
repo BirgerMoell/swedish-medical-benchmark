@@ -146,7 +146,7 @@
     },
     "30": {
         "QUESTION": "Du är legitimerad läkare på en Hälsocentral och träffar Anna, en 40-årig kvinna med man och två mindre barn. Anna har under många år haft ryggvärk och problem med trötthet men har inga andra kända sjukdomar.\nHon söker nu vård då hon insett att hon är konstant orolig och är rädd att något hemskt ska hända. Hennes oro gör att hon har svårt att klara av sitt nya arbete som sjuksköterska. Hon är rädd att göra fel och arbetet går långsamt.\nPå kvällarna grubblar hon mycket över om hon trots sin noggrannhet kanske gjort något allvarligt misstag som kommer få konsekvenser för hennes patienter. Hemma är hon orolig för barnen och framförallt deras hälsa. Anna har så länge hon kan minnas haft en tendens att oroa sig både inför och efter olika händelser. Senaste tiden har det varit värre än tidigare.\nVilken sjukdom är det troligast att hon lider av?\n\n*Välj ett alternativ:*\na) Depression\nb) Generaliserat ångestsyndrom\nc) Paniksyndrom\nd) PTSD\ne) Social fobi",
-        "AMSWER": "b) Generaliserat ångestsyndrom",
+        "ANSWER": "b) Generaliserat ångestsyndrom",
         "EXAM": "2023-11-28"
     },
     "31": {

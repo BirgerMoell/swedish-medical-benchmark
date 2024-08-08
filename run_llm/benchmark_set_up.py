@@ -12,6 +12,7 @@ class Benchmark(ABC):
     meshes: str | None = None
     og_data: dict | None = None
     answer_options: str | None = None
+    max_tokens: int = 200
 
     @abstractmethod
     def get_ground_truth(self):
@@ -37,6 +38,7 @@ class PubMedQALSWE(Benchmark):
         self.prompt = prompt
         self.name = "PubMedQA-L-SWE"
         self.label_tag_groups = ["final_decision", "LABELS", "MESHES"]
+        self.max_tokens = 10
 
     def get_ground_truth(self):
         return np.asarray([v["final_decision"] for v in self.data.values()])
@@ -53,7 +55,7 @@ class PubMedQALSWE(Benchmark):
             else:
                 predictions.append("missformat")
         return np.asarray(predictions)
-    
+
     def final_prompt_format(self, v):
         return self.prompt.format(question=v["QUESTION"])
 
@@ -109,6 +111,27 @@ class SpecialistQuestions(Benchmark):
         return combined_data
 
 
+class SwedishDoctorsExam(Benchmark):
+    def __init__(self, prompt: str = ""):
+        self.data = json.loads(
+            Path(
+                "./benchmarks/swetheoreticaldoctorsexam/clinical_case.json"
+            ).read_text()
+        )
+        self.prompt = prompt
+        self.name = "SwedishDoctorsExam"
+        self.label_tag_groups = []
+
+    def get_ground_truth(self):
+        return np.asarray([v["ANSWER"].lower() for v in self.data.values()])
+
+    def detect_answers(self, llm_answers):
+        return np.asarray([i.strip().lower() for i in llm_answers])
+    
+    def final_prompt_format(self, v):
+        return self.prompt.format(question=v["QUESTION"])
+
+
 def get_benchmark_by_name(name: str):
     if name == "PubMedQA-L-SWE":
         return PubMedQALSWE()
@@ -116,5 +139,7 @@ def get_benchmark_by_name(name: str):
         return GeneralPractioner()
     elif name == "SpecialistQuestions":
         return SpecialistQuestions()
+    elif name == "SwedishDoctorsExam":
+        return SwedishDoctorsExam()
     else:
         raise ValueError(f"Unknown benchmark: {name}")
