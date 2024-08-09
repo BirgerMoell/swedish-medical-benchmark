@@ -1,0 +1,521 @@
+[
+    {
+      "case_description": "Anna, en 16-årig tjej, har haft akne sedan hon kom in i puberteten. Hon har komedoner, papler och pustler i ansiktet, och ibland på bröst och rygg. Hennes akne har inte svarat bra på over-the-counter behandlingar, och hon börjar känna sig frustrerad över bristen på förbättring. Hon söker nu medicinsk rådgivning för att få bättre kontroll över sina hudproblem.",
+      "questions": [
+        {
+          "question": "Vilken av följande behandlingar rekommenderas som förstahandsval vid lindrig till måttlig papulopustulös akne?",
+          "options": [
+            "A) Erytromycin",
+            "B) Bensoylperoxid",
+            "C) Klindamycin",
+            "D) Azitromycin"
+          ],
+          "correct_answer": "B) Bensoylperoxid",
+          "explanation": "Förstahandsmedel vid lindrig till måttlig akne är ett bensoylperoxidpreparat 1 gång/dag, som kan visa effekt efter 2-6 veckor. Behandlingstiden är årslång."
+        },
+        {
+          "question": "Vilken behandlingsmetod bör undvikas på grund av risken för bakterieresistens?",
+          "options": [
+            "A) Bensoylperoxid",
+            "B) Klindamycin enbart",
+            "C) A-vitaminderivat",
+            "D) Azelainsyra"
+          ],
+          "correct_answer": "B) Klindamycin enbart",
+          "explanation": "Klindamycin (Dalacin kutan emulsion) enbart bör undvikas idag på grund av risken för bakterieresistens. Alternativen enligt ovan är bättre."
+        },
+        {
+          "question": "Vilket läkemedel kan vara indicerat vid hormonstörningar och ökad behåring hos kvinnor med vuxenakne?",
+          "options": [
+            "A) Tetracykliner",
+            "B) Desolett eller Yasmin",
+            "C) Bensoylperoxid",
+            "D) Laserbehandling"
+          ],
+          "correct_answer": "B) Desolett eller Yasmin",
+          "explanation": "Till kvinnor med p-pillerönskemål kan t.ex. Desolett eller Yasmin ges. Generellt har kombinations-p-piller en lindrande effekt på akne, medan minipiller och hormonspiral kan försämra akne."
+        },
+        {
+          "question": "Vilken åtgärd rekommenderas om två st 3-månaderskurer med antibiotika inte leder till läkning?",
+          "options": [
+            "A) Fortsätta med samma antibiotika",
+            "B) Remiss till dermatolog",
+            "C) Byta till över-the-counter behandlingar",
+            "D) Använda högre doser av samma antibiotika"
+          ],
+          "correct_answer": "B) Remiss till dermatolog",
+          "explanation": "Vid svår akne eller otillfredsställande behandlingsresultat efter två st 3-månaderskurer med antibiotika, rekommenderas remiss till dermatolog för ställningstagande till behandling med läkemedlet Isotretinoin."
+        }
+      ],
+      "recommended_treatment_plan": [
+        {
+          "condition": "Lindrig till måttlig papulopustulös akne",
+          "treatment": "Bensoylperoxidpreparat 1 gång/dag (Basiron gel 5%), behandlingstid årslång."
+        },
+        {
+          "condition": "Otillräcklig effekt av bensoylperoxidpreparat enbart",
+          "treatment": "Bensoylperoxid + A-vitaminderivat 1 gång/dag (Epiduo 0,1%)."
+        },
+        {
+          "condition": "Mer uttalad papulopustulös akne eller enstaka noduli",
+          "treatment": "Peroral behandling med Lymecyclin (Tetralysal) 300 mg x 2 p.o. i 3 månader, kombinerat med utvärtes behandling."
+        },
+        {
+          "condition": "Hormonstörningar och ökad behåring hos kvinnor med vuxenakne",
+          "treatment": "P-piller som Desolett eller Yasmin."
+        }
+      ]
+    },
+    {
+      "case_description": "Lukas, en 4-årig pojke, har haft diarré i tre dagar. Hans föräldrar beskriver att han har haft flera lösa eller vattniga avföringar varje dag. Lukas har även haft kräkningar och feber, och hans föräldrar är oroliga över hans vätskeintag och allmäntillstånd. Familjen återvände nyligen från en semester utomlands.",
+      "questions": [
+        {
+          "question": "Vilken av följande orsaker är mest sannolik för Lukas diarré?",
+          "options": [
+            "A) Bakteriell infektion",
+            "B) Virusinfektion",
+            "C) Parasitinfektion",
+            "D) Födoämnesallergi"
+          ],
+          "correct_answer": "B) Virusinfektion",
+          "explanation": "Viral gastroenterit är den vanligaste orsaken till akut diarré hos barn. Norovirus är särskilt vanligt efter införandet av rotavirusvaccinet."
+        },
+        {
+          "question": "Vilket är det första steget i behandlingen av Lukas akut diarré?",
+          "options": [
+            "A) Ge antibiotika",
+            "B) Administrera vätskeersättning (ORS)",
+            "C) Utföra en blodprovstagning",
+            "D) Påbörja en laktosfri diet"
+          ],
+          "correct_answer": "B) Administrera vätskeersättning (ORS)",
+          "explanation": "Grunden i behandlingen av akut diarré hos barn är vätskeersättning för att förhindra dehydrering."
+        },
+        {
+          "question": "Vilken laboratorieundersökning är mest lämplig om Lukas diarré fortsätter och han uppvisar tecken på blod i avföringen?",
+          "options": [
+            "A) Fecesodling",
+            "B) CRP och blodstatus",
+            "C) Cystor och maskägg",
+            "D) Ultraljud av buk"
+          ],
+          "correct_answer": "A) Fecesodling",
+          "explanation": "Fecesodling är lämpligt vid blodig avföring för att identifiera eventuella bakteriella patogener."
+        },
+        {
+          "question": "Vilket symtom tyder mest på bakteriell infektion snarare än viral infektion vid akut diarré hos barn?",
+          "options": [
+            "A) Frekventa vattniga avföringar",
+            "B) Feber och kräkningar",
+            "C) Blod- eller slemtillblandad avföring",
+            "D) Buksmärta och uppspändhet"
+          ],
+          "correct_answer": "C) Blod- eller slemtillblandad avföring",
+          "explanation": "Blod- eller slemtillblandad avföring tillsammans med feber indikerar ofta en bakteriell infektion."
+        }
+      ],
+      "recommended_treatment_plan": [
+        {
+          "condition": "Akut diarré med måttlig dehydrering",
+          "treatment": "Oral rehydration solution (ORS), administrera små mängder vätska frekvent."
+        },
+        {
+          "condition": "Akut diarré med svår dehydrering eller oförmåga att behålla vätska",
+          "treatment": "Inläggning för intravenös vätsketillförsel, exempelvis Ringeracetat eller Natriumklorid 9 mg/ml."
+        },
+        {
+          "condition": "Diarré som inte förbättras och uppvisar blodig avföring",
+          "treatment": "Utför fecesodling för att identifiera bakteriella patogener och ge lämplig antibiotikabehandling om nödvändigt."
+        },
+        {
+          "condition": "Persisterande kräkningar trots oral rehydration",
+          "treatment": "Ge engångsdos Ondansetron (0,15 mg/kg p.o.) för att underlätta oral rehydration."
+        }
+      ]
+    },
+    {
+      "case_description": "Lukas, en 4-årig pojke, har haft diarré i tre dagar. Hans föräldrar beskriver att han har haft flera lösa eller vattniga avföringar varje dag. Lukas har även haft kräkningar och feber, och hans föräldrar är oroliga över hans vätskeintag och allmäntillstånd. Familjen återvände nyligen från en semester utomlands.",
+      "questions": [
+        {
+          "question": "Vilken av följande orsaker är mest sannolik för Lukas diarré?",
+          "options": [
+            "A) Bakteriell infektion",
+            "B) Virusinfektion",
+            "C) Parasitinfektion",
+            "D) Födoämnesallergi"
+          ],
+          "correct_answer": "B) Virusinfektion",
+          "explanation": "Viral gastroenterit är den vanligaste orsaken till akut diarré hos barn. Norovirus är särskilt vanligt efter införandet av rotavirusvaccinet."
+        },
+        {
+          "question": "Vilket är det första steget i behandlingen av Lukas akut diarré?",
+          "options": [
+            "A) Ge antibiotika",
+            "B) Administrera vätskeersättning (ORS)",
+            "C) Utföra en blodprovstagning",
+            "D) Påbörja en laktosfri diet"
+          ],
+          "correct_answer": "B) Administrera vätskeersättning (ORS)",
+          "explanation": "Grunden i behandlingen av akut diarré hos barn är vätskeersättning för att förhindra dehydrering."
+        },
+        {
+          "question": "Vilken laboratorieundersökning är mest lämplig om Lukas diarré fortsätter och han uppvisar tecken på blod i avföringen?",
+          "options": [
+            "A) Fecesodling",
+            "B) CRP och blodstatus",
+            "C) Cystor och maskägg",
+            "D) Ultraljud av buk"
+          ],
+          "correct_answer": "A) Fecesodling",
+          "explanation": "Fecesodling är lämpligt vid blodig avföring för att identifiera eventuella bakteriella patogener."
+        },
+        {
+          "question": "Vilket symtom tyder mest på bakteriell infektion snarare än viral infektion vid akut diarré hos barn?",
+          "options": [
+            "A) Frekventa vattniga avföringar",
+            "B) Feber och kräkningar",
+            "C) Blod- eller slemtillblandad avföring",
+            "D) Buksmärta och uppspändhet"
+          ],
+          "correct_answer": "C) Blod- eller slemtillblandad avföring",
+          "explanation": "Blod- eller slemtillblandad avföring tillsammans med feber indikerar ofta en bakteriell infektion."
+        }
+      ],
+      "recommended_treatment_plan": [
+        {
+          "condition": "Akut diarré med måttlig dehydrering",
+          "treatment": "Oral rehydration solution (ORS), administrera små mängder vätska frekvent."
+        },
+        {
+          "condition": "Akut diarré med svår dehydrering eller oförmåga att behålla vätska",
+          "treatment": "Inläggning för intravenös vätsketillförsel, exempelvis Ringeracetat eller Natriumklorid 9 mg/ml."
+        },
+        {
+          "condition": "Diarré som inte förbättras och uppvisar blodig avföring",
+          "treatment": "Utför fecesodling för att identifiera bakteriella patogener och ge lämplig antibiotikabehandling om nödvändigt."
+        },
+        {
+          "condition": "Persisterande kräkningar trots oral rehydration",
+          "treatment": "Ge engångsdos Ondansetron (0,15 mg/kg p.o.) för att underlätta oral rehydration."
+        }
+      ]
+    },
+    {
+      "case_description": "Karin, en 35-årig kvinna, har nyligen varit med om en bilolycka. Hon upplever nu starka känslor av skräck, hjärtklappning och har svårt att koncentrera sig. Hon har också känt sig distanserad från sin omgivning och har svårt att sova. Hon söker nu hjälp på vårdcentralen för sina symtom.",
+      "questions": [
+        {
+          "question": "Vilket är det mest sannolika tillståndet som Karin upplever?",
+          "options": [
+            "A) Posttraumatiskt stressyndrom (PTSD)",
+            "B) Anpassningsstörning",
+            "C) Akut stressreaktion (ASD)",
+            "D) Utmattningssyndrom"
+          ],
+          "correct_answer": "C) Akut stressreaktion (ASD)",
+          "explanation": "Akut stressreaktion (ASD) är en övergående reaktion på en traumatisk händelse och uppträder vanligtvis inom några minuter efter traumat. Symtomen inkluderar dissociation, starka affekter och nedsatt kognitiv funktion."
+        },
+        {
+          "question": "Vilket av följande symtom är inte typiskt för en akut stressreaktion?",
+          "options": [
+            "A) Hjärtklappning",
+            "B) Kronisk trötthet",
+            "C) Depersonalisation",
+            "D) Nedsatt koncentrationsförmåga"
+          ],
+          "correct_answer": "B) Kronisk trötthet",
+          "explanation": "Kronisk trötthet är inte typiskt för akut stressreaktion, som karakteriseras av kortvariga, intensiva symtom som hjärtklappning, depersonalisation och nedsatt koncentrationsförmåga."
+        },
+        {
+          "question": "Vilken initial behandling är mest lämplig för Karin?",
+          "options": [
+            "A) Antidepressiva",
+            "B) Betablockerare",
+            "C) Psykoterapi och stöd",
+            "D) Kortvarig sjukhusvistelse"
+          ],
+          "correct_answer": "C) Psykoterapi och stöd",
+          "explanation": "Initial behandling av akut stressreaktion fokuserar på stödjande åtgärder och eventuell kortvarig psykoterapi. Farmakologisk behandling är oftast inte nödvändig i det akuta skedet."
+        },
+        {
+          "question": "Vad är ett viktigt mål med behandlingen av akut stressreaktion?",
+          "options": [
+            "A) Förhindra utveckling till PTSD",
+            "B) Öka arbetskapaciteten omedelbart",
+            "C) Förhindra återgång till arbete",
+            "D) Förskriva långvarig medicinering"
+          ],
+          "correct_answer": "A) Förhindra utveckling till PTSD",
+          "explanation": "Ett av de viktigaste målen med behandlingen av akut stressreaktion är att förhindra utveckling till posttraumatiskt stressyndrom (PTSD)."
+        }
+      ],
+      "recommended_treatment_plan": [
+        {
+          "condition": "Akut stressreaktion med milda till måttliga symtom",
+          "treatment": "Allmänna råd för livsstilsförändringar, som att minska yttre belastning, ha regelbundna måltider och sömnvanor, samt skapa balans mellan vila och aktivitet."
+        },
+        {
+          "condition": "Svåra sömnbesvär",
+          "treatment": "Propiomazin (Propavan) 25 mg 1-2 vid behov till natten, eller zopiklon (Imovane) 5-7,5 mg 0,5-1 x 1 till natten vid behov en kort tid."
+        },
+        {
+          "condition": "Stark ångest",
+          "treatment": "I första hand hydroxizin (Atarax), alimemazin (Theralen) eller prometazin (Lergigan) vid behov. I andra hand oxazepam (Oxascand eller Sobril) 5-10 mg vid behov en kortare tid."
+        },
+        {
+          "condition": "Nedsatt kognitiv funktion och sömnstörning",
+          "treatment": "Kortare psykoterapeutisk intervention (upp till 10 samtal) hos kurator eller psykolog. Kognitiv beteendeterapi (KBT) kan vara aktuellt."
+        }
+      ]
+    },
+    {
+      "case_description": "Eva, en 38-årig kvinna, upplever plötslig smärta och upptäcker en ömmande, blåskimrande knuta invid analöppningen. Smärtan började efter en period av kraftig krystning under toalettbesök. Hon söker nu vård för att få lindring.",
+      "questions": [
+        {
+          "question": "Vilken är den mest sannolika diagnosen baserat på Evas symtom?",
+          "options": [
+            "A) Hemorrojder",
+            "B) Analhematom",
+            "C) Perianal tumör",
+            "D) Analfissur"
+          ],
+          "correct_answer": "B) Analhematom",
+          "explanation": "Eva upplever plötslig smärta och har en blåskimrande, ömmande knuta invid analöppningen, vilket är typiskt för analhematom."
+        },
+        {
+          "question": "Vilken av följande är en vanlig orsak till analhematom?",
+          "options": [
+            "A) Infektion",
+            "B) Förstoppning",
+            "C) Kraftig krystning",
+            "D) Kärlsjukdom"
+          ],
+          "correct_answer": "C) Kraftig krystning",
+          "explanation": "Analhematom uppkommer ofta i samband med kraftig krystning."
+        },
+        {
+          "question": "Vilken behandling rekommenderas för ett analhematom med måttliga symtom som funnits i några dagar?",
+          "options": [
+            "A) Antibiotikabehandling",
+            "B) Kirurgisk excision",
+            "C) Avvakta spontan läkning och ge analgetika",
+            "D) Strålbehandling"
+          ],
+          "correct_answer": "C) Avvakta spontan läkning och ge analgetika",
+          "explanation": "Om symtomen är måttliga och har funnits några dagar kan man avvakta spontan läkning och ge analgetika."
+        },
+        {
+          "question": "Vilken differentialdiagnos bör övervägas om knutan är större, har avvikande färg och har funnits under en längre tid?",
+          "options": [
+            "A) Inkarcererade hemorrojder",
+            "B) Perianal tumör",
+            "C) Analfissur",
+            "D) Perianal abscess"
+          ],
+          "correct_answer": "B) Perianal tumör",
+          "explanation": "En perianal tumör har ofta en avvikande färg och utseende, samt en längre anamnes och tillväxt."
+        }
+      ],
+      "recommended_treatment_plan": [
+        {
+          "condition": "Akut analhematom med plötslig smärta",
+          "treatment": "Lokalbedövning med adrenalin injiceras på toppen av hematomet, följt av incision och uttömning av koagelmassan."
+        },
+        {
+          "condition": "Analhematom med måttliga symtom och som funnits i några dagar",
+          "treatment": "Avvakta spontan läkning och ge analgetika."
+        },
+        {
+          "condition": "Patientråd för egenvård efter incision och extraktion",
+          "treatment": "Avspolning med handdusch för att hålla såret rent."
+        }
+      ]
+    },
+    {
+      "case_description": "Jonas, en 42-årig man, upptäcker en mjuk, elastisk knöl på nacken som har vuxit långsamt under de senaste månaderna. Knölen är tydligt avgränsbar och förskjutbar mot underlaget. Den har nyligen börjat ömma och rodna.",
+      "questions": [
+        {
+          "question": "Vilken diagnos är mest sannolik baserat på Jonas symtom och kliniska fynd?",
+          "options": [
+            "A) Lipom",
+            "B) Furunkulos",
+            "C) Aterom (talgkörtelcysta)",
+            "D) Angiolipom"
+          ],
+          "correct_answer": "C) Aterom (talgkörtelcysta)",
+          "explanation": "Jonas har en mjuk, elastisk, tydligt avgränsbar och förskjutbar knöl som nyligen börjat ömma och rodna, vilket är typiskt för ett aterom (talgkörtelcysta)."
+        },
+        {
+          "question": "Vilken av följande är inte en riskfaktor för att utveckla aterom?",
+          "options": [
+            "A) Anabola steroider",
+            "B) Hyperhidros",
+            "C) Diabetes",
+            "D) Akne"
+          ],
+          "correct_answer": "C) Diabetes",
+          "explanation": "Riskfaktorer för att utveckla aterom inkluderar anabola steroider, hyperhidros och akne, men diabetes är inte en direkt riskfaktor."
+        },
+        {
+          "question": "Vilken behandling rekommenderas om Jonas aterom är inflammerat och smärtsamt?",
+          "options": [
+            "A) Antibiotikabehandling",
+            "B) Incision och dränage",
+            "C) Strålbehandling",
+            "D) Excision"
+          ],
+          "correct_answer": "B) Incision och dränage",
+          "explanation": "Vid inflammerat och smärtsamt aterom rekommenderas incision och dränage. Antibiotikabehandling är sällan nödvändigt."
+        },
+        {
+          "question": "Vilken differentialdiagnos bör övervägas om Jonas knöl inte är fritt förskjutbar och har en snabb tillväxt?",
+          "options": [
+            "A) Lipom",
+            "B) Angiolipom",
+            "C) Sarkom",
+            "D) Fibrom"
+          ],
+          "correct_answer": "C) Sarkom",
+          "explanation": "Om knölen inte är fritt förskjutbar och har snabb tillväxt, bör sarkom övervägas som differentialdiagnos."
+        }
+      ],
+      "recommended_treatment_plan": [
+        {
+          "condition": "Aterom utan inflammation",
+          "treatment": "Ingen behandling nödvändig om det inte är kosmetiskt störande för patienten."
+        },
+        {
+          "condition": "Inflammerat aterom",
+          "treatment": "NSAID för symtomlindring. Vid mer uttalad inflammation: incision och dränage."
+        },
+        {
+          "condition": "Återkommande inflammerade aterom eller kosmetiskt störande",
+          "treatment": "Excision i lugnt skede för att ta bort hela cystan inklusive kapseln."
+        }
+      ]
+    },
+    {
+      "case_description": "Sara, en 68-årig kvinna, upplever domningar och stickningar i händer och fötter. Hon har också känt sig trött och haft svårt att koncentrera sig. Vid en rutinundersökning upptäcker läkaren att hon har en normal blodstatus men låga nivåer av vitamin B12 och folat.",
+      "questions": [
+        {
+          "question": "Vilken är den mest sannolika diagnosen baserat på Saras symtom och laboratoriefynd?",
+          "options": [
+            "A) Perniciös anemi",
+            "B) B12- och folatbrist utan anemi",
+            "C) Järnbristanemi",
+            "D) Hypotyreos"
+          ],
+          "correct_answer": "B) B12- och folatbrist utan anemi",
+          "explanation": "Sara har normala blodvärden men låga nivåer av vitamin B12 och folat, tillsammans med neurologiska symtom som domningar och stickningar, vilket tyder på B12- och folatbrist utan anemi."
+        },
+        {
+          "question": "Vilken av följande är inte en riskfaktor för att utveckla B12-brist?",
+          "options": [
+            "A) Autoimmun gastrit",
+            "B) Långvarig användning av protonpumpshämmare",
+            "C) Vegankost utan tillskott",
+            "D) Högt intag av rött kött"
+          ],
+          "correct_answer": "D) Högt intag av rött kött",
+          "explanation": "Högt intag av rött kött är inte en riskfaktor för B12-brist, medan autoimmun gastrit, långvarig användning av protonpumpshämmare och vegankost utan tillskott är vanliga riskfaktorer."
+        },
+        {
+          "question": "Vilken behandling rekommenderas för Sara för att korrigera hennes B12-brist?",
+          "options": [
+            "A) Järntillskott",
+            "B) Vitamin B12-injektioner",
+            "C) Folsyra-tabletter",
+            "D) Kalciumtillskott"
+          ],
+          "correct_answer": "B) Vitamin B12-injektioner",
+          "explanation": "Vitamin B12-injektioner är en effektiv behandling för att snabbt korrigera B12-brist, särskilt vid neurologiska symtom."
+        },
+        {
+          "question": "Vilken differentialdiagnos bör övervägas om Sara inte svarar på B12-behandling och fortsätter ha neurologiska symtom?",
+          "options": [
+            "A) Diabetes",
+            "B) Multipel skleros",
+            "C) Hypotyreos",
+            "D) Järnbristanemi"
+          ],
+          "correct_answer": "B) Multipel skleros",
+          "explanation": "Om Sara inte svarar på B12-behandling och fortsätter ha neurologiska symtom, bör multipel skleros övervägas som differentialdiagnos."
+        }
+      ],
+      "recommended_treatment_plan": [
+        {
+          "condition": "B12-brist utan anemi",
+          "treatment": "Vitamin B12-injektioner 1 mg i.m. varje/varannan dag under 1-2 veckor, följt av underhållsbehandling med peroralt vitamin B12 1 mg/dag."
+        },
+        {
+          "condition": "Folatbrist utan anemi",
+          "treatment": "Folsyra-tabletter 1 mg/dag."
+        },
+        {
+          "condition": "Kombinerad B12- och folatbrist",
+          "treatment": "Starta med vitamin B12-behandling och följ upp med folsyra-tabletter efter 1-2 veckor."
+        }
+      ]
+    },
+    {
+      "case_description": "Anna, en 30-årig kvinna, upplever plötslig rodnad och purulent sekretion från sitt högra öga. Hon har också noterat att ögonlocken är ihopklistrade när hon vaknar på morgonen. Symtomen började efter att hon hade använt kontaktlinser och hon har nyligen haft en förkylning. Efter ett par dagar har även det vänstra ögat börjat visa liknande symtom.",
+      "questions": [
+        {
+          "question": "Vilken är den mest sannolika diagnosen baserat på Annas symtom?",
+          "options": [
+            "A) Allergisk konjunktivit",
+            "B) Viral konjunktivit",
+            "C) Bakteriell konjunktivit",
+            "D) Blefarit"
+          ],
+          "correct_answer": "C) Bakteriell konjunktivit",
+          "explanation": "Annas symtom med purulent sekretion, rodnad och ihopklistrade ögonlock tyder på bakteriell konjunktivit."
+        },
+        {
+          "question": "Vilken av följande är en riskfaktor för att utveckla bakteriell konjunktivit?",
+          "options": [
+            "A) Pollenallergi",
+            "B) Kontaktlinsanvändning",
+            "C) Torr luft",
+            "D) Högt blodtryck"
+          ],
+          "correct_answer": "B) Kontaktlinsanvändning",
+          "explanation": "Kontaktlinsanvändning är en riskfaktor för bakteriell konjunktivit på grund av ökad risk för kontaminering."
+        },
+        {
+          "question": "Vilken behandling rekommenderas initialt för Anna?",
+          "options": [
+            "A) Antibiotikadroppar",
+            "B) Kortikosteroiddroppar",
+            "C) Tvätta med ljummet vatten och bomull",
+            "D) Antihistamindroppar"
+          ],
+          "correct_answer": "C) Tvätta med ljummet vatten och bomull",
+          "explanation": "Initial behandling vid bakteriell konjunktivit inkluderar rengöring med ljummet vatten och bomull och att avvakta några dagar innan eventuellt antibiotikabehandling påbörjas."
+        },
+        {
+          "question": "Vilken differentialdiagnos bör övervägas om Anna har kraftig svullnad och mycket pusflöde?",
+          "options": [
+            "A) Viral konjunktivit",
+            "B) Gonokockkonjunktivit",
+            "C) Allergisk konjunktivit",
+            "D) Irit"
+          ],
+          "correct_answer": "B) Gonokockkonjunktivit",
+          "explanation": "Kraftig svullnad och mycket pusflöde kan tyda på gonokockkonjunktivit, som kräver snabb behandling."
+        }
+      ],
+      "recommended_treatment_plan": [
+        {
+          "condition": "Mild bakteriell konjunktivit",
+          "treatment": "Tvätta ögonen med ljummet vatten och bomull. Informera om god hygien och undvik kontaktlinser under infektionen."
+        },
+        {
+          "condition": "Utebliven förbättring efter 4-5 dagar",
+          "treatment": "Överväg antibiotikabehandling med Fusidinsyra (Fucithalmic) eller Kloramfenikol ögondroppar och ögonsalva i 5 dagar."
+        },
+        {
+          "condition": "Terapiresistent bakteriell konjunktivit",
+          "treatment": "Konsultera ögonläkare och överväg behandling med bredspektrumantibiotika som Levofloxacin eller Moxifloxacin ögondroppar."
+        }
+      ]
+    }]

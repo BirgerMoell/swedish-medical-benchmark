@@ -1,0 +1,188 @@
+ [{
+        "case_description": "Anna, en 29-årig kvinna, har under en längre tid upplevt trötthet, allmän svaghet, lågt blodtryck och viktminskning. Hon har även märkt av hyperpigmentering på huden. De senaste dagarna har hon upplevt illamående, buksmärtor och kräkningar. Blodprover visar lågt natrium och högt kalium. Anna söker nu professionell hjälp för att förstå och behandla sina symptom.",
+        "questions": [
+            {
+                "question": "Vilken av följande är den mest sannolika diagnosen för Annas symptom?",
+                "options": [
+                    "A) Hypotyreos",
+                    "B) Diabetes mellitus",
+                    "C) Addisons sjukdom",
+                    "D) Kronisk njursvikt"
+                ],
+                "correct_answer": "C) Addisons sjukdom",
+                "explanation": "Annas symptom på trötthet, svaghet, lågt blodtryck, viktminskning och hyperpigmentering är typiska för Addisons sjukdom, vilket innebär en brist på binjurebarkshormoner."
+            },
+            {
+                "question": "Vilken akut behandling bör ges till Anna vid misstanke om Addisonkris?",
+                "options": [
+                    "A) Kognitiv beteendeterapi (KBT)",
+                    "B) Elektroconvulsiv terapi (ECT)",
+                    "C) Hydrokortison intravenöst",
+                    "D) Antipsykotiska läkemedel"
+                ],
+                "correct_answer": "C) Hydrokortison intravenöst",
+                "explanation": "Vid en Addisonkris är det viktigt att snabbt ge hydrokortison intravenöst för att stabilisera patientens tillstånd."
+            },
+            {
+                "question": "Vilka långsiktiga behandlingar är lämpliga för patienter med Addisons sjukdom?",
+                "options": [
+                    "A) Peroral kortisonsubstitution och mineralkortikoid",
+                    "B) Antibiotika och antivirala medel",
+                    "C) Insulin och orala antidiabetika",
+                    "D) Immunosuppressiva läkemedel"
+                ],
+                "correct_answer": "A) Peroral kortisonsubstitution och mineralkortikoid",
+                "explanation": "Långsiktig behandling för Addisons sjukdom inkluderar peroral kortisonsubstitution och mineralkortikoider för att ersätta bristen på binjurebarkshormoner."
+            },
+            {
+                "question": "Vad bör Anna informeras om gällande hantering av Addisons sjukdom vid feber eller annan akut sjukdom?",
+                "options": [
+                    "A) Fortsätta med samma medicindos",
+                    "B) Öka dosen av hydrokortison vid feber",
+                    "C) Sluta ta medicinen tillfälligt",
+                    "D) Endast ta medicin vid allvarliga symtom"
+                ],
+                "correct_answer": "B) Öka dosen av hydrokortison vid feber",
+                "explanation": "Patienter med Addisons sjukdom bör öka dosen av hydrokortison vid feber eller annan akut sjukdom för att hantera den ökade stressen på kroppen."
+            }
+        ],
+        "recommended_treatment_plan": [
+            {
+                "condition": "Addisons sjukdom",
+                "treatment": "Peroral kortisonsubstitution med hydrokortison och mineralkortikoid (fludrokortison)."
+            },
+            {
+                "condition": "Addisonkris",
+                "treatment": "Akut behandling med hydrokortison intravenöst och rikligt med intravenös vätska."
+            },
+            {
+                "condition": "Feber eller akut sjukdom hos patient med Addisons sjukdom",
+                "treatment": "Öka dosen av hydrokortison per grad temperaturökning över 37 grader."
+            }
+        ]
+    },
+    {
+        "case_description": "Lukas, en 7-årig pojke, har under ett par dagar upplevt kraftiga buksmärtor, illamående och kräkningar. Vid ankomst till akuten är han blek, har takykardi och är allmänt medtagen. Föräldrarna rapporterar att Lukas inte har kissat på flera timmar och hans senaste blodtrycksmätning var svår att bedöma. Vid undersökningen noteras ömhet vid palpation av nedre högra kvadranten av buken.",
+        "questions": [
+            {
+                "question": "Vilken av följande är den mest sannolika diagnosen för Lukas symptom?",
+                "options": [
+                    "A) Gastroenterit",
+                    "B) Obstipation",
+                    "C) Appendicit",
+                    "D) Diabetes mellitus"
+                ],
+                "correct_answer": "C) Appendicit",
+                "explanation": "Lukas symptom på kraftiga buksmärtor, illamående, kräkningar och ömhet vid palpation av nedre högra kvadranten tyder på appendicit."
+            },
+            {
+                "question": "Vilken initial behandling bör ges till Lukas vid misstanke om appendicit?",
+                "options": [
+                    "A) Observation hemma",
+                    "B) Smärtlindring och uppvätskning",
+                    "C) Antibiotikabehandling utan vidare åtgärd",
+                    "D) Kognitiv beteendeterapi (KBT)"
+                ],
+                "correct_answer": "B) Smärtlindring och uppvätskning",
+                "explanation": "Vid misstanke om appendicit bör initial behandling inkludera smärtlindring och uppvätskning, samt förberedelser för eventuell operation."
+            },
+            {
+                "question": "Vilken diagnostisk metod är lämplig för att bekräfta diagnosen appendicit hos Lukas?",
+                "options": [
+                    "A) Röntgen av buken",
+                    "B) Ultraljud av buken",
+                    "C) Magnetresonanstomografi (MRT)",
+                    "D) Elektrokardiogram (EKG)"
+                ],
+                "correct_answer": "B) Ultraljud av buken",
+                "explanation": "Ultraljud av buken är en lämplig diagnostisk metod för att bekräfta appendicit hos barn på grund av dess höga diagnostiska precision och säkerhet."
+            },
+            {
+                "question": "Vilken åtgärd bör vidtas om Lukas tillstånd försämras och han visar tecken på chock?",
+                "options": [
+                    "A) Ge smärtlindring och skicka hem honom",
+                    "B) Initiera antibiotikabehandling och avvakta",
+                    "C) Påbörja intensivvätskeersättning och överväga kirurgisk intervention",
+                    "D) Vänta ytterligare 12 timmar och omvärdera"
+                ],
+                "correct_answer": "C) Påbörja intensivvätskeersättning och överväga kirurgisk intervention",
+                "explanation": "Vid tecken på chock bör intensivvätskeersättning påbörjas omedelbart och kirurgisk intervention övervägas för att stabilisera patienten."
+            }
+        ],
+        "recommended_treatment_plan": [
+            {
+                "condition": "Misstänkt appendicit",
+                "treatment": "Smärtlindring, uppvätskning och förberedelse för ultraljudsundersökning samt eventuell kirurgi."
+            },
+            {
+                "condition": "Bekräftad appendicit",
+                "treatment": "Kirurgisk intervention (appendektomi) och perioperativ antibiotikabehandling."
+            },
+            {
+                "condition": "Tecken på chock",
+                "treatment": "Intensivvätskeersättning med Plasmalyte eller Ringer-Acetat, kontinuerlig övervakning och akut kirurgisk bedömning."
+            }
+        ]
+    },{
+        "case_description": "Emma, en 8-årig flicka, har haft buksmärtor i ett par dagar som förvärrats och nu åtföljs av illamående och kräkningar. Hon har också haft feber och hennes föräldrar märker att hon är ovanligt trött och orolig. Vid undersökning visar Emma ömhet i nedre högra kvadranten av buken och har svårt att röra sig utan att känna smärta.",
+        "questions": [
+            {
+                "question": "Vilken av följande är den mest sannolika diagnosen för Emmas symptom?",
+                "options": [
+                    "A) Obstipation",
+                    "B) Gastroenterit",
+                    "C) Appendicit",
+                    "D) Urinvägsinfektion"
+                ],
+                "correct_answer": "C) Appendicit",
+                "explanation": "Emmas symptom på buksmärtor, illamående, kräkningar och ömhet i nedre högra kvadranten tyder på appendicit."
+            },
+            {
+                "question": "Vilken undersökning är förstahandsval vid misstanke om appendicit hos Emma?",
+                "options": [
+                    "A) Lungröntgen",
+                    "B) Kolonröntgen",
+                    "C) Buköversikt (BÖS)",
+                    "D) Ultraljud"
+                ],
+                "correct_answer": "D) Ultraljud",
+                "explanation": "Ultraljud är förstahandsval vid misstanke om appendicit hos barn eftersom det är en säker och effektiv metod för att visualisera en inflammerad appendix."
+            },
+            {
+                "question": "Vilken differentialdiagnos är viktig att överväga vid akut buksmärta hos barn som Emma?",
+                "options": [
+                    "A) Pneumoni",
+                    "B) Otit",
+                    "C) Urinvägsinfektion",
+                    "D) Alla ovanstående"
+                ],
+                "correct_answer": "D) Alla ovanstående",
+                "explanation": "Pneumoni, otit och urinvägsinfektion är alla viktiga differentialdiagnoser att överväga vid akut buksmärta hos barn, eftersom dessa tillstånd kan presentera sig med buksmärta."
+            },
+            {
+                "question": "Vad är den lämpligaste omedelbara åtgärden för Emma på akutmottagningen?",
+                "options": [
+                    "A) Hemgång med poliklinisk uppföljning",
+                    "B) Observation och smärtlindring",
+                    "C) Akut operation",
+                    "D) Antibiotikabehandling och avvakta"
+                ],
+                "correct_answer": "B) Observation och smärtlindring",
+                "explanation": "Initialt bör Emma observeras och få smärtlindring för att noggrant bedöma hennes tillstånd och behovet av eventuell kirurgi."
+            }
+        ],
+        "recommended_treatment_plan": [
+            {
+                "condition": "Misstänkt appendicit",
+                "treatment": "Ultraljud för att bekräfta diagnosen, följt av observation, smärtlindring och förberedelse för eventuell kirurgi."
+            },
+            {
+                "condition": "Bekräftad appendicit",
+                "treatment": "Kirurgisk intervention (appendektomi) och perioperativ antibiotikabehandling."
+            },
+            {
+                "condition": "Differentialdiagnostik vid buksmärta",
+                "treatment": "Uteslutning av andra orsaker som urinvägsinfektion, pneumoni och otit genom relevant anamnes, fysisk undersökning och laboratorieprover."
+            }
+        ]
+    }]
