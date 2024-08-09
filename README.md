@@ -80,3 +80,27 @@ python evaluate_performance.py
 ```
 
 > Note: The scripts have to be run from the root directory of the project.
+
+## Test files
+We have added test files that are encrypted. If you need access please ask the repo maintainers for the password.
+
+To decrypt them. First intall gpg
+
+## Linux
+1. Install GPG
+If you don't have gpg installed, you can install it:
+
+## Mac
+sudo apt-get install gnupg
+brew install gnupg
+## Windows
+Download https://gpg4win.org/
+
+```
+gpg your_file.json.gpg
+```
+
+### Encrypting new files
+If you want to encrypt new files
+gpg -c your_file.json
+
