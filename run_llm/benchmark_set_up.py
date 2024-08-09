@@ -101,7 +101,9 @@ class SpecialistQuestions(Benchmark):
 
     def __load_data(self):
         combined_data = {}
-        pathlist = Path("./benchmarks/specalist_questions").glob('*.json')
+        pathlist = list(Path("./benchmarks/specalist_questions").glob('*.json'))
+        pathlist.append(Path("./benchmarks/specialist_questions/gp/fall_descriptions.json"))
+        pathlist.append(Path("./benchmarks/specialist_questions/emergency_medicine/emergency_medicine.json"))
         for path in pathlist:
             with open(str(path), "r") as file:
                 data = json.load(file)
