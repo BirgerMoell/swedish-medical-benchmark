@@ -60,7 +60,7 @@ class PubMedQALSWE(Benchmark):
         return self.prompt.format(question=v["QUESTION"])
 
 
-class GeneralPractioner(Benchmark):
+class GeneralPractioner_Old(Benchmark):
     def __init__(self, prompt: str = ""):
         self.data = json.loads(
             Path(
@@ -80,6 +80,48 @@ class GeneralPractioner(Benchmark):
     
     def final_prompt_format(self, v):
         return self.prompt.format(question=v["QUESTION"], options=", ".join(v[self.answer_options]))
+
+
+class GeneralPractioner(Benchmark):
+    def __init__(self, prompt: str = ""):
+        self.data = json.loads(
+            Path(
+                "./benchmarks/specialist_questions/gp/fall_description_clinical_format.json"
+            ).read_text()
+        )
+        self.prompt = prompt
+        self.name = "GeneralPractioner"
+        self.label_tag_groups = []
+
+    def get_ground_truth(self):
+        return np.asarray([v["Answer"].lower() for v in self.data.values()])
+
+    def detect_answers(self, llm_answers):
+        return np.asarray([i.strip().lower() for i in llm_answers])
+    
+    def final_prompt_format(self, v):
+        return self.prompt.format(question=v["Question"])
+     
+
+class EmergencyMedicine(Benchmark):
+    def __init__(self, prompt: str = ""):
+        self.data = json.loads(
+            Path(
+                "./benchmarks/specialist_questions/emergency_medicine/emergency_medicine_clinical_format.json"
+            ).read_text()
+        )
+        self.prompt = prompt
+        self.name = "EmergencyMedicine"
+        self.label_tag_groups = []
+
+    def get_ground_truth(self):
+        return np.asarray([v["Answer"].lower() for v in self.data.values()])
+
+    def detect_answers(self, llm_answers):
+        return np.asarray([i.strip().lower() for i in llm_answers])
+    
+    def final_prompt_format(self, v):
+        return self.prompt.format(question=v["Question"])
     
 
 class SpecialistQuestions(Benchmark):
@@ -143,5 +185,7 @@ def get_benchmark_by_name(name: str):
         return SpecialistQuestions()
     elif name == "SwedishDoctorsExam":
         return SwedishDoctorsExam()
+    elif name == "EmergencyMedicine":
+        return EmergencyMedicine()
     else:
         raise ValueError(f"Unknown benchmark: {name}")
