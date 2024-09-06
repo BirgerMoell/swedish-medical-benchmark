@@ -15,22 +15,33 @@ MODEL_NAME = (
     "gpt-4-0125-preview"  # Specify the model to use. It doesn't need to be from OpenAI.
 )
 PubMedQALSWE_SYSTEM_PROMPT = "Du är en utmärkt läkare och skriver ett läkarprov. Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av: 'ja', 'nej', eller 'kanske'. Det är viktigt att du begränsar ditt svar till dessa alternativ för att säkerställa tydlighet i kommunikationen."
-GeneralPractioner_SYSTEM_PROMPT = "Du är en utmärkt läkare och skriver ett läkarprov. Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av alternativen."
+GeneralPractioner_SYSTEM_PROMPT = "Du är en utmärkt läkare och specialist i allmänmedicin. Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av alternativen."
 SwedishDoctorsExam = "Du är en utmärkt läkare och skriver ett läkarprov. Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av alternativen. Svara med hela svarsalternativet. Utöver det är det viktigt att du inte inkluderar någon annan text i ditt svar."
 # Make sure to uncomment the benchmarks you want to run
 BENCHMARKS = [
-    benchmarks.PubMedQALSWE(
-        prompt=PubMedQALSWE_SYSTEM_PROMPT
-        + "\n\nFråga:\n{question}\n\nSvara endast 'ja', 'nej' eller 'kanske'."
-    )
+    # benchmarks.PubMedQALSWE(
+    #     prompt=PubMedQALSWE_SYSTEM_PROMPT
+    #     + "\n\nFråga:\n{question}\n\nSvara endast 'ja', 'nej' eller 'kanske'."
+    # )
     # Uncomment to also run the GeneralPractioner benchmark
     # benchmarks.GeneralPractioner(
     #     prompt=GeneralPractioner_SYSTEM_PROMPT
     #     + "\n\nFråga:\n{question}\nAlternativ:{options}\n\nSvara endast ett av alternativen."
     # ),
+    #benchmarks.EmergencyMedicine(prompt=GeneralPractioner_SYSTEM_PROMPT + "\n\nFråga:\n{question}\n\nSvara med endast ett av alternativen. Svara med hela svarsalternativet."),
+    benchmarks.GeneralPractioner(prompt=GeneralPractioner_SYSTEM_PROMPT + "\n\nFråga:\n{question}\n\nSvara med endast ett av alternativen. Svara med hela svarsalternativet."),
     # benchmarks.SwedishDoctorsExam(prompt=SwedishDoctorsExam + "\n\nFråga:\n{question}\n\nSvara med endast ett av alternativen. Svara med hela svarsalternativet."),
 ]
-os.environ["OPENAI_API_KEY"] = "set-key-here"  # Set your api key and key name.
+
+# get the api key from dotenv
+# 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
 
 # Functions
@@ -60,6 +71,8 @@ if __name__ == "__main__":
         ground_truths = benchmark.get_ground_truth()
 
         for k, v in tqdm(benchmark.data.items(), desc=f"Processing {benchmark.name}"):
+            content = benchmark.final_prompt_format(v)
+            print("the content is", content)
             messages = [
                 {
                     "role": "user",
@@ -71,7 +84,9 @@ if __name__ == "__main__":
                 messages=messages,
                 max_tokens=benchmark.max_tokens,
             )
+            print("the output is", out)
             llm_results.append(get_response(out))
+
             predictions = benchmark.detect_answers(llm_results)
             ids.append(k)
             result[benchmark.name] = {
