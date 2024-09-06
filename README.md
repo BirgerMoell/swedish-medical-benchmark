@@ -5,7 +5,7 @@ Welcome to the official repository for the Swedish Medical Benchmark! This proje
 
 ## Goals 🎯
 
-This project focuses on three primary goals:
+This benchmarks goal is to understand how well LLMs work within the Swedish Medical context in order to help developers and healthcare professionals make decisions regarding how to use LLMs in the healthcare domain.
 
 ## Translate Benchmarks to Swedish 📚➡️🇸🇪
 
