@@ -38,18 +38,28 @@ See more information regarding implemented benchamrks in the [Benchmarks readme]
 - Diverse datasets representing Swedish demographics.
 - Collaboration with Swedish medical professionals to ensure relevance and accuracy.
 
-## Compare Model Performance on the Benchmark 📊🔍
+## Preliminary Results of LLMs on the Swedish Medical Benchmark
 
-| Metric                     | Eir                | Swe-PubMedQA-100   |
-|----------------------------|--------------------|--------------------|
-| Total Questions            | 100 📋             | 100 📋             |
-| Correct Answers            | 50 ✅              | -                  |
-| Incorrect Answers          | 50 ❌              | -                  |
-| Malformed Answers          | 0 🚫               | -                  |
-| Accuracy                   | 50% 🎯             | -                  |
-| Number of yes              | 56 ✔️              | 60 ✔️              |
-| Number of no               | 29 ❎              | 30 ❎              |
-| Number of maybe            | 15 ➖              | 10 ➖              |
+| **Model**      | **PQ-S** | **SMDT** | **EM** | **GM**  | **SMB** |
+|----------------|----------|----------|--------|---------|---------|
+| **GPT-4o**     | -        | **83.18%** | 90.51% | 88.88%  | -       |
+| **GPT-4**      | 53.90%   | 79.07%   | **93.10%** | **93.09%** | **75.57%** |
+| **Claude-3.5** | -        | **83.74%** | -      | -       | -       |
+| **Llama3-70b** | 56.00%   | 69.91%   | 74.35% | 67.57%  | 64.88%  |
+| **Llama3-8b**  | 50.50%   | 41.68%   | -      | -       | -       |
+| **Llama3.1-70b** | -      | 71.40%   | 62.93% | 71.02%  | -       |
+| **Llama3.1-8b** | -       | 6.36%    | -      | -       | -       |
+| **Gemma2-9b**  | -        | 61.31%   | -      | -       | -       |
+| **Gemma-7b**   | 48.70%   | 27.48%   | -      | -       | -       |
+| **EIR**        | 46.50%   | -        | -      | -       | -       |
+| **GPT-3.5**    | 27.40%   | -        | -      | -       | -       |
+
+> **Note**: "-" indicates no evaluation. Accuracy is reported as a percentage (%).  
+> **PQ-S**: PubMedQA-Swedish-1000  
+> **SMDT**: Swedish Medical Doctors Test  
+> **EM**: Emergency Medicine  
+> **GM**: General Medicine  
+> **SMB**: Swedish Medical Benchmark
 
 ## Evaluating AI models on these benchmarks to understand their effectiveness and areas for improvement
 
