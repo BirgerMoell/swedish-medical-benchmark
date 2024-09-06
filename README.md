@@ -18,6 +18,18 @@ Create New Benchmark for Swedish 🛠️🆕
 
 ## Benchmarks
 
+## 🚀 Benchmarks
+
+We use multiple datasets to evaluate AI models, including:
+
+| **Benchmark**                  | **Questions** | **Description**                                                                                        |
+|---------------------------------|---------------|--------------------------------------------------------------------------------------------------------|
+| **PubMedQA-Swedish**            | 1000          | Translated PubMedQA questions with yes/no/maybe answers; tests models’ comprehension of medical literature. |
+| **Medical Doctors Knowledge Test** | 535          | Adapted from Swedish clinical exams; assesses broad medical knowledge.                                   |
+| **Emergency Medicine (SE-EM)**  | 464           | Time-critical scenarios for emergency medicine.                                                         |
+| **General Medicine (SE-GM)**    | 666           | Covers 200+ common disorders in general medicine; evaluates diagnosis and assessment.                    |
+
+
 See more information regarding implemented benchamrks in the [Benchmarks readme](benchmarks/BENCHMARK_DESCRIPTIONS.md) file.
 
 ## Develop benchmarks specifically for the Swedish context, incorporating
