@@ -3,58 +3,69 @@ import json
 import numpy as np
 import benchmark_set_up as benchmarks
 import datetime
+from gemini_client import GeminiClient
 
 from litellm import completion
 from tqdm import tqdm
 from time import sleep
 
+# models
+gemini_model = "gemini-2.5-flash-preview-04-17"
+gpt_model = "gpt-4-0125-preview"
 
 # Configuration
 # =============
 MODEL_NAME = (
-    "gpt-4-0125-preview"  # Specify the model to use. It doesn't need to be from OpenAI.
+    gemini_model  # Specify the model to use. It doesn't need to be from OpenAI.
 )
 PubMedQALSWE_SYSTEM_PROMPT = "Du är en utmärkt läkare och skriver ett läkarprov. Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av: 'ja', 'nej', eller 'kanske'. Det är viktigt att du begränsar ditt svar till dessa alternativ för att säkerställa tydlighet i kommunikationen."
 GeneralPractioner_SYSTEM_PROMPT = "Du är en utmärkt läkare och specialist i allmänmedicin. Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av alternativen."
 SwedishDoctorsExam = "Du är en utmärkt läkare och skriver ett läkarprov. Var vänlig och överväg varje aspekt av medicinska frågan nedan noggrant. Ta en stund, andas djupt, och när du känner dig redo, vänligen svara med endast ett av alternativen. Svara med hela svarsalternativet. Utöver det är det viktigt att du inte inkluderar någon annan text i ditt svar."
+
 # Make sure to uncomment the benchmarks you want to run
 BENCHMARKS = [
-    # benchmarks.PubMedQALSWE(
-    #     prompt=PubMedQALSWE_SYSTEM_PROMPT
-    #     + "\n\nFråga:\n{question}\n\nSvara endast 'ja', 'nej' eller 'kanske'."
-    # )
-    # Uncomment to also run the GeneralPractioner benchmark
-    # benchmarks.GeneralPractioner(
-    #     prompt=GeneralPractioner_SYSTEM_PROMPT
-    #     + "\n\nFråga:\n{question}\nAlternativ:{options}\n\nSvara endast ett av alternativen."
-    # ),
-    #benchmarks.EmergencyMedicine(prompt=GeneralPractioner_SYSTEM_PROMPT + "\n\nFråga:\n{question}\n\nSvara med endast ett av alternativen. Svara med hela svarsalternativet."),
     benchmarks.GeneralPractioner(prompt=GeneralPractioner_SYSTEM_PROMPT + "\n\nFråga:\n{question}\n\nSvara med endast ett av alternativen. Svara med hela svarsalternativet."),
-    # benchmarks.SwedishDoctorsExam(prompt=SwedishDoctorsExam + "\n\nFråga:\n{question}\n\nSvara med endast ett av alternativen. Svara med hela svarsalternativet."),
 ]
 
 # get the api key from dotenv
-# 
 import os
 from dotenv import load_dotenv
 
 load_dotenv()
 
-
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+os.environ["GEMINI_API_KEY"] = os.getenv("GEMINI_API_KEY")
 
+# Initialize Gemini client
+gemini_client = GeminiClient()
 
 # Functions
 # =========
 def get_response(messages: list[str]) -> str:
-    response = messages.choices[0].message
-    assert response["role"] == "assistant"
-    return response["content"].lower()
-
+    if MODEL_NAME.startswith("gemini") and True:
+        # Handle Gemini response format
+        return messages.lower()
+    else:
+        # Handle other models (like GPT) response format
+        response = messages.choices[0].message
+        assert response["role"] == "assistant"
+        return response["content"].lower()
 
 def timestamp():
     return datetime.datetime.now().isoformat()
 
+def calculate_metrics(predictions, ground_truths):
+    """Calculate and return accuracy metrics."""
+    correct = (predictions == ground_truths).sum()
+    total = len(ground_truths)
+    accuracy = correct / total if total > 0 else 0
+    malformed = (predictions == 'missformat').sum()
+    return {
+        'correct': correct,
+        'total': total,
+        'accuracy': accuracy,
+        'malformed': malformed
+    }
 
 # Main
 # ====
@@ -65,30 +76,58 @@ if __name__ == "__main__":
             "model_run": timestamp(),
         },
     }
+    
     for benchmark in BENCHMARKS:
+        print(f"\nProcessing benchmark: {benchmark.name}")
+        print("=" * 50)
+        
         llm_results = []
         ids = []
         ground_truths = benchmark.get_ground_truth()
-
-        for k, v in tqdm(benchmark.data.items(), desc=f"Processing {benchmark.name}"):
+        
+        # Create progress bar with additional metrics
+        pbar = tqdm(benchmark.data.items(), desc=f"Processing {benchmark.name}")
+        
+        for k, v in pbar:
             content = benchmark.final_prompt_format(v)
-            print("the content is", content)
-            messages = [
-                {
-                    "role": "user",
-                    "content": benchmark.final_prompt_format(v),
-                }
-            ]
-            out = completion(
-                model=MODEL_NAME,
-                messages=messages,
-                max_tokens=benchmark.max_tokens,
-            )
-            print("the output is", out)
-            llm_results.append(get_response(out))
+            
+            if MODEL_NAME.startswith("gemini"):
+                # Use Gemini client for Gemini models
+                out = gemini_client.generate_content(content)
+            else:
+                # Use litellm for other models
+                messages = [
+                    {
+                        "role": "user",
+                        "content": content,
+                    }
+                ]
+                out = completion(
+                    model=MODEL_NAME,
+                    messages=messages,
+                    max_tokens=benchmark.max_tokens,
+                )
+            
+            response = get_response(out)
+            print(f"Response: {response}")
 
+            llm_results.append(response)
+            
             predictions = benchmark.detect_answers(llm_results)
             ids.append(k)
+            
+            # Calculate current metrics
+            metrics = calculate_metrics(predictions, ground_truths[:len(predictions)])
+            
+            # Update progress bar description with metrics
+            pbar.set_postfix({
+                'Correct': metrics['correct'],
+                'Total': metrics['total'],
+                'Accuracy': f"{metrics['accuracy']:.2%}",
+                'Malformed': metrics['malformed']
+            })
+            
+            # Save results after each prediction
             result[benchmark.name] = {
                 "prompt": benchmark.prompt,
                 "ground_truths": ground_truths.tolist(),
@@ -97,13 +136,17 @@ if __name__ == "__main__":
             }
             with open("./results.json", "w") as f:
                 json.dump(result, f)
-            sleep(0)  # To avoid rate limiting, change as needed.
+            
+            sleep(3)  # To avoid rate limiting, change as needed.
 
-        assert len(ground_truths) == len(predictions)
-
-        print(f"Accuracy {(predictions == ground_truths).sum() / len(ground_truths)}")
-        print(f"Malformed answers {(predictions == 'missformat').sum()}")
+        # Final metrics
+        final_metrics = calculate_metrics(predictions, ground_truths)
+        print("\nFinal Results:")
+        print(f"Total Questions: {final_metrics['total']}")
+        print(f"Correct Answers: {final_metrics['correct']}")
+        print(f"Accuracy: {final_metrics['accuracy']:.2%}")
+        print(f"Malformed Answers: {final_metrics['malformed']}")
 
     print(
-        "Done! You can now run the evaluate_results.py script to get detailed performance metrics."
+        "\nDone! You can now run the evaluate_results.py script to get detailed performance metrics."
     )
