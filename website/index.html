@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swedish Medical Benchmark</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#1e40af',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <img src="logo.png" alt="Logo" class="h-8 w-auto">
+                    <span class="ml-2 text-xl font-bold text-gray-800">Swedish Medical Benchmark</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#benchmarks" class="text-gray-600 hover:text-primary">Benchmarks</a>
+                    <a href="#results" class="text-gray-600 hover:text-primary">Results</a>
+                    <a href="#about" class="text-gray-600 hover:text-primary">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-gradient-to-r from-primary to-secondary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="text-center">
+                <h1 class="text-4xl font-bold mb-4">🇸🇪 Swedish Medical Benchmark 🏥</h1>
+                <p class="text-xl mb-8">Revolutionizing AI assessment in Swedish healthcare</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#benchmarks" class="bg-white text-primary px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+                        Explore Benchmarks
+                    </a>
+                    <a href="https://discord.gg/gvJWkwrg" class="bg-[#5865F2] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#4752C4] transition duration-300 flex items-center">
+                        <i class="fab fa-discord mr-2"></i> Join Discord
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Benchmarks Section -->
+    <section id="benchmarks" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Benchmarks</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- PubMedQA-Swedish -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-book-medical text-2xl text-primary mr-3"></i>
+                        <h3 class="text-2xl font-semibold">PubMedQA-Swedish (PQ-S)</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">1000 questions testing medical literature comprehension</p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Translated from original English PubMedQA dataset using GPT-4</li>
+                        <li>Human-reviewed translations for accuracy</li>
+                        <li>Yes/No/Maybe answer format</li>
+                        <li>Tests evidence-based practice comprehension</li>
+                    </ul>
+                </div>
+
+                <!-- Medical Doctors Test -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-user-md text-2xl text-primary mr-3"></i>
+                        <h3 class="text-2xl font-semibold">Swedish Medical Doctors Test (SMDT)</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">535 questions from Swedish clinical exams</p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Five-option multiple choice questions</li>
+                        <li>Covers all medical specialties</li>
+                        <li>Based on actual clinical practice</li>
+                        <li>Text-based reasoning focus</li>
+                    </ul>
+                </div>
+
+                <!-- Emergency Medicine -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-ambulance text-2xl text-primary mr-3"></i>
+                        <h3 class="text-2xl font-semibold">Emergency Medicine (EM)</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">464 time-critical emergency scenarios</p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Four-option multiple choice questions</li>
+                        <li>Realistic emergency scenarios</li>
+                        <li>Focus on immediate medical attention</li>
+                        <li>Critical for safety assessment</li>
+                    </ul>
+                </div>
+
+                <!-- General Medicine -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-stethoscope text-2xl text-primary mr-3"></i>
+                        <h3 class="text-2xl font-semibold">General Medicine (GM)</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">666 questions covering 200+ common disorders</p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Comprehensive primary care coverage</li>
+                        <li>Represents 50% of patient interactions</li>
+                        <li>Focus on common disorders</li>
+                        <li>Tests diagnostic accuracy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Model Performance</h2>
+            <div class="overflow-x-auto bg-white rounded-xl shadow-lg">
+                <table class="min-w-full">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Model</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">PQ-S</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">SMDT</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">EM</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">GM</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 whitespace-nowrap font-medium">GPT-4</td>
+                            <td class="px-6 py-4 whitespace-nowrap">53.90%</td>
+                            <td class="px-6 py-4 whitespace-nowrap">79.07%</td>
+                            <td class="px-6 py-4 whitespace-nowrap">93.10%</td>
+                            <td class="px-6 py-4 whitespace-nowrap">93.09%</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 whitespace-nowrap font-medium">Claude-3.5</td>
+                            <td class="px-6 py-4 whitespace-nowrap">-</td>
+                            <td class="px-6 py-4 whitespace-nowrap">83.74%</td>
+                            <td class="px-6 py-4 whitespace-nowrap">-</td>
+                            <td class="px-6 py-4 whitespace-nowrap">-</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="px-6 py-4 whitespace-nowrap font-medium">Llama3-70b</td>
+                            <td class="px-6 py-4 whitespace-nowrap">56.00%</td>
+                            <td class="px-6 py-4 whitespace-nowrap">69.91%</td>
+                            <td class="px-6 py-4 whitespace-nowrap">74.35%</td>
+                            <td class="px-6 py-4 whitespace-nowrap">67.57%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">About the Project</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Our Mission</h3>
+                    <p class="text-gray-600 mb-6">
+                        The Swedish Medical Benchmark aims to revolutionize how we assess and develop AI models in the medical domain, 
+                        specifically tailored for the Swedish language. We're creating a more inclusive, accurate, and impactful AI in healthcare.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Get Involved</h3>
+                    <p class="text-gray-600 mb-6">
+                        Join our community of translators, data scientists, developers, and medical professionals to help shape the future 
+                        of healthcare AI in Sweden.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://discord.gg/gvJWkwrg" class="inline-flex items-center text-primary hover:text-secondary">
+                            Join our Discord <i class="fab fa-discord ml-2"></i>
+                        </a>
+                        <a href="https://github.com/BirgerMoell/swedish-medical-benchmark/" class="inline-flex items-center text-primary hover:text-secondary">
+                            GitHub <i class="fab fa-github ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Open Source Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Open Source Community</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-code-branch text-2xl text-primary mr-3"></i>
+                        <h3 class="text-xl font-semibold">Open Source</h3>
+                    </div>
+                    <p class="text-gray-600">
+                        Our project is completely open source, hosted on GitHub. We believe in transparency and collaboration to advance healthcare AI.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-hands-helping text-2xl text-primary mr-3"></i>
+                        <h3 class="text-xl font-semibold">Contribute</h3>
+                    </div>
+                    <p class="text-gray-600">
+                        We welcome contributions from everyone! Whether you're a developer, medical professional, or translator, your expertise is valuable.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star text-2xl text-primary mr-3"></i>
+                        <h3 class="text-xl font-semibold">Get Started</h3>
+                    </div>
+                    <p class="text-gray-600">
+                        Fork our repository, pick a task from the issues tab, and follow our contribution guidelines to make your first contribution.
+                    </p>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <a href="https://github.com/BirgerMoell/swedish-medical-benchmark/" class="inline-flex items-center bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-700 transition duration-300">
+                    <i class="fab fa-github mr-2"></i> View on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p>&copy; 2025 Swedish Medical Benchmark. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
