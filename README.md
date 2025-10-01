@@ -128,21 +128,20 @@ gpg -c your_file.json
 
 ## Paper
 Our paper is published in Frontiers.
-https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1557920/full
 
 **Swedish Medical LLM Benchmark (SMLB): Development and Evaluation of a Framework for Assessing Large Language Models in the Swedish Medical Domain**  
-*Birger Moëll, Jonas Beskow, Fabian Farenstam*  
+*Birger Moëll, Fabian Farenstam, Jonas Beskow*  
 Frontiers in Artificial Intelligence, 2025, 8:1557920  
 [Read the paper](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1557920/full) · [PDF](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1557920/pdf)
 
 
 
-Please cite the following paper.
+### 📚 Cite this work
 
 ```bibtex
 @article{moell2025swedish,
   title        = {Swedish Medical LLM Benchmark (SMLB): Development and Evaluation of a Framework for Assessing Large Language Models in the Swedish Medical Domain},
-  author       = {Mo{\"e}ll, Birger and Beskow, Jonas and Farenstam, Fabian},
+  author       = {Mo{\"e}ll, Birger and Farenstam, Fabian and Beskow, Jonas},
   journal      = {Frontiers in Artificial Intelligence},
   volume       = {8},
   pages        = {1557920},
