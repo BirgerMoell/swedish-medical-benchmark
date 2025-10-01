@@ -126,3 +126,19 @@ gpg your_file.json.gpg
 If you want to encrypt new files
 gpg -c your_file.json
 
+## Paper
+Our paper is published in Frontiers.
+
+Please cite the following paper.
+
+```bibtex
+@article{moell2025swedish,
+  title        = {Swedish Medical LLM Benchmark (SMLB): Development and Evaluation of a Framework for Assessing Large Language Models in the Swedish Medical Domain},
+  author       = {Mo{\"e}ll, Birger and Beskow, Jonas and Farenstam, Fabian},
+  journal      = {Frontiers in Artificial Intelligence},
+  volume       = {8},
+  pages        = {1557920},
+  year         = {2025},
+  publisher    = {Frontiers}
+}
+
