@@ -1,164 +1,175 @@
-# 🇸🇪 Swedish Medical Benchmark 🏥💻
+# Swedish Medical Benchmark (SMLB)
 
-<img src="logo.png">
-Welcome to the official repository for the Swedish Medical Benchmark! This project aims to revolutionize how we assess and develop AI models in the medical domain, specifically tailored for the Swedish language. With your help, we can create a more inclusive, accurate, and impactful AI in healthcare. Let's make AI work for everyone!
+![Swedish Medical Benchmark overview](SMLB.png)
 
-## Goals 🎯
+**A framework for evaluating large language models in the Swedish medical domain.**
 
-This benchmarks goal is to understand how well LLMs work within the Swedish Medical context in order to help developers and healthcare professionals make decisions regarding how to use LLMs in the healthcare domain.
+SMLB brings together Swedish medical exams, clinical case questions, emergency
+medicine scenarios, general medicine cases, and translated biomedical literature
+questions into one open benchmark suite. The goal is simple: make it easier to
+measure how well language models handle Swedish medical reasoning, terminology,
+and clinically relevant multiple-choice tasks.
 
-## Translate Benchmarks to Swedish 📚➡️🇸🇪
+[Paper](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1557920/full) ·
+[PDF](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1557920/pdf) ·
+[Benchmark descriptions](benchmarks/BENCHMARK_DESCRIPTIONS.md) ·
+[GRPO dataset](grpo/README.md)
 
-Making existing benchmarks accessible to the Swedish-speaking medical community is crucial. This step involves:
+## What Is Included
 
-Identifying key medical benchmarks in AI.
-Translating these benchmarks into Swedish.
-Ensuring the translations maintain the clinical integrity of the original benchmarks.
-Create New Benchmark for Swedish 🛠️🆕
+| Benchmark | Short name | Questions | Task shape | Notes |
+|---|---:|---:|---|---|
+| PubMedQA-Swedish | PQ-S | 1,000 | yes/no/maybe | Swedish translation of PubMedQA for medical literature comprehension |
+| Swedish Medical Doctors Test | SMDT | 535 | multiple choice | Swedish clinical exam-style questions across broad medical knowledge |
+| Emergency Medicine | SE-EM | 464 | multiple choice | Time-critical emergency medicine scenarios |
+| General Medicine | SE-GM | 666 | multiple choice | Primary-care-oriented cases covering 200+ common disorders |
+| Specialist questions | SMB | varies | multiple choice | Specialty-specific Swedish medical questions |
+| GRPO/RLVR dataset | SMLB-GRPO | 2,261 | reward-verifiable MCQ | Native Swedish subset for RL experiments with deterministic rewards |
 
-## Benchmarks
+## Why This Exists
 
-## 🚀 Benchmarks
+Most medical LLM benchmarks are English-first. Swedish healthcare has its own
+clinical language, exam traditions, documentation style, abbreviations, and
+practice context. SMLB helps researchers and builders evaluate whether a model
+can work with those Swedish-specific conditions instead of only general English
+medical knowledge.
 
-We use multiple datasets to evaluate AI models, including:
+This benchmark is intended for research, evaluation, and medical education
+experiments. It is not a clinical decision system.
 
-| **Benchmark**                  | **Questions** | **Description**                                                                                        |
-|---------------------------------|---------------|--------------------------------------------------------------------------------------------------------|
-| **PubMedQA-Swedish**            | 1000          | Translated PubMedQA questions with yes/no/maybe answers; tests models’ comprehension of medical literature. |
-| **Medical Doctors Knowledge Test** | 535          | Adapted from Swedish clinical exams; assesses broad medical knowledge.                                   |
-| **Emergency Medicine (SE-EM)**  | 464           | Time-critical scenarios for emergency medicine.                                                         |
-| **General Medicine (SE-GM)**    | 666           | Covers 200+ common disorders in general medicine; evaluates diagnosis and assessment.                    |
+## Quickstart
 
+Use Python 3.10 or newer.
 
-See more information regarding implemented benchamrks in the [Benchmarks readme](benchmarks/BENCHMARK_DESCRIPTIONS.md) file.
-
-## Develop benchmarks specifically for the Swedish context, incorporating
-
-- Unique medical terminology and practices in Sweden.
-- Diverse datasets representing Swedish demographics.
-- Collaboration with Swedish medical professionals to ensure relevance and accuracy.
-
-## Preliminary Results of LLMs on the Swedish Medical Benchmark
-
-| **Model**      | **PQ-S** | **SMDT** | **EM** | **GM**  | **SMB** |
-|----------------|----------|----------|--------|---------|---------|
-| **GPT-4o**     | -        | **83.18%** | 90.51% | 88.88%  | -       |
-| **GPT-4**      | 53.90%   | 79.07%   | **93.10%** | **93.09%** | **75.57%** |
-| **Claude-3.5** | -        | **83.74%** | -      | -       | -       |
-| **Llama3-70b** | 56.00%   | 69.91%   | 74.35% | 67.57%  | 64.88%  |
-| **Llama3-8b**  | 50.50%   | 41.68%   | -      | -       | -       |
-| **Llama3.1-70b** | -      | 71.40%   | 62.93% | 71.02%  | -       |
-| **Llama3.1-8b** | -       | 6.36%    | -      | -       | -       |
-| **Gemma2-9b**  | -        | 61.31%   | -      | -       | -       |
-| **Gemma-7b**   | 48.70%   | 27.48%   | -      | -       | -       |
-| **EIR**        | 46.50%   | -        | -      | -       | -       |
-| **GPT-3.5**    | 27.40%   | -        | -      | -       | -       |
-
-> **Note**: "-" indicates no evaluation. Accuracy is reported as a percentage (%).  
-> **PQ-S**: PubMedQA-Swedish-1000  
-> **SMDT**: Swedish Medical Doctors Test  
-> **EM**: Emergency Medicine  
-> **GM**: General Medicine  
-> **SMB**: Swedish Medical Benchmark
-
-## Evaluating AI models on these benchmarks to understand their effectiveness and areas for improvement
-
-Implementing a standardized evaluation framework.
-Encouraging the submission of AI models for testing.
-Publishing results to foster transparency and continuous improvement.
-Contributing 🤝
-Your expertise and enthusiasm can drive this project forward. Here's how you can contribute:
-
-- Translators 📝: Help us bring existing benchmarks to Swedish speakers.
-- Data Scientists and Developers 💻: Work on creating the new benchmark, implementing the evaluation framework, and testing AI models.
-- Medical Professionals 🩺: Provide insights into Swedish medical practices and validate the clinical relevance of benchmarks.
-
-## Get Started 🚀
-
-Fork this repository to your account.
-Pick a task from the issues tab that resonates with your skills and interests.
-Follow the contribution guidelines in the CONTRIBUTING.md file for detailed instructions on how to make your contributions count.
-Stay Connected 💬
-Join our community on Discord for discussions, updates, and collaboration opportunities. Together, we can make a difference in healthcare AI!
-<https://discord.gg/AgDx34t2>
-
-## Usage 🛠
-
-> Note: Make sure that you have Python 3.10 or higher installed on your machine.
-
-First  you n️eed to install the requirements:
 ```bash
 pip install -r requirements.txt
-```
-
-Then you can run the file associated with the LLM model, make sure to adjust the configuration in the file to your needs. For instance:
-```bash
 python run_llm/huggingface.py
-```
-
-For more detailed metrics run the evaluation script:
-```bash
 python evaluate_performance.py
 ```
 
-> Note: The scripts have to be run from the root directory of the project.
+Run commands from the repository root.
 
-## GRPO/RLVR Dataset and Training
+## GRPO / RLVR Experiments
 
-This repository can also be converted into a compact Swedish medical GRPO dataset
-for reinforcement learning with verifiable rewards. The default build uses native
-Swedish medical exam and clinical-case sources, and excludes translated MedQA.
+The repo includes a compact GRPO/RLVR dataset for experiments with verifiable
+medical multiple-choice rewards. The default build uses native Swedish sources
+and excludes translated MedQA.
 
 ```bash
 python grpo/build_grpo_dataset.py --output-dir data/grpo
+python grpo/smoke_local_mac.py --dataset-dir data/grpo
 ```
 
-CUDA training with TRL is documented in [grpo/README.md](grpo/README.md). A
-small-model smoke run can start from:
+CUDA training with TRL:
 
 ```bash
 pip install -r requirements-grpo.txt
-python grpo/smoke_local_mac.py --dataset-dir data/grpo
-python grpo/train_grpo_cuda.py --model-name google/gemma-2-2b-it --dataset-dir data/grpo --bf16
+python grpo/train_grpo_cuda.py \
+  --model-name google/gemma-2-2b-it \
+  --dataset-dir data/grpo \
+  --output-dir outputs/gemma2-2b-smlb-grpo \
+  --bf16
 ```
 
-These files are intended for medical education and reasoning experiments, not
-for clinical deployment.
+The GRPO dataset currently contains:
 
-## Test files
-We have added test files that are encrypted. If you need access please ask the repo maintainers for the password.
+| Split | Rows |
+|---|---:|
+| train | 1,822 |
+| validation | 227 |
+| test | 212 |
 
-To decrypt them. First intall gpg
+See [grpo/README.md](grpo/README.md) for details on reward functions, local Mac
+smoke checks, optional translated PubMedQA inclusion, and CUDA settings.
 
-## Linux
-1. Install GPG
-If you don't have gpg installed, you can install it:
+## Preliminary Results
 
-## Mac
-sudo apt-get install gnupg
+Accuracy is reported as a percentage. A dash means that the model has not been
+evaluated on that benchmark in the current results table.
+
+| Model | PQ-S | SMDT | EM | GM | SMB |
+|---|---:|---:|---:|---:|---:|
+| GPT-4o | - | **83.18** | 90.51 | 88.88 | - |
+| GPT-4 | 53.90 | 79.07 | **93.10** | **93.09** | **75.57** |
+| Claude-3.5 | - | **83.74** | - | - | - |
+| Llama3-70b | 56.00 | 69.91 | 74.35 | 67.57 | 64.88 |
+| Llama3-8b | 50.50 | 41.68 | - | - | - |
+| Llama3.1-70b | - | 71.40 | 62.93 | 71.02 | - |
+| Llama3.1-8b | - | 6.36 | - | - | - |
+| Gemma2-9b | - | 61.31 | - | - | - |
+| Gemma-7b | 48.70 | 27.48 | - | - | - |
+| EIR | 46.50 | - | - | - | - |
+| GPT-3.5 | 27.40 | - | - | - | - |
+
+## Repository Map
+
+| Path | Purpose |
+|---|---|
+| [benchmarks/](benchmarks/) | Source benchmark datasets and benchmark descriptions |
+| [run_llm/](run_llm/) | Model runner setup for API and Hugging Face models |
+| [results/](results/) | Stored model result files |
+| [grpo/](grpo/) | GRPO dataset builder, local smoke tests, and CUDA training script |
+| [data/grpo/](data/grpo/) | Generated GRPO JSONL train/validation/test splits |
+| [docs/](docs/) | GitHub Pages-style project page |
+| [website/](website/) | Static website copy |
+
+## For AI Agents
+
+This section is intentionally explicit so coding agents can work on the repo
+without rediscovering the basics.
+
+- Project goal: evaluate LLMs on Swedish medical benchmark tasks.
+- Default working directory: repository root.
+- Use Python 3.10+.
+- Main evaluation entry point: `python evaluate_performance.py`.
+- Hugging Face runner example: `python run_llm/huggingface.py`.
+- Benchmark implementations live in `run_llm/benchmark_set_up.py`.
+- Human-readable benchmark descriptions live in `benchmarks/BENCHMARK_DESCRIPTIONS.md`.
+- GRPO dataset builder: `python grpo/build_grpo_dataset.py --output-dir data/grpo`.
+- Local GRPO sanity check: `python grpo/smoke_local_mac.py --dataset-dir data/grpo`.
+- CUDA GRPO script: `python grpo/train_grpo_cuda.py --model-name google/gemma-2-2b-it --dataset-dir data/grpo --bf16`.
+- Do not treat SMLB or SMLB-GRPO as clinical deployment data. Use it for evaluation, research, and medical education experiments.
+- Translated MedQA is not part of the default GRPO build. PubMedQA-Swedish can be included with `--include-translated-pubmedqa`.
+- Preserve provenance fields when adding data. New benchmark rows should keep source file, task type, answer format, and licensing notes clear.
+
+## Contributing
+
+Useful contributions include:
+
+- improving Swedish medical translations and terminology,
+- adding clinically reviewed Swedish questions,
+- expanding model evaluations,
+- improving benchmark loaders and metrics,
+- strengthening GRPO/RLVR data quality,
+- documenting dataset provenance and limitations.
+
+Medical professionals, translators, data scientists, and developers are all
+welcome. Join the community on Discord:
+<https://discord.gg/AgDx34t2>
+
+## Test Files
+
+Some test files are encrypted. Ask the maintainers for access if you need them.
+
+Install GPG:
+
+```bash
 brew install gnupg
-## Windows
-Download https://gpg4win.org/
-
 ```
+
+Decrypt a file:
+
+```bash
 gpg your_file.json.gpg
 ```
 
-### Encrypting new files
-If you want to encrypt new files
+Encrypt a new file:
+
+```bash
 gpg -c your_file.json
+```
 
-## Paper
-Our paper is published in Frontiers.
-
-**Swedish Medical LLM Benchmark (SMLB): Development and Evaluation of a Framework for Assessing Large Language Models in the Swedish Medical Domain**  
-*Birger Moëll, Fabian Farenstam, Jonas Beskow*  
-Frontiers in Artificial Intelligence, 2025, 8:1557920  
-[Read the paper](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1557920/full) · [PDF](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1557920/pdf)
-
-
-
-### 📚 Cite this work
+## Citation
 
 ```bibtex
 @article{moell2025swedish,
@@ -170,3 +181,4 @@ Frontiers in Artificial Intelligence, 2025, 8:1557920
   year         = {2025},
   publisher    = {Frontiers}
 }
+```
