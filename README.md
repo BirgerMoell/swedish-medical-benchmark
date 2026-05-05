@@ -17,19 +17,42 @@ and clinically relevant multiple-choice tasks.
 [Benchmark descriptions](benchmarks/BENCHMARK_DESCRIPTIONS.md) ·
 [GRPO dataset](grpo/README.md)
 
-## Figures From The Paper
+## What The Paper Figures Show
 
-The published paper includes several useful figures for understanding model
-performance, PubMedQA-Swedish behavior, and the relationship between SMLB and
-general benchmark performance.
+The figures tell a more interesting story than a leaderboard alone. Strong
+general-purpose models usually do well, but performance differs sharply across
+sub-benchmarks. PubMedQA-Swedish is especially revealing: several models show
+answer-label bias rather than balanced evidence comprehension, while the
+Swedish doctors test aligns strongly with broader general-knowledge benchmarks.
 
 | Model performance | PubMedQA-Swedish confusion matrices |
 |---|---|
 | ![Figure 1: Model performance with 95% confidence intervals](paper-figures/figure-1-model-performance.jpg) | ![Figure 2: Comparison of PubMedQA-Swedish confusion matrices for GPT-4-t and o3](paper-figures/figure-2-pqs-confusion-matrices.jpg) |
 
+**Figure 1** shows that the best-performing frontier models cluster near the top
+on emergency medicine, general medicine, and SMDT, while smaller/open models vary
+substantially. It also shows why a single aggregate score can hide important
+differences between literature comprehension, clinical exam knowledge, and
+case-based reasoning.
+
+**Figure 2** shows that PubMedQA-Swedish is not only about accuracy. The
+confusion matrices reveal different answer tendencies for `ja`, `nej`, and
+`kanske`; a model can look better or worse depending on whether it overuses a
+frequent label.
+
 | PubMedQA-Swedish F1 metrics | SMDT vs MMLU |
 |---|---|
 | ![Figure 3: Performance metrics of models on PubMedQA-Swedish](paper-figures/figure-3-pubmedqa-f1.jpg) | ![Figure 4: Comparison of SMDT and MMLU scores across models](paper-figures/figure-4-smdt-vs-mmlu.jpg) |
+
+**Figure 3** breaks PubMedQA-Swedish into label-level F1 scores. This makes the
+label imbalance visible: a model that performs well on `ja` may still struggle
+with `nej` or `kanske`, which is important for medical literature tasks where
+uncertainty matters.
+
+**Figure 4** compares SMDT with MMLU and shows a strong positive relationship.
+That suggests Swedish medical exam performance is partly linked to broad model
+capability, but SMLB still adds value by testing Swedish clinical language and
+domain-specific answer formats directly.
 
 Figures are reproduced from Moëll, Farestam and Beskow (2025), published in
 Frontiers in Artificial Intelligence under the Creative Commons Attribution
@@ -166,6 +189,27 @@ Useful contributions include:
 Medical professionals, translators, data scientists, and developers are all
 welcome. Join the community on Discord:
 <https://discord.gg/AgDx34t2>
+
+## How Can I Contribute?
+
+SMLB is most valuable when it improves in ways that are clinically meaningful,
+transparent, and easy to reproduce. High-impact contributions include:
+
+- **Clinicians:** review questions and answers, flag ambiguous cases, add notes
+  about Swedish clinical practice, and help identify unsafe benchmark
+  assumptions.
+- **Researchers:** run new model evaluations, compare prompting strategies,
+  analyze error patterns, and add statistically sound confidence intervals.
+- **Developers:** improve benchmark loaders, result parsing, reproducibility,
+  documentation, and CI checks.
+- **Data contributors:** add Swedish medical questions with clear provenance,
+  licensing, answer keys, and task format.
+- **RL/LLM contributors:** improve the GRPO/RLVR dataset, add reward checks,
+  test small-model training recipes, and document failure cases.
+
+When adding data, preserve provenance and licensing information. When adding
+results, include the exact model name, model version/date when available,
+prompting setup, decoding parameters, and evaluation script used.
 
 ## Test Files
 

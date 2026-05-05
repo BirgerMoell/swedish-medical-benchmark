@@ -351,6 +351,7 @@
         <a href="#results">Results</a>
         <a href="#figures">Figures</a>
         <a href="#grpo">GRPO</a>
+        <a href="#contribute">Contribute</a>
         <a href="https://github.com/BirgerMoell/swedish-medical-benchmark/">GitHub</a>
       </div>
     </nav>
@@ -437,29 +438,29 @@
     </section>
 
     <section id="figures" aria-labelledby="figures-title">
-      <h2 id="figures-title">Figures From The Paper</h2>
+      <h2 id="figures-title">What The Paper Figures Show</h2>
       <p class="section-intro">
-        The published Frontiers paper includes figures that make the benchmark
-        results easier to scan: model performance with uncertainty, PubMedQA
-        answer behavior, F1 breakdowns, and the relationship between SMDT and
-        MMLU.
+        The figures show that SMLB is not just a leaderboard. Strong models do
+        well overall, but the sub-benchmarks expose different behaviors:
+        emergency reasoning, broad Swedish medical exam knowledge, literature
+        comprehension, answer-label bias, and format reliability.
       </p>
       <div class="figure-grid">
         <figure class="paper-figure">
           <img src="paper-figures/figure-1-model-performance.jpg" alt="Model performance with 95 percent confidence intervals across SMLB subbenchmarks">
-          <figcaption>Figure 1. Performance of LLMs on the Swedish Medical LLM Benchmark.</figcaption>
+          <figcaption>Figure 1. Frontier models cluster near the top on EM, GM, and SMDT, but scores differ across benchmark types. The error bars make it easier to see which differences are meaningful.</figcaption>
         </figure>
         <figure class="paper-figure">
           <img src="paper-figures/figure-2-pqs-confusion-matrices.jpg" alt="Confusion matrices for PubMedQA-Swedish responses from GPT-4-t and o3">
-          <figcaption>Figure 2. PubMedQA-Swedish confusion matrices for GPT-4-t and o3.</figcaption>
+          <figcaption>Figure 2. PubMedQA-Swedish reveals label behavior. Models differ in how they use ja, nej, and kanske, so raw accuracy can hide answer bias.</figcaption>
         </figure>
         <figure class="paper-figure">
           <img src="paper-figures/figure-3-pubmedqa-f1.jpg" alt="F1 metrics for model performance on PubMedQA-Swedish yes no and maybe labels">
-          <figcaption>Figure 3. Performance metrics of models on PubMedQA-Swedish.</figcaption>
+          <figcaption>Figure 3. Label-level F1 shows whether a model is balanced across yes, no, and maybe answers. This matters for medical literature tasks where uncertainty is part of the answer.</figcaption>
         </figure>
         <figure class="paper-figure">
           <img src="paper-figures/figure-4-smdt-vs-mmlu.jpg" alt="Scatter plot comparing SMDT and MMLU scores across evaluated models">
-          <figcaption>Figure 4. Comparison of SMDT and MMLU scores across models.</figcaption>
+          <figcaption>Figure 4. SMDT correlates strongly with MMLU, suggesting broad model capability matters, while SMLB still tests Swedish medical language and clinical formats directly.</figcaption>
         </figure>
       </div>
       <p class="section-intro" style="margin-top: 18px;">
@@ -481,6 +482,39 @@
         Use this benchmark for evaluation, research, and medical education
         experiments. Do not treat it as a clinical decision system.
       </div>
+    </section>
+
+    <section id="contribute" aria-labelledby="contribute-title">
+      <h2 id="contribute-title">How Can I Contribute?</h2>
+      <p class="section-intro">
+        SMLB improves when contributions make the benchmark more clinically
+        meaningful, transparent, and reproducible. The most useful work is often
+        careful: reviewing medical correctness, documenting provenance, adding
+        clean evaluations, and making the tooling easier to run.
+      </p>
+      <div class="grid">
+        <article class="panel">
+          <h3>Clinicians</h3>
+          <p>Review questions and answers, flag ambiguity, add Swedish clinical practice notes, and identify unsafe assumptions.</p>
+        </article>
+        <article class="panel">
+          <h3>Researchers</h3>
+          <p>Run new model evaluations, analyze error patterns, compare prompting strategies, and report confidence intervals.</p>
+        </article>
+        <article class="panel">
+          <h3>Developers</h3>
+          <p>Improve loaders, parsing, reproducibility, documentation, CI checks, and local evaluation workflows.</p>
+        </article>
+        <article class="panel">
+          <h3>LLM / RL Contributors</h3>
+          <p>Extend the GRPO/RLVR dataset, strengthen reward checks, test small-model recipes, and document failure cases.</p>
+        </article>
+      </div>
+      <p class="section-intro" style="margin-top: 18px;">
+        New data should include source provenance, licensing, answer keys, and a
+        clear task format. New results should include model version, prompt,
+        decoding settings, and the evaluation script used.
+      </p>
     </section>
   </main>
 
