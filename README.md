@@ -4,6 +4,8 @@
 
 **A framework for evaluating large language models in the Swedish medical domain.**
 
+Created by **Birger Moëll**, **Fabian Farestam**, and **Jonas Beskow**.
+
 SMLB brings together Swedish medical exams, clinical case questions, emergency
 medicine scenarios, general medicine cases, and translated biomedical literature
 questions into one open benchmark suite. The goal is simple: make it easier to
@@ -14,6 +16,24 @@ and clinically relevant multiple-choice tasks.
 [PDF](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1557920/pdf) ·
 [Benchmark descriptions](benchmarks/BENCHMARK_DESCRIPTIONS.md) ·
 [GRPO dataset](grpo/README.md)
+
+## Figures From The Paper
+
+The published paper includes several useful figures for understanding model
+performance, PubMedQA-Swedish behavior, and the relationship between SMLB and
+general benchmark performance.
+
+| Model performance | PubMedQA-Swedish confusion matrices |
+|---|---|
+| ![Figure 1: Model performance with 95% confidence intervals](paper-figures/figure-1-model-performance.jpg) | ![Figure 2: Comparison of PubMedQA-Swedish confusion matrices for GPT-4-t and o3](paper-figures/figure-2-pqs-confusion-matrices.jpg) |
+
+| PubMedQA-Swedish F1 metrics | SMDT vs MMLU |
+|---|---|
+| ![Figure 3: Performance metrics of models on PubMedQA-Swedish](paper-figures/figure-3-pubmedqa-f1.jpg) | ![Figure 4: Comparison of SMDT and MMLU scores across models](paper-figures/figure-4-smdt-vs-mmlu.jpg) |
+
+Figures are reproduced from Moëll, Farestam and Beskow (2025), published in
+Frontiers in Artificial Intelligence under the Creative Commons Attribution
+License (CC BY).
 
 ## What Is Included
 
@@ -174,7 +194,7 @@ gpg -c your_file.json
 ```bibtex
 @article{moell2025swedish,
   title        = {Swedish Medical LLM Benchmark (SMLB): Development and Evaluation of a Framework for Assessing Large Language Models in the Swedish Medical Domain},
-  author       = {Mo{\"e}ll, Birger and Farenstam, Fabian and Beskow, Jonas},
+  author       = {Mo{\"e}ll, Birger and Farestam, Fabian and Beskow, Jonas},
   journal      = {Frontiers in Artificial Intelligence},
   volume       = {8},
   pages        = {1557920},

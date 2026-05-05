@@ -34,6 +34,7 @@
       --red: #9e3b26;
       --green: #4b612f;
       --white: #fffdf8;
+      --shadow: 0 18px 55px rgba(7, 27, 70, 0.12);
     }
 
     * {
@@ -119,6 +120,13 @@
       color: #3f4142;
       font-size: clamp(19px, 2.2vw, 28px);
       font-style: italic;
+    }
+
+    .byline {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
     }
 
     .actions {
@@ -238,6 +246,36 @@
       font-family: Arial, Helvetica, sans-serif;
     }
 
+    .figure-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .paper-figure {
+      margin: 0;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      overflow: hidden;
+      background: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .paper-figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #ffffff;
+    }
+
+    .paper-figure figcaption {
+      padding: 12px 14px;
+      border-top: 1px solid #eadfca;
+      color: var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+
     .table-wrap {
       overflow-x: auto;
       border: 1px solid var(--line);
@@ -293,7 +331,8 @@
       }
 
       .metrics,
-      .grid {
+      .grid,
+      .figure-grid {
         grid-template-columns: 1fr;
       }
 
@@ -310,6 +349,7 @@
       <div class="nav-links">
         <a href="#benchmarks">Benchmarks</a>
         <a href="#results">Results</a>
+        <a href="#figures">Figures</a>
         <a href="#grpo">GRPO</a>
         <a href="https://github.com/BirgerMoell/swedish-medical-benchmark/">GitHub</a>
       </div>
@@ -320,6 +360,7 @@
     <div class="hero-text">
       <h1>Swedish Medical Benchmark</h1>
       <p class="lead">A framework for evaluating large language models in the Swedish medical domain.</p>
+      <p class="byline">Created by Birger Moëll, Fabian Farestam, and Jonas Beskow.</p>
       <div class="actions">
         <a class="button" href="https://github.com/BirgerMoell/swedish-medical-benchmark/">View on GitHub</a>
         <a class="button secondary" href="https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1557920/full">Read the paper</a>
@@ -393,6 +434,39 @@
           </tbody>
         </table>
       </div>
+    </section>
+
+    <section id="figures" aria-labelledby="figures-title">
+      <h2 id="figures-title">Figures From The Paper</h2>
+      <p class="section-intro">
+        The published Frontiers paper includes figures that make the benchmark
+        results easier to scan: model performance with uncertainty, PubMedQA
+        answer behavior, F1 breakdowns, and the relationship between SMDT and
+        MMLU.
+      </p>
+      <div class="figure-grid">
+        <figure class="paper-figure">
+          <img src="paper-figures/figure-1-model-performance.jpg" alt="Model performance with 95 percent confidence intervals across SMLB subbenchmarks">
+          <figcaption>Figure 1. Performance of LLMs on the Swedish Medical LLM Benchmark.</figcaption>
+        </figure>
+        <figure class="paper-figure">
+          <img src="paper-figures/figure-2-pqs-confusion-matrices.jpg" alt="Confusion matrices for PubMedQA-Swedish responses from GPT-4-t and o3">
+          <figcaption>Figure 2. PubMedQA-Swedish confusion matrices for GPT-4-t and o3.</figcaption>
+        </figure>
+        <figure class="paper-figure">
+          <img src="paper-figures/figure-3-pubmedqa-f1.jpg" alt="F1 metrics for model performance on PubMedQA-Swedish yes no and maybe labels">
+          <figcaption>Figure 3. Performance metrics of models on PubMedQA-Swedish.</figcaption>
+        </figure>
+        <figure class="paper-figure">
+          <img src="paper-figures/figure-4-smdt-vs-mmlu.jpg" alt="Scatter plot comparing SMDT and MMLU scores across evaluated models">
+          <figcaption>Figure 4. Comparison of SMDT and MMLU scores across models.</figcaption>
+        </figure>
+      </div>
+      <p class="section-intro" style="margin-top: 18px;">
+        Figures reproduced from Moëll, Farestam and Beskow (2025), Frontiers in
+        Artificial Intelligence, under the Creative Commons Attribution License
+        (CC BY).
+      </p>
     </section>
 
     <section id="grpo" aria-labelledby="grpo-title">
