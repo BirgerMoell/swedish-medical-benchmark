@@ -1,0 +1,7 @@
+torch>=2.3
+transformers>=4.46
+datasets>=2.20
+accelerate>=0.34
+trl>=0.18.0
+peft>=0.12
+bitsandbytes>=0.43.3 ; platform_system != "Darwin"

@@ -1,0 +1,32 @@
+{
+  "name": "swedish-medical-grpo",
+  "description": "Deterministic GRPO/RLVR dataset for Swedish medical multiple-choice and label tasks.",
+  "language": "sv",
+  "seed": 42,
+  "counts": {
+    "train": 1822,
+    "validation": 227,
+    "test": 212
+  },
+  "benchmarks": {
+    "swedish_doctors_exam": 535,
+    "psychiatry": 77,
+    "general_medicine": 666,
+    "emergency_medicine": 464,
+    "general_practitioner": 102,
+    "cardiology": 90,
+    "anesthesiology": 67,
+    "hematology": 98,
+    "endocrinology": 48,
+    "dermatology": 80,
+    "neurology": 34
+  },
+  "reward_types": {
+    "mcq_letter_exact": 2261
+  },
+  "included_translated_pubmedqa": false,
+  "excluded_by_default": [
+    "benchmarks/medqa-swe"
+  ],
+  "caution": "For medical education/reasoning experiments only; not a clinical deployment dataset."
+}

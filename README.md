@@ -103,6 +103,28 @@ python evaluate_performance.py
 
 > Note: The scripts have to be run from the root directory of the project.
 
+## GRPO/RLVR Dataset and Training
+
+This repository can also be converted into a compact Swedish medical GRPO dataset
+for reinforcement learning with verifiable rewards. The default build uses native
+Swedish medical exam and clinical-case sources, and excludes translated MedQA.
+
+```bash
+python grpo/build_grpo_dataset.py --output-dir data/grpo
+```
+
+CUDA training with TRL is documented in [grpo/README.md](grpo/README.md). A
+small-model smoke run can start from:
+
+```bash
+pip install -r requirements-grpo.txt
+python grpo/smoke_local_mac.py --dataset-dir data/grpo
+python grpo/train_grpo_cuda.py --model-name google/gemma-2-2b-it --dataset-dir data/grpo --bf16
+```
+
+These files are intended for medical education and reasoning experiments, not
+for clinical deployment.
+
 ## Test files
 We have added test files that are encrypted. If you need access please ask the repo maintainers for the password.
 
@@ -148,4 +170,3 @@ Frontiers in Artificial Intelligence, 2025, 8:1557920
   year         = {2025},
   publisher    = {Frontiers}
 }
-
