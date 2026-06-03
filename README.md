@@ -85,12 +85,97 @@ experiments. It is not a clinical decision system.
 Use Python 3.10 or newer.
 
 ```bash
-pip install -r requirements.txt
-python run_llm/huggingface.py
-python evaluate_performance.py
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python run_llm/huggingface.py --output results/example-pubmedqa.json
+python evaluate_performance.py --results results/example-pubmedqa.json
 ```
 
-Run commands from the repository root.
+Run commands from the repository root. The default Hugging Face run evaluates
+`birgermoell/eir` on PubMedQA-Swedish and writes a SMLB-compatible results JSON.
+
+## Evaluate a Model
+
+Use this workflow when you want to evaluate a new model, compare two models, or
+measure a change such as fine-tuning, RAG, quantization, prompting, or decoding
+settings. The most important rule is to keep the benchmark list, prompt
+templates, and decoding settings fixed across the runs you want to compare.
+
+Choose the benchmark list before looking at the results. If you can, run every
+benchmark supported by your runner. If you only run a subset because of cost,
+context length, licensing, hardware, or a specific research question, report the
+subset clearly and avoid presenting it as a full SMLB score.
+
+```bash
+python run_llm/huggingface.py \
+  --model-name /path/to/model-or-hf-id \
+  --benchmarks EmergencyMedicine GeneralPractioner SwedishDoctorsExam PubMedQA-L-SWE \
+  --output results/my-model-smlb.json
+```
+
+For a before/after comparison, run the same command twice and only change the
+model path or ID:
+
+```bash
+python run_llm/huggingface.py \
+  --model-name /path/to/baseline-model \
+  --benchmarks EmergencyMedicine GeneralPractioner SwedishDoctorsExam PubMedQA-L-SWE \
+  --output results/my-model-baseline-smlb.json
+
+python run_llm/huggingface.py \
+  --model-name /path/to/changed-model \
+  --benchmarks EmergencyMedicine GeneralPractioner SwedishDoctorsExam PubMedQA-L-SWE \
+  --output results/my-model-changed-smlb.json
+```
+
+Then evaluate each result file. Saving the text report is helpful when opening a
+PR, comparing runs, or writing a paper:
+
+```bash
+python evaluate_performance.py \
+  --results results/my-model-smlb.json \
+  --save-result-path results/my-model-smlb-eval.txt
+```
+
+Each results JSON stores `llm_info`, benchmark names, prompts, item IDs, ground
+truths, and predictions. Keep the JSON file with the text report so the run can
+be audited later.
+
+### Reporting New Results
+
+When reporting or submitting a new model result, include enough information for
+someone else to reproduce the evaluation:
+
+- exact model name, provider, checkpoint, revision, or local checkpoint
+  description,
+- whether the model is base, instruction-tuned, fine-tuned, RAG-assisted,
+  quantized, merged, distilled, or otherwise modified,
+- benchmark list, number of evaluated questions per benchmark, and any skipped
+  benchmarks,
+- prompt templates and answer-format instructions,
+- decoding settings such as sampling, temperature, top-p, max tokens, and seed
+  when applicable,
+- hardware/runtime details if they affect the result, such as quantization,
+  precision, or inference framework,
+- SMLB commit hash and the exact runner and evaluation commands,
+- result JSON file and evaluation text output,
+- malformed-answer counts as well as accuracy/F1,
+- a contamination statement: whether SMLB questions, answers, explanations, or
+  prompts were used for training, synthetic data generation, prompt tuning,
+  reward modeling, retrieval, model selection, or manual debugging.
+
+If you want a model added to the public results table, open an issue or pull
+request with the result JSON, the text evaluation report, and the metadata above.
+Partial results are welcome when they are clearly marked. Results with known
+SMLB contamination can still be useful for analysis, but they should not be
+described as external benchmark results.
+
+Accuracy is useful for the multiple-choice tasks, but avoid relying on a single
+aggregate score. PubMedQA-Swedish is label-imbalanced, so inspect precision,
+recall, F1, and the confusion matrix for `ja`, `nej`, and `kanske`. For model
+comparison studies, report the per-benchmark delta and watch for regressions on
+benchmarks outside the target domain or tuning objective.
 
 ## GRPO / RLVR Experiments
 
@@ -164,8 +249,9 @@ without rediscovering the basics.
 - Project goal: evaluate LLMs on Swedish medical benchmark tasks.
 - Default working directory: repository root.
 - Use Python 3.10+.
-- Main evaluation entry point: `python evaluate_performance.py`.
-- Hugging Face runner example: `python run_llm/huggingface.py`.
+- Main evaluation entry point: `python evaluate_performance.py --results results/example-pubmedqa.json`.
+- Hugging Face runner example: `python run_llm/huggingface.py --model-name /path/to/model --benchmarks PubMedQA-L-SWE --output results/example-pubmedqa.json`.
+- Supported Hugging Face benchmark names: `PubMedQA-L-SWE`, `GeneralPractioner`, `EmergencyMedicine`, `SwedishDoctorsExam`.
 - Benchmark implementations live in `run_llm/benchmark_set_up.py`.
 - Human-readable benchmark descriptions live in `benchmarks/BENCHMARK_DESCRIPTIONS.md`.
 - GRPO dataset builder: `python grpo/build_grpo_dataset.py --output-dir data/grpo`.

@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Swedish Medical Benchmark: a framework for evaluating large language models in the Swedish medical domain.">
+  <meta name="description" content="Swedish Medical Benchmark: external evaluation and leaderboard for Swedish medical LLMs.">
   <meta name="author" content="Swedish Medical Benchmark">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Swedish Medical Benchmark">
   <meta property="og:title" content="Swedish Medical Benchmark (SMLB)">
-  <meta property="og:description" content="A framework for evaluating large language models in the Swedish medical domain.">
+  <meta property="og:description" content="External evaluation and leaderboard for Swedish medical LLMs.">
   <meta property="og:url" content="https://birgermoell.github.io/swedish-medical-benchmark/">
   <meta property="og:image" content="https://birgermoell.github.io/swedish-medical-benchmark/SMLB.png">
   <meta property="og:image:secure_url" content="https://birgermoell.github.io/swedish-medical-benchmark/SMLB.png">
@@ -18,7 +18,7 @@
   <meta property="og:image:alt" content="Overview diagram of the Swedish Medical Benchmark framework">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Swedish Medical Benchmark (SMLB)">
-  <meta name="twitter:description" content="A framework for evaluating large language models in the Swedish medical domain.">
+  <meta name="twitter:description" content="External evaluation and leaderboard for Swedish medical LLMs.">
   <meta name="twitter:image" content="https://birgermoell.github.io/swedish-medical-benchmark/SMLB.png">
   <meta name="twitter:image:alt" content="Overview diagram of the Swedish Medical Benchmark framework">
   <link rel="canonical" href="https://birgermoell.github.io/swedish-medical-benchmark/">
@@ -227,6 +227,49 @@
       gap: 16px;
     }
 
+    .workflow {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin: 26px 0 18px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .step {
+      border-top: 3px solid var(--blue);
+      padding-top: 14px;
+    }
+
+    .step strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--ink);
+      font-size: 16px;
+    }
+
+    .step p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .command-block {
+      margin: 18px 0;
+      padding: 16px 18px;
+      overflow-x: auto;
+      border: 1px solid rgba(7, 27, 70, 0.28);
+      border-radius: 6px;
+      background: #17213b;
+      color: var(--white);
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    .command-block code {
+      white-space: pre;
+    }
+
     .panel {
       border: 1px solid var(--line);
       border-radius: 6px;
@@ -332,6 +375,7 @@
 
       .metrics,
       .grid,
+      .workflow,
       .figure-grid {
         grid-template-columns: 1fr;
       }
@@ -348,7 +392,8 @@
       <a class="brand" href="#">Swedish Medical Benchmark</a>
       <div class="nav-links">
         <a href="#benchmarks">Benchmarks</a>
-        <a href="#results">Results</a>
+        <a href="#evaluate">Evaluate</a>
+        <a href="#leaderboard">Leaderboard</a>
         <a href="#figures">Figures</a>
         <a href="#grpo">GRPO</a>
         <a href="#contribute">Contribute</a>
@@ -364,6 +409,7 @@
       <p class="byline">Created by Birger Moëll, Fabian Farestam, and Jonas Beskow.</p>
       <div class="actions">
         <a class="button" href="https://github.com/BirgerMoell/swedish-medical-benchmark/">View on GitHub</a>
+        <a class="button secondary" href="#evaluate">Evaluate a model</a>
         <a class="button secondary" href="https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1557920/full">Read the paper</a>
       </div>
     </div>
@@ -379,7 +425,8 @@
         SMLB measures how language models handle Swedish medical terminology,
         clinical reasoning, exam-style questions, emergency scenarios, and
         general medicine cases. It is designed for transparent model comparison,
-        research, and medical education experiments.
+        before/after fine-tuning studies, research, and medical education
+        experiments.
       </p>
       <div class="metrics">
         <div class="metric"><strong>1,000</strong><span>PubMedQA-Swedish questions</span></div>
@@ -411,9 +458,53 @@
       </div>
     </section>
 
-    <section id="results" aria-labelledby="results-title">
-      <h2 id="results-title">Preliminary Model Results</h2>
-      <p class="section-intro">Accuracy is reported as a percentage. A dash means the model has not been evaluated on that benchmark in the current table.</p>
+    <section id="evaluate" aria-labelledby="evaluate-title">
+      <h2 id="evaluate-title">Evaluate a Model</h2>
+      <p class="section-intro">
+        Use SMLB to evaluate a new model, compare two models, or measure a
+        change such as fine-tuning, RAG, quantization, prompting, or decoding
+        settings. Keep the benchmark list, prompt templates, and decoding
+        settings fixed across runs you want to compare.
+      </p>
+      <div class="workflow">
+        <div class="step">
+          <strong>1. Choose fixed tasks</strong>
+          <p>Run every supported benchmark when possible. If you use a subset, report exactly which benchmarks and question counts were included.</p>
+        </div>
+        <div class="step">
+          <strong>2. Save the run</strong>
+          <p>Save the result JSON and evaluation text output. Keep prompts, answer formats, model metadata, and decoding settings with the result.</p>
+        </div>
+        <div class="step">
+          <strong>3. Report clearly</strong>
+          <p>Report per-benchmark metrics, malformed answers, and PubMedQA label behavior. For comparisons, include the per-benchmark delta.</p>
+        </div>
+      </div>
+      <pre class="command-block"><code>python run_llm/huggingface.py \
+  --model-name /path/to/model-or-hf-id \
+  --benchmarks EmergencyMedicine GeneralPractioner SwedishDoctorsExam PubMedQA-L-SWE \
+  --output results/my-model-smlb.json
+
+python evaluate_performance.py \
+  --results results/my-model-smlb.json \
+  --save-result-path results/my-model-smlb-eval.txt</code></pre>
+      <div class="callout">
+        Want to add a model to the leaderboard? Submit the result JSON,
+        evaluation text output, exact model/checkpoint, benchmark list, prompt,
+        decoding settings, SMLB commit, malformed-answer counts, and a
+        contamination statement. See the
+        <a href="https://github.com/BirgerMoell/swedish-medical-benchmark/#evaluate-a-model">full README workflow</a>.
+      </div>
+    </section>
+
+    <section id="leaderboard" aria-labelledby="leaderboard-title">
+      <h2 id="leaderboard-title">Preliminary Leaderboard</h2>
+      <p class="section-intro">
+        Accuracy is reported as a percentage. A dash means the model has not
+        been evaluated on that benchmark in the current table. Because some rows
+        are partial, compare models benchmark by benchmark rather than treating
+        this as a single overall ranking.
+      </p>
       <div class="table-wrap">
         <table>
           <thead>
@@ -431,9 +522,21 @@
             <tr><td>GPT-4</td><td>53.90</td><td>79.07</td><td><strong>93.10</strong></td><td><strong>93.09</strong></td><td><strong>75.57</strong></td></tr>
             <tr><td>Claude-3.5</td><td>-</td><td><strong>83.74</strong></td><td>-</td><td>-</td><td>-</td></tr>
             <tr><td>Llama3-70b</td><td>56.00</td><td>69.91</td><td>74.35</td><td>67.57</td><td>64.88</td></tr>
+            <tr><td>Llama3-8b</td><td>50.50</td><td>41.68</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Llama3.1-70b</td><td>-</td><td>71.40</td><td>62.93</td><td>71.02</td><td>-</td></tr>
+            <tr><td>Llama3.1-8b</td><td>-</td><td>6.36</td><td>-</td><td>-</td><td>-</td></tr>
             <tr><td>Gemma2-9b</td><td>-</td><td>61.31</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Gemma-7b</td><td>48.70</td><td>27.48</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>EIR</td><td>46.50</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>GPT-3.5</td><td>27.40</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
           </tbody>
         </table>
+      </div>
+      <div class="callout" style="margin-top: 18px;">
+        New leaderboard entries should include the result JSON, evaluation text
+        output, model metadata, benchmark coverage, decoding settings, and
+        contamination statement. Partial results are welcome when they are
+        clearly marked.
       </div>
     </section>
 
