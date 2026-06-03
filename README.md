@@ -297,28 +297,6 @@ When adding data, preserve provenance and licensing information. When adding
 results, include the exact model name, model version/date when available,
 prompting setup, decoding parameters, and evaluation script used.
 
-## Test Files
-
-Some test files are encrypted. Ask the maintainers for access if you need them.
-
-Install GPG:
-
-```bash
-brew install gnupg
-```
-
-Decrypt a file:
-
-```bash
-gpg your_file.json.gpg
-```
-
-Encrypt a new file:
-
-```bash
-gpg -c your_file.json
-```
-
 ## Citation
 
 ```bibtex
